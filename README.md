@@ -34,6 +34,8 @@ flowchart TD
 
 [查看设计语法、样本映射与一手参考](.agents/skills/calendar-design-lab/references/patterns.md)。A–E 比较月份分区、连续周、月份条带、年轮和等日单元；F/G/H 分别展示图像主导月历、书写主导周历与单日日历。点击 SVG 可以查看源文件或完整尺寸。
 
+[公开学习资料与练习路线](.agents/skills/calendar-design-lab/references/learning-guide.md)包括时间可视化开放教材、设计空间研究、排版指南和日历案例；逐项区分公开阅读范围与复用许可。
+
 ```sh
 python3 scripts/render_pattern_atlas.py
 python3 scripts/render_pattern_atlas.py --year 2028 --out-dir tmp/leap-studies
