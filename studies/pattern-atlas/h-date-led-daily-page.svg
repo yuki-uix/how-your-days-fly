@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+<title id="title">Date-led daily page</title>
+<desc id="desc">A single daily page with the date as the main image. One page is a sample of a serial daily calendar.</desc>
+<rect x="0.000" y="0.000" width="800.000" height="1100.000" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="42.000" y="79.000" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 79.000)">FRIDAY</text>
+<line x1="42.000" y1="115.000" x2="758.000" y2="115.000" stroke="#17191C" stroke-width="1.5"/>
+<text x="758.000" y="159.000" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="400" font-style="normal" fill="#17191C" text-anchor="end" transform="rotate(0 758.000 159.000)">2027</text>
+<rect x="42.000" y="202.000" width="716.000" height="565.000" fill="#2157EA" stroke="none" stroke-width="1"/>
+<text x="400.000" y="665.000" font-family="Times New Roman, Times, serif" font-size="462" font-weight="400" font-style="normal" fill="#FFFFFF" text-anchor="middle" transform="rotate(0 400.000 665.000)">01</text>
+<text x="42.000" y="870.000" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 870.000)">JANUARY</text>
+<text x="42.000" y="924.000" font-family="Times New Roman, Times, serif" font-size="28" font-weight="400" font-style="italic" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 924.000)">Friday</text>
+<text x="758.000" y="924.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" font-style="normal" fill="#626970" text-anchor="end" transform="rotate(0 758.000 924.000)">DAY 001 / 365</text>
+<g data-date="2027-01-01">
+<text x="42.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 42.000 1004.000)">2027-01-01</text>
+</g>
+<line x1="42.000" y1="1045.000" x2="758.000" y2="1045.000" stroke="#17191C" stroke-width="0.8"/>
+<text x="42.000" y="1066.000" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 42.000 1066.000)">H / DATE-LED PAGE / DAY</text>
+<text x="758.000" y="1066.000" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" font-style="normal" fill="#626970" text-anchor="end" transform="rotate(0 758.000 1066.000)">HOW YOUR DAYS FLY / 2027</text>
+</svg>

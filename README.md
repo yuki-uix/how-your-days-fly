@@ -8,10 +8,10 @@
 
 先验证日历设计能力，再把验证有效的方法开放到网站。
 
-- 已有：项目专用的 `calendar-design-lab` skill 初稿，以及支持年、月、周、日的公历数据工具。
+- 已有：项目专用的 `calendar-design-lab` skill 初稿、支持年/月/周/日的公历数据工具，以及 8 份可重放 SVG 源码的原创模式样本。
 - 正在开始：[第一个真实设计实验](docs/first-experiment.md)。
 - 尚未验证：设计满意度、反馈后的改进、跨用户效果、完整设计配方的重放。
-- 尚未实现：视觉渲染器、网站、在线 AI 生成、分享与导出服务。
+- 尚未实现：通用视觉设计引擎、网站、在线 AI 生成、分享与导出服务。当前样本渲染器是实验工具。
 
 ```mermaid
 flowchart TD
@@ -25,6 +25,22 @@ flowchart TD
 ```
 
 上图是拟建流程。当前日期数据工具只负责计算，不负责产生视觉设计。
+
+## 第一轮设计模式样本
+
+先以相近的中性视觉语言比较全年结构，再用月、周、日样本比较内容角色。样本均为原创研究，尚未获得用户的审美认可；它们不是封闭的产品模板清单。
+
+![八份原创日历模式样本](studies/pattern-atlas/overview.svg)
+
+[查看设计语法、样本映射与一手参考](.agents/skills/calendar-design-lab/references/patterns.md)。A–E 比较月份分区、连续周、月份条带、年轮和等日单元；F/G/H 分别展示图像主导月历、书写主导周历与单日日历。点击 SVG 可以查看源文件或完整尺寸。
+
+```sh
+python3 scripts/render_pattern_atlas.py
+python3 scripts/render_pattern_atlas.py --year 2028 --out-dir tmp/leap-studies
+python3 scripts/render_pattern_atlas.py --pdf output/pdf/calendar-pattern-atlas.pdf
+```
+
+SVG 生成只用标准库；可选 PDF 导出需要 `reportlab`。SVG 源码可确定性重放，浏览器字形依赖本机字体；后续正式配方需固定字体版本。原图形与 `manifest.json` 保存在 `studies/pattern-atlas/`，PDF 和本地预览保存在忽略的 `output/`。
 
 ## 使用当前能力
 

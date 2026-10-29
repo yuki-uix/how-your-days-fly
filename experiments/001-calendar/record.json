@@ -1,7 +1,7 @@
 {
   "record_version": 1,
   "experiment_id": "001-calendar",
-  "status": "collecting-preferences",
+  "status": "exploring-patterns",
   "brief": {
     "view": "year",
     "year": 2027,
@@ -18,6 +18,18 @@
   },
   "references": [],
   "hypotheses": [],
+  "exploration": {
+    "method": "pattern-first",
+    "pattern_reference": ".agents/skills/calendar-design-lab/references/patterns.md",
+    "studies_manifest": "studies/pattern-atlas/manifest.json",
+    "purpose": "Compare annual time structures, then content emphasis and scale, before inferring visual preferences.",
+    "status": "awaiting-user-review",
+    "technical_review": {
+      "status": "passed",
+      "scope": ["Gregorian date coverage in studies", "deterministic SVG source replay", "self-contained SVG source", "PDF page bounds and visual inspection"],
+      "limits": ["Browser fonts are not pinned", "No personal-design approval", "No general-purpose design engine"]
+    }
+  },
   "selected_design": null,
   "technical_review": {"status": "not-run"},
   "user_review": {"status": "not-requested", "feedback": []},

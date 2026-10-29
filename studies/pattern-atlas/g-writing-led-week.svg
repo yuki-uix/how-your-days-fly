@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+<title id="title">Writing-led week</title>
+<desc id="desc">A weekly agenda with one lane per day and a separate notes area. Blank writing space is intentional.</desc>
+<rect x="0.000" y="0.000" width="800.000" height="1100.000" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="42.000" y="78.000" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 78.000)">04 - 10</text>
+<text x="42.000" y="129.000" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 129.000)">JAN 2027</text>
+<text x="758.000" y="74.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" font-style="normal" fill="#17191C" text-anchor="end" transform="rotate(0 758.000 74.000)">A WEEK</text>
+<text x="758.000" y="95.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="400" font-style="normal" fill="#17191C" text-anchor="end" transform="rotate(0 758.000 95.000)">WITH ROOM</text>
+<line x1="42.000" y1="168.000" x2="758.000" y2="168.000" stroke="#17191C" stroke-width="1.4"/>
+<text x="563.000" y="205.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 563.000 205.000)">NOTES</text>
+<line x1="526.000" y1="190.000" x2="526.000" y2="1004.000" stroke="#D7DADD" stroke-width="0.8"/>
+<g data-date="2027-01-04">
+<text x="42.000" y="219.000" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 219.000)">04</text>
+<text x="98.000" y="214.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 98.000 214.000)">MON</text>
+<line x1="42.000" y1="291.000" x2="490.000" y2="291.000" stroke="#D7DADD" stroke-width="0.8"/>
+</g>
+<g data-date="2027-01-05">
+<text x="42.000" y="330.000" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 330.000)">05</text>
+<text x="98.000" y="325.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 98.000 325.000)">TUE</text>
+<line x1="42.000" y1="402.000" x2="490.000" y2="402.000" stroke="#D7DADD" stroke-width="0.8"/>
+</g>
+<g data-date="2027-01-06">
+<text x="42.000" y="441.000" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 441.000)">06</text>
+<text x="98.000" y="436.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 98.000 436.000)">WED</text>
+<line x1="42.000" y1="513.000" x2="490.000" y2="513.000" stroke="#D7DADD" stroke-width="0.8"/>
+</g>
+<g data-date="2027-01-07">
+<text x="42.000" y="552.000" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 552.000)">07</text>
+<text x="98.000" y="547.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 98.000 547.000)">THU</text>
+<line x1="42.000" y1="624.000" x2="490.000" y2="624.000" stroke="#D7DADD" stroke-width="0.8"/>
+</g>
+<g data-date="2027-01-08">
+<text x="42.000" y="663.000" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 663.000)">08</text>
+<text x="98.000" y="658.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 98.000 658.000)">FRI</text>
+<line x1="42.000" y1="735.000" x2="490.000" y2="735.000" stroke="#D7DADD" stroke-width="0.8"/>
+</g>
+<g data-date="2027-01-09">
+<text x="42.000" y="774.000" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 42.000 774.000)">09</text>
+<text x="98.000" y="769.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 98.000 769.000)">SAT</text>
+<line x1="42.000" y1="846.000" x2="490.000" y2="846.000" stroke="#D7DADD" stroke-width="0.8"/>
+</g>
+<g data-date="2027-01-10">
+<text x="42.000" y="885.000" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 42.000 885.000)">10</text>
+<text x="98.000" y="880.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 98.000 880.000)">SUN</text>
+<line x1="42.000" y1="957.000" x2="490.000" y2="957.000" stroke="#D7DADD" stroke-width="0.8"/>
+</g>
+<line x1="563.000" y1="251.000" x2="758.000" y2="251.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="287.000" x2="758.000" y2="287.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="323.000" x2="758.000" y2="323.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="359.000" x2="758.000" y2="359.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="395.000" x2="758.000" y2="395.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="431.000" x2="758.000" y2="431.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="467.000" x2="758.000" y2="467.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="503.000" x2="758.000" y2="503.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="539.000" x2="758.000" y2="539.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="575.000" x2="758.000" y2="575.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="611.000" x2="758.000" y2="611.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="647.000" x2="758.000" y2="647.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="683.000" x2="758.000" y2="683.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="719.000" x2="758.000" y2="719.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="755.000" x2="758.000" y2="755.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="791.000" x2="758.000" y2="791.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="827.000" x2="758.000" y2="827.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="863.000" x2="758.000" y2="863.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="899.000" x2="758.000" y2="899.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="935.000" x2="758.000" y2="935.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="563.000" y1="971.000" x2="758.000" y2="971.000" stroke="#D7DADD" stroke-width="0.6"/>
+<line x1="42.000" y1="1045.000" x2="758.000" y2="1045.000" stroke="#17191C" stroke-width="0.8"/>
+<text x="42.000" y="1066.000" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 42.000 1066.000)">G / WRITING-LED AGENDA / WEEK</text>
+<text x="758.000" y="1066.000" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" font-style="normal" fill="#626970" text-anchor="end" transform="rotate(0 758.000 1066.000)">HOW YOUR DAYS FLY / 2027</text>
+</svg>

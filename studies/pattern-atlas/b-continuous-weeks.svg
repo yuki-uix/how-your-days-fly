@@ -1,0 +1,1326 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1100" role="img" aria-labelledby="title desc">
+<title id="title">Continuous weeks</title>
+<desc id="desc">Annual overview. Weeks continue across month boundaries; outside-year days are pale.</desc>
+<rect x="0.000" y="0.000" width="800.000" height="1100.000" fill="#FFFFFF" stroke="none" stroke-width="1"/>
+<text x="42.000" y="80.000" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 80.000)">ONE</text>
+<text x="42.000" y="138.000" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 138.000)">CONTINUOUS</text>
+<text x="42.000" y="196.000" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 196.000)">YEAR.</text>
+<text x="758.000" y="77.000" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="400" font-style="normal" fill="#17191C" text-anchor="end" transform="rotate(0 758.000 77.000)">2027</text>
+<text x="758.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" font-style="normal" fill="#626970" text-anchor="end" transform="rotate(0 758.000 103.000)">53 DISPLAY ROWS</text>
+<text x="293.500" y="245.000" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 293.500 245.000)">MON</text>
+<text x="364.500" y="245.000" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 364.500 245.000)">TUE</text>
+<text x="435.500" y="245.000" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 435.500 245.000)">WED</text>
+<text x="506.500" y="245.000" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 506.500 245.000)">THU</text>
+<text x="577.500" y="245.000" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 577.500 245.000)">FRI</text>
+<text x="648.500" y="245.000" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 245.000)">SAT</text>
+<text x="719.500" y="245.000" font-family="Arial, Helvetica, sans-serif" font-size="8" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 245.000)">SUN</text>
+<text x="42.000" y="265.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 265.000)">JAN</text>
+<line x1="93.000" y1="261.000" x2="224.000" y2="261.000" stroke="#D7DADD" stroke-width="0.7"/>
+<text x="293.500" y="265.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#B9BFC5" text-anchor="middle" transform="rotate(0 293.500 265.000)">28</text>
+<text x="364.500" y="265.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#B9BFC5" text-anchor="middle" transform="rotate(0 364.500 265.000)">29</text>
+<text x="435.500" y="265.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#B9BFC5" text-anchor="middle" transform="rotate(0 435.500 265.000)">30</text>
+<text x="506.500" y="265.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#B9BFC5" text-anchor="middle" transform="rotate(0 506.500 265.000)">31</text>
+<g data-date="2027-01-01">
+<text x="577.500" y="265.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 265.000)">1</text>
+</g>
+<g data-date="2027-01-02">
+<text x="648.500" y="265.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 265.000)">2</text>
+</g>
+<g data-date="2027-01-03">
+<text x="719.500" y="265.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 265.000)">3</text>
+</g>
+<g data-date="2027-01-04">
+<text x="293.500" y="279.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 279.450)">4</text>
+</g>
+<g data-date="2027-01-05">
+<text x="364.500" y="279.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 279.450)">5</text>
+</g>
+<g data-date="2027-01-06">
+<text x="435.500" y="279.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 279.450)">6</text>
+</g>
+<g data-date="2027-01-07">
+<text x="506.500" y="279.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 279.450)">7</text>
+</g>
+<g data-date="2027-01-08">
+<text x="577.500" y="279.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 279.450)">8</text>
+</g>
+<g data-date="2027-01-09">
+<text x="648.500" y="279.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 279.450)">9</text>
+</g>
+<g data-date="2027-01-10">
+<text x="719.500" y="279.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 279.450)">10</text>
+</g>
+<g data-date="2027-01-11">
+<text x="293.500" y="293.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 293.900)">11</text>
+</g>
+<g data-date="2027-01-12">
+<text x="364.500" y="293.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 293.900)">12</text>
+</g>
+<g data-date="2027-01-13">
+<text x="435.500" y="293.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 293.900)">13</text>
+</g>
+<g data-date="2027-01-14">
+<text x="506.500" y="293.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 293.900)">14</text>
+</g>
+<g data-date="2027-01-15">
+<text x="577.500" y="293.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 293.900)">15</text>
+</g>
+<g data-date="2027-01-16">
+<text x="648.500" y="293.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 293.900)">16</text>
+</g>
+<g data-date="2027-01-17">
+<text x="719.500" y="293.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 293.900)">17</text>
+</g>
+<g data-date="2027-01-18">
+<text x="293.500" y="308.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 308.350)">18</text>
+</g>
+<g data-date="2027-01-19">
+<text x="364.500" y="308.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 308.350)">19</text>
+</g>
+<g data-date="2027-01-20">
+<text x="435.500" y="308.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 308.350)">20</text>
+</g>
+<g data-date="2027-01-21">
+<text x="506.500" y="308.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 308.350)">21</text>
+</g>
+<g data-date="2027-01-22">
+<text x="577.500" y="308.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 308.350)">22</text>
+</g>
+<g data-date="2027-01-23">
+<text x="648.500" y="308.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 308.350)">23</text>
+</g>
+<g data-date="2027-01-24">
+<text x="719.500" y="308.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 308.350)">24</text>
+</g>
+<g data-date="2027-01-25">
+<text x="293.500" y="322.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 322.800)">25</text>
+</g>
+<g data-date="2027-01-26">
+<text x="364.500" y="322.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 322.800)">26</text>
+</g>
+<g data-date="2027-01-27">
+<text x="435.500" y="322.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 322.800)">27</text>
+</g>
+<g data-date="2027-01-28">
+<text x="506.500" y="322.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 322.800)">28</text>
+</g>
+<g data-date="2027-01-29">
+<text x="577.500" y="322.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 322.800)">29</text>
+</g>
+<g data-date="2027-01-30">
+<text x="648.500" y="322.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 322.800)">30</text>
+</g>
+<g data-date="2027-01-31">
+<text x="719.500" y="322.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 322.800)">31</text>
+</g>
+<text x="42.000" y="337.250" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 337.250)">FEB</text>
+<line x1="93.000" y1="333.250" x2="224.000" y2="333.250" stroke="#D7DADD" stroke-width="0.7"/>
+<rect x="259.000" y="327.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-01">
+<text x="293.500" y="337.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 337.250)">1</text>
+</g>
+<rect x="330.000" y="327.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-02">
+<text x="364.500" y="337.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 337.250)">2</text>
+</g>
+<rect x="401.000" y="327.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-03">
+<text x="435.500" y="337.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 337.250)">3</text>
+</g>
+<rect x="472.000" y="327.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-04">
+<text x="506.500" y="337.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 337.250)">4</text>
+</g>
+<rect x="543.000" y="327.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-05">
+<text x="577.500" y="337.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 337.250)">5</text>
+</g>
+<rect x="614.000" y="327.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-06">
+<text x="648.500" y="337.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 337.250)">6</text>
+</g>
+<rect x="685.000" y="327.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-07">
+<text x="719.500" y="337.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 337.250)">7</text>
+</g>
+<rect x="259.000" y="341.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-08">
+<text x="293.500" y="351.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 351.700)">8</text>
+</g>
+<rect x="330.000" y="341.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-09">
+<text x="364.500" y="351.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 351.700)">9</text>
+</g>
+<rect x="401.000" y="341.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-10">
+<text x="435.500" y="351.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 351.700)">10</text>
+</g>
+<rect x="472.000" y="341.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-11">
+<text x="506.500" y="351.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 351.700)">11</text>
+</g>
+<rect x="543.000" y="341.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-12">
+<text x="577.500" y="351.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 351.700)">12</text>
+</g>
+<rect x="614.000" y="341.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-13">
+<text x="648.500" y="351.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 351.700)">13</text>
+</g>
+<rect x="685.000" y="341.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-14">
+<text x="719.500" y="351.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 351.700)">14</text>
+</g>
+<rect x="259.000" y="356.150" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-15">
+<text x="293.500" y="366.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 366.150)">15</text>
+</g>
+<rect x="330.000" y="356.150" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-16">
+<text x="364.500" y="366.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 366.150)">16</text>
+</g>
+<rect x="401.000" y="356.150" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-17">
+<text x="435.500" y="366.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 366.150)">17</text>
+</g>
+<rect x="472.000" y="356.150" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-18">
+<text x="506.500" y="366.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 366.150)">18</text>
+</g>
+<rect x="543.000" y="356.150" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-19">
+<text x="577.500" y="366.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 366.150)">19</text>
+</g>
+<rect x="614.000" y="356.150" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-20">
+<text x="648.500" y="366.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 366.150)">20</text>
+</g>
+<rect x="685.000" y="356.150" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-21">
+<text x="719.500" y="366.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 366.150)">21</text>
+</g>
+<rect x="259.000" y="370.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-22">
+<text x="293.500" y="380.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 380.600)">22</text>
+</g>
+<rect x="330.000" y="370.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-23">
+<text x="364.500" y="380.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 380.600)">23</text>
+</g>
+<rect x="401.000" y="370.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-24">
+<text x="435.500" y="380.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 380.600)">24</text>
+</g>
+<rect x="472.000" y="370.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-25">
+<text x="506.500" y="380.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 380.600)">25</text>
+</g>
+<rect x="543.000" y="370.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-26">
+<text x="577.500" y="380.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 380.600)">26</text>
+</g>
+<rect x="614.000" y="370.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-27">
+<text x="648.500" y="380.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 380.600)">27</text>
+</g>
+<rect x="685.000" y="370.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-02-28">
+<text x="719.500" y="380.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 380.600)">28</text>
+</g>
+<text x="42.000" y="395.050" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 395.050)">MAR</text>
+<line x1="93.000" y1="391.050" x2="224.000" y2="391.050" stroke="#D7DADD" stroke-width="0.7"/>
+<g data-date="2027-03-01">
+<text x="293.500" y="395.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 395.050)">1</text>
+</g>
+<g data-date="2027-03-02">
+<text x="364.500" y="395.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 395.050)">2</text>
+</g>
+<g data-date="2027-03-03">
+<text x="435.500" y="395.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 395.050)">3</text>
+</g>
+<g data-date="2027-03-04">
+<text x="506.500" y="395.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 395.050)">4</text>
+</g>
+<g data-date="2027-03-05">
+<text x="577.500" y="395.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 395.050)">5</text>
+</g>
+<g data-date="2027-03-06">
+<text x="648.500" y="395.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 395.050)">6</text>
+</g>
+<g data-date="2027-03-07">
+<text x="719.500" y="395.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 395.050)">7</text>
+</g>
+<g data-date="2027-03-08">
+<text x="293.500" y="409.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 409.500)">8</text>
+</g>
+<g data-date="2027-03-09">
+<text x="364.500" y="409.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 409.500)">9</text>
+</g>
+<g data-date="2027-03-10">
+<text x="435.500" y="409.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 409.500)">10</text>
+</g>
+<g data-date="2027-03-11">
+<text x="506.500" y="409.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 409.500)">11</text>
+</g>
+<g data-date="2027-03-12">
+<text x="577.500" y="409.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 409.500)">12</text>
+</g>
+<g data-date="2027-03-13">
+<text x="648.500" y="409.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 409.500)">13</text>
+</g>
+<g data-date="2027-03-14">
+<text x="719.500" y="409.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 409.500)">14</text>
+</g>
+<g data-date="2027-03-15">
+<text x="293.500" y="423.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 423.950)">15</text>
+</g>
+<g data-date="2027-03-16">
+<text x="364.500" y="423.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 423.950)">16</text>
+</g>
+<g data-date="2027-03-17">
+<text x="435.500" y="423.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 423.950)">17</text>
+</g>
+<g data-date="2027-03-18">
+<text x="506.500" y="423.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 423.950)">18</text>
+</g>
+<g data-date="2027-03-19">
+<text x="577.500" y="423.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 423.950)">19</text>
+</g>
+<g data-date="2027-03-20">
+<text x="648.500" y="423.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 423.950)">20</text>
+</g>
+<g data-date="2027-03-21">
+<text x="719.500" y="423.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 423.950)">21</text>
+</g>
+<g data-date="2027-03-22">
+<text x="293.500" y="438.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 438.400)">22</text>
+</g>
+<g data-date="2027-03-23">
+<text x="364.500" y="438.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 438.400)">23</text>
+</g>
+<g data-date="2027-03-24">
+<text x="435.500" y="438.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 438.400)">24</text>
+</g>
+<g data-date="2027-03-25">
+<text x="506.500" y="438.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 438.400)">25</text>
+</g>
+<g data-date="2027-03-26">
+<text x="577.500" y="438.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 438.400)">26</text>
+</g>
+<g data-date="2027-03-27">
+<text x="648.500" y="438.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 438.400)">27</text>
+</g>
+<g data-date="2027-03-28">
+<text x="719.500" y="438.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 438.400)">28</text>
+</g>
+<text x="42.000" y="452.850" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 452.850)">APR</text>
+<line x1="93.000" y1="448.850" x2="224.000" y2="448.850" stroke="#D7DADD" stroke-width="0.7"/>
+<g data-date="2027-03-29">
+<text x="293.500" y="452.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 452.850)">29</text>
+</g>
+<g data-date="2027-03-30">
+<text x="364.500" y="452.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 452.850)">30</text>
+</g>
+<g data-date="2027-03-31">
+<text x="435.500" y="452.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 452.850)">31</text>
+</g>
+<rect x="472.000" y="442.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-01">
+<text x="506.500" y="452.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 452.850)">1</text>
+</g>
+<rect x="543.000" y="442.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-02">
+<text x="577.500" y="452.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 452.850)">2</text>
+</g>
+<rect x="614.000" y="442.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-03">
+<text x="648.500" y="452.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 452.850)">3</text>
+</g>
+<rect x="685.000" y="442.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-04">
+<text x="719.500" y="452.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 452.850)">4</text>
+</g>
+<rect x="259.000" y="457.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-05">
+<text x="293.500" y="467.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 467.300)">5</text>
+</g>
+<rect x="330.000" y="457.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-06">
+<text x="364.500" y="467.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 467.300)">6</text>
+</g>
+<rect x="401.000" y="457.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-07">
+<text x="435.500" y="467.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 467.300)">7</text>
+</g>
+<rect x="472.000" y="457.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-08">
+<text x="506.500" y="467.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 467.300)">8</text>
+</g>
+<rect x="543.000" y="457.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-09">
+<text x="577.500" y="467.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 467.300)">9</text>
+</g>
+<rect x="614.000" y="457.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-10">
+<text x="648.500" y="467.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 467.300)">10</text>
+</g>
+<rect x="685.000" y="457.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-11">
+<text x="719.500" y="467.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 467.300)">11</text>
+</g>
+<rect x="259.000" y="471.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-12">
+<text x="293.500" y="481.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 481.750)">12</text>
+</g>
+<rect x="330.000" y="471.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-13">
+<text x="364.500" y="481.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 481.750)">13</text>
+</g>
+<rect x="401.000" y="471.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-14">
+<text x="435.500" y="481.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 481.750)">14</text>
+</g>
+<rect x="472.000" y="471.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-15">
+<text x="506.500" y="481.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 481.750)">15</text>
+</g>
+<rect x="543.000" y="471.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-16">
+<text x="577.500" y="481.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 481.750)">16</text>
+</g>
+<rect x="614.000" y="471.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-17">
+<text x="648.500" y="481.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 481.750)">17</text>
+</g>
+<rect x="685.000" y="471.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-18">
+<text x="719.500" y="481.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 481.750)">18</text>
+</g>
+<rect x="259.000" y="486.200" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-19">
+<text x="293.500" y="496.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 496.200)">19</text>
+</g>
+<rect x="330.000" y="486.200" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-20">
+<text x="364.500" y="496.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 496.200)">20</text>
+</g>
+<rect x="401.000" y="486.200" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-21">
+<text x="435.500" y="496.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 496.200)">21</text>
+</g>
+<rect x="472.000" y="486.200" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-22">
+<text x="506.500" y="496.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 496.200)">22</text>
+</g>
+<rect x="543.000" y="486.200" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-23">
+<text x="577.500" y="496.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 496.200)">23</text>
+</g>
+<rect x="614.000" y="486.200" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-24">
+<text x="648.500" y="496.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 496.200)">24</text>
+</g>
+<rect x="685.000" y="486.200" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-25">
+<text x="719.500" y="496.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 496.200)">25</text>
+</g>
+<text x="42.000" y="510.650" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 510.650)">MAY</text>
+<line x1="93.000" y1="506.650" x2="224.000" y2="506.650" stroke="#D7DADD" stroke-width="0.7"/>
+<rect x="259.000" y="500.650" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-26">
+<text x="293.500" y="510.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 510.650)">26</text>
+</g>
+<rect x="330.000" y="500.650" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-27">
+<text x="364.500" y="510.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 510.650)">27</text>
+</g>
+<rect x="401.000" y="500.650" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-28">
+<text x="435.500" y="510.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 510.650)">28</text>
+</g>
+<rect x="472.000" y="500.650" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-29">
+<text x="506.500" y="510.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 510.650)">29</text>
+</g>
+<rect x="543.000" y="500.650" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-04-30">
+<text x="577.500" y="510.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 510.650)">30</text>
+</g>
+<g data-date="2027-05-01">
+<text x="648.500" y="510.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 510.650)">1</text>
+</g>
+<g data-date="2027-05-02">
+<text x="719.500" y="510.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 510.650)">2</text>
+</g>
+<g data-date="2027-05-03">
+<text x="293.500" y="525.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 525.100)">3</text>
+</g>
+<g data-date="2027-05-04">
+<text x="364.500" y="525.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 525.100)">4</text>
+</g>
+<g data-date="2027-05-05">
+<text x="435.500" y="525.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 525.100)">5</text>
+</g>
+<g data-date="2027-05-06">
+<text x="506.500" y="525.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 525.100)">6</text>
+</g>
+<g data-date="2027-05-07">
+<text x="577.500" y="525.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 525.100)">7</text>
+</g>
+<g data-date="2027-05-08">
+<text x="648.500" y="525.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 525.100)">8</text>
+</g>
+<g data-date="2027-05-09">
+<text x="719.500" y="525.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 525.100)">9</text>
+</g>
+<g data-date="2027-05-10">
+<text x="293.500" y="539.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 539.550)">10</text>
+</g>
+<g data-date="2027-05-11">
+<text x="364.500" y="539.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 539.550)">11</text>
+</g>
+<g data-date="2027-05-12">
+<text x="435.500" y="539.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 539.550)">12</text>
+</g>
+<g data-date="2027-05-13">
+<text x="506.500" y="539.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 539.550)">13</text>
+</g>
+<g data-date="2027-05-14">
+<text x="577.500" y="539.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 539.550)">14</text>
+</g>
+<g data-date="2027-05-15">
+<text x="648.500" y="539.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 539.550)">15</text>
+</g>
+<g data-date="2027-05-16">
+<text x="719.500" y="539.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 539.550)">16</text>
+</g>
+<g data-date="2027-05-17">
+<text x="293.500" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 554.000)">17</text>
+</g>
+<g data-date="2027-05-18">
+<text x="364.500" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 554.000)">18</text>
+</g>
+<g data-date="2027-05-19">
+<text x="435.500" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 554.000)">19</text>
+</g>
+<g data-date="2027-05-20">
+<text x="506.500" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 554.000)">20</text>
+</g>
+<g data-date="2027-05-21">
+<text x="577.500" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 554.000)">21</text>
+</g>
+<g data-date="2027-05-22">
+<text x="648.500" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 554.000)">22</text>
+</g>
+<g data-date="2027-05-23">
+<text x="719.500" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 554.000)">23</text>
+</g>
+<g data-date="2027-05-24">
+<text x="293.500" y="568.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 568.450)">24</text>
+</g>
+<g data-date="2027-05-25">
+<text x="364.500" y="568.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 568.450)">25</text>
+</g>
+<g data-date="2027-05-26">
+<text x="435.500" y="568.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 568.450)">26</text>
+</g>
+<g data-date="2027-05-27">
+<text x="506.500" y="568.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 568.450)">27</text>
+</g>
+<g data-date="2027-05-28">
+<text x="577.500" y="568.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 568.450)">28</text>
+</g>
+<g data-date="2027-05-29">
+<text x="648.500" y="568.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 568.450)">29</text>
+</g>
+<g data-date="2027-05-30">
+<text x="719.500" y="568.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 568.450)">30</text>
+</g>
+<text x="42.000" y="582.900" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 582.900)">JUN</text>
+<line x1="93.000" y1="578.900" x2="224.000" y2="578.900" stroke="#D7DADD" stroke-width="0.7"/>
+<g data-date="2027-05-31">
+<text x="293.500" y="582.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 582.900)">31</text>
+</g>
+<rect x="330.000" y="572.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-01">
+<text x="364.500" y="582.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 582.900)">1</text>
+</g>
+<rect x="401.000" y="572.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-02">
+<text x="435.500" y="582.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 582.900)">2</text>
+</g>
+<rect x="472.000" y="572.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-03">
+<text x="506.500" y="582.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 582.900)">3</text>
+</g>
+<rect x="543.000" y="572.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-04">
+<text x="577.500" y="582.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 582.900)">4</text>
+</g>
+<rect x="614.000" y="572.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-05">
+<text x="648.500" y="582.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 582.900)">5</text>
+</g>
+<rect x="685.000" y="572.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-06">
+<text x="719.500" y="582.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 582.900)">6</text>
+</g>
+<rect x="259.000" y="587.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-07">
+<text x="293.500" y="597.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 597.350)">7</text>
+</g>
+<rect x="330.000" y="587.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-08">
+<text x="364.500" y="597.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 597.350)">8</text>
+</g>
+<rect x="401.000" y="587.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-09">
+<text x="435.500" y="597.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 597.350)">9</text>
+</g>
+<rect x="472.000" y="587.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-10">
+<text x="506.500" y="597.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 597.350)">10</text>
+</g>
+<rect x="543.000" y="587.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-11">
+<text x="577.500" y="597.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 597.350)">11</text>
+</g>
+<rect x="614.000" y="587.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-12">
+<text x="648.500" y="597.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 597.350)">12</text>
+</g>
+<rect x="685.000" y="587.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-13">
+<text x="719.500" y="597.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 597.350)">13</text>
+</g>
+<rect x="259.000" y="601.800" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-14">
+<text x="293.500" y="611.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 611.800)">14</text>
+</g>
+<rect x="330.000" y="601.800" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-15">
+<text x="364.500" y="611.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 611.800)">15</text>
+</g>
+<rect x="401.000" y="601.800" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-16">
+<text x="435.500" y="611.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 611.800)">16</text>
+</g>
+<rect x="472.000" y="601.800" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-17">
+<text x="506.500" y="611.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 611.800)">17</text>
+</g>
+<rect x="543.000" y="601.800" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-18">
+<text x="577.500" y="611.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 611.800)">18</text>
+</g>
+<rect x="614.000" y="601.800" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-19">
+<text x="648.500" y="611.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 611.800)">19</text>
+</g>
+<rect x="685.000" y="601.800" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-20">
+<text x="719.500" y="611.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 611.800)">20</text>
+</g>
+<rect x="259.000" y="616.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-21">
+<text x="293.500" y="626.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 626.250)">21</text>
+</g>
+<rect x="330.000" y="616.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-22">
+<text x="364.500" y="626.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 626.250)">22</text>
+</g>
+<rect x="401.000" y="616.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-23">
+<text x="435.500" y="626.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 626.250)">23</text>
+</g>
+<rect x="472.000" y="616.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-24">
+<text x="506.500" y="626.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 626.250)">24</text>
+</g>
+<rect x="543.000" y="616.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-25">
+<text x="577.500" y="626.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 626.250)">25</text>
+</g>
+<rect x="614.000" y="616.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-26">
+<text x="648.500" y="626.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 626.250)">26</text>
+</g>
+<rect x="685.000" y="616.250" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-27">
+<text x="719.500" y="626.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 626.250)">27</text>
+</g>
+<text x="42.000" y="640.700" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 640.700)">JUL</text>
+<line x1="93.000" y1="636.700" x2="224.000" y2="636.700" stroke="#D7DADD" stroke-width="0.7"/>
+<rect x="259.000" y="630.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-28">
+<text x="293.500" y="640.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 640.700)">28</text>
+</g>
+<rect x="330.000" y="630.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-29">
+<text x="364.500" y="640.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 640.700)">29</text>
+</g>
+<rect x="401.000" y="630.700" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-06-30">
+<text x="435.500" y="640.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 640.700)">30</text>
+</g>
+<g data-date="2027-07-01">
+<text x="506.500" y="640.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 640.700)">1</text>
+</g>
+<g data-date="2027-07-02">
+<text x="577.500" y="640.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 640.700)">2</text>
+</g>
+<g data-date="2027-07-03">
+<text x="648.500" y="640.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 640.700)">3</text>
+</g>
+<g data-date="2027-07-04">
+<text x="719.500" y="640.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 640.700)">4</text>
+</g>
+<g data-date="2027-07-05">
+<text x="293.500" y="655.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 655.150)">5</text>
+</g>
+<g data-date="2027-07-06">
+<text x="364.500" y="655.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 655.150)">6</text>
+</g>
+<g data-date="2027-07-07">
+<text x="435.500" y="655.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 655.150)">7</text>
+</g>
+<g data-date="2027-07-08">
+<text x="506.500" y="655.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 655.150)">8</text>
+</g>
+<g data-date="2027-07-09">
+<text x="577.500" y="655.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 655.150)">9</text>
+</g>
+<g data-date="2027-07-10">
+<text x="648.500" y="655.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 655.150)">10</text>
+</g>
+<g data-date="2027-07-11">
+<text x="719.500" y="655.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 655.150)">11</text>
+</g>
+<g data-date="2027-07-12">
+<text x="293.500" y="669.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 669.600)">12</text>
+</g>
+<g data-date="2027-07-13">
+<text x="364.500" y="669.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 669.600)">13</text>
+</g>
+<g data-date="2027-07-14">
+<text x="435.500" y="669.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 669.600)">14</text>
+</g>
+<g data-date="2027-07-15">
+<text x="506.500" y="669.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 669.600)">15</text>
+</g>
+<g data-date="2027-07-16">
+<text x="577.500" y="669.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 669.600)">16</text>
+</g>
+<g data-date="2027-07-17">
+<text x="648.500" y="669.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 669.600)">17</text>
+</g>
+<g data-date="2027-07-18">
+<text x="719.500" y="669.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 669.600)">18</text>
+</g>
+<g data-date="2027-07-19">
+<text x="293.500" y="684.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 684.050)">19</text>
+</g>
+<g data-date="2027-07-20">
+<text x="364.500" y="684.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 684.050)">20</text>
+</g>
+<g data-date="2027-07-21">
+<text x="435.500" y="684.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 684.050)">21</text>
+</g>
+<g data-date="2027-07-22">
+<text x="506.500" y="684.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 684.050)">22</text>
+</g>
+<g data-date="2027-07-23">
+<text x="577.500" y="684.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 684.050)">23</text>
+</g>
+<g data-date="2027-07-24">
+<text x="648.500" y="684.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 684.050)">24</text>
+</g>
+<g data-date="2027-07-25">
+<text x="719.500" y="684.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 684.050)">25</text>
+</g>
+<text x="42.000" y="698.500" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 698.500)">AUG</text>
+<line x1="93.000" y1="694.500" x2="224.000" y2="694.500" stroke="#D7DADD" stroke-width="0.7"/>
+<g data-date="2027-07-26">
+<text x="293.500" y="698.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 698.500)">26</text>
+</g>
+<g data-date="2027-07-27">
+<text x="364.500" y="698.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 698.500)">27</text>
+</g>
+<g data-date="2027-07-28">
+<text x="435.500" y="698.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 698.500)">28</text>
+</g>
+<g data-date="2027-07-29">
+<text x="506.500" y="698.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 698.500)">29</text>
+</g>
+<g data-date="2027-07-30">
+<text x="577.500" y="698.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 698.500)">30</text>
+</g>
+<g data-date="2027-07-31">
+<text x="648.500" y="698.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 698.500)">31</text>
+</g>
+<rect x="685.000" y="688.500" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-01">
+<text x="719.500" y="698.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 698.500)">1</text>
+</g>
+<rect x="259.000" y="702.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-02">
+<text x="293.500" y="712.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 712.950)">2</text>
+</g>
+<rect x="330.000" y="702.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-03">
+<text x="364.500" y="712.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 712.950)">3</text>
+</g>
+<rect x="401.000" y="702.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-04">
+<text x="435.500" y="712.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 712.950)">4</text>
+</g>
+<rect x="472.000" y="702.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-05">
+<text x="506.500" y="712.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 712.950)">5</text>
+</g>
+<rect x="543.000" y="702.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-06">
+<text x="577.500" y="712.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 712.950)">6</text>
+</g>
+<rect x="614.000" y="702.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-07">
+<text x="648.500" y="712.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 712.950)">7</text>
+</g>
+<rect x="685.000" y="702.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-08">
+<text x="719.500" y="712.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 712.950)">8</text>
+</g>
+<rect x="259.000" y="717.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-09">
+<text x="293.500" y="727.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 727.400)">9</text>
+</g>
+<rect x="330.000" y="717.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-10">
+<text x="364.500" y="727.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 727.400)">10</text>
+</g>
+<rect x="401.000" y="717.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-11">
+<text x="435.500" y="727.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 727.400)">11</text>
+</g>
+<rect x="472.000" y="717.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-12">
+<text x="506.500" y="727.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 727.400)">12</text>
+</g>
+<rect x="543.000" y="717.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-13">
+<text x="577.500" y="727.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 727.400)">13</text>
+</g>
+<rect x="614.000" y="717.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-14">
+<text x="648.500" y="727.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 727.400)">14</text>
+</g>
+<rect x="685.000" y="717.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-15">
+<text x="719.500" y="727.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 727.400)">15</text>
+</g>
+<rect x="259.000" y="731.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-16">
+<text x="293.500" y="741.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 741.850)">16</text>
+</g>
+<rect x="330.000" y="731.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-17">
+<text x="364.500" y="741.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 741.850)">17</text>
+</g>
+<rect x="401.000" y="731.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-18">
+<text x="435.500" y="741.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 741.850)">18</text>
+</g>
+<rect x="472.000" y="731.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-19">
+<text x="506.500" y="741.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 741.850)">19</text>
+</g>
+<rect x="543.000" y="731.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-20">
+<text x="577.500" y="741.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 741.850)">20</text>
+</g>
+<rect x="614.000" y="731.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-21">
+<text x="648.500" y="741.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 741.850)">21</text>
+</g>
+<rect x="685.000" y="731.850" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-22">
+<text x="719.500" y="741.850" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 741.850)">22</text>
+</g>
+<rect x="259.000" y="746.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-23">
+<text x="293.500" y="756.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 756.300)">23</text>
+</g>
+<rect x="330.000" y="746.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-24">
+<text x="364.500" y="756.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 756.300)">24</text>
+</g>
+<rect x="401.000" y="746.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-25">
+<text x="435.500" y="756.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 756.300)">25</text>
+</g>
+<rect x="472.000" y="746.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-26">
+<text x="506.500" y="756.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 756.300)">26</text>
+</g>
+<rect x="543.000" y="746.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-27">
+<text x="577.500" y="756.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 756.300)">27</text>
+</g>
+<rect x="614.000" y="746.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-28">
+<text x="648.500" y="756.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 756.300)">28</text>
+</g>
+<rect x="685.000" y="746.300" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-29">
+<text x="719.500" y="756.300" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 756.300)">29</text>
+</g>
+<text x="42.000" y="770.750" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 770.750)">SEP</text>
+<line x1="93.000" y1="766.750" x2="224.000" y2="766.750" stroke="#D7DADD" stroke-width="0.7"/>
+<rect x="259.000" y="760.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-30">
+<text x="293.500" y="770.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 770.750)">30</text>
+</g>
+<rect x="330.000" y="760.750" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-08-31">
+<text x="364.500" y="770.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 770.750)">31</text>
+</g>
+<g data-date="2027-09-01">
+<text x="435.500" y="770.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 770.750)">1</text>
+</g>
+<g data-date="2027-09-02">
+<text x="506.500" y="770.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 770.750)">2</text>
+</g>
+<g data-date="2027-09-03">
+<text x="577.500" y="770.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 770.750)">3</text>
+</g>
+<g data-date="2027-09-04">
+<text x="648.500" y="770.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 770.750)">4</text>
+</g>
+<g data-date="2027-09-05">
+<text x="719.500" y="770.750" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 770.750)">5</text>
+</g>
+<g data-date="2027-09-06">
+<text x="293.500" y="785.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 785.200)">6</text>
+</g>
+<g data-date="2027-09-07">
+<text x="364.500" y="785.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 785.200)">7</text>
+</g>
+<g data-date="2027-09-08">
+<text x="435.500" y="785.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 785.200)">8</text>
+</g>
+<g data-date="2027-09-09">
+<text x="506.500" y="785.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 785.200)">9</text>
+</g>
+<g data-date="2027-09-10">
+<text x="577.500" y="785.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 785.200)">10</text>
+</g>
+<g data-date="2027-09-11">
+<text x="648.500" y="785.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 785.200)">11</text>
+</g>
+<g data-date="2027-09-12">
+<text x="719.500" y="785.200" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 785.200)">12</text>
+</g>
+<g data-date="2027-09-13">
+<text x="293.500" y="799.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 799.650)">13</text>
+</g>
+<g data-date="2027-09-14">
+<text x="364.500" y="799.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 799.650)">14</text>
+</g>
+<g data-date="2027-09-15">
+<text x="435.500" y="799.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 799.650)">15</text>
+</g>
+<g data-date="2027-09-16">
+<text x="506.500" y="799.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 799.650)">16</text>
+</g>
+<g data-date="2027-09-17">
+<text x="577.500" y="799.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 799.650)">17</text>
+</g>
+<g data-date="2027-09-18">
+<text x="648.500" y="799.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 799.650)">18</text>
+</g>
+<g data-date="2027-09-19">
+<text x="719.500" y="799.650" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 799.650)">19</text>
+</g>
+<g data-date="2027-09-20">
+<text x="293.500" y="814.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 814.100)">20</text>
+</g>
+<g data-date="2027-09-21">
+<text x="364.500" y="814.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 814.100)">21</text>
+</g>
+<g data-date="2027-09-22">
+<text x="435.500" y="814.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 814.100)">22</text>
+</g>
+<g data-date="2027-09-23">
+<text x="506.500" y="814.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 814.100)">23</text>
+</g>
+<g data-date="2027-09-24">
+<text x="577.500" y="814.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 814.100)">24</text>
+</g>
+<g data-date="2027-09-25">
+<text x="648.500" y="814.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 814.100)">25</text>
+</g>
+<g data-date="2027-09-26">
+<text x="719.500" y="814.100" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 814.100)">26</text>
+</g>
+<text x="42.000" y="828.550" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 828.550)">OCT</text>
+<line x1="93.000" y1="824.550" x2="224.000" y2="824.550" stroke="#D7DADD" stroke-width="0.7"/>
+<g data-date="2027-09-27">
+<text x="293.500" y="828.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 828.550)">27</text>
+</g>
+<g data-date="2027-09-28">
+<text x="364.500" y="828.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 828.550)">28</text>
+</g>
+<g data-date="2027-09-29">
+<text x="435.500" y="828.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 828.550)">29</text>
+</g>
+<g data-date="2027-09-30">
+<text x="506.500" y="828.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 828.550)">30</text>
+</g>
+<rect x="543.000" y="818.550" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-01">
+<text x="577.500" y="828.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 828.550)">1</text>
+</g>
+<rect x="614.000" y="818.550" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-02">
+<text x="648.500" y="828.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 828.550)">2</text>
+</g>
+<rect x="685.000" y="818.550" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-03">
+<text x="719.500" y="828.550" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 828.550)">3</text>
+</g>
+<rect x="259.000" y="833.000" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-04">
+<text x="293.500" y="843.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 843.000)">4</text>
+</g>
+<rect x="330.000" y="833.000" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-05">
+<text x="364.500" y="843.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 843.000)">5</text>
+</g>
+<rect x="401.000" y="833.000" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-06">
+<text x="435.500" y="843.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 843.000)">6</text>
+</g>
+<rect x="472.000" y="833.000" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-07">
+<text x="506.500" y="843.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 843.000)">7</text>
+</g>
+<rect x="543.000" y="833.000" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-08">
+<text x="577.500" y="843.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 843.000)">8</text>
+</g>
+<rect x="614.000" y="833.000" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-09">
+<text x="648.500" y="843.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 843.000)">9</text>
+</g>
+<rect x="685.000" y="833.000" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-10">
+<text x="719.500" y="843.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 843.000)">10</text>
+</g>
+<rect x="259.000" y="847.450" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-11">
+<text x="293.500" y="857.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 857.450)">11</text>
+</g>
+<rect x="330.000" y="847.450" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-12">
+<text x="364.500" y="857.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 857.450)">12</text>
+</g>
+<rect x="401.000" y="847.450" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-13">
+<text x="435.500" y="857.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 857.450)">13</text>
+</g>
+<rect x="472.000" y="847.450" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-14">
+<text x="506.500" y="857.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 857.450)">14</text>
+</g>
+<rect x="543.000" y="847.450" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-15">
+<text x="577.500" y="857.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 857.450)">15</text>
+</g>
+<rect x="614.000" y="847.450" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-16">
+<text x="648.500" y="857.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 857.450)">16</text>
+</g>
+<rect x="685.000" y="847.450" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-17">
+<text x="719.500" y="857.450" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 857.450)">17</text>
+</g>
+<rect x="259.000" y="861.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-18">
+<text x="293.500" y="871.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 871.900)">18</text>
+</g>
+<rect x="330.000" y="861.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-19">
+<text x="364.500" y="871.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 871.900)">19</text>
+</g>
+<rect x="401.000" y="861.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-20">
+<text x="435.500" y="871.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 871.900)">20</text>
+</g>
+<rect x="472.000" y="861.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-21">
+<text x="506.500" y="871.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 871.900)">21</text>
+</g>
+<rect x="543.000" y="861.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-22">
+<text x="577.500" y="871.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 871.900)">22</text>
+</g>
+<rect x="614.000" y="861.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-23">
+<text x="648.500" y="871.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 871.900)">23</text>
+</g>
+<rect x="685.000" y="861.900" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-24">
+<text x="719.500" y="871.900" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 871.900)">24</text>
+</g>
+<rect x="259.000" y="876.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-25">
+<text x="293.500" y="886.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 886.350)">25</text>
+</g>
+<rect x="330.000" y="876.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-26">
+<text x="364.500" y="886.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 886.350)">26</text>
+</g>
+<rect x="401.000" y="876.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-27">
+<text x="435.500" y="886.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 886.350)">27</text>
+</g>
+<rect x="472.000" y="876.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-28">
+<text x="506.500" y="886.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 886.350)">28</text>
+</g>
+<rect x="543.000" y="876.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-29">
+<text x="577.500" y="886.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 886.350)">29</text>
+</g>
+<rect x="614.000" y="876.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-30">
+<text x="648.500" y="886.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 886.350)">30</text>
+</g>
+<rect x="685.000" y="876.350" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-10-31">
+<text x="719.500" y="886.350" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 886.350)">31</text>
+</g>
+<text x="42.000" y="900.800" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 900.800)">NOV</text>
+<line x1="93.000" y1="896.800" x2="224.000" y2="896.800" stroke="#D7DADD" stroke-width="0.7"/>
+<g data-date="2027-11-01">
+<text x="293.500" y="900.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 900.800)">1</text>
+</g>
+<g data-date="2027-11-02">
+<text x="364.500" y="900.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 900.800)">2</text>
+</g>
+<g data-date="2027-11-03">
+<text x="435.500" y="900.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 900.800)">3</text>
+</g>
+<g data-date="2027-11-04">
+<text x="506.500" y="900.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 900.800)">4</text>
+</g>
+<g data-date="2027-11-05">
+<text x="577.500" y="900.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 900.800)">5</text>
+</g>
+<g data-date="2027-11-06">
+<text x="648.500" y="900.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 900.800)">6</text>
+</g>
+<g data-date="2027-11-07">
+<text x="719.500" y="900.800" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 900.800)">7</text>
+</g>
+<g data-date="2027-11-08">
+<text x="293.500" y="915.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 915.250)">8</text>
+</g>
+<g data-date="2027-11-09">
+<text x="364.500" y="915.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 915.250)">9</text>
+</g>
+<g data-date="2027-11-10">
+<text x="435.500" y="915.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 915.250)">10</text>
+</g>
+<g data-date="2027-11-11">
+<text x="506.500" y="915.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 915.250)">11</text>
+</g>
+<g data-date="2027-11-12">
+<text x="577.500" y="915.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 915.250)">12</text>
+</g>
+<g data-date="2027-11-13">
+<text x="648.500" y="915.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 915.250)">13</text>
+</g>
+<g data-date="2027-11-14">
+<text x="719.500" y="915.250" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 915.250)">14</text>
+</g>
+<g data-date="2027-11-15">
+<text x="293.500" y="929.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 929.700)">15</text>
+</g>
+<g data-date="2027-11-16">
+<text x="364.500" y="929.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 929.700)">16</text>
+</g>
+<g data-date="2027-11-17">
+<text x="435.500" y="929.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 929.700)">17</text>
+</g>
+<g data-date="2027-11-18">
+<text x="506.500" y="929.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 929.700)">18</text>
+</g>
+<g data-date="2027-11-19">
+<text x="577.500" y="929.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 929.700)">19</text>
+</g>
+<g data-date="2027-11-20">
+<text x="648.500" y="929.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 929.700)">20</text>
+</g>
+<g data-date="2027-11-21">
+<text x="719.500" y="929.700" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 929.700)">21</text>
+</g>
+<g data-date="2027-11-22">
+<text x="293.500" y="944.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 944.150)">22</text>
+</g>
+<g data-date="2027-11-23">
+<text x="364.500" y="944.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 944.150)">23</text>
+</g>
+<g data-date="2027-11-24">
+<text x="435.500" y="944.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 944.150)">24</text>
+</g>
+<g data-date="2027-11-25">
+<text x="506.500" y="944.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 944.150)">25</text>
+</g>
+<g data-date="2027-11-26">
+<text x="577.500" y="944.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 944.150)">26</text>
+</g>
+<g data-date="2027-11-27">
+<text x="648.500" y="944.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 944.150)">27</text>
+</g>
+<g data-date="2027-11-28">
+<text x="719.500" y="944.150" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 944.150)">28</text>
+</g>
+<text x="42.000" y="958.600" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" font-style="normal" fill="#17191C" text-anchor="start" transform="rotate(0 42.000 958.600)">DEC</text>
+<line x1="93.000" y1="954.600" x2="224.000" y2="954.600" stroke="#D7DADD" stroke-width="0.7"/>
+<g data-date="2027-11-29">
+<text x="293.500" y="958.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 958.600)">29</text>
+</g>
+<g data-date="2027-11-30">
+<text x="364.500" y="958.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 958.600)">30</text>
+</g>
+<rect x="401.000" y="948.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-01">
+<text x="435.500" y="958.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 958.600)">1</text>
+</g>
+<rect x="472.000" y="948.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-02">
+<text x="506.500" y="958.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 958.600)">2</text>
+</g>
+<rect x="543.000" y="948.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-03">
+<text x="577.500" y="958.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 958.600)">3</text>
+</g>
+<rect x="614.000" y="948.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-04">
+<text x="648.500" y="958.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 958.600)">4</text>
+</g>
+<rect x="685.000" y="948.600" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-05">
+<text x="719.500" y="958.600" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 958.600)">5</text>
+</g>
+<rect x="259.000" y="963.050" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-06">
+<text x="293.500" y="973.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 973.050)">6</text>
+</g>
+<rect x="330.000" y="963.050" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-07">
+<text x="364.500" y="973.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 973.050)">7</text>
+</g>
+<rect x="401.000" y="963.050" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-08">
+<text x="435.500" y="973.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 973.050)">8</text>
+</g>
+<rect x="472.000" y="963.050" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-09">
+<text x="506.500" y="973.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 973.050)">9</text>
+</g>
+<rect x="543.000" y="963.050" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-10">
+<text x="577.500" y="973.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 973.050)">10</text>
+</g>
+<rect x="614.000" y="963.050" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-11">
+<text x="648.500" y="973.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 973.050)">11</text>
+</g>
+<rect x="685.000" y="963.050" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-12">
+<text x="719.500" y="973.050" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 973.050)">12</text>
+</g>
+<rect x="259.000" y="977.500" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-13">
+<text x="293.500" y="987.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 987.500)">13</text>
+</g>
+<rect x="330.000" y="977.500" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-14">
+<text x="364.500" y="987.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 987.500)">14</text>
+</g>
+<rect x="401.000" y="977.500" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-15">
+<text x="435.500" y="987.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 987.500)">15</text>
+</g>
+<rect x="472.000" y="977.500" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-16">
+<text x="506.500" y="987.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 987.500)">16</text>
+</g>
+<rect x="543.000" y="977.500" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-17">
+<text x="577.500" y="987.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 987.500)">17</text>
+</g>
+<rect x="614.000" y="977.500" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-18">
+<text x="648.500" y="987.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 987.500)">18</text>
+</g>
+<rect x="685.000" y="977.500" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-19">
+<text x="719.500" y="987.500" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 987.500)">19</text>
+</g>
+<rect x="259.000" y="991.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-20">
+<text x="293.500" y="1001.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 1001.950)">20</text>
+</g>
+<rect x="330.000" y="991.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-21">
+<text x="364.500" y="1001.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 1001.950)">21</text>
+</g>
+<rect x="401.000" y="991.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-22">
+<text x="435.500" y="1001.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 1001.950)">22</text>
+</g>
+<rect x="472.000" y="991.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-23">
+<text x="506.500" y="1001.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 1001.950)">23</text>
+</g>
+<rect x="543.000" y="991.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-24">
+<text x="577.500" y="1001.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 1001.950)">24</text>
+</g>
+<rect x="614.000" y="991.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-25">
+<text x="648.500" y="1001.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 648.500 1001.950)">25</text>
+</g>
+<rect x="685.000" y="991.950" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-26">
+<text x="719.500" y="1001.950" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#626970" text-anchor="middle" transform="rotate(0 719.500 1001.950)">26</text>
+</g>
+<rect x="259.000" y="1006.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-27">
+<text x="293.500" y="1016.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 293.500 1016.400)">27</text>
+</g>
+<rect x="330.000" y="1006.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-28">
+<text x="364.500" y="1016.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 364.500 1016.400)">28</text>
+</g>
+<rect x="401.000" y="1006.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-29">
+<text x="435.500" y="1016.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 435.500 1016.400)">29</text>
+</g>
+<rect x="472.000" y="1006.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-30">
+<text x="506.500" y="1016.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 506.500 1016.400)">30</text>
+</g>
+<rect x="543.000" y="1006.400" width="69.000" height="13.850" fill="#F0F2F4" stroke="none" stroke-width="1"/>
+<g data-date="2027-12-31">
+<text x="577.500" y="1016.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#17191C" text-anchor="middle" transform="rotate(0 577.500 1016.400)">31</text>
+</g>
+<text x="648.500" y="1016.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#B9BFC5" text-anchor="middle" transform="rotate(0 648.500 1016.400)">1</text>
+<text x="719.500" y="1016.400" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="400" font-style="normal" fill="#B9BFC5" text-anchor="middle" transform="rotate(0 719.500 1016.400)">2</text>
+<line x1="42.000" y1="1045.000" x2="758.000" y2="1045.000" stroke="#17191C" stroke-width="0.8"/>
+<text x="42.000" y="1066.000" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" font-style="normal" fill="#626970" text-anchor="start" transform="rotate(0 42.000 1066.000)">B / CONTINUOUS WEEKS / YEAR</text>
+<text x="758.000" y="1066.000" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" font-style="normal" fill="#626970" text-anchor="end" transform="rotate(0 758.000 1066.000)">HOW YOUR DAYS FLY / 2027</text>
+</svg>

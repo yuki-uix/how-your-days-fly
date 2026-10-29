@@ -17,6 +17,8 @@ Record calendar scale, use, time organization, output size, language, week start
 
 ## Explore and implement
 
+When summarizing calendar modes or comparing time structures, read [references/patterns.md](references/patterns.md). Treat this as an extensible design vocabulary. Separate time structure, hierarchy, content role, and medium; do not turn exploratory studies into user preferences or a closed set of product templates.
+
 Analyze references in terms of number forms, hierarchy, grouping, density, whitespace, materials, image relationships, and how time is experienced. Distinguish studying an approach from permission to redistribute the reference's concrete artwork.
 
 Propose substantially different directions where useful. Give each a spatial or temporal idea and connect visual choices to the brief. Avoid producing near-identical color variants as evidence of exploration. Do not prescribe one universal aesthetic or require all calendars to use illustration.
