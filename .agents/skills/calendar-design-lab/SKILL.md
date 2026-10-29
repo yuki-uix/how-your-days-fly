@@ -17,6 +17,8 @@ Record calendar scale, use, time organization, output size, language, week start
 
 ## Explore and implement
 
+Start from the [unified design atlas](../../../docs/design-atlas.md) when a request spans structure, rules, studies and materials. From the repository root, run `python3 scripts/design_catalog.py --scale month --json` (or year/week/day) to retrieve linked choices together. Use each linked original record for its details. Recorded study choices, present-day recommendations, replacement candidates and unimplemented directions are different relations; preserve that distinction when proposing a design.
+
 For a new calendar concept or a substantial visual revision, read [references/design-language.md](references/design-language.md). State a compact design card covering reading task, temporal semantics, spatial organization, typography roles, composition/whitespace, series invariants, and validation. Keep unconfirmed choices provisional; a well-reasoned design is still a hypothesis until the user evaluates it.
 
 When summarizing calendar modes or comparing time structures, read [references/patterns.md](references/patterns.md). Treat this as an extensible design vocabulary. Separate time structure, hierarchy, content role, and medium; do not turn exploratory studies into user preferences or a closed set of product templates.

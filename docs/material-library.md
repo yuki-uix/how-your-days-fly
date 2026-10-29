@@ -1,5 +1,7 @@
 # 日历设计元素与素材库 v1
 
+统一使用入口已整理到[日历设计总览](design-atlas.md)：按时间尺度把结构模式、设计原则、A–H／J1–J6 与本素材库一起查。本页继续维护选材、授权、尺寸与素材重建的具体说明。
+
 2026-10-29 整理。按年／月／周／日的观看与使用尺度分组；不是按图片文件尺寸分组，同一资产可以进入多组。现有 20 条官方设计参考、8 张新收集的逐件 CC0 图像、16 个原创向量部件，并关联已有的 3 个 OFL 字体家族和 1 张原创生成图像。另有 4 项未实现的内容提案。
 
 ![四个时间尺度的素材板](../studies/material-library/overview.jpg)
@@ -59,8 +61,11 @@ flowchart LR
 结构化总索引：[assets/library/catalog.json](../assets/library/catalog.json)。每项有尺度、类型、角色、标签、来源、权利范围与是否已有本地资产。`ready` 只表示资产存在；不表示完整系列、足够打印分辨率或用户已认可。
 
 ```sh
-# 刷新总索引，或仅检索：此脚本只需要 Python 标准库。
-python3 scripts/material_catalog.py --build
+# 一次刷新素材索引及其结构／规则／样本关联；只需 Python 标准库。
+python3 scripts/design_catalog.py --build
+python3 scripts/design_catalog.py --scale month
+
+# 仅做素材类型／许可筛选时，保留原有窄入口。
 python3 scripts/material_catalog.py --scale month
 python3 scripts/material_catalog.py --scale week --kind component --json
 python3 scripts/material_catalog.py --scale day --shareable-only --json

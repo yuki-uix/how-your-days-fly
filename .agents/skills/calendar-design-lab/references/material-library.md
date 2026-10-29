@@ -1,5 +1,7 @@
 # Choosing scale-appropriate calendar materials
 
+For a decision spanning structure, design rules, examples and material selection, start with the [unified atlas](../../../../docs/design-atlas.md) and `python3 scripts/design_catalog.py --scale month --json`. This page covers the material-specific part of that shared workflow.
+
 Read the repository's [grouped guide](../../../../docs/material-library.md) and use the [retained catalog](../../../../assets/library/catalog.json) when looking for imagery, type, motifs, functional components, or series content. Do not load all case studies by default: select the scale and reading task first.
 
 ```sh
@@ -37,4 +39,4 @@ The web-sized museum files are preview material. Before print, use their recorde
 
 For a design, record selected catalog IDs, original file hashes, type roles, placement and crop coordinates, date mapping and series invariants. Replace placeholders with selected assets before calling a design complete. Keep decorative marks explicitly decorative; real moon phases, solar terms, holidays, daylight, climate or personal states need their own verified data or user input.
 
-Rebuild components and boards with `scripts/build_material_library.py`; regenerate the index with `scripts/material_catalog.py --build` after source-record edits. This library improves material discovery; it is not a validated universal design generator.
+Rebuild components and boards with `scripts/build_material_library.py`; run `scripts/design_catalog.py --build` after source-record edits to refresh both the material index and its design relationships. The narrower `material_catalog.py` remains available for asset/license filters. This library improves material discovery; it is not a validated universal design generator.

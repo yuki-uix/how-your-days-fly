@@ -26,60 +26,41 @@ flowchart TD
 
 上图是拟建流程。当前日期数据工具只负责计算，不负责产生视觉设计。
 
-## 第一轮设计模式样本
+## 统一设计入口
 
-先以相近的中性视觉语言比较全年结构，再用月、周、日样本比较内容角色。样本均为原创研究，尚未获得用户的审美认可；它们不是封闭的产品模板清单。
+前三轮资料已按设计决策整合到[日历设计总览](docs/design-atlas.md)：**时间结构 → 设计原则 → 素材选择 → 已有样本 → 新配方与验证**。总览按年／月／周／日组织，具体定义、来源和资产仍以各原始文件为准。
 
-![八份原创日历模式样本](studies/pattern-atlas/overview.svg)
-
-[查看设计语法、样本映射与一手参考](.agents/skills/calendar-design-lab/references/patterns.md)。A–E 比较月份分区、连续周、月份条带、年轮和等日单元；F/G/H 分别展示图像主导月历、书写主导周历与单日日历。点击 SVG 可以查看源文件或完整尺寸。
-
-[公开学习资料与练习路线](.agents/skills/calendar-design-lab/references/learning-guide.md)包括时间可视化开放教材、设计空间研究、排版指南和日历案例；逐项区分公开阅读范围与复用许可。
+现有 8 种结构词汇、9 条带来源的规则、14 份样本（A–H、J1–J6），以及 20 条新收集的官方案例、早期案例、8 组学习来源和素材记录。结构家族与样本数量分开；模块式日期组合尚无本地成品样本。
 
 ```sh
-python3 scripts/render_pattern_atlas.py
-python3 scripts/render_pattern_atlas.py --year 2028 --out-dir tmp/leap-studies
-python3 scripts/render_pattern_atlas.py --pdf output/pdf/calendar-pattern-atlas.pdf
-```
+# 一次查出某一尺度的结构、规则、样本和素材，不必分别翻三套目录。
+python3 scripts/design_catalog.py --scale month
+python3 scripts/design_catalog.py --scale week --json
 
-SVG 生成只用标准库；可选 PDF 导出需要 `reportlab`。SVG 源码可确定性重放，浏览器字形依赖本机字体；后续正式配方需固定字体版本。原图形与 `manifest.json` 保存在 `studies/pattern-atlas/`，PDF 和本地预览保存在忽略的 `output/`。
+# 来源或样本有改动后，同时刷新素材索引与设计关系。
+python3 scripts/design_catalog.py --build
 
-## 精读之后的新样本
-
-本轮将 TimeViz、Timelines Revisited、Vignelli、数字排版与字体选择资料中的相关章节，提炼为[设计决策语言](.agents/skills/calendar-design-lab/references/design-language.md)，分别保存来源认识、迁移假设与验证结果。
-
-![六份新的日历研究](studies/learned-language/overview.jpg)
-
-J1 为横向连续年历；J2/J3 固定视觉条件比较等日／等月；J4 为原创光影图像月历；J5 为等面积书写周页；J6 为比例宽数字主导的单日页。它们是待用户评价的设计研究，详见[样本记录](studies/learned-language/README.md)。
-
-```sh
-python3 -m pip install -r requirements-design.txt
-python3 scripts/render_language_studies.py --pdf output/pdf/learned-calendar-studies.pdf
-python3 scripts/render_language_studies.py --year 2028 --out-dir tmp/learned-2028
-python3 -m unittest discover -s tests -v
-```
-
-原始开放字体、许可证、所选生成图像及来源记录位于 `assets/`。SVG 使用字形轮廓并嵌入选定图像；可编辑文字和布局保留在源码，设计卡与素材/实现哈希保存在 manifest。生成器会拒绝与记录不一致的素材。当前新样本只检查所用英文、数字与符号的覆盖，尚未验证多语言排版。
-
-## 按年／月／周／日检索素材
-
-新增[设计元素与素材库](docs/material-library.md)：20 条官方案例研究、8 张逐件核验的 CC0 馆藏图像、16 个原创向量部件，按时间尺度分组，并关联已有字体及生成图像。每项保留用途、组合／跨尺度建议、权利范围及来源；研究案例与可分发资产分开。
-
-![分组素材板](studies/material-library/overview.jpg)
-
-```sh
-python3 scripts/material_catalog.py --scale month
-python3 scripts/material_catalog.py --scale week --kind component --json
+# 专门筛选具有明确开放许可的素材时，仍可使用素材入口。
 python3 scripts/material_catalog.py --scale day --shareable-only --json
 ```
 
-这批图像是屏幕研究版，还不是十二月／365 日完整系列；大幅打印要另取官方高分辨率版本并留档。素材板展示组合起点，尚未选定用户风格。
+统一检索关联原始 manifest；A–H 与后读规则的对应标为当前建议，J 系列保留实际设计卡记录。新部件是编排候选，不倒写为原样本已经使用的素材。
+
+| 想深入的问题 | 原始记录 |
+| --- | --- |
+| 时间怎样组织、结构有什么取舍 | [结构词汇](.agents/skills/calendar-design-lab/references/patterns.md) |
+| 为什么这样排版、怎样判断和修改 | [设计语言](.agents/skills/calendar-design-lab/references/design-language.md)及关联阅读笔记 |
+| 原始文献、设计者和案例在哪里 | [学习指南](.agents/skills/calendar-design-lab/references/learning-guide.md)、[年／月案例](docs/research/annual-monthly-materials.md)、[周／日案例](docs/research/weekly-daily-materials.md) |
+| 可使用哪些图像、字体与部件 | [素材说明与四组素材板](docs/material-library.md) |
+| 已有样本长什么样、实际用了什么 | [A–H 总览](studies/pattern-atlas/overview.svg)与[记录](studies/pattern-atlas/manifest.json)、[J1–J6 总览](studies/learned-language/overview.jpg)与[说明](studies/learned-language/README.md) |
+
+原始字体、许可证、选定图像和版本均保留在 `assets/`；具体共享范围、预览图像的打印尺寸限制见素材说明。A–H 的 SVG 字形依赖本机字体；J 系列固定字体并输出字形轮廓，可编辑文字与布局保留在源码。尚未验证多语言排版。
 
 ## 使用当前能力
 
 需要 Python 3.10 或以上；日期工具与测试不依赖第三方 Python 包。
 
-在支持项目 skills 的 agent 中使用 `.agents/skills/calendar-design-lab/SKILL.md`。其他环境可直接读取该文件及其按需引用的资源。
+从[设计总览](docs/design-atlas.md)开始；在支持项目 skills 的 agent 中使用 `.agents/skills/calendar-design-lab/SKILL.md`。其他环境可直接读取该文件及其按需引用的资源。
 
 生成日期数据：
 
@@ -92,6 +73,19 @@ python3 -m unittest discover -s tests -v
 ```
 
 输出包含连续日期及月份网格；月份网格保留相邻月份的真实日期，以 `in_month` 区分。日期工具采用公历，支持 2–9998 年，暂不计算农历、节气、法定假日或调休。
+
+重建已有研究：
+
+```sh
+python3 scripts/render_pattern_atlas.py
+python3 -m pip install -r requirements-design.txt
+python3 scripts/render_language_studies.py
+python3 scripts/build_material_library.py
+python3 scripts/design_catalog.py --build
+```
+
+A–H 的 SVG 生成只用标准库；J 系列与素材部件需 `requirements-design.txt`。两个样本渲染器支持可选 `--pdf` 输出，详见 `--help`；本地成品放入忽略的 `output/`。这些是特定研究的渲染工具。
+
 
 ## 我们怎样判断进展
 
