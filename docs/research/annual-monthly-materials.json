@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-29",
+  "scope": "年历/月历设计参考；不是可复用图像资产清单",
+  "sources_count": 10,
+  "publisher_count": 8,
+  "evidence_policy": "把官方描述、实际图像观察和本项目提出的迁移规则分开。图片仅用于本地研究检查，不存入公共仓库。",
+  "records": [
+    {
+      "id": "ref-y-01",
+      "scales": [
+        "year"
+      ],
+      "element": "连续周骨架与跨月计划条",
+      "source": "NeuYear",
+      "title": "Monday First Large Wall Calendar",
+      "url": "https://www.neuyear.net/products/monday-first-large-wall-calendar",
+      "observed": "官方产品图与说明均展示整年连续周，不在换月处切断星期；提供可写纸面与可擦表面。",
+      "transfer": "按真实日期生成连续周坐标，月份只加分界与标签；用独立跨日条表示旅行、项目等区间，保留写入空间。",
+      "cross_scale": "月历保留相邻月日期以接续周；周历提供跨周延续标记。",
+      "caution": "宣传文案称52周，不应成为渲染常数；2027的周一起始全年显示会占53个周位置。",
+      "tags": [
+        "continuous-weeks",
+        "interval",
+        "writing",
+        "surface"
+      ],
+      "visual_evidence": "官方产品主图已检查，月份边界与全年同屏可见。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-y-02",
+      "scales": [
+        "year"
+      ],
+      "element": "径向层带与天文语义",
+      "source": "Anaptár / Anna Farkas",
+      "title": "About Anaptár",
+      "url": "https://anaptar.com/about/",
+      "observed": "官方说明将日月数据与年度循环结合；已检查的展览照片可见大型同心圆与细密径向标记。",
+      "transfer": "先明确每圈代表什么、角度按日还是按月，再给数据环独立图例。只借用循环与分层的组织概念，重新设计比例、标记和标签。",
+      "cross_scale": "月历可放单月月相带；日历可放单日经核验的天文记录。",
+      "caution": "若提供真实天文内容，须另有年份、时区、地点及数据来源；当前图片不能作为2027天文数据。",
+      "tags": [
+        "radial",
+        "astronomy",
+        "layer",
+        "cyclic"
+      ],
+      "visual_evidence": "官网展览照片已检查；图中小字与具体数据值未逐项核验。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-y-03",
+      "scales": [
+        "year"
+      ],
+      "element": "十二月纵列、周末底色与页脚索引",
+      "source": "Crispin Finn",
+      "title": "2027 Year Planner Portrait Format",
+      "url": "https://www.crispinfinn.com/products/2027-year-planner-classic-portrait-view",
+      "observed": "官方产品图中12个月平行纵列，日期顺序自上而下；浅底色标出周末，页脚汇总符号。说明列出两色印刷、季度、周号与月相等索引。",
+      "transfer": "把主任务设为同日跨月对照；只选少量辅助编码，并为每类编码留解释。两专色限制可作为自行设计的印刷约束。",
+      "cross_scale": "月历把索引缩成页角；周历保留一种重点或状态色。",
+      "caution": "月相、节假日和夏令时具有地区/数据条件；不要直接移植英国标注到中国用户版本。",
+      "tags": [
+        "month-strips",
+        "index",
+        "two-ink",
+        "weekend"
+      ],
+      "visual_evidence": "官方正面产品图已检查；网页将Portrait写成Landscape的文字矛盾不作为方向判断依据。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-y-04",
+      "scales": [
+        "year"
+      ],
+      "element": "每日状态阵列与累积反馈",
+      "source": "Yetch Studio / Simone Giertz",
+      "title": "Every Day Calendar",
+      "url": "https://yetch.studio/products/refurbished-every-day-calendar",
+      "observed": "官方图中12列日期触点以亮/暗呈现状态，产品说明强调逐日点亮记录目标。",
+      "transfer": "用一日一单元的阵列承载用户自己的状态；区分未记录、已完成与不存在的日期。纸面可以用圈填或贴点，网页可以交互点亮。",
+      "cross_scale": "月历为28—31个状态单元；周历为七次观察；日历为单次记录和年度位置。",
+      "caution": "亮起不能自动解释为成功或健康；语义由用户选择。官网称硬件开源不代表产品摄影或外观图的复用许可已经核验。",
+      "tags": [
+        "day-field",
+        "state",
+        "habit",
+        "interaction"
+      ],
+      "visual_evidence": "官方产品主图已检查。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-m-01",
+      "scales": [
+        "month"
+      ],
+      "element": "字体作为每月主题",
+      "source": "Studio Hinrichs",
+      "title": "365 Typography Calendar",
+      "url": "https://www.studio-hinrichs.com/365-typography-calendar",
+      "observed": "官方工作室介绍每月更换字体，并介绍字体及设计者；已检查的2027封面以多种数字形态叠合成365。",
+      "transfer": "可使用已获许可的字体组织12个月的字形探索；保持年月、星期、日期查询的锚点一致，把变化集中在展示数字或月名。",
+      "cross_scale": "年历将12个字形缩成目录；周历每周更换一个展示字形；日历可放一个大数字加字形说明。",
+      "caution": "字体作为主题不等于可随意分发字体文件；本项目优先使用已有OFL字体。不要复制原封面的叠字轮廓。",
+      "tags": [
+        "type-led",
+        "series",
+        "display-numeral",
+        "annotation"
+      ],
+      "visual_evidence": "2027封面已检查；每月字体主题由工作室官方文字介绍确认，未声称检查全部12个月页面。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-m-02",
+      "scales": [
+        "month"
+      ],
+      "element": "植物图像主区与固定日期锚点",
+      "source": "Rifle Paper Co.",
+      "title": "2027 Wall Calendar — Botanical Garden",
+      "url": "https://riflepaperco.com/products/2027-wall-calendar-botanical-garden",
+      "observed": "官网有完整产品图片组与植物主题，官方说明设计从Anna Bond的原创水粉画开始；封面可见丰富花叶组合与装饰边框。",
+      "transfer": "自建12张有统一裁切和颜色范围的植物系列；把图像主区与日期查询区分配固定位置。可改用公共领域图版或自己的作品。",
+      "cross_scale": "年历取每月一个小型植物符号；周历用一段局部；日历用单个物种与可核验标签。",
+      "caution": "不要把品牌的具体花叶、边框和绘画组合当作免费素材。植物开花月份不能凭画面猜测，应提供地区或标为主题编排。",
+      "tags": [
+        "botanical",
+        "image-led",
+        "series",
+        "framing"
+      ],
+      "visual_evidence": "官方封面已检查；产品图片组可访问，具体月份内容未全部逐页核验。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-m-03",
+      "scales": [
+        "month"
+      ],
+      "element": "纹样与数字共同构成装饰画",
+      "source": "D-BROS / 渡邉良重",
+      "title": "2027 Calendar CACUMA Patterns",
+      "url": "https://d-bros.jp/products/2027-calendar-cacuma-patterns",
+      "observed": "官方一月图可见条带纹样、独立月名和下方小型日期带；说明12个月取自其服装品牌纹样，6张双面纸配杆与绳悬挂。",
+      "transfer": "把自有纹样作为每月可换的主图模块；固定日期带的位置与最小字号。以纸、杆、挂绳的组合反推上边留量和双面翻页顺序。",
+      "cross_scale": "年历只用12块纹样色样；周历用一条窄纹样；日历用单个裁切片段。",
+      "caution": "品牌纹样、专用字形与具体挂绳装饰不进入本项目资产；应另画原创图案。",
+      "tags": [
+        "pattern",
+        "textile",
+        "hanging",
+        "double-sided"
+      ],
+      "visual_evidence": "官方一月正面产品图已检查。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-m-04",
+      "scales": [
+        "month"
+      ],
+      "element": "双月季节图谱与内容注记",
+      "source": "D-BROS / 小山麻子",
+      "title": "2027 二十四節気カレンダー",
+      "url": "https://d-bros.jp/products/2027-24sekki-calendar",
+      "observed": "官方一二月图把两个日期网格置于食材、草木与器物线描之间；说明为一页两月、周日起始，并介绍节气、旬物与季节活动。",
+      "transfer": "把季节内容做成可独立校对的模块：主题图、简短注记、发生日期和地区。图像围绕网格留白，而不是挤进每个日期单元。",
+      "cross_scale": "年历为24个节气索引；周历选本周的一次自然观察；日历展开一项内容。",
+      "caution": "日本季节生活经验不是普遍气候事实。中国版本的节气时刻、农事或物候须另找可靠来源；不得复制原画和文案。",
+      "tags": [
+        "seasonal",
+        "solar-terms",
+        "field-notes",
+        "two-month"
+      ],
+      "visual_evidence": "官方一二月双月页面图已检查。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-m-05",
+      "scales": [
+        "month"
+      ],
+      "element": "摄影片段、数字节奏与实体悬挂",
+      "source": "D-BROS / 植原亮辅",
+      "title": "2027 Calendar TOMORROWS",
+      "url": "https://d-bros.jp/products/2027-calendar-tomorrows",
+      "observed": "官方一月图可见上方模糊摄影带与下方大日期数字；作者说明用叠色表达时间渐变，并以金属杆、纸与绳组织悬挂。",
+      "transfer": "把变化分成摄影序列和日期系统两层；从自己的照片选取统一高宽比的片段。若研究字色接触，先做可读性对照，不照搬该作品的特定叠合构图。",
+      "cross_scale": "年历为12段摄影摘要；周历选同一场景的7个观察；日历把单张照片与日期并置。",
+      "caution": "摄影与数字不能互相遮住识别线索；模糊摄影应来自明确授权素材或原创生成资产。",
+      "tags": [
+        "photography",
+        "color-layer",
+        "series",
+        "hanging"
+      ],
+      "visual_evidence": "官方一月正面产品图已检查。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    },
+    {
+      "id": "ref-m-06",
+      "scales": [
+        "month"
+      ],
+      "element": "博物学主题、艺术图版与可写网格",
+      "source": "Pomegranate / Alexander Viazmensky",
+      "title": "Mushrooms 2027 Wall Calendar",
+      "url": "https://www.pomegranate.com/products/mushrooms-alexander-viazmensky-2027-wall-calendar",
+      "observed": "官方封面展示水彩菌类图版，说明有12张月网格及彩色艺术图，可在网格写字；产品页列出多个内页图。",
+      "transfer": "每月围绕同一分类挑选一张图版，用统一图题和来源行建立系列；日期网格维持书写空间，不由图像复杂度挤占。",
+      "cross_scale": "年历为12图目录；周历选一张细节；日历为单物种卡片加来源或观察栏。",
+      "caution": "这里的当代水彩画属于研究参考；若需要复用图像，应换成逐件核验的公共领域图版。题材是蘑菇不等于具备食用鉴定效力。",
+      "tags": [
+        "natural-history",
+        "art-plate",
+        "writing",
+        "curation"
+      ],
+      "visual_evidence": "官方封面已检查，12个月网格与可写性由产品详情确认；未声称核验全部内页。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null
+    }
+  ]
+}

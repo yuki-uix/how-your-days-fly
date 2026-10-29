@@ -8,7 +8,7 @@
 
 先验证日历设计能力，再把验证有效的方法开放到网站。
 
-- 已有：项目专用的 `calendar-design-lab`、从公开资料精读提炼的条件性设计规则、公历数据工具、8 份结构样本，以及固定字体和素材的 6 份新设计研究。
+- 已有：项目专用的 `calendar-design-lab`、从公开资料精读提炼的条件性设计规则、公历数据工具、8 份结构样本、固定字体和素材的 6 份设计研究，以及按年／月／周／日分组的元素素材库。
 - 正在开始：[第一个真实设计实验](docs/first-experiment.md)。
 - 尚未验证：用户设计满意度、用户反馈后的改进、跨用户效果和通用设计生成能力。特定样本的资产重放及 2028 年变体已检查。
 - 尚未实现：通用视觉设计引擎、网站、在线 AI 生成、分享与导出服务。当前样本渲染器是实验工具。
@@ -60,6 +60,20 @@ python3 -m unittest discover -s tests -v
 ```
 
 原始开放字体、许可证、所选生成图像及来源记录位于 `assets/`。SVG 使用字形轮廓并嵌入选定图像；可编辑文字和布局保留在源码，设计卡与素材/实现哈希保存在 manifest。生成器会拒绝与记录不一致的素材。当前新样本只检查所用英文、数字与符号的覆盖，尚未验证多语言排版。
+
+## 按年／月／周／日检索素材
+
+新增[设计元素与素材库](docs/material-library.md)：20 条官方案例研究、8 张逐件核验的 CC0 馆藏图像、16 个原创向量部件，按时间尺度分组，并关联已有字体及生成图像。每项保留用途、组合／跨尺度建议、权利范围及来源；研究案例与可分发资产分开。
+
+![分组素材板](studies/material-library/overview.jpg)
+
+```sh
+python3 scripts/material_catalog.py --scale month
+python3 scripts/material_catalog.py --scale week --kind component --json
+python3 scripts/material_catalog.py --scale day --shareable-only --json
+```
+
+这批图像是屏幕研究版，还不是十二月／365 日完整系列；大幅打印要另取官方高分辨率版本并留档。素材板展示组合起点，尚未选定用户风格。
 
 ## 使用当前能力
 

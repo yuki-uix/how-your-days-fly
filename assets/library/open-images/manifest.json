@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-29",
+  "purpose": "Curated reusable source images for calendar design studies; not a complete monthly or daily series.",
+  "policy_sources": [
+    {
+      "institution": "The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "api_documentation": "https://metmuseum.github.io/",
+      "item_gate": "isPublicDomain == true and official image URL present"
+    },
+    {
+      "institution": "The Cleveland Museum of Art",
+      "url": "https://www.clevelandart.org/open-access",
+      "api_documentation": "https://openaccess-api.clevelandart.org/",
+      "item_gate": "share_license_status == CC0 and official image URL present"
+    }
+  ],
+  "assets": [
+    {
+      "id": "met-wave",
+      "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
+      "title_zh": "浪与远山",
+      "creator": "Katsushika Hokusai",
+      "date": "ca. 1830–32",
+      "institution": "The Metropolitan Museum of Art",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45434",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45434",
+      "download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP130155.jpg",
+      "high_resolution_url": "https://images.metmuseum.org/CRDImages/as/original/DP130155.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.metmuseum.org/hubs/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "snapshot_path": "assets/library/open-images/evidence/met-wave.json"
+      },
+      "credit_line": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+      "attribution": "Katsushika Hokusai, Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei), ca. 1830–32. The Metropolitan Museum of Art. H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929. CC0. https://www.metmuseum.org/art/collection/search/45434",
+      "sha256": "b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841",
+      "bytes": 166452,
+      "dimensions": {
+        "width": 600,
+        "height": 403
+      },
+      "local_path": "assets/library/open-images/met-wave.jpg",
+      "suggested_scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "tags": [
+        "sea",
+        "landscape",
+        "blue",
+        "horizontal",
+        "print"
+      ],
+      "usage_notes": "横幅主图；适合年历上方或月历图像区；保留波浪、船、远山的关系。非 12 张或 365 张完整系列。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 50.8,
+          "height": 34.1
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Katsushika Hokusai",
+          "role": "artist"
+        }
+      ]
+    },
+    {
+      "id": "met-roses",
+      "title": "Roses",
+      "title_zh": "绿底玫瑰",
+      "creator": "Vincent van Gogh",
+      "date": "1890",
+      "institution": "The Metropolitan Museum of Art",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436534",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436534",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346475.jpg",
+      "high_resolution_url": "https://images.metmuseum.org/CRDImages/ep/original/DP346475.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.metmuseum.org/hubs/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "snapshot_path": "assets/library/open-images/evidence/met-roses.json"
+      },
+      "credit_line": "The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002",
+      "attribution": "Vincent van Gogh, Roses, 1890. The Metropolitan Museum of Art. The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002. CC0. https://www.metmuseum.org/art/collection/search/436534",
+      "sha256": "76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413",
+      "bytes": 128833,
+      "dimensions": {
+        "width": 494,
+        "height": 624
+      },
+      "local_path": "assets/library/open-images/met-roses.jpg",
+      "suggested_scales": [
+        "month",
+        "day"
+      ],
+      "tags": [
+        "flower",
+        "painting",
+        "green",
+        "portrait"
+      ],
+      "usage_notes": "竖幅整图适合月历及每日艺术卡；笔触适合取色研究，日期另置底色块。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 41.8,
+          "height": 52.8
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Vincent van Gogh",
+          "role": "artist"
+        }
+      ]
+    },
+    {
+      "id": "cma-tulip",
+      "title": "Study of a Tulip (Perregoen Machieu)",
+      "title_zh": "一枝郁金香",
+      "creator": "Pieter Holsteyn II (Dutch, c.1612–1673)",
+      "date": "c. 1645",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/2020.133",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/380063",
+      "download_url": "https://openaccess-cdn.clevelandart.org/2020.133/2020.133_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/2020.133/2020.133_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-tulip.json"
+      },
+      "credit_line": "Nancy F. and Joseph P. Keithley Collection Gift",
+      "attribution": "Pieter Holsteyn II (Dutch, c.1612–1673), Study of a Tulip (Perregoen Machieu), c. 1645. The Cleveland Museum of Art. Nancy F. and Joseph P. Keithley Collection Gift. CC0. https://clevelandart.org/art/2020.133",
+      "sha256": "b453cf0c90231d66ca7f6979b2cb40349f379b8225bd2057dc735f9919cd0e3c",
+      "bytes": 237234,
+      "dimensions": {
+        "width": 688,
+        "height": 900
+      },
+      "local_path": "assets/library/open-images/cma-tulip.jpg",
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "botanical",
+        "red",
+        "cream",
+        "portrait",
+        "specimen"
+      ],
+      "usage_notes": "单枝植物适合页边留白或每日标本；图像原有文字需保留或明确记录裁切，不将其当作日历文字。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 58.3,
+          "height": 76.2
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Pieter Holsteyn II (Dutch, c.1612–1673)",
+          "role": "artist",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "cma-lily",
+      "title": "The Botanical Magazine or Flower Garden Displayed:  White Cape - Coast Lily",
+      "title_zh": "百合植物图版",
+      "creator": "Sydenham Edwards (artist); Thomas Curtis (publisher)",
+      "date": "1806",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1955.142",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/132618",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1955.142/1955.142_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1955.142/1955.142_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-lily.json"
+      },
+      "credit_line": "Gift of Mrs. A. B. Leavelle, Stanford, Cal., in memory of her mother, Wilma Ball Morgan (Mrs. Daniel E. Morgan)",
+      "attribution": "Sydenham Edwards (artist); Thomas Curtis (publisher), The Botanical Magazine or Flower Garden Displayed:  White Cape - Coast Lily, 1806. The Cleveland Museum of Art. Gift of Mrs. A. B. Leavelle, Stanford, Cal., in memory of her mother, Wilma Ball Morgan (Mrs. Daniel E. Morgan). CC0. https://clevelandart.org/art/1955.142",
+      "sha256": "c8bdcac62bd1683fa966738c975544f27059b9c24a0ae35453eed2085ecbc1f7",
+      "bytes": 62628,
+      "dimensions": {
+        "width": 750,
+        "height": 607
+      },
+      "local_path": "assets/library/open-images/cma-lily.jpg",
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "botanical",
+        "engraving",
+        "cream",
+        "horizontal"
+      ],
+      "usage_notes": "植物图版适合月主题或周页窄横图；植物题材不代表当月当地真实花期。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 63.5,
+          "height": 51.4
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Sydenham Edwards (British, 1768–1819)",
+          "role": "artist",
+          "qualifier": null
+        },
+        {
+          "name": "Thomas Curtis (British, 1846–1920)",
+          "role": "publisher",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "cma-bird",
+      "title": "Bird on a Flowering Branch",
+      "title_zh": "白梅与禽",
+      "creator": "Artist not identified / China, Southern Song dynasty (1127–1279)",
+      "date": "1100s",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1985.371",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/152556",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1985.371/1985.371_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1985.371/1985.371_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-bird.json"
+      },
+      "credit_line": "The Kelvin Smith Collection, given by Mrs. Kelvin Smith",
+      "attribution": "Artist not identified / China, Southern Song dynasty (1127–1279), Bird on a Flowering Branch, 1100s. The Cleveland Museum of Art. The Kelvin Smith Collection, given by Mrs. Kelvin Smith. CC0. https://clevelandart.org/art/1985.371",
+      "sha256": "f61c7011eff77b40231dbe53fe65162e593f2391849f805d474298fb9cb8988e",
+      "bytes": 406234,
+      "dimensions": {
+        "width": 900,
+        "height": 887
+      },
+      "local_path": "assets/library/open-images/cma-bird.jpg",
+      "suggested_scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "bird",
+        "plum",
+        "ink",
+        "silk",
+        "square"
+      ],
+      "usage_notes": "方幅花鸟适合年历角图、月历主图或每日观察卡；若裁切应保持鸟与花枝关系，避免误归作者。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 76.2,
+          "height": 75.1
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": []
+    },
+    {
+      "id": "cma-snow",
+      "title": "Snow Landscape",
+      "title_zh": "雪中山水",
+      "creator": "Yosa Buson (Japanese, 1716–1783)",
+      "date": "mid-1770s",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1997.111",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/159739",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1997.111/1997.111_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1997.111/1997.111_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-snow.json"
+      },
+      "credit_line": "Bequest of Mrs. A. Dean Perry",
+      "attribution": "Yosa Buson (Japanese, 1716–1783), Snow Landscape, mid-1770s. The Cleveland Museum of Art. Bequest of Mrs. A. Dean Perry. CC0. https://clevelandart.org/art/1997.111",
+      "sha256": "2e6de74359116a1abd479f903cb2146099c7b0d3a8695024b55f26acb841bda8",
+      "bytes": 145411,
+      "dimensions": {
+        "width": 362,
+        "height": 900
+      },
+      "local_path": "assets/library/open-images/cma-snow.jpg",
+      "suggested_scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "tags": [
+        "winter",
+        "landscape",
+        "ink",
+        "portrait",
+        "narrow"
+      ],
+      "usage_notes": "窄长幅可做年历侧栏或冬季月页；不要把冬季主题绑定所有用户的 12 月（地区与半球不同）。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 30.6,
+          "height": 76.2
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Yosa Buson (Japanese, 1716–1783)",
+          "role": "artist",
+          "qualifier": null
+        }
+      ]
+    },
+    {
+      "id": "cma-lace",
+      "title": "Fragment of a Border with Floral Vine and Geometric Patterns",
+      "title_zh": "花藤与几何蕾丝",
+      "creator": "Artist not identified / Italy",
+      "date": "1500s",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1920.1267",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/100909",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1920.1267/1920.1267_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1920.1267/1920.1267_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-lace.json"
+      },
+      "credit_line": "Gift of Myrta Leonora Jones",
+      "attribution": "Artist not identified / Italy, Fragment of a Border with Floral Vine and Geometric Patterns, 1500s. The Cleveland Museum of Art. Gift of Myrta Leonora Jones. CC0. https://clevelandart.org/art/1920.1267",
+      "sha256": "f352d5c837898a3e54fde9c4df23aac8022596cad32b00d6620f8d46fd087b57",
+      "bytes": 257886,
+      "dimensions": {
+        "width": 900,
+        "height": 493
+      },
+      "local_path": "assets/library/open-images/cma-lace.jpg",
+      "suggested_scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "textile",
+        "geometric",
+        "border",
+        "cream",
+        "horizontal"
+      ],
+      "usage_notes": "适合页边饰带或材质研究；原图含破损边缘，不把单件片段声称为无缝平铺纹理。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 76.2,
+          "height": 41.7
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": []
+    },
+    {
+      "id": "cma-moon",
+      "title": "The Moon-Viewing Promontory, from One Hundred Views of Famous Places in Edo",
+      "title_zh": "月之岬",
+      "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+      "date": "1857",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1985.320",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/152499",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1985.320/1985.320_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1985.320/1985.320_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-moon.json"
+      },
+      "credit_line": "The Kelvin Smith Collection, given by Mrs. Kelvin Smith",
+      "attribution": "Utagawa Hiroshige (Japanese, 1797–1858), The Moon-Viewing Promontory, from One Hundred Views of Famous Places in Edo, 1857. The Cleveland Museum of Art. The Kelvin Smith Collection, given by Mrs. Kelvin Smith. CC0. https://clevelandart.org/art/1985.320",
+      "sha256": "9330ce9c099a78d892c638ddc0dcf3194f94805c01b77d271b04feeacadd0042",
+      "bytes": 252301,
+      "dimensions": {
+        "width": 613,
+        "height": 900
+      },
+      "local_path": "assets/library/open-images/cma-moon.jpg",
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "moon",
+        "interior",
+        "blue",
+        "green",
+        "portrait",
+        "print"
+      ],
+      "usage_notes": "可做月页、周页主图或日页艺术卡；画中满月为题材，不能用作 2027 年某日月相数据。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 51.9,
+          "height": 76.2
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "role": "artist",
+          "qualifier": null
+        }
+      ]
+    }
+  ]
+}

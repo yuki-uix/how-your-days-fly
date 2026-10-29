@@ -1,0 +1,4676 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-29",
+  "groups": {
+    "year": {
+      "components": [
+        "y-ribbon",
+        "y-tabs",
+        "y-weave",
+        "y-orbit"
+      ],
+      "candidate_images": [
+        "met-wave",
+        "cma-bird",
+        "cma-snow",
+        "cma-lace",
+        "paper-light-j4"
+      ],
+      "references": [
+        "ref-y-01",
+        "ref-y-02",
+        "ref-y-03",
+        "ref-y-04"
+      ],
+      "font_families": [
+        "font-instrumentserif",
+        "font-ibmplexmono",
+        "font-ibmplexsanscondensed"
+      ],
+      "proposals": []
+    },
+    "month": {
+      "components": [
+        "m-mat",
+        "m-specimen",
+        "m-overprint",
+        "m-dock"
+      ],
+      "candidate_images": [
+        "met-wave",
+        "met-roses",
+        "cma-tulip",
+        "cma-lily",
+        "cma-bird",
+        "cma-snow",
+        "cma-lace",
+        "cma-moon",
+        "paper-light-j4"
+      ],
+      "references": [
+        "ref-m-01",
+        "ref-m-02",
+        "ref-m-03",
+        "ref-m-04",
+        "ref-m-05",
+        "ref-m-06"
+      ],
+      "font_families": [
+        "font-instrumentserif",
+        "font-ibmplexmono",
+        "font-ibmplexsanscondensed"
+      ],
+      "proposals": [
+        "proposal-week-habit-strip",
+        "proposal-week-foldout-context",
+        "proposal-day-personal-photo-sequence"
+      ]
+    },
+    "week": {
+      "components": [
+        "w-hours",
+        "w-notes",
+        "w-habit",
+        "w-margin"
+      ],
+      "candidate_images": [
+        "cma-tulip",
+        "cma-lily",
+        "cma-bird",
+        "cma-lace",
+        "cma-moon",
+        "paper-light-j4"
+      ],
+      "references": [
+        "weekly-hobonichi-24h",
+        "weekly-travelers-open-memo",
+        "weekly-midori-daylight",
+        "weekly-markfold-flexible-grid",
+        "weekly-kokuyo-life-log"
+      ],
+      "font_families": [
+        "font-instrumentserif",
+        "font-ibmplexmono",
+        "font-ibmplexsanscondensed"
+      ],
+      "proposals": [
+        "proposal-week-habit-strip",
+        "proposal-week-foldout-context",
+        "proposal-day-one-observation",
+        "proposal-day-personal-photo-sequence"
+      ]
+    },
+    "day": {
+      "components": [
+        "d-number",
+        "d-perforation",
+        "d-detail",
+        "d-observe"
+      ],
+      "candidate_images": [
+        "met-wave",
+        "met-roses",
+        "cma-tulip",
+        "cma-lily",
+        "cma-bird",
+        "cma-snow",
+        "cma-lace",
+        "cma-moon",
+        "paper-light-j4"
+      ],
+      "references": [
+        "daily-mack-art-sequence",
+        "daily-chronicle-same-date-years",
+        "daily-audubon-photo-gallery",
+        "daily-mensa-micro-challenge",
+        "daily-danese-timor-modular"
+      ],
+      "font_families": [
+        "font-instrumentserif",
+        "font-ibmplexmono",
+        "font-ibmplexsanscondensed"
+      ],
+      "proposals": [
+        "proposal-day-one-observation",
+        "proposal-day-personal-photo-sequence"
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "y-ribbon",
+      "title": "Day-weighted ribbon",
+      "title_zh": "等日长度月份带",
+      "primary_scale": "year",
+      "suggested_scales": [
+        "year",
+        "month"
+      ],
+      "role": "functional",
+      "purpose": "需要看见全年连续性与月份长短时使用；每段宽度由实际公历天数计算。",
+      "tags": [
+        "month lengths",
+        "quarter separators",
+        "continuity"
+      ],
+      "cross_scale_adaptation": "年历作长索引；月历缩为当前月份在全年中的定位条。",
+      "parameters": [
+        "year",
+        "width",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/y-ribbon.svg",
+      "sha256": "e61b5cf9f355038027be6b3a50f82ce70742389f78bb364d6865af7fb3441fa3",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-01-01",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-02",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-03",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-04",
+          "weekday_monday0": 0,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-05",
+          "weekday_monday0": 1,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-06",
+          "weekday_monday0": 2,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-07",
+          "weekday_monday0": 3,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-08",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-09",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-10",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-11",
+          "weekday_monday0": 0,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-12",
+          "weekday_monday0": 1,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-13",
+          "weekday_monday0": 2,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-14",
+          "weekday_monday0": 3,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-15",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-16",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-17",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-18",
+          "weekday_monday0": 0,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-19",
+          "weekday_monday0": 1,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-20",
+          "weekday_monday0": 2,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-21",
+          "weekday_monday0": 3,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-22",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-23",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-24",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-25",
+          "weekday_monday0": 0,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-26",
+          "weekday_monday0": 1,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-27",
+          "weekday_monday0": 2,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-28",
+          "weekday_monday0": 3,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-29",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-30",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-31",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-01",
+          "weekday_monday0": 0,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-02",
+          "weekday_monday0": 1,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-03",
+          "weekday_monday0": 2,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-04",
+          "weekday_monday0": 3,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-05",
+          "weekday_monday0": 4,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-06",
+          "weekday_monday0": 5,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-07",
+          "weekday_monday0": 6,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-08",
+          "weekday_monday0": 0,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-09",
+          "weekday_monday0": 1,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-10",
+          "weekday_monday0": 2,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-11",
+          "weekday_monday0": 3,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-12",
+          "weekday_monday0": 4,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-13",
+          "weekday_monday0": 5,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-14",
+          "weekday_monday0": 6,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-15",
+          "weekday_monday0": 0,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-16",
+          "weekday_monday0": 1,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-17",
+          "weekday_monday0": 2,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-18",
+          "weekday_monday0": 3,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-19",
+          "weekday_monday0": 4,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-20",
+          "weekday_monday0": 5,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-21",
+          "weekday_monday0": 6,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-22",
+          "weekday_monday0": 0,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-23",
+          "weekday_monday0": 1,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-24",
+          "weekday_monday0": 2,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-25",
+          "weekday_monday0": 3,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-26",
+          "weekday_monday0": 4,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-27",
+          "weekday_monday0": 5,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-28",
+          "weekday_monday0": 6,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-01",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-02",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-03",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-04",
+          "weekday_monday0": 3,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-05",
+          "weekday_monday0": 4,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-06",
+          "weekday_monday0": 5,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-07",
+          "weekday_monday0": 6,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-08",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-09",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-10",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-11",
+          "weekday_monday0": 3,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-12",
+          "weekday_monday0": 4,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-13",
+          "weekday_monday0": 5,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-14",
+          "weekday_monday0": 6,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-15",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-16",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-17",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-18",
+          "weekday_monday0": 3,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-19",
+          "weekday_monday0": 4,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-20",
+          "weekday_monday0": 5,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-21",
+          "weekday_monday0": 6,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-22",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-23",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-24",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-25",
+          "weekday_monday0": 3,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-26",
+          "weekday_monday0": 4,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-27",
+          "weekday_monday0": 5,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-28",
+          "weekday_monday0": 6,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-29",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-30",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-31",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-01",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-02",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-03",
+          "weekday_monday0": 5,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-04",
+          "weekday_monday0": 6,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-12",
+          "weekday_monday0": 0,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-13",
+          "weekday_monday0": 1,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-14",
+          "weekday_monday0": 2,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-15",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-16",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-17",
+          "weekday_monday0": 5,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-19",
+          "weekday_monday0": 0,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-20",
+          "weekday_monday0": 1,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-21",
+          "weekday_monday0": 2,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-22",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-23",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-24",
+          "weekday_monday0": 5,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-25",
+          "weekday_monday0": 6,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-26",
+          "weekday_monday0": 0,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-27",
+          "weekday_monday0": 1,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-28",
+          "weekday_monday0": 2,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-29",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-30",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-01",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-02",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-03",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-04",
+          "weekday_monday0": 1,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-05",
+          "weekday_monday0": 2,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-06",
+          "weekday_monday0": 3,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-07",
+          "weekday_monday0": 4,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-08",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-09",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-10",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-11",
+          "weekday_monday0": 1,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-12",
+          "weekday_monday0": 2,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-13",
+          "weekday_monday0": 3,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-14",
+          "weekday_monday0": 4,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-15",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-16",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-17",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-18",
+          "weekday_monday0": 1,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-19",
+          "weekday_monday0": 2,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-20",
+          "weekday_monday0": 3,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-21",
+          "weekday_monday0": 4,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-22",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-23",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-24",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-25",
+          "weekday_monday0": 1,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-26",
+          "weekday_monday0": 2,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-27",
+          "weekday_monday0": 3,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-28",
+          "weekday_monday0": 4,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-29",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-30",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-31",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-01",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-02",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-03",
+          "weekday_monday0": 3,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-04",
+          "weekday_monday0": 4,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-05",
+          "weekday_monday0": 5,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-06",
+          "weekday_monday0": 6,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-07",
+          "weekday_monday0": 0,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-08",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-09",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-10",
+          "weekday_monday0": 3,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-11",
+          "weekday_monday0": 4,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-12",
+          "weekday_monday0": 5,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-13",
+          "weekday_monday0": 6,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-14",
+          "weekday_monday0": 0,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-15",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-16",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-17",
+          "weekday_monday0": 3,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-18",
+          "weekday_monday0": 4,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-19",
+          "weekday_monday0": 5,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-20",
+          "weekday_monday0": 6,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-21",
+          "weekday_monday0": 0,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-22",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-23",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-24",
+          "weekday_monday0": 3,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-25",
+          "weekday_monday0": 4,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-26",
+          "weekday_monday0": 5,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-27",
+          "weekday_monday0": 6,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-28",
+          "weekday_monday0": 0,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-29",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-30",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-01",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-02",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-03",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-04",
+          "weekday_monday0": 6,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-05",
+          "weekday_monday0": 0,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-06",
+          "weekday_monday0": 1,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-07",
+          "weekday_monday0": 2,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-08",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-09",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-10",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-11",
+          "weekday_monday0": 6,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-12",
+          "weekday_monday0": 0,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-13",
+          "weekday_monday0": 1,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-14",
+          "weekday_monday0": 2,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-15",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-16",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-17",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-18",
+          "weekday_monday0": 6,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-19",
+          "weekday_monday0": 0,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-20",
+          "weekday_monday0": 1,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-21",
+          "weekday_monday0": 2,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-22",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-23",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-24",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-25",
+          "weekday_monday0": 6,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-26",
+          "weekday_monday0": 0,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-27",
+          "weekday_monday0": 1,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-28",
+          "weekday_monday0": 2,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-29",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-30",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-31",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-01",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-02",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-03",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-04",
+          "weekday_monday0": 2,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-05",
+          "weekday_monday0": 3,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-06",
+          "weekday_monday0": 4,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-07",
+          "weekday_monday0": 5,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-08",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-09",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-10",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-11",
+          "weekday_monday0": 2,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-12",
+          "weekday_monday0": 3,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-13",
+          "weekday_monday0": 4,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-14",
+          "weekday_monday0": 5,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-15",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-16",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-17",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-18",
+          "weekday_monday0": 2,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-19",
+          "weekday_monday0": 3,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-20",
+          "weekday_monday0": 4,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-21",
+          "weekday_monday0": 5,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-22",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-23",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-24",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-25",
+          "weekday_monday0": 2,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-26",
+          "weekday_monday0": 3,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-27",
+          "weekday_monday0": 4,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-28",
+          "weekday_monday0": 5,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-29",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-30",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-31",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-01",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-02",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-03",
+          "weekday_monday0": 4,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-04",
+          "weekday_monday0": 5,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-05",
+          "weekday_monday0": 6,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-06",
+          "weekday_monday0": 0,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-07",
+          "weekday_monday0": 1,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-08",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-09",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-10",
+          "weekday_monday0": 4,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-11",
+          "weekday_monday0": 5,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-12",
+          "weekday_monday0": 6,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-13",
+          "weekday_monday0": 0,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-14",
+          "weekday_monday0": 1,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-15",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-16",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-17",
+          "weekday_monday0": 4,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-18",
+          "weekday_monday0": 5,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-19",
+          "weekday_monday0": 6,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-20",
+          "weekday_monday0": 0,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-21",
+          "weekday_monday0": 1,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-22",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-23",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-24",
+          "weekday_monday0": 4,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-25",
+          "weekday_monday0": 5,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-26",
+          "weekday_monday0": 6,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-27",
+          "weekday_monday0": 0,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-28",
+          "weekday_monday0": 1,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-29",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-30",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-01",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-02",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-03",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-04",
+          "weekday_monday0": 0,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-05",
+          "weekday_monday0": 1,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-06",
+          "weekday_monday0": 2,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-07",
+          "weekday_monday0": 3,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-08",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-09",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-10",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-11",
+          "weekday_monday0": 0,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-12",
+          "weekday_monday0": 1,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-13",
+          "weekday_monday0": 2,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-14",
+          "weekday_monday0": 3,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-15",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-16",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-17",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-18",
+          "weekday_monday0": 0,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-19",
+          "weekday_monday0": 1,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-20",
+          "weekday_monday0": 2,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-21",
+          "weekday_monday0": 3,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-22",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-23",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-24",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-25",
+          "weekday_monday0": 0,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-26",
+          "weekday_monday0": 1,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-27",
+          "weekday_monday0": 2,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-28",
+          "weekday_monday0": 3,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-29",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-30",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-31",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-01",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-02",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-03",
+          "weekday_monday0": 2,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-04",
+          "weekday_monday0": 3,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-05",
+          "weekday_monday0": 4,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-06",
+          "weekday_monday0": 5,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-07",
+          "weekday_monday0": 6,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-08",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-09",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-10",
+          "weekday_monday0": 2,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-11",
+          "weekday_monday0": 3,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-12",
+          "weekday_monday0": 4,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-13",
+          "weekday_monday0": 5,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-14",
+          "weekday_monday0": 6,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-15",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-16",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-17",
+          "weekday_monday0": 2,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-18",
+          "weekday_monday0": 3,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-19",
+          "weekday_monday0": 4,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-20",
+          "weekday_monday0": 5,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-21",
+          "weekday_monday0": 6,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-22",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-23",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-24",
+          "weekday_monday0": 2,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-25",
+          "weekday_monday0": 3,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-26",
+          "weekday_monday0": 4,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-27",
+          "weekday_monday0": 5,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-28",
+          "weekday_monday0": 6,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-29",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-30",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-01",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-02",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-03",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-04",
+          "weekday_monday0": 5,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-05",
+          "weekday_monday0": 6,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-06",
+          "weekday_monday0": 0,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-07",
+          "weekday_monday0": 1,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-08",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-09",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-10",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-11",
+          "weekday_monday0": 5,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-12",
+          "weekday_monday0": 6,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-13",
+          "weekday_monday0": 0,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-14",
+          "weekday_monday0": 1,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-15",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-16",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-17",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-18",
+          "weekday_monday0": 5,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-19",
+          "weekday_monday0": 6,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-20",
+          "weekday_monday0": 0,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-21",
+          "weekday_monday0": 1,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-22",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-23",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-24",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-25",
+          "weekday_monday0": 5,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-26",
+          "weekday_monday0": 6,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-27",
+          "weekday_monday0": 0,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-28",
+          "weekday_monday0": 1,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-29",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-30",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-31",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "year",
+        "month"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "y-tabs",
+      "title": "Twelve edge tabs",
+      "title_zh": "十二月份侧签",
+      "primary_scale": "year",
+      "suggested_scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "role": "navigation",
+      "purpose": "多页系列的检索部件；位置编码月份，颜色仅作装饰。",
+      "tags": [
+        "tabs",
+        "month index",
+        "series"
+      ],
+      "cross_scale_adaptation": "年历作目录；月历保留当月签；日页可用侧签标识所在月份。",
+      "parameters": [
+        "year",
+        "tab depth",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/y-tabs.svg",
+      "sha256": "e5ced1a2a3a42983282f7a0c1110d992fb040649a3b5fdc6b4cfbdf71ddf56b9",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "y-weave",
+      "title": "Quarter weave",
+      "title_zh": "四分区织线",
+      "primary_scale": "year",
+      "suggested_scales": [
+        "year",
+        "month"
+      ],
+      "role": "ornament",
+      "purpose": "用于年历边框、封面或章节分隔的原创线纹；四区不代表季节或观测数据。",
+      "tags": [
+        "weave",
+        "line texture",
+        "quarters"
+      ],
+      "cross_scale_adaptation": "年历作四区底纹；月历只选其中一区，控制纹理与数字对比。",
+      "parameters": [
+        "line spacing",
+        "stroke",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/y-weave.svg",
+      "sha256": "3c549d5e91cd00bbd18ebe52c6177c3ed7c1b15db436cf4d403c1b53e2f99566",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "year",
+        "month"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "y-orbit",
+      "title": "Orbit ornament",
+      "title_zh": "环形装饰线",
+      "primary_scale": "year",
+      "suggested_scales": [
+        "year",
+        "day"
+      ],
+      "role": "ornament",
+      "purpose": "给径向构图提供可替换边饰；纯装饰，不是月相、日长或天文轨道。",
+      "tags": [
+        "rings",
+        "border",
+        "radial"
+      ],
+      "cross_scale_adaptation": "年历置于日期环之外；日页作低对比图像框，不能冒充天文数据。",
+      "parameters": [
+        "ring count",
+        "amplitude",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/y-orbit.svg",
+      "sha256": "4e0aa289ad882dfb73b7409d6d8c5186b8420eac9c555685f73caad6e2c5cfb8",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "year",
+        "day"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "m-mat",
+      "title": "Image mat + caption",
+      "title_zh": "主图卡纸与图注",
+      "primary_scale": "month",
+      "suggested_scales": [
+        "month",
+        "day"
+      ],
+      "role": "image-frame",
+      "purpose": "为横向主图、作品名与来源留出独立区域；不把文字压在复杂图像上。",
+      "tags": [
+        "image",
+        "caption",
+        "mat"
+      ],
+      "cross_scale_adaptation": "月历放整幅作品；日历选一个细节并保留原作身份。",
+      "parameters": [
+        "image aspect",
+        "mat width",
+        "caption depth"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/m-mat.svg",
+      "sha256": "7fe84e2194f3c60a800e38c3ac6765c94c971a5baf50feb7b24152b8e1288629",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "month",
+        "day"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "m-specimen",
+      "title": "Specimen label",
+      "title_zh": "博物学标本签",
+      "primary_scale": "month",
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "content-module",
+      "purpose": "适合植物、鸟类或材料图版的标题与出处；示例字段留空，不虚构物种与地点。",
+      "tags": [
+        "botanical",
+        "caption",
+        "archive"
+      ],
+      "cross_scale_adaptation": "月历形成图版系列；周页记录一次观察；日页形成一日一物。",
+      "parameters": [
+        "field names",
+        "rule spacing",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/m-specimen.svg",
+      "sha256": "3a3f4ed40f1e436bc4ec61e57d77fbf1a2c62534311d30191faca7220644dd0d",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "m-overprint",
+      "title": "Overprint planes",
+      "title_zh": "叠色几何片",
+      "primary_scale": "month",
+      "suggested_scales": [
+        "month",
+        "day"
+      ],
+      "role": "ornament",
+      "purpose": "原创不透明色片模拟叠印关系，可替换配色与方向；并非某种真实印刷效果证明。",
+      "tags": [
+        "geometric",
+        "overprint",
+        "color block"
+      ],
+      "cross_scale_adaptation": "月序列每月改变位置而保留语法；日序列一次只改变一个参数。",
+      "parameters": [
+        "plane positions",
+        "palette",
+        "scale"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/m-overprint.svg",
+      "sha256": "e91045eed653faadd0e622aa97a861af37883c5768fa06f69022f49bb4b4718f",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "month",
+        "day"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "m-dock",
+      "title": "Six-row date dock",
+      "title_zh": "可容纳六行的日期底座",
+      "primary_scale": "month",
+      "suggested_scales": [
+        "month"
+      ],
+      "role": "date-module",
+      "purpose": "固定六行空间，保留真实月份起点；非本月位置保持空白而非捏造日期。",
+      "tags": [
+        "six rows",
+        "lookup",
+        "date grid"
+      ],
+      "cross_scale_adaptation": "主图可以自由更换；七列与六行承载不同月份，仍需检查字号与写字面积。",
+      "parameters": [
+        "year",
+        "month",
+        "week start",
+        "cell size"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/m-dock.svg",
+      "sha256": "b4ae5e88d4cf599bf80589dd215c952e3818d8aa2227b893c6eb7f16f47c7a07",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-05-01",
+          "weekday_monday0": 5,
+          "row": 0,
+          "column": 5
+        },
+        {
+          "date": "2027-05-02",
+          "weekday_monday0": 6,
+          "row": 0,
+          "column": 6
+        },
+        {
+          "date": "2027-05-03",
+          "weekday_monday0": 0,
+          "row": 1,
+          "column": 0
+        },
+        {
+          "date": "2027-05-04",
+          "weekday_monday0": 1,
+          "row": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-05-05",
+          "weekday_monday0": 2,
+          "row": 1,
+          "column": 2
+        },
+        {
+          "date": "2027-05-06",
+          "weekday_monday0": 3,
+          "row": 1,
+          "column": 3
+        },
+        {
+          "date": "2027-05-07",
+          "weekday_monday0": 4,
+          "row": 1,
+          "column": 4
+        },
+        {
+          "date": "2027-05-08",
+          "weekday_monday0": 5,
+          "row": 1,
+          "column": 5
+        },
+        {
+          "date": "2027-05-09",
+          "weekday_monday0": 6,
+          "row": 1,
+          "column": 6
+        },
+        {
+          "date": "2027-05-10",
+          "weekday_monday0": 0,
+          "row": 2,
+          "column": 0
+        },
+        {
+          "date": "2027-05-11",
+          "weekday_monday0": 1,
+          "row": 2,
+          "column": 1
+        },
+        {
+          "date": "2027-05-12",
+          "weekday_monday0": 2,
+          "row": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-05-13",
+          "weekday_monday0": 3,
+          "row": 2,
+          "column": 3
+        },
+        {
+          "date": "2027-05-14",
+          "weekday_monday0": 4,
+          "row": 2,
+          "column": 4
+        },
+        {
+          "date": "2027-05-15",
+          "weekday_monday0": 5,
+          "row": 2,
+          "column": 5
+        },
+        {
+          "date": "2027-05-16",
+          "weekday_monday0": 6,
+          "row": 2,
+          "column": 6
+        },
+        {
+          "date": "2027-05-17",
+          "weekday_monday0": 0,
+          "row": 3,
+          "column": 0
+        },
+        {
+          "date": "2027-05-18",
+          "weekday_monday0": 1,
+          "row": 3,
+          "column": 1
+        },
+        {
+          "date": "2027-05-19",
+          "weekday_monday0": 2,
+          "row": 3,
+          "column": 2
+        },
+        {
+          "date": "2027-05-20",
+          "weekday_monday0": 3,
+          "row": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-05-21",
+          "weekday_monday0": 4,
+          "row": 3,
+          "column": 4
+        },
+        {
+          "date": "2027-05-22",
+          "weekday_monday0": 5,
+          "row": 3,
+          "column": 5
+        },
+        {
+          "date": "2027-05-23",
+          "weekday_monday0": 6,
+          "row": 3,
+          "column": 6
+        },
+        {
+          "date": "2027-05-24",
+          "weekday_monday0": 0,
+          "row": 4,
+          "column": 0
+        },
+        {
+          "date": "2027-05-25",
+          "weekday_monday0": 1,
+          "row": 4,
+          "column": 1
+        },
+        {
+          "date": "2027-05-26",
+          "weekday_monday0": 2,
+          "row": 4,
+          "column": 2
+        },
+        {
+          "date": "2027-05-27",
+          "weekday_monday0": 3,
+          "row": 4,
+          "column": 3
+        },
+        {
+          "date": "2027-05-28",
+          "weekday_monday0": 4,
+          "row": 4,
+          "column": 4
+        },
+        {
+          "date": "2027-05-29",
+          "weekday_monday0": 5,
+          "row": 4,
+          "column": 5
+        },
+        {
+          "date": "2027-05-30",
+          "weekday_monday0": 6,
+          "row": 4,
+          "column": 6
+        },
+        {
+          "date": "2027-05-31",
+          "weekday_monday0": 0,
+          "row": 5,
+          "column": 0
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "month"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "w-hours",
+      "title": "Time ladder",
+      "title_zh": "七日时间梯",
+      "primary_scale": "week",
+      "suggested_scales": [
+        "week",
+        "day"
+      ],
+      "role": "planning-module",
+      "purpose": "适合按时间段安排的一周；标注的小时是坐标，不代表用户真实日程。",
+      "tags": [
+        "time budget",
+        "seven days",
+        "hours"
+      ],
+      "cross_scale_adaptation": "周页并列七天；日页扩展一列并增加刻度，其他空间留给记录。",
+      "parameters": [
+        "anchor date",
+        "hour range",
+        "row height"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/w-hours.svg",
+      "sha256": "25637e3f409b7252971b78783540e1de86be525786e67224367e6d80248583da",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "week",
+        "day"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "w-notes",
+      "title": "Seven note stamps",
+      "title_zh": "七张日记条",
+      "primary_scale": "week",
+      "suggested_scales": [
+        "week",
+        "day"
+      ],
+      "role": "writing-module",
+      "purpose": "七天提供同等书写空间，保留日期与星期，避免把周末默认为不用记录。",
+      "tags": [
+        "equal area",
+        "notes",
+        "seven units"
+      ],
+      "cross_scale_adaptation": "周页排七条；日页放大一条，增加需要的字段。",
+      "parameters": [
+        "anchor date",
+        "columns",
+        "rule spacing"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/w-notes.svg",
+      "sha256": "39b7b62bc3ec219d4211a7b197787410736973c5974787b3c78a8ebcaf5cd3aa",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "week",
+        "day"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "w-habit",
+      "title": "Empty habit weave",
+      "title_zh": "空白习惯矩阵",
+      "primary_scale": "week",
+      "suggested_scales": [
+        "week",
+        "month"
+      ],
+      "role": "tracking-module",
+      "purpose": "允许用户自己写行名与勾选；未填写是未填写，不是未完成或坏的一天。",
+      "tags": [
+        "habit",
+        "blank state",
+        "matrix"
+      ],
+      "cross_scale_adaptation": "周页七列；月页按实际天数扩展，不能沿用七列而省略日期。",
+      "parameters": [
+        "anchor date",
+        "row names",
+        "checkbox size"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/w-habit.svg",
+      "sha256": "926d83b857ba2a2c6c170da877de9800953d1aad9e67759e9a5afab57cd9a524",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "week",
+        "month"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "w-margin",
+      "title": "Review + next margin",
+      "title_zh": "回顾与下周边栏",
+      "primary_scale": "week",
+      "suggested_scales": [
+        "week",
+        "month",
+        "day"
+      ],
+      "role": "reflection-module",
+      "purpose": "为周回顾和下一步留出不与时间表混淆的边栏；英文短提示为项目原创。",
+      "tags": [
+        "review",
+        "next",
+        "margin"
+      ],
+      "cross_scale_adaptation": "周/月页作收尾；日页可缩成一个可选问题，不强迫用户填满。",
+      "parameters": [
+        "prompts",
+        "rule count",
+        "width"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/w-margin.svg",
+      "sha256": "aa1d396139d06c2c22909f25410c043d88315423770775c58972a5c53a56ccb8",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "week",
+        "month",
+        "day"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "d-number",
+      "title": "Expressive day number",
+      "title_zh": "展示型单日数字",
+      "primary_scale": "day",
+      "suggested_scales": [
+        "day",
+        "month"
+      ],
+      "role": "type-module",
+      "purpose": "数字作为单页视觉主角，查阅信息用另一层级完整标注。",
+      "tags": [
+        "display numeral",
+        "hierarchy",
+        "date identity"
+      ],
+      "cross_scale_adaptation": "日页显示日号；月封面显示月号，不能让月号被误读成日期。",
+      "parameters": [
+        "date",
+        "font role",
+        "size",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/d-number.svg",
+      "sha256": "a1b3e91c428ee61fe85fa0bf07df6fd0c1911b7263615356aa0ef02053481c34",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "day",
+        "month"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "d-perforation",
+      "title": "Perforated edge",
+      "title_zh": "撕页孔线边饰",
+      "primary_scale": "day",
+      "suggested_scales": [
+        "day",
+        "week"
+      ],
+      "role": "carrier-motif",
+      "purpose": "向撕页形式借用视觉提示；图中孔线仅为平面图形，未验证实体装订和裁切。",
+      "tags": [
+        "tear off",
+        "edge",
+        "paper"
+      ],
+      "cross_scale_adaptation": "日页作页首边饰；周历作收尾分隔，不作为真实裁切工程图。",
+      "parameters": [
+        "hole spacing",
+        "edge depth",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/d-perforation.svg",
+      "sha256": "730a85379b94fca7f52b89afee992a69692c803bc151f95211bb5de33a761911",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "day",
+        "week"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "d-detail",
+      "title": "One image, four windows",
+      "title_zh": "单图局部连载窗口",
+      "primary_scale": "day",
+      "suggested_scales": [
+        "day",
+        "week",
+        "month"
+      ],
+      "role": "sequence-module",
+      "purpose": "预留四个局部观察窗口；衍生裁切仍要保留来源，不能宣称是四件独立作品。",
+      "tags": [
+        "detail",
+        "sequence",
+        "crop"
+      ],
+      "cross_scale_adaptation": "同图跨四天逐步观察，或月历主图搭配周页细节；先确认裁切权限。",
+      "parameters": [
+        "source image",
+        "crop positions",
+        "sequence length"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/d-detail.svg",
+      "sha256": "eb3d2bdc7c5398382b9796a29be7201a5a8b3ac5517787696da53432ee3e382a",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "day",
+        "week",
+        "month"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "d-observe",
+      "title": "Observation slip",
+      "title_zh": "一日观察笺",
+      "primary_scale": "day",
+      "suggested_scales": [
+        "day",
+        "week"
+      ],
+      "role": "writing-module",
+      "purpose": "用少量原创提示支持记录；空白区域保持可用，不预填励志语录。",
+      "tags": [
+        "journal",
+        "observation",
+        "prompt"
+      ],
+      "cross_scale_adaptation": "日页三个字段；周页七张短笺，按成品尺寸减少问题数量。",
+      "parameters": [
+        "prompts",
+        "rule spacing",
+        "field count"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/d-observe.svg",
+      "sha256": "1710422caa793ca92c09d045d1b8a8d6be3670b6ac7099a1cba9ff801ac7ab42",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference.",
+      "kind": "component",
+      "scales": [
+        "day",
+        "week"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified"
+    },
+    {
+      "id": "met-wave",
+      "title": "Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei)",
+      "title_zh": "浪与远山",
+      "creator": "Katsushika Hokusai",
+      "date": "ca. 1830–32",
+      "institution": "The Metropolitan Museum of Art",
+      "source_url": "https://www.metmuseum.org/art/collection/search/45434",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/45434",
+      "download_url": "https://images.metmuseum.org/CRDImages/as/web-large/DP130155.jpg",
+      "high_resolution_url": "https://images.metmuseum.org/CRDImages/as/original/DP130155.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.metmuseum.org/hubs/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "snapshot_path": "assets/library/open-images/evidence/met-wave.json"
+      },
+      "credit_line": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+      "attribution": "Katsushika Hokusai, Under the Wave off Kanagawa (Kanagawa oki nami ura), also known as The Great Wave, from the series Thirty-six Views of Mount Fuji (Fugaku sanjūrokkei), ca. 1830–32. The Metropolitan Museum of Art. H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929. CC0. https://www.metmuseum.org/art/collection/search/45434",
+      "sha256": "b76ccf0710b8e4b32e778a45e5398a0cf4777994523116f994a0430f4ee6a841",
+      "bytes": 166452,
+      "dimensions": {
+        "width": 600,
+        "height": 403
+      },
+      "local_path": "assets/library/open-images/met-wave.jpg",
+      "suggested_scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "tags": [
+        "sea",
+        "landscape",
+        "blue",
+        "horizontal",
+        "print"
+      ],
+      "usage_notes": "横幅主图；适合年历上方或月历图像区；保留波浪、船、远山的关系。非 12 张或 365 张完整系列。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 50.8,
+          "height": 34.1
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Katsushika Hokusai",
+          "role": "artist"
+        }
+      ],
+      "kind": "image",
+      "scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "role": "source-image",
+      "ready": true,
+      "distribution_status": "CC0-1.0"
+    },
+    {
+      "id": "met-roses",
+      "title": "Roses",
+      "title_zh": "绿底玫瑰",
+      "creator": "Vincent van Gogh",
+      "date": "1890",
+      "institution": "The Metropolitan Museum of Art",
+      "source_url": "https://www.metmuseum.org/art/collection/search/436534",
+      "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436534",
+      "download_url": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346475.jpg",
+      "high_resolution_url": "https://images.metmuseum.org/CRDImages/ep/original/DP346475.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.metmuseum.org/hubs/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "isPublicDomain": true,
+        "snapshot_path": "assets/library/open-images/evidence/met-roses.json"
+      },
+      "credit_line": "The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002",
+      "attribution": "Vincent van Gogh, Roses, 1890. The Metropolitan Museum of Art. The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002. CC0. https://www.metmuseum.org/art/collection/search/436534",
+      "sha256": "76e8b89371d4c4cc29abd13cde101bb3c786391cb9ea95ccea9390029f6c2413",
+      "bytes": 128833,
+      "dimensions": {
+        "width": 494,
+        "height": 624
+      },
+      "local_path": "assets/library/open-images/met-roses.jpg",
+      "suggested_scales": [
+        "month",
+        "day"
+      ],
+      "tags": [
+        "flower",
+        "painting",
+        "green",
+        "portrait"
+      ],
+      "usage_notes": "竖幅整图适合月历及每日艺术卡；笔触适合取色研究，日期另置底色块。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 41.8,
+          "height": 52.8
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Vincent van Gogh",
+          "role": "artist"
+        }
+      ],
+      "kind": "image",
+      "scales": [
+        "month",
+        "day"
+      ],
+      "role": "source-image",
+      "ready": true,
+      "distribution_status": "CC0-1.0"
+    },
+    {
+      "id": "cma-tulip",
+      "title": "Study of a Tulip (Perregoen Machieu)",
+      "title_zh": "一枝郁金香",
+      "creator": "Pieter Holsteyn II (Dutch, c.1612–1673)",
+      "date": "c. 1645",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/2020.133",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/380063",
+      "download_url": "https://openaccess-cdn.clevelandart.org/2020.133/2020.133_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/2020.133/2020.133_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-tulip.json"
+      },
+      "credit_line": "Nancy F. and Joseph P. Keithley Collection Gift",
+      "attribution": "Pieter Holsteyn II (Dutch, c.1612–1673), Study of a Tulip (Perregoen Machieu), c. 1645. The Cleveland Museum of Art. Nancy F. and Joseph P. Keithley Collection Gift. CC0. https://clevelandart.org/art/2020.133",
+      "sha256": "b453cf0c90231d66ca7f6979b2cb40349f379b8225bd2057dc735f9919cd0e3c",
+      "bytes": 237234,
+      "dimensions": {
+        "width": 688,
+        "height": 900
+      },
+      "local_path": "assets/library/open-images/cma-tulip.jpg",
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "botanical",
+        "red",
+        "cream",
+        "portrait",
+        "specimen"
+      ],
+      "usage_notes": "单枝植物适合页边留白或每日标本；图像原有文字需保留或明确记录裁切，不将其当作日历文字。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 58.3,
+          "height": 76.2
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Pieter Holsteyn II (Dutch, c.1612–1673)",
+          "role": "artist",
+          "qualifier": null
+        }
+      ],
+      "kind": "image",
+      "scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "source-image",
+      "ready": true,
+      "distribution_status": "CC0-1.0"
+    },
+    {
+      "id": "cma-lily",
+      "title": "The Botanical Magazine or Flower Garden Displayed:  White Cape - Coast Lily",
+      "title_zh": "百合植物图版",
+      "creator": "Sydenham Edwards (artist); Thomas Curtis (publisher)",
+      "date": "1806",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1955.142",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/132618",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1955.142/1955.142_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1955.142/1955.142_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-lily.json"
+      },
+      "credit_line": "Gift of Mrs. A. B. Leavelle, Stanford, Cal., in memory of her mother, Wilma Ball Morgan (Mrs. Daniel E. Morgan)",
+      "attribution": "Sydenham Edwards (artist); Thomas Curtis (publisher), The Botanical Magazine or Flower Garden Displayed:  White Cape - Coast Lily, 1806. The Cleveland Museum of Art. Gift of Mrs. A. B. Leavelle, Stanford, Cal., in memory of her mother, Wilma Ball Morgan (Mrs. Daniel E. Morgan). CC0. https://clevelandart.org/art/1955.142",
+      "sha256": "c8bdcac62bd1683fa966738c975544f27059b9c24a0ae35453eed2085ecbc1f7",
+      "bytes": 62628,
+      "dimensions": {
+        "width": 750,
+        "height": 607
+      },
+      "local_path": "assets/library/open-images/cma-lily.jpg",
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "botanical",
+        "engraving",
+        "cream",
+        "horizontal"
+      ],
+      "usage_notes": "植物图版适合月主题或周页窄横图；植物题材不代表当月当地真实花期。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 63.5,
+          "height": 51.4
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Sydenham Edwards (British, 1768–1819)",
+          "role": "artist",
+          "qualifier": null
+        },
+        {
+          "name": "Thomas Curtis (British, 1846–1920)",
+          "role": "publisher",
+          "qualifier": null
+        }
+      ],
+      "kind": "image",
+      "scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "source-image",
+      "ready": true,
+      "distribution_status": "CC0-1.0"
+    },
+    {
+      "id": "cma-bird",
+      "title": "Bird on a Flowering Branch",
+      "title_zh": "白梅与禽",
+      "creator": "Artist not identified / China, Southern Song dynasty (1127–1279)",
+      "date": "1100s",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1985.371",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/152556",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1985.371/1985.371_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1985.371/1985.371_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-bird.json"
+      },
+      "credit_line": "The Kelvin Smith Collection, given by Mrs. Kelvin Smith",
+      "attribution": "Artist not identified / China, Southern Song dynasty (1127–1279), Bird on a Flowering Branch, 1100s. The Cleveland Museum of Art. The Kelvin Smith Collection, given by Mrs. Kelvin Smith. CC0. https://clevelandart.org/art/1985.371",
+      "sha256": "f61c7011eff77b40231dbe53fe65162e593f2391849f805d474298fb9cb8988e",
+      "bytes": 406234,
+      "dimensions": {
+        "width": 900,
+        "height": 887
+      },
+      "local_path": "assets/library/open-images/cma-bird.jpg",
+      "suggested_scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "bird",
+        "plum",
+        "ink",
+        "silk",
+        "square"
+      ],
+      "usage_notes": "方幅花鸟适合年历角图、月历主图或每日观察卡；若裁切应保持鸟与花枝关系，避免误归作者。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 76.2,
+          "height": 75.1
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [],
+      "kind": "image",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "source-image",
+      "ready": true,
+      "distribution_status": "CC0-1.0"
+    },
+    {
+      "id": "cma-snow",
+      "title": "Snow Landscape",
+      "title_zh": "雪中山水",
+      "creator": "Yosa Buson (Japanese, 1716–1783)",
+      "date": "mid-1770s",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1997.111",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/159739",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1997.111/1997.111_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1997.111/1997.111_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-snow.json"
+      },
+      "credit_line": "Bequest of Mrs. A. Dean Perry",
+      "attribution": "Yosa Buson (Japanese, 1716–1783), Snow Landscape, mid-1770s. The Cleveland Museum of Art. Bequest of Mrs. A. Dean Perry. CC0. https://clevelandart.org/art/1997.111",
+      "sha256": "2e6de74359116a1abd479f903cb2146099c7b0d3a8695024b55f26acb841bda8",
+      "bytes": 145411,
+      "dimensions": {
+        "width": 362,
+        "height": 900
+      },
+      "local_path": "assets/library/open-images/cma-snow.jpg",
+      "suggested_scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "tags": [
+        "winter",
+        "landscape",
+        "ink",
+        "portrait",
+        "narrow"
+      ],
+      "usage_notes": "窄长幅可做年历侧栏或冬季月页；不要把冬季主题绑定所有用户的 12 月（地区与半球不同）。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 30.6,
+          "height": 76.2
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Yosa Buson (Japanese, 1716–1783)",
+          "role": "artist",
+          "qualifier": null
+        }
+      ],
+      "kind": "image",
+      "scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "role": "source-image",
+      "ready": true,
+      "distribution_status": "CC0-1.0"
+    },
+    {
+      "id": "cma-lace",
+      "title": "Fragment of a Border with Floral Vine and Geometric Patterns",
+      "title_zh": "花藤与几何蕾丝",
+      "creator": "Artist not identified / Italy",
+      "date": "1500s",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1920.1267",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/100909",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1920.1267/1920.1267_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1920.1267/1920.1267_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-lace.json"
+      },
+      "credit_line": "Gift of Myrta Leonora Jones",
+      "attribution": "Artist not identified / Italy, Fragment of a Border with Floral Vine and Geometric Patterns, 1500s. The Cleveland Museum of Art. Gift of Myrta Leonora Jones. CC0. https://clevelandart.org/art/1920.1267",
+      "sha256": "f352d5c837898a3e54fde9c4df23aac8022596cad32b00d6620f8d46fd087b57",
+      "bytes": 257886,
+      "dimensions": {
+        "width": 900,
+        "height": 493
+      },
+      "local_path": "assets/library/open-images/cma-lace.jpg",
+      "suggested_scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "textile",
+        "geometric",
+        "border",
+        "cream",
+        "horizontal"
+      ],
+      "usage_notes": "适合页边饰带或材质研究；原图含破损边缘，不把单件片段声称为无缝平铺纹理。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 76.2,
+          "height": 41.7
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [],
+      "kind": "image",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "source-image",
+      "ready": true,
+      "distribution_status": "CC0-1.0"
+    },
+    {
+      "id": "cma-moon",
+      "title": "The Moon-Viewing Promontory, from One Hundred Views of Famous Places in Edo",
+      "title_zh": "月之岬",
+      "creator": "Utagawa Hiroshige (Japanese, 1797–1858)",
+      "date": "1857",
+      "institution": "The Cleveland Museum of Art",
+      "source_url": "https://clevelandart.org/art/1985.320",
+      "metadata_url": "https://openaccess-api.clevelandart.org/api/artworks/152499",
+      "download_url": "https://openaccess-cdn.clevelandart.org/1985.320/1985.320_web.jpg",
+      "high_resolution_url": "https://openaccess-cdn.clevelandart.org/1985.320/1985.320_print.jpg",
+      "license": "CC0-1.0",
+      "rights_url": "https://www.clevelandart.org/open-access",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "verified_at": "2026-10-29",
+      "rights_evidence": {
+        "share_license_status": "CC0",
+        "snapshot_path": "assets/library/open-images/evidence/cma-moon.json"
+      },
+      "credit_line": "The Kelvin Smith Collection, given by Mrs. Kelvin Smith",
+      "attribution": "Utagawa Hiroshige (Japanese, 1797–1858), The Moon-Viewing Promontory, from One Hundred Views of Famous Places in Edo, 1857. The Cleveland Museum of Art. The Kelvin Smith Collection, given by Mrs. Kelvin Smith. CC0. https://clevelandart.org/art/1985.320",
+      "sha256": "9330ce9c099a78d892c638ddc0dcf3194f94805c01b77d271b04feeacadd0042",
+      "bytes": 252301,
+      "dimensions": {
+        "width": 613,
+        "height": 900
+      },
+      "local_path": "assets/library/open-images/cma-moon.jpg",
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "moon",
+        "interior",
+        "blue",
+        "green",
+        "portrait",
+        "print"
+      ],
+      "usage_notes": "可做月页、周页主图或日页艺术卡；画中满月为题材，不能用作 2027 年某日月相数据。",
+      "modifications": "None. Official web-sized JPEG rendition, retained byte-for-byte.",
+      "print_use": {
+        "retained_rendition": "web-sized; screen study and small print only",
+        "maximum_mm_at_300ppi": {
+          "width": 51.9,
+          "height": 76.2
+        },
+        "larger_output": "Retrieve official high_resolution_url, inspect dimensions and retain new bytes/hash before final print."
+      },
+      "creator_roles": [
+        {
+          "name": "Utagawa Hiroshige (Japanese, 1797–1858)",
+          "role": "artist",
+          "qualifier": null
+        }
+      ],
+      "kind": "image",
+      "scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "source-image",
+      "ready": true,
+      "distribution_status": "CC0-1.0"
+    },
+    {
+      "id": "font-instrumentserif",
+      "title": "instrumentserif",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "typography",
+      "tags": [
+        "type",
+        "numeral",
+        "instrumentserif"
+      ],
+      "local_files": [
+        {
+          "path": "assets/fonts/instrumentserif/InstrumentSerif-Regular.ttf",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+          "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+          "modified": false
+        },
+        {
+          "path": "assets/fonts/instrumentserif/InstrumentSerif-Italic.ttf",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf",
+          "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385",
+          "modified": false
+        },
+        {
+          "path": "assets/fonts/instrumentserif/OFL.txt",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/OFL.txt",
+          "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+          "modified": false
+        }
+      ],
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "ready": true,
+      "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
+      "source_record": "assets/fonts/provenance.json"
+    },
+    {
+      "id": "font-ibmplexmono",
+      "title": "ibmplexmono",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "typography",
+      "tags": [
+        "type",
+        "numeral",
+        "ibmplexmono"
+      ],
+      "local_files": [
+        {
+          "path": "assets/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+          "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+          "modified": false
+        },
+        {
+          "path": "assets/fonts/ibmplexmono/IBMPlexMono-Medium.ttf",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+          "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+          "modified": false
+        },
+        {
+          "path": "assets/fonts/ibmplexmono/OFL.txt",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+          "modified": false
+        }
+      ],
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "ready": true,
+      "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
+      "source_record": "assets/fonts/provenance.json"
+    },
+    {
+      "id": "font-ibmplexsanscondensed",
+      "title": "ibmplexsanscondensed",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "typography",
+      "tags": [
+        "type",
+        "numeral",
+        "ibmplexsanscondensed"
+      ],
+      "local_files": [
+        {
+          "path": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+          "sha256": "e7437c072eef2ef592ae6f2beb0000446287385907abb57ac1cf07bcbaa2aa33",
+          "modified": false
+        },
+        {
+          "path": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.ttf",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.ttf",
+          "sha256": "426350c298277f7f9d1a93956572799ca3d16e2d43e7f60eec8382bcd795ec30",
+          "modified": false
+        },
+        {
+          "path": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
+          "sha256": "a081ca60548aea14100757a2d6fe71ca60fd90ebce779c9a8ae5a0c8fb4526d4",
+          "modified": false
+        },
+        {
+          "path": "assets/fonts/ibmplexsanscondensed/OFL.txt",
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+          "modified": false
+        }
+      ],
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "ready": true,
+      "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
+      "source_record": "assets/fonts/provenance.json"
+    },
+    {
+      "id": "paper-light-j4",
+      "title": "Paper and light / retained generated image",
+      "kind": "image",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "source-image",
+      "tags": [
+        "abstract",
+        "light",
+        "paper",
+        "blue",
+        "apricot"
+      ],
+      "local_path": "assets/images/paper-light/paper-light-j4-v1.png",
+      "source_record": "assets/images/paper-light/provenance.json",
+      "rights_status": "project-generated-provenance-recorded",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "usage_notes": "Original selected asset already used in J4. Generation metadata is recorded; no blanket public reuse grant is asserted."
+    },
+    {
+      "id": "ref-y-01",
+      "scales": [
+        "year"
+      ],
+      "element": "连续周骨架与跨月计划条",
+      "source": "NeuYear",
+      "title": "Monday First Large Wall Calendar",
+      "url": "https://www.neuyear.net/products/monday-first-large-wall-calendar",
+      "observed": "官方产品图与说明均展示整年连续周，不在换月处切断星期；提供可写纸面与可擦表面。",
+      "transfer": "按真实日期生成连续周坐标，月份只加分界与标签；用独立跨日条表示旅行、项目等区间，保留写入空间。",
+      "cross_scale": "月历保留相邻月日期以接续周；周历提供跨周延续标记。",
+      "caution": "宣传文案称52周，不应成为渲染常数；2027的周一起始全年显示会占53个周位置。",
+      "tags": [
+        "continuous-weeks",
+        "interval",
+        "writing",
+        "surface"
+      ],
+      "visual_evidence": "官方产品主图已检查，月份边界与全年同屏可见。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-y-02",
+      "scales": [
+        "year"
+      ],
+      "element": "径向层带与天文语义",
+      "source": "Anaptár / Anna Farkas",
+      "title": "About Anaptár",
+      "url": "https://anaptar.com/about/",
+      "observed": "官方说明将日月数据与年度循环结合；已检查的展览照片可见大型同心圆与细密径向标记。",
+      "transfer": "先明确每圈代表什么、角度按日还是按月，再给数据环独立图例。只借用循环与分层的组织概念，重新设计比例、标记和标签。",
+      "cross_scale": "月历可放单月月相带；日历可放单日经核验的天文记录。",
+      "caution": "若提供真实天文内容，须另有年份、时区、地点及数据来源；当前图片不能作为2027天文数据。",
+      "tags": [
+        "radial",
+        "astronomy",
+        "layer",
+        "cyclic"
+      ],
+      "visual_evidence": "官网展览照片已检查；图中小字与具体数据值未逐项核验。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-y-03",
+      "scales": [
+        "year"
+      ],
+      "element": "十二月纵列、周末底色与页脚索引",
+      "source": "Crispin Finn",
+      "title": "2027 Year Planner Portrait Format",
+      "url": "https://www.crispinfinn.com/products/2027-year-planner-classic-portrait-view",
+      "observed": "官方产品图中12个月平行纵列，日期顺序自上而下；浅底色标出周末，页脚汇总符号。说明列出两色印刷、季度、周号与月相等索引。",
+      "transfer": "把主任务设为同日跨月对照；只选少量辅助编码，并为每类编码留解释。两专色限制可作为自行设计的印刷约束。",
+      "cross_scale": "月历把索引缩成页角；周历保留一种重点或状态色。",
+      "caution": "月相、节假日和夏令时具有地区/数据条件；不要直接移植英国标注到中国用户版本。",
+      "tags": [
+        "month-strips",
+        "index",
+        "two-ink",
+        "weekend"
+      ],
+      "visual_evidence": "官方正面产品图已检查；网页将Portrait写成Landscape的文字矛盾不作为方向判断依据。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-y-04",
+      "scales": [
+        "year"
+      ],
+      "element": "每日状态阵列与累积反馈",
+      "source": "Yetch Studio / Simone Giertz",
+      "title": "Every Day Calendar",
+      "url": "https://yetch.studio/products/refurbished-every-day-calendar",
+      "observed": "官方图中12列日期触点以亮/暗呈现状态，产品说明强调逐日点亮记录目标。",
+      "transfer": "用一日一单元的阵列承载用户自己的状态；区分未记录、已完成与不存在的日期。纸面可以用圈填或贴点，网页可以交互点亮。",
+      "cross_scale": "月历为28—31个状态单元；周历为七次观察；日历为单次记录和年度位置。",
+      "caution": "亮起不能自动解释为成功或健康；语义由用户选择。官网称硬件开源不代表产品摄影或外观图的复用许可已经核验。",
+      "tags": [
+        "day-field",
+        "state",
+        "habit",
+        "interaction"
+      ],
+      "visual_evidence": "官方产品主图已检查。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-m-01",
+      "scales": [
+        "month"
+      ],
+      "element": "字体作为每月主题",
+      "source": "Studio Hinrichs",
+      "title": "365 Typography Calendar",
+      "url": "https://www.studio-hinrichs.com/365-typography-calendar",
+      "observed": "官方工作室介绍每月更换字体，并介绍字体及设计者；已检查的2027封面以多种数字形态叠合成365。",
+      "transfer": "可使用已获许可的字体组织12个月的字形探索；保持年月、星期、日期查询的锚点一致，把变化集中在展示数字或月名。",
+      "cross_scale": "年历将12个字形缩成目录；周历每周更换一个展示字形；日历可放一个大数字加字形说明。",
+      "caution": "字体作为主题不等于可随意分发字体文件；本项目优先使用已有OFL字体。不要复制原封面的叠字轮廓。",
+      "tags": [
+        "type-led",
+        "series",
+        "display-numeral",
+        "annotation"
+      ],
+      "visual_evidence": "2027封面已检查；每月字体主题由工作室官方文字介绍确认，未声称检查全部12个月页面。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-m-02",
+      "scales": [
+        "month"
+      ],
+      "element": "植物图像主区与固定日期锚点",
+      "source": "Rifle Paper Co.",
+      "title": "2027 Wall Calendar — Botanical Garden",
+      "url": "https://riflepaperco.com/products/2027-wall-calendar-botanical-garden",
+      "observed": "官网有完整产品图片组与植物主题，官方说明设计从Anna Bond的原创水粉画开始；封面可见丰富花叶组合与装饰边框。",
+      "transfer": "自建12张有统一裁切和颜色范围的植物系列；把图像主区与日期查询区分配固定位置。可改用公共领域图版或自己的作品。",
+      "cross_scale": "年历取每月一个小型植物符号；周历用一段局部；日历用单个物种与可核验标签。",
+      "caution": "不要把品牌的具体花叶、边框和绘画组合当作免费素材。植物开花月份不能凭画面猜测，应提供地区或标为主题编排。",
+      "tags": [
+        "botanical",
+        "image-led",
+        "series",
+        "framing"
+      ],
+      "visual_evidence": "官方封面已检查；产品图片组可访问，具体月份内容未全部逐页核验。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-m-03",
+      "scales": [
+        "month"
+      ],
+      "element": "纹样与数字共同构成装饰画",
+      "source": "D-BROS / 渡邉良重",
+      "title": "2027 Calendar CACUMA Patterns",
+      "url": "https://d-bros.jp/products/2027-calendar-cacuma-patterns",
+      "observed": "官方一月图可见条带纹样、独立月名和下方小型日期带；说明12个月取自其服装品牌纹样，6张双面纸配杆与绳悬挂。",
+      "transfer": "把自有纹样作为每月可换的主图模块；固定日期带的位置与最小字号。以纸、杆、挂绳的组合反推上边留量和双面翻页顺序。",
+      "cross_scale": "年历只用12块纹样色样；周历用一条窄纹样；日历用单个裁切片段。",
+      "caution": "品牌纹样、专用字形与具体挂绳装饰不进入本项目资产；应另画原创图案。",
+      "tags": [
+        "pattern",
+        "textile",
+        "hanging",
+        "double-sided"
+      ],
+      "visual_evidence": "官方一月正面产品图已检查。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-m-04",
+      "scales": [
+        "month"
+      ],
+      "element": "双月季节图谱与内容注记",
+      "source": "D-BROS / 小山麻子",
+      "title": "2027 二十四節気カレンダー",
+      "url": "https://d-bros.jp/products/2027-24sekki-calendar",
+      "observed": "官方一二月图把两个日期网格置于食材、草木与器物线描之间；说明为一页两月、周日起始，并介绍节气、旬物与季节活动。",
+      "transfer": "把季节内容做成可独立校对的模块：主题图、简短注记、发生日期和地区。图像围绕网格留白，而不是挤进每个日期单元。",
+      "cross_scale": "年历为24个节气索引；周历选本周的一次自然观察；日历展开一项内容。",
+      "caution": "日本季节生活经验不是普遍气候事实。中国版本的节气时刻、农事或物候须另找可靠来源；不得复制原画和文案。",
+      "tags": [
+        "seasonal",
+        "solar-terms",
+        "field-notes",
+        "two-month"
+      ],
+      "visual_evidence": "官方一二月双月页面图已检查。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-m-05",
+      "scales": [
+        "month"
+      ],
+      "element": "摄影片段、数字节奏与实体悬挂",
+      "source": "D-BROS / 植原亮辅",
+      "title": "2027 Calendar TOMORROWS",
+      "url": "https://d-bros.jp/products/2027-calendar-tomorrows",
+      "observed": "官方一月图可见上方模糊摄影带与下方大日期数字；作者说明用叠色表达时间渐变，并以金属杆、纸与绳组织悬挂。",
+      "transfer": "把变化分成摄影序列和日期系统两层；从自己的照片选取统一高宽比的片段。若研究字色接触，先做可读性对照，不照搬该作品的特定叠合构图。",
+      "cross_scale": "年历为12段摄影摘要；周历选同一场景的7个观察；日历把单张照片与日期并置。",
+      "caution": "摄影与数字不能互相遮住识别线索；模糊摄影应来自明确授权素材或原创生成资产。",
+      "tags": [
+        "photography",
+        "color-layer",
+        "series",
+        "hanging"
+      ],
+      "visual_evidence": "官方一月正面产品图已检查。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "ref-m-06",
+      "scales": [
+        "month"
+      ],
+      "element": "博物学主题、艺术图版与可写网格",
+      "source": "Pomegranate / Alexander Viazmensky",
+      "title": "Mushrooms 2027 Wall Calendar",
+      "url": "https://www.pomegranate.com/products/mushrooms-alexander-viazmensky-2027-wall-calendar",
+      "observed": "官方封面展示水彩菌类图版，说明有12张月网格及彩色艺术图，可在网格写字；产品页列出多个内页图。",
+      "transfer": "每月围绕同一分类挑选一张图版，用统一图题和来源行建立系列；日期网格维持书写空间，不由图像复杂度挤占。",
+      "cross_scale": "年历为12图目录；周历选一张细节；日历为单物种卡片加来源或观察栏。",
+      "caution": "这里的当代水彩画属于研究参考；若需要复用图像，应换成逐件核验的公共领域图版。题材是蘑菇不等于具备食用鉴定效力。",
+      "tags": [
+        "natural-history",
+        "art-plate",
+        "writing",
+        "curation"
+      ],
+      "visual_evidence": "官方封面已检查，12个月网格与可写性由产品详情确认；未声称核验全部内页。",
+      "verified_at": "2026-10-29",
+      "rights_status": "research-only",
+      "rights_note": "公开可查看的官方参考。未取得产品图、插画、照片、专用字形或版面文件的再分发许可；本记录只保留链接与原创分析。",
+      "local_asset": null,
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only"
+    },
+    {
+      "id": "weekly-hobonichi-24h",
+      "scales": [
+        "week"
+      ],
+      "title": "Hobonichi Weekly Calendar 2027",
+      "source": "Hobonichi 官方商店",
+      "url": "https://www.1101.com/store/techo/en/2027/pc/detail_toolstoys/tt_weekly2027/",
+      "element": "七天并排时轴与每天三个勾选项",
+      "observed": "官方说明一周占双页，每日有 24 小时时轴和三个勾选项；方格纸、可摊平装订、小册可插入封套。",
+      "evidence": {
+        "kind": "official-text-and-linked-gallery",
+        "locator": "About the product；Specifications",
+        "image_url": "https://www.1101.com/store/techo/2027/detail_images/tt_weekly2027/prod_01.webp"
+      },
+      "use": "比较同一周不同日的时间占用，并把少量优先事项和具体时段分开。",
+      "transfer": "把时间轴与任务栏设为两个可选模块；先确定全日或自定义小时范围，再分配留白。24 个刻度太密时采用 2/3 小时间隔，仍明确真实时间位置。",
+      "cross_scale": {
+        "day": "单独放大一天时轴，保留同样的小时标度；加大写入空间。",
+        "month": "只保留重要预约标记，不把完整小时表塞入每个日期格。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "产品照片、具体版面比例、品牌字样或专有纸张身份；重新绘制通用时轴不等于获得其整套版面授权。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "weekly-travelers-open-memo",
+      "scales": [
+        "week"
+      ],
+      "title": "TRAVELER'S notebook 019 Free Diary <Weekly + Memo>",
+      "source": "TRAVELER'S COMPANY 官方产品页",
+      "url": "https://www.travelers-company.com/products/trnote/refill-regular/refill-r-019",
+      "element": "左页一周、右页方格自由笔记；无预印日期",
+      "observed": "官方说明左侧记录一周计划，右侧为可写画的方格笔记；无日期，可自由开始。产品说明也举出清单、贴标签和剪贴的用途。",
+      "evidence": {
+        "kind": "official-text-and-linked-gallery",
+        "locator": "019 Free Diary 正文和产品图片",
+        "image_url": "https://www.travelers-company.com/wp-content/themes/traveralers/images/products/trnote/04_refill_r/019/img_02.png"
+      },
+      "use": "让有日期的记录保持易查，同时给尚未归属某一天的想法留位置。",
+      "transfer": "把日期面和自由面建成独立容器；允许空白、点阵、方格、照片拼贴作为右侧模块；无日期模式与确定日期模式明确切换。",
+      "cross_scale": {
+        "month": "月历旁配一块整月自由板，适合主题、愿望或手绘。",
+        "day": "当天日程与自由观察分栏。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "不复制品牌标签、产品摄影、原有纸纹或完整内页；借用的是日期区与自由区并置的通用原则。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "weekly-midori-daylight",
+      "scales": [
+        "week"
+      ],
+      "title": "MIDORI Gradation Diary 2027",
+      "source": "MIDORI / Designphil 官方产品介绍",
+      "url": "https://www.midori-japan.co.jp/english/products/diary/#gradation",
+      "element": "24 小时时轴上的昼夜渐变、月相符号和季节记录",
+      "observed": "官方说明周竖版用渐变表现早晨到夜间的光线变化，也表现季节与日照时长变化；有月相图标及季节、习惯记录附页。",
+      "evidence": {
+        "kind": "official-text-and-linked-gallery",
+        "locator": "Gradation Diary / Features；正文 409–455 行",
+        "gallery_url": "https://www.midori-japan.co.jp/english/products/diary/"
+      },
+      "use": "让日程表具有可感知的自然节律，而不只由工作时间定义一天。",
+      "transfer": "设计可选的低对比度昼夜色带。若表现真实日出、日落或月相，必须绑定日期、地点、时区与可追溯数据；未接数据的渐变只标成装饰。",
+      "cross_scale": {
+        "year": "把每日昼长作为全年曲线或带宽变化，需要地点一致。",
+        "day": "当天的晨、昼、暮、夜可成为背景分区。",
+        "month": "只在日期格角落显示已核验月相，不占用写入区。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "产品图、具体渐变方案、月相图标与插画；渐变不能被默认当作本项目已算出的天文数据。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "weekly-markfold-flexible-grid",
+      "scales": [
+        "week"
+      ],
+      "title": "Diary Details: 10 things that make ours different",
+      "source": "MARK+FOLD / Amy Cooper-Wright 官方设计说明，2025-10-10",
+      "url": "https://markandfold.com/blogs/pick-your-planner/diary-details",
+      "element": "不规定用途的分区、第八列、轻重不同的线条和可迁移便签",
+      "observed": "作者说明日区有分段但不标早晚或小时；八列中的额外一列放在一周开头；底部另有点阵区；配套 Note Block 和日记共用网格。",
+      "evidence": {
+        "kind": "official-designer-explanation-and-linked-images",
+        "locator": "章节 1、3、4、6、7、9",
+        "image_url": "https://cdn.shopify.com/s/files/1/0435/6698/9476/files/Mark_Fold-week-view-Diary_Aerial-view_1024x1024.jpg?v=1730915178"
+      },
+      "use": "适合按主题而非小时规划一周，也容纳会移动的计划。",
+      "transfer": "把标注密度、分区名与清单位置设为用户选项；共享基础网格可以让便签、纸卡和日历互相嵌合。",
+      "cross_scale": {
+        "month": "整月增加一个无日期的待定事项栏，并共享模块尺寸。",
+        "day": "当天保留两个无指定用途的开放区。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "独特版面、专用 Brown 字体文件、原有字距比例或产品图片；共用网格原则须独立实现。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "weekly-kokuyo-life-log",
+      "scales": [
+        "week"
+      ],
+      "title": "KOKUYO Jibun Techo Standard DIARY",
+      "source": "KOKUYO 官方系列页",
+      "url": "https://www.kokuyo.com/en/stationery/series/jibun-techo/standard/",
+      "element": "等宽周末、24 小时生活日志和可分离的 LIFE / IDEA 分册",
+      "observed": "官方列出周竖版的 24 小时时轴、等尺寸周末、天气、月龄、日出日落、餐食和每日感想；LIFE 与 IDEA 可另外组合。",
+      "evidence": {
+        "kind": "official-text-and-linked-gallery",
+        "locator": "Standard DIARY content list；LIFE / IDEA 介绍",
+        "gallery_url": "https://www.kokuyo.com/en/stationery/series/jibun-techo/standard/#"
+      },
+      "use": "把生活观察与预约一起记录，同时把长期信息和当年记录分开。",
+      "transfer": "先让用户选 1–3 个愿意持续填写的字段，再决定网格密度；周末面积是可配置决策，不能默认等于工作日的一半。长期日志、即时笔记和日期视图采用分离模块。",
+      "cross_scale": {
+        "day": "放大一个生活观察字段，而不是不断添加表格。",
+        "month": "汇总本人实际填写的记录；无记录与零值分别表示。",
+        "year": "长期信息跨年保存，当年日期页可替换。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "整套字段顺序、原始版面、产品摄影或图标；不可从该商品介绍直接获得本地天气、月相等数据。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "daily-mack-art-sequence",
+      "scales": [
+        "day"
+      ],
+      "title": "Page-A-Day Calendar 2026 — Damien Poulain",
+      "source": "MACK / SPBH Editions 官方产品页",
+      "url": "https://www.mackpublishing.au/products/page-a-day-calendar-2026-damien-poulain",
+      "element": "每天揭示一幅新作品，撕页改变物体轮廓与厚度",
+      "observed": "出版方说明有 365 幅原创抽象构图，A5 薄纸，放在平面上，移除每页使整体逐渐变化；产品标为 tear-off calendar。",
+      "evidence": {
+        "kind": "official-text-and-linked-gallery",
+        "locator": "产品描述、PRODUCT SPECIFICATIONS 和多幅内页照片",
+        "gallery_url": "https://www.mackpublishing.au/products/page-a-day-calendar-2026-damien-poulain"
+      },
+      "use": "通过日复一日的揭示与实物变化，感受时间消逝。",
+      "transfer": "为本项目原创作品或授权素材制定全年的序列规则：锚点固定，构图或主题逐日变化；保留完整资产序列与日期映射，避免每次打开都重新随机。",
+      "cross_scale": {
+        "week": "七幅构成一组节奏，可做条带或七联画。",
+        "month": "从当天作品抽取十二组月主题，但不声称复制了原作者的语言。",
+        "year": "用全部日页的微缩索引呈现全年序列。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "365 幅作品、作者标志性构图、产品照片；本库不下载这些作品，也不提供模仿作者的生成提示。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "daily-chronicle-same-date-years",
+      "scales": [
+        "day"
+      ],
+      "title": "One Line a Day: A Five-Year Memory Book",
+      "source": "Chronicle Books 官方产品页",
+      "url": "https://www.chroniclebooks.com/products/one-line-a-day-a-five-year-memory-book",
+      "element": "同一月日的一页，容纳连续五年的短记录",
+      "observed": "官方说明每页含连续五年的记录位置，写当天时也能回看往年同一天。它是多年度日记，不能因此称为 365 张单年撕页。",
+      "evidence": {
+        "kind": "official-text-and-linked-product-images",
+        "locator": "DESCRIPTION；每页五年条目说明",
+        "gallery_url": "https://www.chroniclebooks.com/products/one-line-a-day-a-five-year-memory-book"
+      },
+      "use": "将日常短记录变成跨年可比较的个人记忆。",
+      "transfer": "按月日聚合短文本，年份作为并列身份；设计闰日专门条目，不把没有记录误写成没有发生。数字版应保留导出和隐私边界。",
+      "cross_scale": {
+        "week": "七个同月日记录组成每周回看。",
+        "month": "以月为入口浏览往年片段；不必挤进普通月网格。",
+        "year": "个人选择的年度片段可形成索引。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "封面、原有内页排版或商品文字；用户后来写入的私密日志不进入公开模板。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "daily-audubon-photo-gallery",
+      "scales": [
+        "day"
+      ],
+      "title": "Audubon Nature Page-A-Day Gallery Calendar 2026",
+      "source": "Hachette / Workman Calendars 官方产品页",
+      "url": "https://www.hachette.co.uk/titles/workman-calendars/audubon-nature-page-a-day%C2%AE-gallery-calendar-2026/9781523530915/",
+      "element": "摄影主导的每日桌面画廊与展示支架",
+      "observed": "官方说明每页呈现不同自然场景，全彩摄影、涂布纸，透明盒可变为桌面展示架。",
+      "evidence": {
+        "kind": "official-text-and-linked-product-image",
+        "locator": "产品正文和 Read Excerpt 入口",
+        "image_url": "https://www.hachette.co.uk/wp-content/uploads/2025/02/hbg-title-audubon-nature-page-a-day-gallery-calendar-2026-8.jpg?w=450"
+      },
+      "use": "让当天的图像成为房间或桌面的日常观看对象。",
+      "transfer": "为有权使用的照片制定横竖版裁切、安全区、题注与日期锚点；按主题或视觉节奏编排一段序列，而不是仅收集单张美图。",
+      "cross_scale": {
+        "month": "同一系列选十二张主图，用更大观看距离测试。",
+        "week": "一张主图配七日，或七张小图；两种模式作为独立方向。",
+        "year": "低密度缩略图墙只能做主题索引，仍需清晰日期层。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "摄影、题注、产品图和 Audubon 标识；自然主题并不使照片自动成为公共领域。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "daily-mensa-micro-challenge",
+      "scales": [
+        "day"
+      ],
+      "title": "Mensa 365 Brain Puzzlers Page-A-Day Calendar 2027",
+      "source": "Hachette Book Group / Workman 官方产品页",
+      "url": "https://www.hachettebookgroup.com/titles/fraser-simpson/mensa%C2%AE-365-brain-puzzlers-page-a-day%C2%AE-calendar-2027/9781523533640/",
+      "element": "每天一个短挑战，内容类型形成轮换",
+      "observed": "官方介绍文字、数字、逻辑等不同题型，作者为 Fraser Simpson；页面有多幅样张入口。未从标题推断全书每天均独立一张或周末合页规则。",
+      "evidence": {
+        "kind": "official-text-and-linked-sample-gallery",
+        "locator": "Description；产品图集；ISBN 9781523533640",
+        "gallery_url": "https://www.hachettebookgroup.com/titles/fraser-simpson/mensa%C2%AE-365-brain-puzzlers-page-a-day%C2%AE-calendar-2027/9781523533640/"
+      },
+      "use": "让翻到新一天成为一次可完成的小活动，而不只接收图像或语录。",
+      "transfer": "为原创或授权小题保留类型、预计时长、题面和答案；生成后逐题校验，答案与题面分离显示。日历仍应先显示完整日期身份。",
+      "cross_scale": {
+        "week": "七天围绕同一技能递进，留一日回顾。",
+        "month": "以月为内容主题，题库与日期映射可替换。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "现成题目、答案、作者文本、Mensa 名称或标识；不把 AI 随机生成题目当作已验证内容。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "daily-danese-timor-modular",
+      "scales": [
+        "day"
+      ],
+      "title": "Timor — Enzo Mari, 1967",
+      "source": "Danese Milano 官方产品页",
+      "url": "https://www.danesemilano.com/it/productDetails?idProduct=244",
+      "element": "月、日号、星期独立选择的万年历机制",
+      "observed": "官方说明 PVC 卡片在轴上展开，由使用者选择月份、数字、星期组合；材料为 ABS 和 PVC。",
+      "evidence": {
+        "kind": "official-text-and-linked-gallery",
+        "locator": "产品说明和多幅照片；dataSheet 下载入口",
+        "gallery_url": "https://www.danesemilano.com/it/productDetails?idProduct=244"
+      },
+      "use": "通过每日亲手更新，把日期当成可操作的对象。",
+      "transfer": "研究可重复使用的日期字段与每日动作；数字版让日期由可靠日期数据同步，实体版考虑无效组合提示。自己设计结构与字形，而非复刻其轮廓。",
+      "cross_scale": {
+        "week": "七个可替换日期模块形成周视图，清楚标注跨月身份。",
+        "month": "独立月标题与日期模块更换，仍由确定性日期生成实际网格。"
+      },
+      "rights_status": "research-only",
+      "do_not_copy": "产品外形、扇形卡片几何、工程下载或原始字形；官方下载工程文件不等于获得生产或再分发授权。",
+      "kind": "reference",
+      "role": "design-evidence",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "proposal-week-habit-strip",
+      "scales": [
+        "week",
+        "month"
+      ],
+      "element": "可选习惯条带",
+      "status": "project-proposal-not-source-observation",
+      "rule": "每条只追踪用户选择的一件事；未填写、完成和未完成分别显示；先验证写入区，不预填虚构习惯数据。",
+      "title": "可选习惯条带",
+      "kind": "proposal",
+      "role": "design-proposal",
+      "ready": false,
+      "rights_status": "project-proposal",
+      "distribution_status": "not-an-asset"
+    },
+    {
+      "id": "proposal-week-foldout-context",
+      "scales": [
+        "week",
+        "month"
+      ],
+      "element": "可展开的月索引侧翼",
+      "status": "project-proposal-not-source-observation",
+      "rule": "纸版把月索引放在周页旁折翼，展开时上下文同时可见；网页可用固定窄栏。折线、装订余量、双面顺序须以纸样测试，尚未制作。",
+      "title": "可展开的月索引侧翼",
+      "kind": "proposal",
+      "role": "design-proposal",
+      "ready": false,
+      "rights_status": "project-proposal",
+      "distribution_status": "not-an-asset"
+    },
+    {
+      "id": "proposal-day-one-observation",
+      "scales": [
+        "day",
+        "week"
+      ],
+      "element": "一日一观察的原创提示",
+      "status": "project-proposal-not-source-observation",
+      "rule": "用原创短提示邀请记录一件看见、听见或完成的事；提示与用户回答分开保存，允许空白，不抓取名言充数。",
+      "title": "一日一观察的原创提示",
+      "kind": "proposal",
+      "role": "design-proposal",
+      "ready": false,
+      "rights_status": "project-proposal",
+      "distribution_status": "not-an-asset"
+    },
+    {
+      "id": "proposal-day-personal-photo-sequence",
+      "scales": [
+        "day",
+        "week",
+        "month"
+      ],
+      "element": "本人照片的可重排序列",
+      "status": "project-proposal-not-source-observation",
+      "rule": "由有权使用的照片建立日期映射和焦点坐标，保留每张裁切参数；日页放大观看，周页合成联画，月页选主图。公开样本仅用已记录授权的资产。",
+      "title": "本人照片的可重排序列",
+      "kind": "proposal",
+      "role": "design-proposal",
+      "ready": false,
+      "rights_status": "project-proposal",
+      "distribution_status": "not-an-asset"
+    }
+  ],
+  "semantics": {
+    "scales": "Suggested viewing/use extent, not mutually exclusive asset ownership.",
+    "ready": "A retained asset exists. This does not imply a complete series, print resolution, user approval, or a public reuse license.",
+    "distribution_status": "CC0-1.0 or OFL-1.1 pass the explicit-license filter; OFL conditions still apply. Original project assets retain their separately unspecified scope."
+  },
+  "source_files": [
+    "assets/library/components/manifest.json",
+    "assets/library/open-images/manifest.json",
+    "assets/fonts/provenance.json",
+    "assets/images/paper-light/provenance.json",
+    "docs/research/annual-monthly-materials.json",
+    "docs/research/weekly-daily-materials.json"
+  ]
+}

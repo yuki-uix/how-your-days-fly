@@ -1,0 +1,6 @@
+{
+  "purpose": "Optional contact-sheet rasterization; original images are unmodified and retained separately.",
+  "sharp": "0.35.5",
+  "librsvg": "2.63.2",
+  "node": "24.19.0"
+}

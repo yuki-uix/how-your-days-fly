@@ -35,6 +35,8 @@ Use `scripts/calendar_data.py` for deterministic Gregorian date data, or a verif
 
 Choose tools suited to the selected design: editable vector/code layouts for typography and date structures; image generation or licensed imagery when the concept needs bitmap art. Preserve the selected assets. Do not rely on generating the entire calendar as an image to establish correct dates.
 
+When selecting or expanding imagery, motifs, typography, content modules, or a multi-page sequence, read [references/material-library.md](references/material-library.md). Query the retained catalog by year/month/week/day and role; keep research-only examples, licensed files, original components and unimplemented proposals distinct. Match the material to its reading task, record the actual selection/crop/sequence, and check resolution before print.
+
 ## Review and revise
 
 Read [references/review.md](references/review.md) when checking a draft or interpreting feedback. Inspect the actual render at its intended use size. Technical checks and the user's design judgement are separate results.

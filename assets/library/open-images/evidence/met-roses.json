@@ -1,0 +1,16 @@
+{
+  "retrieved_at": "2026-10-29",
+  "metadata_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/436534",
+  "record": {
+    "objectID": 436534,
+    "isPublicDomain": true,
+    "title": "Roses",
+    "artistDisplayName": "Vincent van Gogh",
+    "objectDate": "1890",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/436534",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DP346475.jpg",
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DP346475.jpg",
+    "creditLine": "The Walter H. and Leonore Annenberg Collection, Gift of Walter H. and Leonore Annenberg, 1993, Bequest of Walter H. Annenberg, 2002",
+    "metadataDate": "2026-10-06T04:59:37.62Z"
+  }
+}

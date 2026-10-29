@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="d-detail-title">
+<title id="d-detail-title">One image, four windows</title>
+<defs>
+<path id="d-detail-mono-32" d=""/>
+<path id="d-detail-mono-47" d="M90 -138 438 760H510L162 -138Z"/>
+<path id="d-detail-mono-48" d="M300 -12Q236 -12 190.0 12.5Q144 37 114.0 83.0Q84 129 70.0 196.0Q56 263 56 349Q56 434 70.0 501.5Q84 569 114.0 615.0Q144 661 190.0 685.5Q236 710 300 710Q364 710 410.0 685.5Q456 661 486.0 615.0Q516 569 530.0 501.5Q544 434 544 349Q544 263 530.0 196.0Q516 129 486.0 83.0Q456 37 410.0 12.5Q364 -12 300 -12ZM300 61Q342 61 372.0 77.5Q402 94 420.5 124.0Q439 154 448.0 196.5Q457 239 457 292V406Q457 458 448.0 501.0Q439 544 420.5 574.0Q402 604 372.0 620.5Q342 637 300 637Q258 637 228.0 620.5Q198 604 179.5 574.0Q161 544 152.0 501.0Q143 458 143 406V292Q143 239 152.0 196.5Q161 154 179.5 124.0Q198 94 228.0 77.5Q258 61 300 61ZM300 290Q265 290 251.5 304.0Q238 318 238 338V360Q238 380 251.5 394.0Q265 408 300 408Q335 408 348.5 394.0Q362 380 362 360V338Q362 318 348.5 304.0Q335 290 300 290Z"/>
+<path id="d-detail-mono-49" d="M85 0V73H285V636H278L102 472L53 525L238 698H369V73H553V0Z"/>
+<path id="d-detail-mono-50" d="M537 0H71V86L304 296Q355 342 388.0 390.5Q421 439 421 493V505Q421 568 388.0 602.5Q355 637 290 637Q226 637 191.5 604.5Q157 572 140 518L65 546Q75 577 92.5 606.5Q110 636 137.0 659.0Q164 682 202.5 696.0Q241 710 292 710Q344 710 384.5 695.0Q425 680 452.5 653.0Q480 626 494.5 589.0Q509 552 509 508Q509 468 497.5 433.0Q486 398 465.5 366.0Q445 334 416.5 303.5Q388 273 353 243L158 73H537Z"/>
+<path id="d-detail-mono-51" d="M270 402Q343 402 379.5 434.5Q416 467 416 518V525Q416 581 380.5 609.0Q345 637 288 637Q232 637 197.5 612.5Q163 588 141 548L78 596Q91 617 110.0 637.5Q129 658 154.5 674.0Q180 690 213.5 700.0Q247 710 290 710Q335 710 374.0 698.5Q413 687 442.0 664.5Q471 642 487.5 609.0Q504 576 504 534Q504 500 493.5 473.0Q483 446 464.5 426.0Q446 406 421.0 392.0Q396 378 368 371V367Q397 361 424.0 347.5Q451 334 472.0 312.5Q493 291 505.5 260.5Q518 230 518 191Q518 146 500.5 108.5Q483 71 451.5 44.5Q420 18 375.5 3.0Q331 -12 277 -12Q231 -12 195.5 -2.0Q160 8 132.5 25.0Q105 42 84.5 63.0Q64 84 48 107L111 155Q125 134 140.0 117.0Q155 100 174.5 87.5Q194 75 219.0 68.0Q244 61 277 61Q351 61 390.5 95.0Q430 129 430 192V200Q430 262 391.5 296.0Q353 330 276 330H193V402Z"/>
+<path id="d-detail-mono-52" d="M378 0V137H34V211L336 698H458V206H562V137H458V0ZM109 206H378V633H374Z"/>
+<path id="d-detail-mono-67" d="M323 -12Q195 -12 132.5 81.0Q70 174 70 349Q70 524 132.5 617.0Q195 710 323 710Q371 710 406.0 697.0Q441 684 466.0 662.0Q491 640 508.0 612.5Q525 585 538 557L466 524Q457 547 445.0 567.5Q433 588 416.5 603.5Q400 619 377.5 628.0Q355 637 323 637Q240 637 199.5 574.0Q159 511 159 406V292Q159 187 199.5 124.0Q240 61 323 61Q355 61 377.5 70.0Q400 79 416.5 94.5Q433 110 445.0 130.5Q457 151 466 174L538 141Q525 112 508.0 85.0Q491 58 466.0 36.0Q441 14 406.0 1.0Q371 -12 323 -12Z"/>
+<path id="d-detail-mono-68" d="M95 698H290Q418 698 481.0 610.0Q544 522 544 349Q544 176 481.0 88.0Q418 0 290 0H95ZM286 73Q370 73 412.5 131.0Q455 189 455 295V403Q455 509 412.5 567.0Q370 625 286 625H179V73Z"/>
+<path id="d-detail-mono-73" d="M84 0V67H258V631H84V698H516V631H342V67H516V0Z"/>
+<path id="d-detail-mono-78" d="M163 588H156V0H80V698H199L437 110H444V698H520V0H401Z"/>
+<path id="d-detail-mono-79" d="M300 -12Q236 -12 190.0 12.5Q144 37 114.0 83.0Q84 129 70.0 196.0Q56 263 56 349Q56 434 70.0 501.5Q84 569 114.0 615.0Q144 661 190.0 685.5Q236 710 300 710Q364 710 410.0 685.5Q456 661 486.0 615.0Q516 569 530.0 501.5Q544 434 544 349Q544 263 530.0 196.0Q516 129 486.0 83.0Q456 37 410.0 12.5Q364 -12 300 -12ZM300 61Q342 61 371.0 77.5Q400 94 419.0 124.0Q438 154 446.5 196.5Q455 239 455 292V406Q455 458 446.5 501.0Q438 544 419.0 574.0Q400 604 371.0 620.5Q342 637 300 637Q258 637 229.0 620.5Q200 604 181.0 574.0Q162 544 153.5 501.0Q145 458 145 406V292Q145 239 153.5 196.5Q162 154 181.0 124.0Q200 94 229.0 77.5Q258 61 300 61Z"/>
+<path id="d-detail-mono-80" d="M90 0V698H344Q441 698 492.0 645.0Q543 592 543 497Q543 402 492.0 349.0Q441 296 344 296H174V0ZM174 369H342Q395 369 424.5 395.5Q454 422 454 471V523Q454 572 424.5 598.5Q395 625 342 625H174Z"/>
+<path id="d-detail-mono-82" d="M174 0H90V698H344Q441 698 492.0 645.0Q543 592 543 497Q543 412 499.0 361.0Q455 310 371 302L549 0H455L285 298H174ZM342 369Q395 369 424.5 395.5Q454 422 454 471V523Q454 572 424.5 598.5Q395 625 342 625H174V369Z"/>
+<path id="d-detail-mono-87" d="M90 0 35 698H110L139 298L154 87H162L254 516H348L440 87H448L463 298L492 698H565L510 0H389L304 417H296L211 0Z"/>
+</defs>
+<rect x="0.0000" y="0.0000" width="800.0000" height="500.0000" fill="#F5F1E8" stroke="none" stroke-width="1"/>
+<rect x="48.0000" y="36.0000" width="336.0000" height="191.0000" fill="#F5BD91" stroke="none" stroke-width="1"/>
+<circle cx="215.0000" cy="135.0000" r="58.0000" fill="none" stroke="#F5F1E8" stroke-width="2"/>
+<line x1="215.0000" y1="60.0000" x2="215.0000" y2="210.0000" stroke="#F5F1E8" stroke-width="1"/>
+<line x1="140.0000" y1="135.0000" x2="290.0000" y2="135.0000" stroke="#F5F1E8" stroke-width="1"/>
+<g aria-label="01 / 04" data-text="01 / 04" data-role="label" fill="#24312E" transform="rotate(0 63.0000 71.0000)">
+<use href="#d-detail-mono-48" transform="translate(63.0000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-49" transform="translate(73.2000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-32" transform="translate(83.4000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-47" transform="translate(93.6000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-32" transform="translate(103.8000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-48" transform="translate(114.0000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-52" transform="translate(124.2000 71.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="CROP WINDOW" data-text="CROP WINDOW" data-role="label" fill="#24312E" transform="rotate(0 216.0000 213.0000)">
+<use href="#d-detail-mono-67" transform="translate(169.8000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-82" transform="translate(178.2000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-79" transform="translate(186.6000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-80" transform="translate(195.0000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-32" transform="translate(203.4000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-87" transform="translate(211.8000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-73" transform="translate(220.2000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-78" transform="translate(228.6000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-68" transform="translate(237.0000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-79" transform="translate(245.4000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-87" transform="translate(253.8000 213.0000) scale(0.014000 -0.014000)"/>
+</g>
+<rect x="413.0000" y="36.0000" width="336.0000" height="191.0000" fill="#943C2F" stroke="none" stroke-width="1"/>
+<circle cx="580.0000" cy="135.0000" r="58.0000" fill="none" stroke="#F5F1E8" stroke-width="2"/>
+<line x1="580.0000" y1="60.0000" x2="580.0000" y2="210.0000" stroke="#F5F1E8" stroke-width="1"/>
+<line x1="505.0000" y1="135.0000" x2="655.0000" y2="135.0000" stroke="#F5F1E8" stroke-width="1"/>
+<g aria-label="02 / 04" data-text="02 / 04" data-role="label" fill="#F5F1E8" transform="rotate(0 428.0000 71.0000)">
+<use href="#d-detail-mono-48" transform="translate(428.0000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-50" transform="translate(438.2000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-32" transform="translate(448.4000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-47" transform="translate(458.6000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-32" transform="translate(468.8000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-48" transform="translate(479.0000 71.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-52" transform="translate(489.2000 71.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="CROP WINDOW" data-text="CROP WINDOW" data-role="label" fill="#F5F1E8" transform="rotate(0 581.0000 213.0000)">
+<use href="#d-detail-mono-67" transform="translate(534.8000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-82" transform="translate(543.2000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-79" transform="translate(551.6000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-80" transform="translate(560.0000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-32" transform="translate(568.4000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-87" transform="translate(576.8000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-73" transform="translate(585.2000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-78" transform="translate(593.6000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-68" transform="translate(602.0000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-79" transform="translate(610.4000 213.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-87" transform="translate(618.8000 213.0000) scale(0.014000 -0.014000)"/>
+</g>
+<rect x="48.0000" y="263.0000" width="336.0000" height="191.0000" fill="#8B78A0" stroke="none" stroke-width="1"/>
+<circle cx="215.0000" cy="362.0000" r="58.0000" fill="none" stroke="#F5F1E8" stroke-width="2"/>
+<line x1="215.0000" y1="287.0000" x2="215.0000" y2="437.0000" stroke="#F5F1E8" stroke-width="1"/>
+<line x1="140.0000" y1="362.0000" x2="290.0000" y2="362.0000" stroke="#F5F1E8" stroke-width="1"/>
+<g aria-label="03 / 04" data-text="03 / 04" data-role="label" fill="#F5F1E8" transform="rotate(0 63.0000 298.0000)">
+<use href="#d-detail-mono-48" transform="translate(63.0000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-51" transform="translate(73.2000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-32" transform="translate(83.4000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-47" transform="translate(93.6000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-32" transform="translate(103.8000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-48" transform="translate(114.0000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-52" transform="translate(124.2000 298.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="CROP WINDOW" data-text="CROP WINDOW" data-role="label" fill="#F5F1E8" transform="rotate(0 216.0000 440.0000)">
+<use href="#d-detail-mono-67" transform="translate(169.8000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-82" transform="translate(178.2000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-79" transform="translate(186.6000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-80" transform="translate(195.0000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-32" transform="translate(203.4000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-87" transform="translate(211.8000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-73" transform="translate(220.2000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-78" transform="translate(228.6000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-68" transform="translate(237.0000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-79" transform="translate(245.4000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-87" transform="translate(253.8000 440.0000) scale(0.014000 -0.014000)"/>
+</g>
+<rect x="413.0000" y="263.0000" width="336.0000" height="191.0000" fill="#E6DBAE" stroke="none" stroke-width="1"/>
+<circle cx="580.0000" cy="362.0000" r="58.0000" fill="none" stroke="#F5F1E8" stroke-width="2"/>
+<line x1="580.0000" y1="287.0000" x2="580.0000" y2="437.0000" stroke="#F5F1E8" stroke-width="1"/>
+<line x1="505.0000" y1="362.0000" x2="655.0000" y2="362.0000" stroke="#F5F1E8" stroke-width="1"/>
+<g aria-label="04 / 04" data-text="04 / 04" data-role="label" fill="#F5F1E8" transform="rotate(0 428.0000 298.0000)">
+<use href="#d-detail-mono-48" transform="translate(428.0000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-52" transform="translate(438.2000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-32" transform="translate(448.4000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-47" transform="translate(458.6000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-32" transform="translate(468.8000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-48" transform="translate(479.0000 298.0000) scale(0.017000 -0.017000)"/>
+<use href="#d-detail-mono-52" transform="translate(489.2000 298.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="CROP WINDOW" data-text="CROP WINDOW" data-role="label" fill="#F5F1E8" transform="rotate(0 581.0000 440.0000)">
+<use href="#d-detail-mono-67" transform="translate(534.8000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-82" transform="translate(543.2000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-79" transform="translate(551.6000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-80" transform="translate(560.0000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-32" transform="translate(568.4000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-87" transform="translate(576.8000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-73" transform="translate(585.2000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-78" transform="translate(593.6000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-68" transform="translate(602.0000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-79" transform="translate(610.4000 440.0000) scale(0.014000 -0.014000)"/>
+<use href="#d-detail-mono-87" transform="translate(618.8000 440.0000) scale(0.014000 -0.014000)"/>
+</g>
+</svg>

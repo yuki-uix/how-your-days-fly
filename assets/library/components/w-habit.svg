@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="w-habit-title">
+<title id="w-habit-title">Empty habit weave</title>
+<defs>
+<path id="w-habit-mono-32" d=""/>
+<path id="w-habit-mono-45" d="M155 262V346H445V262Z"/>
+<path id="w-habit-mono-47" d="M90 -138 438 760H510L162 -138Z"/>
+<path id="w-habit-mono-48" d="M300 -12Q236 -12 190.0 12.5Q144 37 114.0 83.0Q84 129 70.0 196.0Q56 263 56 349Q56 434 70.0 501.5Q84 569 114.0 615.0Q144 661 190.0 685.5Q236 710 300 710Q364 710 410.0 685.5Q456 661 486.0 615.0Q516 569 530.0 501.5Q544 434 544 349Q544 263 530.0 196.0Q516 129 486.0 83.0Q456 37 410.0 12.5Q364 -12 300 -12ZM300 61Q342 61 372.0 77.5Q402 94 420.5 124.0Q439 154 448.0 196.5Q457 239 457 292V406Q457 458 448.0 501.0Q439 544 420.5 574.0Q402 604 372.0 620.5Q342 637 300 637Q258 637 228.0 620.5Q198 604 179.5 574.0Q161 544 152.0 501.0Q143 458 143 406V292Q143 239 152.0 196.5Q161 154 179.5 124.0Q198 94 228.0 77.5Q258 61 300 61ZM300 290Q265 290 251.5 304.0Q238 318 238 338V360Q238 380 251.5 394.0Q265 408 300 408Q335 408 348.5 394.0Q362 380 362 360V338Q362 318 348.5 304.0Q335 290 300 290Z"/>
+<path id="w-habit-mono-49" d="M85 0V73H285V636H278L102 472L53 525L238 698H369V73H553V0Z"/>
+<path id="w-habit-mono-50" d="M537 0H71V86L304 296Q355 342 388.0 390.5Q421 439 421 493V505Q421 568 388.0 602.5Q355 637 290 637Q226 637 191.5 604.5Q157 572 140 518L65 546Q75 577 92.5 606.5Q110 636 137.0 659.0Q164 682 202.5 696.0Q241 710 292 710Q344 710 384.5 695.0Q425 680 452.5 653.0Q480 626 494.5 589.0Q509 552 509 508Q509 468 497.5 433.0Q486 398 465.5 366.0Q445 334 416.5 303.5Q388 273 353 243L158 73H537Z"/>
+<path id="w-habit-mono-52" d="M378 0V137H34V211L336 698H458V206H562V137H458V0ZM109 206H378V633H374Z"/>
+<path id="w-habit-mono-53" d="M501 625H189L169 358H176Q202 393 234.0 413.5Q266 434 322 434Q368 434 406.5 419.5Q445 405 473.0 377.0Q501 349 517.0 309.5Q533 270 533 219Q533 168 517.0 125.5Q501 83 470.0 52.5Q439 22 395.0 5.0Q351 -12 295 -12Q251 -12 216.5 -2.0Q182 8 155.5 25.0Q129 42 109.0 63.0Q89 84 73 107L136 155Q150 134 164.5 117.0Q179 100 198.0 87.5Q217 75 241.0 68.0Q265 61 297 61Q369 61 407.5 100.0Q446 139 446 208V216Q446 285 407.0 324.0Q368 363 295 363Q245 363 217.5 346.0Q190 329 167 304L96 314L121 698H501Z"/>
+<path id="w-habit-mono-55" d="M173 0 446 626H140V496H65V698H531V624L263 0Z"/>
+<path id="w-habit-mono-65" d="M481 0 422 199H177L118 0H31L245 698H356L570 0ZM304 609H295L197 272H402Z"/>
+<path id="w-habit-mono-68" d="M95 698H290Q418 698 481.0 610.0Q544 522 544 349Q544 176 481.0 88.0Q418 0 290 0H95ZM286 73Q370 73 412.5 131.0Q455 189 455 295V403Q455 509 412.5 567.0Q370 625 286 625H179V73Z"/>
+<path id="w-habit-mono-69" d="M90 0V698H520V625H174V390H508V317H174V73H520V0Z"/>
+<path id="w-habit-mono-70" d="M90 0V698H530V625H174V390H500V317H174V0Z"/>
+<path id="w-habit-mono-72" d="M436 317H164V0H80V698H164V390H436V698H520V0H436Z"/>
+<path id="w-habit-mono-73" d="M84 0V67H258V631H84V698H516V631H342V67H516V0Z"/>
+<path id="w-habit-mono-77" d="M455 350V571H447L300 212L153 571H145V350V0H68V698H176L299 390H305L428 698H532V0H455Z"/>
+<path id="w-habit-mono-78" d="M163 588H156V0H80V698H199L437 110H444V698H520V0H401Z"/>
+<path id="w-habit-mono-79" d="M300 -12Q236 -12 190.0 12.5Q144 37 114.0 83.0Q84 129 70.0 196.0Q56 263 56 349Q56 434 70.0 501.5Q84 569 114.0 615.0Q144 661 190.0 685.5Q236 710 300 710Q364 710 410.0 685.5Q456 661 486.0 615.0Q516 569 530.0 501.5Q544 434 544 349Q544 263 530.0 196.0Q516 129 486.0 83.0Q456 37 410.0 12.5Q364 -12 300 -12ZM300 61Q342 61 371.0 77.5Q400 94 419.0 124.0Q438 154 446.5 196.5Q455 239 455 292V406Q455 458 446.5 501.0Q438 544 419.0 574.0Q400 604 371.0 620.5Q342 637 300 637Q258 637 229.0 620.5Q200 604 181.0 574.0Q162 544 153.5 501.0Q145 458 145 406V292Q145 239 153.5 196.5Q162 154 181.0 124.0Q200 94 229.0 77.5Q258 61 300 61Z"/>
+<path id="w-habit-mono-82" d="M174 0H90V698H344Q441 698 492.0 645.0Q543 592 543 497Q543 412 499.0 361.0Q455 310 371 302L549 0H455L285 298H174ZM342 369Q395 369 424.5 395.5Q454 422 454 471V523Q454 572 424.5 598.5Q395 625 342 625H174V369Z"/>
+<path id="w-habit-mono-83" d="M298 -12Q204 -12 144.0 22.5Q84 57 45 111L106 161Q147 110 192.5 85.0Q238 60 301 60Q377 60 417.0 95.0Q457 130 457 193Q457 244 428.0 272.5Q399 301 327 313L249 326Q198 335 163.5 353.0Q129 371 108.0 396.5Q87 422 78.0 452.5Q69 483 69 516Q69 612 132.0 661.0Q195 710 302 710Q386 710 443.5 682.0Q501 654 536 603L477 552Q448 590 407.0 614.0Q366 638 301 638Q230 638 192.0 608.0Q154 578 154 518Q154 471 182.5 441.5Q211 412 285 399L360 386Q411 377 446.0 359.0Q481 341 502.5 316.0Q524 291 533.0 260.0Q542 229 542 195Q542 98 478.5 43.0Q415 -12 298 -12Z"/>
+<path id="w-habit-mono-84" d="M342 625V0H258V625H25V698H575V625Z"/>
+<path id="w-habit-mono-85" d="M164 698V279Q164 228 167.0 188.0Q170 148 183.0 119.5Q196 91 223.5 76.0Q251 61 300 61Q349 61 376.5 76.0Q404 91 417.0 119.5Q430 148 433.0 188.0Q436 228 436 279V698H520V299Q520 221 512.5 163.0Q505 105 481.5 66.0Q458 27 414.5 7.5Q371 -12 300 -12Q229 -12 185.5 7.5Q142 27 118.5 66.0Q95 105 87.5 163.0Q80 221 80 299V698Z"/>
+<path id="w-habit-mono-87" d="M90 0 35 698H110L139 298L154 87H162L254 516H348L440 87H448L463 298L492 698H565L510 0H389L304 417H296L211 0Z"/>
+<path id="w-habit-mono-medium-48" d="M300 -12Q234 -12 185.5 12.5Q137 37 105.5 83.0Q74 129 59.0 196.0Q44 263 44 349Q44 434 59.0 501.5Q74 569 105.5 615.0Q137 661 185.5 685.5Q234 710 300 710Q366 710 414.5 685.5Q463 661 494.5 615.0Q526 569 541.0 501.5Q556 434 556 349Q556 263 541.0 196.0Q526 129 494.5 83.0Q463 37 414.5 12.5Q366 -12 300 -12ZM300 80Q376 80 408.5 136.5Q441 193 441 289V409Q441 505 408.5 561.5Q376 618 300 618Q262 618 235.0 603.5Q208 589 191.0 561.5Q174 534 166.5 495.5Q159 457 159 409V289Q159 241 166.5 202.5Q174 164 191.0 136.5Q208 109 235.0 94.5Q262 80 300 80ZM300 290Q265 290 251.5 304.0Q238 318 238 338V360Q238 380 251.5 394.0Q265 408 300 408Q335 408 348.5 394.0Q362 380 362 360V338Q362 318 348.5 304.0Q335 290 300 290Z"/>
+<path id="w-habit-mono-medium-49" d="M88 0V93H284V616H276L114 443L45 505L223 698H396V93H565V0Z"/>
+<path id="w-habit-mono-medium-53" d="M511 601H194L176 353H184Q208 394 242.0 418.5Q276 443 335 443Q380 443 418.5 428.0Q457 413 485.5 385.0Q514 357 530.5 316.5Q547 276 547 225Q547 173 530.0 129.5Q513 86 481.0 54.5Q449 23 402.0 5.5Q355 -12 295 -12Q248 -12 211.5 -1.5Q175 9 146.5 26.5Q118 44 97.0 66.5Q76 89 60 113L142 177Q155 157 169.5 139.5Q184 122 202.0 109.0Q220 96 243.5 89.0Q267 82 297 82Q362 82 396.0 117.5Q430 153 430 214V222Q430 283 395.5 317.0Q361 351 297 351Q250 351 223.0 334.0Q196 317 176 296L83 309L109 698H511Z"/>
+<path id="w-habit-mono-medium-54" d="M302 -12Q243 -12 197.0 7.0Q151 26 119.0 61.5Q87 97 70.0 147.0Q53 197 53 260Q53 336 76.0 403.0Q99 470 136.0 526.0Q173 582 218.0 625.5Q263 669 307 698H457Q397 655 349.0 615.0Q301 575 265.5 533.0Q230 491 206.0 444.5Q182 398 169 341L176 339Q187 360 202.0 378.5Q217 397 237.0 411.0Q257 425 283.0 433.0Q309 441 342 441Q387 441 425.0 426.0Q463 411 491.0 382.5Q519 354 534.5 314.0Q550 274 550 224Q550 172 532.5 128.5Q515 85 482.5 54.0Q450 23 404.0 5.5Q358 -12 302 -12ZM301 78Q365 78 400.0 112.5Q435 147 435 210V220Q435 283 400.0 317.5Q365 352 301 352Q238 352 203.0 317.5Q168 283 168 220V210Q168 147 203.0 112.5Q238 78 301 78Z"/>
+<path id="w-habit-mono-medium-55" d="M169 0 428 605H156V476H59V698H540V600L288 0Z"/>
+<path id="w-habit-mono-medium-56" d="M300 -12Q238 -12 191.0 3.5Q144 19 112.0 46.0Q80 73 63.5 110.0Q47 147 47 191Q47 261 86.0 303.0Q125 345 188 362V370Q134 389 101.0 430.0Q68 471 68 531Q68 612 128.5 661.0Q189 710 300 710Q411 710 471.5 661.0Q532 612 532 531Q532 471 499.0 430.0Q466 389 412 370V362Q475 345 514.0 303.0Q553 261 553 191Q553 147 536.5 110.0Q520 73 488.0 46.0Q456 19 409.0 3.5Q362 -12 300 -12ZM300 77Q366 77 401.5 106.0Q437 135 437 188V209Q437 262 401.5 291.0Q366 320 300 320Q234 320 198.5 291.0Q163 262 163 209V188Q163 135 198.5 106.0Q234 77 300 77ZM300 406Q360 406 391.5 432.5Q423 459 423 507V520Q423 568 391.5 594.5Q360 621 300 621Q240 621 208.5 594.5Q177 568 177 520V507Q177 459 208.5 432.5Q240 406 300 406Z"/>
+<path id="w-habit-mono-medium-57" d="M547 438Q547 362 524.0 295.0Q501 228 464.0 172.0Q427 116 382.0 72.0Q337 28 293 0H143Q203 43 251.0 83.0Q299 123 334.5 165.0Q370 207 394.0 253.5Q418 300 431 357L424 359Q413 338 398.0 319.5Q383 301 363.0 287.0Q343 273 317.0 265.0Q291 257 258 257Q213 257 175.0 272.0Q137 287 109.0 315.5Q81 344 65.5 384.0Q50 424 50 474Q50 526 67.5 569.5Q85 613 117.5 644.0Q150 675 196.0 692.5Q242 710 298 710Q356 710 402.5 691.0Q449 672 481.0 636.5Q513 601 530.0 551.0Q547 501 547 438ZM299 346Q362 346 397.0 380.5Q432 415 432 478V488Q432 551 397.0 585.5Q362 620 299 620Q235 620 200.0 585.5Q165 551 165 488V478Q165 415 200.0 380.5Q235 346 299 346Z"/>
+</defs>
+<rect x="0.0000" y="0.0000" width="800.0000" height="500.0000" fill="#F5F1E8" stroke="none" stroke-width="1"/>
+<g aria-label="2027-04-05 / 2027-04-11" data-text="2027-04-05 / 2027-04-11" data-role="label" fill="#24312E" transform="rotate(0 137.0000 485.0000)">
+<use href="#w-habit-mono-50" transform="translate(137.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-48" transform="translate(146.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-50" transform="translate(155.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-55" transform="translate(164.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-45" transform="translate(173.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-48" transform="translate(182.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-52" transform="translate(191.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-45" transform="translate(200.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-48" transform="translate(209.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-53" transform="translate(218.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-32" transform="translate(227.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-47" transform="translate(236.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-32" transform="translate(245.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-50" transform="translate(254.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-48" transform="translate(263.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-50" transform="translate(272.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-55" transform="translate(281.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-45" transform="translate(290.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-48" transform="translate(299.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-52" transform="translate(308.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-45" transform="translate(317.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-49" transform="translate(326.0000 485.0000) scale(0.015000 -0.015000)"/>
+<use href="#w-habit-mono-49" transform="translate(335.0000 485.0000) scale(0.015000 -0.015000)"/>
+</g>
+<g data-date="2027-04-05">
+<g aria-label="MON" data-text="MON" data-role="label" fill="#3F5B46" transform="rotate(0 173.0000 73.0000)">
+<use href="#w-habit-mono-77" transform="translate(157.7000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-79" transform="translate(167.9000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-78" transform="translate(178.1000 73.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="05" data-text="05" data-role="label" fill="#24312E" transform="rotate(0 173.0000 110.0000)">
+<use href="#w-habit-mono-medium-48" transform="translate(157.4000 110.0000) scale(0.026000 -0.026000)"/>
+<use href="#w-habit-mono-medium-53" transform="translate(173.0000 110.0000) scale(0.026000 -0.026000)"/>
+</g>
+</g>
+<g data-date="2027-04-06">
+<g aria-label="TUE" data-text="TUE" data-role="label" fill="#3F5B46" transform="rotate(0 260.0000 73.0000)">
+<use href="#w-habit-mono-84" transform="translate(244.7000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-85" transform="translate(254.9000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-69" transform="translate(265.1000 73.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="06" data-text="06" data-role="label" fill="#24312E" transform="rotate(0 260.0000 110.0000)">
+<use href="#w-habit-mono-medium-48" transform="translate(244.4000 110.0000) scale(0.026000 -0.026000)"/>
+<use href="#w-habit-mono-medium-54" transform="translate(260.0000 110.0000) scale(0.026000 -0.026000)"/>
+</g>
+</g>
+<g data-date="2027-04-07">
+<g aria-label="WED" data-text="WED" data-role="label" fill="#3F5B46" transform="rotate(0 347.0000 73.0000)">
+<use href="#w-habit-mono-87" transform="translate(331.7000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-69" transform="translate(341.9000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-68" transform="translate(352.1000 73.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="07" data-text="07" data-role="label" fill="#24312E" transform="rotate(0 347.0000 110.0000)">
+<use href="#w-habit-mono-medium-48" transform="translate(331.4000 110.0000) scale(0.026000 -0.026000)"/>
+<use href="#w-habit-mono-medium-55" transform="translate(347.0000 110.0000) scale(0.026000 -0.026000)"/>
+</g>
+</g>
+<g data-date="2027-04-08">
+<g aria-label="THU" data-text="THU" data-role="label" fill="#3F5B46" transform="rotate(0 434.0000 73.0000)">
+<use href="#w-habit-mono-84" transform="translate(418.7000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-72" transform="translate(428.9000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-85" transform="translate(439.1000 73.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="08" data-text="08" data-role="label" fill="#24312E" transform="rotate(0 434.0000 110.0000)">
+<use href="#w-habit-mono-medium-48" transform="translate(418.4000 110.0000) scale(0.026000 -0.026000)"/>
+<use href="#w-habit-mono-medium-56" transform="translate(434.0000 110.0000) scale(0.026000 -0.026000)"/>
+</g>
+</g>
+<g data-date="2027-04-09">
+<g aria-label="FRI" data-text="FRI" data-role="label" fill="#3F5B46" transform="rotate(0 521.0000 73.0000)">
+<use href="#w-habit-mono-70" transform="translate(505.7000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-82" transform="translate(515.9000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-73" transform="translate(526.1000 73.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="09" data-text="09" data-role="label" fill="#24312E" transform="rotate(0 521.0000 110.0000)">
+<use href="#w-habit-mono-medium-48" transform="translate(505.4000 110.0000) scale(0.026000 -0.026000)"/>
+<use href="#w-habit-mono-medium-57" transform="translate(521.0000 110.0000) scale(0.026000 -0.026000)"/>
+</g>
+</g>
+<g data-date="2027-04-10">
+<g aria-label="SAT" data-text="SAT" data-role="label" fill="#3F5B46" transform="rotate(0 608.0000 73.0000)">
+<use href="#w-habit-mono-83" transform="translate(592.7000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-65" transform="translate(602.9000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-84" transform="translate(613.1000 73.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="10" data-text="10" data-role="label" fill="#24312E" transform="rotate(0 608.0000 110.0000)">
+<use href="#w-habit-mono-medium-49" transform="translate(592.4000 110.0000) scale(0.026000 -0.026000)"/>
+<use href="#w-habit-mono-medium-48" transform="translate(608.0000 110.0000) scale(0.026000 -0.026000)"/>
+</g>
+</g>
+<g data-date="2027-04-11">
+<g aria-label="SUN" data-text="SUN" data-role="label" fill="#3F5B46" transform="rotate(0 695.0000 73.0000)">
+<use href="#w-habit-mono-83" transform="translate(679.7000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-85" transform="translate(689.9000 73.0000) scale(0.017000 -0.017000)"/>
+<use href="#w-habit-mono-78" transform="translate(700.1000 73.0000) scale(0.017000 -0.017000)"/>
+</g>
+<g aria-label="11" data-text="11" data-role="label" fill="#24312E" transform="rotate(0 695.0000 110.0000)">
+<use href="#w-habit-mono-medium-49" transform="translate(679.4000 110.0000) scale(0.026000 -0.026000)"/>
+<use href="#w-habit-mono-medium-49" transform="translate(695.0000 110.0000) scale(0.026000 -0.026000)"/>
+</g>
+</g>
+<line x1="40.0000" y1="198.0000" x2="113.0000" y2="198.0000" stroke="#9AA791" stroke-width="1"/>
+<rect x="157.0000" y="180.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="244.0000" y="180.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="331.0000" y="180.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="418.0000" y="180.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="505.0000" y="180.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="592.0000" y="180.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="679.0000" y="180.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<line x1="40.0000" y1="274.0000" x2="113.0000" y2="274.0000" stroke="#9AA791" stroke-width="1"/>
+<rect x="157.0000" y="256.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="244.0000" y="256.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="331.0000" y="256.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="418.0000" y="256.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="505.0000" y="256.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="592.0000" y="256.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="679.0000" y="256.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<line x1="40.0000" y1="350.0000" x2="113.0000" y2="350.0000" stroke="#9AA791" stroke-width="1"/>
+<rect x="157.0000" y="332.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="244.0000" y="332.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="331.0000" y="332.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="418.0000" y="332.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="505.0000" y="332.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="592.0000" y="332.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="679.0000" y="332.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<line x1="40.0000" y1="426.0000" x2="113.0000" y2="426.0000" stroke="#9AA791" stroke-width="1"/>
+<rect x="157.0000" y="408.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="244.0000" y="408.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="331.0000" y="408.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="418.0000" y="408.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="505.0000" y="408.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="592.0000" y="408.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+<rect x="679.0000" y="408.0000" width="35.0000" height="35.0000" fill="none" stroke="#3F5B46" stroke-width="1"/>
+</svg>

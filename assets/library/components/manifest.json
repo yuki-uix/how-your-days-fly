@@ -1,0 +1,3080 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-10-29",
+  "assets": [
+    {
+      "id": "y-ribbon",
+      "title": "Day-weighted ribbon",
+      "title_zh": "等日长度月份带",
+      "primary_scale": "year",
+      "suggested_scales": [
+        "year",
+        "month"
+      ],
+      "role": "functional",
+      "purpose": "需要看见全年连续性与月份长短时使用；每段宽度由实际公历天数计算。",
+      "tags": [
+        "month lengths",
+        "quarter separators",
+        "continuity"
+      ],
+      "cross_scale_adaptation": "年历作长索引；月历缩为当前月份在全年中的定位条。",
+      "parameters": [
+        "year",
+        "width",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/y-ribbon.svg",
+      "sha256": "e61b5cf9f355038027be6b3a50f82ce70742389f78bb364d6865af7fb3441fa3",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-01-01",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-02",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-03",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-04",
+          "weekday_monday0": 0,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-05",
+          "weekday_monday0": 1,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-06",
+          "weekday_monday0": 2,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-07",
+          "weekday_monday0": 3,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-08",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-09",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-10",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-11",
+          "weekday_monday0": 0,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-12",
+          "weekday_monday0": 1,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-13",
+          "weekday_monday0": 2,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-14",
+          "weekday_monday0": 3,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-15",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-16",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-17",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-18",
+          "weekday_monday0": 0,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-19",
+          "weekday_monday0": 1,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-20",
+          "weekday_monday0": 2,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-21",
+          "weekday_monday0": 3,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-22",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-23",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-24",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-25",
+          "weekday_monday0": 0,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-26",
+          "weekday_monday0": 1,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-27",
+          "weekday_monday0": 2,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-28",
+          "weekday_monday0": 3,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-29",
+          "weekday_monday0": 4,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-30",
+          "weekday_monday0": 5,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-01-31",
+          "weekday_monday0": 6,
+          "month": 1,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-01",
+          "weekday_monday0": 0,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-02",
+          "weekday_monday0": 1,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-03",
+          "weekday_monday0": 2,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-04",
+          "weekday_monday0": 3,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-05",
+          "weekday_monday0": 4,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-06",
+          "weekday_monday0": 5,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-07",
+          "weekday_monday0": 6,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-08",
+          "weekday_monday0": 0,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-09",
+          "weekday_monday0": 1,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-10",
+          "weekday_monday0": 2,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-11",
+          "weekday_monday0": 3,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-12",
+          "weekday_monday0": 4,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-13",
+          "weekday_monday0": 5,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-14",
+          "weekday_monday0": 6,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-15",
+          "weekday_monday0": 0,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-16",
+          "weekday_monday0": 1,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-17",
+          "weekday_monday0": 2,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-18",
+          "weekday_monday0": 3,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-19",
+          "weekday_monday0": 4,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-20",
+          "weekday_monday0": 5,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-21",
+          "weekday_monday0": 6,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-22",
+          "weekday_monday0": 0,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-23",
+          "weekday_monday0": 1,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-24",
+          "weekday_monday0": 2,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-25",
+          "weekday_monday0": 3,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-26",
+          "weekday_monday0": 4,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-27",
+          "weekday_monday0": 5,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-02-28",
+          "weekday_monday0": 6,
+          "month": 2,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-01",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-02",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-03",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-04",
+          "weekday_monday0": 3,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-05",
+          "weekday_monday0": 4,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-06",
+          "weekday_monday0": 5,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-07",
+          "weekday_monday0": 6,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-08",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-09",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-10",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-11",
+          "weekday_monday0": 3,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-12",
+          "weekday_monday0": 4,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-13",
+          "weekday_monday0": 5,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-14",
+          "weekday_monday0": 6,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-15",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-16",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-17",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-18",
+          "weekday_monday0": 3,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-19",
+          "weekday_monday0": 4,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-20",
+          "weekday_monday0": 5,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-21",
+          "weekday_monday0": 6,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-22",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-23",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-24",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-25",
+          "weekday_monday0": 3,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-26",
+          "weekday_monday0": 4,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-27",
+          "weekday_monday0": 5,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-28",
+          "weekday_monday0": 6,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-29",
+          "weekday_monday0": 0,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-30",
+          "weekday_monday0": 1,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-03-31",
+          "weekday_monday0": 2,
+          "month": 3,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-01",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-02",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-03",
+          "weekday_monday0": 5,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-04",
+          "weekday_monday0": 6,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-12",
+          "weekday_monday0": 0,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-13",
+          "weekday_monday0": 1,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-14",
+          "weekday_monday0": 2,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-15",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-16",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-17",
+          "weekday_monday0": 5,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-19",
+          "weekday_monday0": 0,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-20",
+          "weekday_monday0": 1,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-21",
+          "weekday_monday0": 2,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-22",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-23",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-24",
+          "weekday_monday0": 5,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-25",
+          "weekday_monday0": 6,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-26",
+          "weekday_monday0": 0,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-27",
+          "weekday_monday0": 1,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-28",
+          "weekday_monday0": 2,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-29",
+          "weekday_monday0": 3,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-04-30",
+          "weekday_monday0": 4,
+          "month": 4,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-01",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-02",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-03",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-04",
+          "weekday_monday0": 1,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-05",
+          "weekday_monday0": 2,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-06",
+          "weekday_monday0": 3,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-07",
+          "weekday_monday0": 4,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-08",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-09",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-10",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-11",
+          "weekday_monday0": 1,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-12",
+          "weekday_monday0": 2,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-13",
+          "weekday_monday0": 3,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-14",
+          "weekday_monday0": 4,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-15",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-16",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-17",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-18",
+          "weekday_monday0": 1,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-19",
+          "weekday_monday0": 2,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-20",
+          "weekday_monday0": 3,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-21",
+          "weekday_monday0": 4,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-22",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-23",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-24",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-25",
+          "weekday_monday0": 1,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-26",
+          "weekday_monday0": 2,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-27",
+          "weekday_monday0": 3,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-28",
+          "weekday_monday0": 4,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-29",
+          "weekday_monday0": 5,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-30",
+          "weekday_monday0": 6,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-05-31",
+          "weekday_monday0": 0,
+          "month": 5,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-01",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-02",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-03",
+          "weekday_monday0": 3,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-04",
+          "weekday_monday0": 4,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-05",
+          "weekday_monday0": 5,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-06",
+          "weekday_monday0": 6,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-07",
+          "weekday_monday0": 0,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-08",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-09",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-10",
+          "weekday_monday0": 3,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-11",
+          "weekday_monday0": 4,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-12",
+          "weekday_monday0": 5,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-13",
+          "weekday_monday0": 6,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-14",
+          "weekday_monday0": 0,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-15",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-16",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-17",
+          "weekday_monday0": 3,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-18",
+          "weekday_monday0": 4,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-19",
+          "weekday_monday0": 5,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-20",
+          "weekday_monday0": 6,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-21",
+          "weekday_monday0": 0,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-22",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-23",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-24",
+          "weekday_monday0": 3,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-25",
+          "weekday_monday0": 4,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-26",
+          "weekday_monday0": 5,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-27",
+          "weekday_monday0": 6,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-28",
+          "weekday_monday0": 0,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-29",
+          "weekday_monday0": 1,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-06-30",
+          "weekday_monday0": 2,
+          "month": 6,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-01",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-02",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-03",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-04",
+          "weekday_monday0": 6,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-05",
+          "weekday_monday0": 0,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-06",
+          "weekday_monday0": 1,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-07",
+          "weekday_monday0": 2,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-08",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-09",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-10",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-11",
+          "weekday_monday0": 6,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-12",
+          "weekday_monday0": 0,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-13",
+          "weekday_monday0": 1,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-14",
+          "weekday_monday0": 2,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-15",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-16",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-17",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-18",
+          "weekday_monday0": 6,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-19",
+          "weekday_monday0": 0,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-20",
+          "weekday_monday0": 1,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-21",
+          "weekday_monday0": 2,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-22",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-23",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-24",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-25",
+          "weekday_monday0": 6,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-26",
+          "weekday_monday0": 0,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-27",
+          "weekday_monday0": 1,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-28",
+          "weekday_monday0": 2,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-29",
+          "weekday_monday0": 3,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-30",
+          "weekday_monday0": 4,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-07-31",
+          "weekday_monday0": 5,
+          "month": 7,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-01",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-02",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-03",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-04",
+          "weekday_monday0": 2,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-05",
+          "weekday_monday0": 3,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-06",
+          "weekday_monday0": 4,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-07",
+          "weekday_monday0": 5,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-08",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-09",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-10",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-11",
+          "weekday_monday0": 2,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-12",
+          "weekday_monday0": 3,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-13",
+          "weekday_monday0": 4,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-14",
+          "weekday_monday0": 5,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-15",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-16",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-17",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-18",
+          "weekday_monday0": 2,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-19",
+          "weekday_monday0": 3,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-20",
+          "weekday_monday0": 4,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-21",
+          "weekday_monday0": 5,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-22",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-23",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-24",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-25",
+          "weekday_monday0": 2,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-26",
+          "weekday_monday0": 3,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-27",
+          "weekday_monday0": 4,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-28",
+          "weekday_monday0": 5,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-29",
+          "weekday_monday0": 6,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-30",
+          "weekday_monday0": 0,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-08-31",
+          "weekday_monday0": 1,
+          "month": 8,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-01",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-02",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-03",
+          "weekday_monday0": 4,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-04",
+          "weekday_monday0": 5,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-05",
+          "weekday_monday0": 6,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-06",
+          "weekday_monday0": 0,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-07",
+          "weekday_monday0": 1,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-08",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-09",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-10",
+          "weekday_monday0": 4,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-11",
+          "weekday_monday0": 5,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-12",
+          "weekday_monday0": 6,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-13",
+          "weekday_monday0": 0,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-14",
+          "weekday_monday0": 1,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-15",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-16",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-17",
+          "weekday_monday0": 4,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-18",
+          "weekday_monday0": 5,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-19",
+          "weekday_monday0": 6,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-20",
+          "weekday_monday0": 0,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-21",
+          "weekday_monday0": 1,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-22",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-23",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-24",
+          "weekday_monday0": 4,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-25",
+          "weekday_monday0": 5,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-26",
+          "weekday_monday0": 6,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-27",
+          "weekday_monday0": 0,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-28",
+          "weekday_monday0": 1,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-29",
+          "weekday_monday0": 2,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-09-30",
+          "weekday_monday0": 3,
+          "month": 9,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-01",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-02",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-03",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-04",
+          "weekday_monday0": 0,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-05",
+          "weekday_monday0": 1,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-06",
+          "weekday_monday0": 2,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-07",
+          "weekday_monday0": 3,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-08",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-09",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-10",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-11",
+          "weekday_monday0": 0,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-12",
+          "weekday_monday0": 1,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-13",
+          "weekday_monday0": 2,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-14",
+          "weekday_monday0": 3,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-15",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-16",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-17",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-18",
+          "weekday_monday0": 0,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-19",
+          "weekday_monday0": 1,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-20",
+          "weekday_monday0": 2,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-21",
+          "weekday_monday0": 3,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-22",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-23",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-24",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-25",
+          "weekday_monday0": 0,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-26",
+          "weekday_monday0": 1,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-27",
+          "weekday_monday0": 2,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-28",
+          "weekday_monday0": 3,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-29",
+          "weekday_monday0": 4,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-30",
+          "weekday_monday0": 5,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-10-31",
+          "weekday_monday0": 6,
+          "month": 10,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-01",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-02",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-03",
+          "weekday_monday0": 2,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-04",
+          "weekday_monday0": 3,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-05",
+          "weekday_monday0": 4,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-06",
+          "weekday_monday0": 5,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-07",
+          "weekday_monday0": 6,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-08",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-09",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-10",
+          "weekday_monday0": 2,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-11",
+          "weekday_monday0": 3,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-12",
+          "weekday_monday0": 4,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-13",
+          "weekday_monday0": 5,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-14",
+          "weekday_monday0": 6,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-15",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-16",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-17",
+          "weekday_monday0": 2,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-18",
+          "weekday_monday0": 3,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-19",
+          "weekday_monday0": 4,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-20",
+          "weekday_monday0": 5,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-21",
+          "weekday_monday0": 6,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-22",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-23",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-24",
+          "weekday_monday0": 2,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-25",
+          "weekday_monday0": 3,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-26",
+          "weekday_monday0": 4,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-27",
+          "weekday_monday0": 5,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-28",
+          "weekday_monday0": 6,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-29",
+          "weekday_monday0": 0,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-11-30",
+          "weekday_monday0": 1,
+          "month": 11,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-01",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-02",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-03",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-04",
+          "weekday_monday0": 5,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-05",
+          "weekday_monday0": 6,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-06",
+          "weekday_monday0": 0,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-07",
+          "weekday_monday0": 1,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-08",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-09",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-10",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-11",
+          "weekday_monday0": 5,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-12",
+          "weekday_monday0": 6,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-13",
+          "weekday_monday0": 0,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-14",
+          "weekday_monday0": 1,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-15",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-16",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-17",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-18",
+          "weekday_monday0": 5,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-19",
+          "weekday_monday0": 6,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-20",
+          "weekday_monday0": 0,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-21",
+          "weekday_monday0": 1,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-22",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-23",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-24",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-25",
+          "weekday_monday0": 5,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-26",
+          "weekday_monday0": 6,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-27",
+          "weekday_monday0": 0,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-28",
+          "weekday_monday0": 1,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-29",
+          "weekday_monday0": 2,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-30",
+          "weekday_monday0": 3,
+          "month": 12,
+          "width": 1.9397260273972603
+        },
+        {
+          "date": "2027-12-31",
+          "weekday_monday0": 4,
+          "month": 12,
+          "width": 1.9397260273972603
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "y-tabs",
+      "title": "Twelve edge tabs",
+      "title_zh": "十二月份侧签",
+      "primary_scale": "year",
+      "suggested_scales": [
+        "year",
+        "month",
+        "day"
+      ],
+      "role": "navigation",
+      "purpose": "多页系列的检索部件；位置编码月份，颜色仅作装饰。",
+      "tags": [
+        "tabs",
+        "month index",
+        "series"
+      ],
+      "cross_scale_adaptation": "年历作目录；月历保留当月签；日页可用侧签标识所在月份。",
+      "parameters": [
+        "year",
+        "tab depth",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/y-tabs.svg",
+      "sha256": "e5ced1a2a3a42983282f7a0c1110d992fb040649a3b5fdc6b4cfbdf71ddf56b9",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "y-weave",
+      "title": "Quarter weave",
+      "title_zh": "四分区织线",
+      "primary_scale": "year",
+      "suggested_scales": [
+        "year",
+        "month"
+      ],
+      "role": "ornament",
+      "purpose": "用于年历边框、封面或章节分隔的原创线纹；四区不代表季节或观测数据。",
+      "tags": [
+        "weave",
+        "line texture",
+        "quarters"
+      ],
+      "cross_scale_adaptation": "年历作四区底纹；月历只选其中一区，控制纹理与数字对比。",
+      "parameters": [
+        "line spacing",
+        "stroke",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/y-weave.svg",
+      "sha256": "3c549d5e91cd00bbd18ebe52c6177c3ed7c1b15db436cf4d403c1b53e2f99566",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "y-orbit",
+      "title": "Orbit ornament",
+      "title_zh": "环形装饰线",
+      "primary_scale": "year",
+      "suggested_scales": [
+        "year",
+        "day"
+      ],
+      "role": "ornament",
+      "purpose": "给径向构图提供可替换边饰；纯装饰，不是月相、日长或天文轨道。",
+      "tags": [
+        "rings",
+        "border",
+        "radial"
+      ],
+      "cross_scale_adaptation": "年历置于日期环之外；日页作低对比图像框，不能冒充天文数据。",
+      "parameters": [
+        "ring count",
+        "amplitude",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/y-orbit.svg",
+      "sha256": "4e0aa289ad882dfb73b7409d6d8c5186b8420eac9c555685f73caad6e2c5cfb8",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "m-mat",
+      "title": "Image mat + caption",
+      "title_zh": "主图卡纸与图注",
+      "primary_scale": "month",
+      "suggested_scales": [
+        "month",
+        "day"
+      ],
+      "role": "image-frame",
+      "purpose": "为横向主图、作品名与来源留出独立区域；不把文字压在复杂图像上。",
+      "tags": [
+        "image",
+        "caption",
+        "mat"
+      ],
+      "cross_scale_adaptation": "月历放整幅作品；日历选一个细节并保留原作身份。",
+      "parameters": [
+        "image aspect",
+        "mat width",
+        "caption depth"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/m-mat.svg",
+      "sha256": "7fe84e2194f3c60a800e38c3ac6765c94c971a5baf50feb7b24152b8e1288629",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "m-specimen",
+      "title": "Specimen label",
+      "title_zh": "博物学标本签",
+      "primary_scale": "month",
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "content-module",
+      "purpose": "适合植物、鸟类或材料图版的标题与出处；示例字段留空，不虚构物种与地点。",
+      "tags": [
+        "botanical",
+        "caption",
+        "archive"
+      ],
+      "cross_scale_adaptation": "月历形成图版系列；周页记录一次观察；日页形成一日一物。",
+      "parameters": [
+        "field names",
+        "rule spacing",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/m-specimen.svg",
+      "sha256": "3a3f4ed40f1e436bc4ec61e57d77fbf1a2c62534311d30191faca7220644dd0d",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "m-overprint",
+      "title": "Overprint planes",
+      "title_zh": "叠色几何片",
+      "primary_scale": "month",
+      "suggested_scales": [
+        "month",
+        "day"
+      ],
+      "role": "ornament",
+      "purpose": "原创不透明色片模拟叠印关系，可替换配色与方向；并非某种真实印刷效果证明。",
+      "tags": [
+        "geometric",
+        "overprint",
+        "color block"
+      ],
+      "cross_scale_adaptation": "月序列每月改变位置而保留语法；日序列一次只改变一个参数。",
+      "parameters": [
+        "plane positions",
+        "palette",
+        "scale"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/m-overprint.svg",
+      "sha256": "e91045eed653faadd0e622aa97a861af37883c5768fa06f69022f49bb4b4718f",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "m-dock",
+      "title": "Six-row date dock",
+      "title_zh": "可容纳六行的日期底座",
+      "primary_scale": "month",
+      "suggested_scales": [
+        "month"
+      ],
+      "role": "date-module",
+      "purpose": "固定六行空间，保留真实月份起点；非本月位置保持空白而非捏造日期。",
+      "tags": [
+        "six rows",
+        "lookup",
+        "date grid"
+      ],
+      "cross_scale_adaptation": "主图可以自由更换；七列与六行承载不同月份，仍需检查字号与写字面积。",
+      "parameters": [
+        "year",
+        "month",
+        "week start",
+        "cell size"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/m-dock.svg",
+      "sha256": "b4ae5e88d4cf599bf80589dd215c952e3818d8aa2227b893c6eb7f16f47c7a07",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-05-01",
+          "weekday_monday0": 5,
+          "row": 0,
+          "column": 5
+        },
+        {
+          "date": "2027-05-02",
+          "weekday_monday0": 6,
+          "row": 0,
+          "column": 6
+        },
+        {
+          "date": "2027-05-03",
+          "weekday_monday0": 0,
+          "row": 1,
+          "column": 0
+        },
+        {
+          "date": "2027-05-04",
+          "weekday_monday0": 1,
+          "row": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-05-05",
+          "weekday_monday0": 2,
+          "row": 1,
+          "column": 2
+        },
+        {
+          "date": "2027-05-06",
+          "weekday_monday0": 3,
+          "row": 1,
+          "column": 3
+        },
+        {
+          "date": "2027-05-07",
+          "weekday_monday0": 4,
+          "row": 1,
+          "column": 4
+        },
+        {
+          "date": "2027-05-08",
+          "weekday_monday0": 5,
+          "row": 1,
+          "column": 5
+        },
+        {
+          "date": "2027-05-09",
+          "weekday_monday0": 6,
+          "row": 1,
+          "column": 6
+        },
+        {
+          "date": "2027-05-10",
+          "weekday_monday0": 0,
+          "row": 2,
+          "column": 0
+        },
+        {
+          "date": "2027-05-11",
+          "weekday_monday0": 1,
+          "row": 2,
+          "column": 1
+        },
+        {
+          "date": "2027-05-12",
+          "weekday_monday0": 2,
+          "row": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-05-13",
+          "weekday_monday0": 3,
+          "row": 2,
+          "column": 3
+        },
+        {
+          "date": "2027-05-14",
+          "weekday_monday0": 4,
+          "row": 2,
+          "column": 4
+        },
+        {
+          "date": "2027-05-15",
+          "weekday_monday0": 5,
+          "row": 2,
+          "column": 5
+        },
+        {
+          "date": "2027-05-16",
+          "weekday_monday0": 6,
+          "row": 2,
+          "column": 6
+        },
+        {
+          "date": "2027-05-17",
+          "weekday_monday0": 0,
+          "row": 3,
+          "column": 0
+        },
+        {
+          "date": "2027-05-18",
+          "weekday_monday0": 1,
+          "row": 3,
+          "column": 1
+        },
+        {
+          "date": "2027-05-19",
+          "weekday_monday0": 2,
+          "row": 3,
+          "column": 2
+        },
+        {
+          "date": "2027-05-20",
+          "weekday_monday0": 3,
+          "row": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-05-21",
+          "weekday_monday0": 4,
+          "row": 3,
+          "column": 4
+        },
+        {
+          "date": "2027-05-22",
+          "weekday_monday0": 5,
+          "row": 3,
+          "column": 5
+        },
+        {
+          "date": "2027-05-23",
+          "weekday_monday0": 6,
+          "row": 3,
+          "column": 6
+        },
+        {
+          "date": "2027-05-24",
+          "weekday_monday0": 0,
+          "row": 4,
+          "column": 0
+        },
+        {
+          "date": "2027-05-25",
+          "weekday_monday0": 1,
+          "row": 4,
+          "column": 1
+        },
+        {
+          "date": "2027-05-26",
+          "weekday_monday0": 2,
+          "row": 4,
+          "column": 2
+        },
+        {
+          "date": "2027-05-27",
+          "weekday_monday0": 3,
+          "row": 4,
+          "column": 3
+        },
+        {
+          "date": "2027-05-28",
+          "weekday_monday0": 4,
+          "row": 4,
+          "column": 4
+        },
+        {
+          "date": "2027-05-29",
+          "weekday_monday0": 5,
+          "row": 4,
+          "column": 5
+        },
+        {
+          "date": "2027-05-30",
+          "weekday_monday0": 6,
+          "row": 4,
+          "column": 6
+        },
+        {
+          "date": "2027-05-31",
+          "weekday_monday0": 0,
+          "row": 5,
+          "column": 0
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "w-hours",
+      "title": "Time ladder",
+      "title_zh": "七日时间梯",
+      "primary_scale": "week",
+      "suggested_scales": [
+        "week",
+        "day"
+      ],
+      "role": "planning-module",
+      "purpose": "适合按时间段安排的一周；标注的小时是坐标，不代表用户真实日程。",
+      "tags": [
+        "time budget",
+        "seven days",
+        "hours"
+      ],
+      "cross_scale_adaptation": "周页并列七天；日页扩展一列并增加刻度，其他空间留给记录。",
+      "parameters": [
+        "anchor date",
+        "hour range",
+        "row height"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/w-hours.svg",
+      "sha256": "25637e3f409b7252971b78783540e1de86be525786e67224367e6d80248583da",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "w-notes",
+      "title": "Seven note stamps",
+      "title_zh": "七张日记条",
+      "primary_scale": "week",
+      "suggested_scales": [
+        "week",
+        "day"
+      ],
+      "role": "writing-module",
+      "purpose": "七天提供同等书写空间，保留日期与星期，避免把周末默认为不用记录。",
+      "tags": [
+        "equal area",
+        "notes",
+        "seven units"
+      ],
+      "cross_scale_adaptation": "周页排七条；日页放大一条，增加需要的字段。",
+      "parameters": [
+        "anchor date",
+        "columns",
+        "rule spacing"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/w-notes.svg",
+      "sha256": "39b7b62bc3ec219d4211a7b197787410736973c5974787b3c78a8ebcaf5cd3aa",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "w-habit",
+      "title": "Empty habit weave",
+      "title_zh": "空白习惯矩阵",
+      "primary_scale": "week",
+      "suggested_scales": [
+        "week",
+        "month"
+      ],
+      "role": "tracking-module",
+      "purpose": "允许用户自己写行名与勾选；未填写是未填写，不是未完成或坏的一天。",
+      "tags": [
+        "habit",
+        "blank state",
+        "matrix"
+      ],
+      "cross_scale_adaptation": "周页七列；月页按实际天数扩展，不能沿用七列而省略日期。",
+      "parameters": [
+        "anchor date",
+        "row names",
+        "checkbox size"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/w-habit.svg",
+      "sha256": "926d83b857ba2a2c6c170da877de9800953d1aad9e67759e9a5afab57cd9a524",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "w-margin",
+      "title": "Review + next margin",
+      "title_zh": "回顾与下周边栏",
+      "primary_scale": "week",
+      "suggested_scales": [
+        "week",
+        "month",
+        "day"
+      ],
+      "role": "reflection-module",
+      "purpose": "为周回顾和下一步留出不与时间表混淆的边栏；英文短提示为项目原创。",
+      "tags": [
+        "review",
+        "next",
+        "margin"
+      ],
+      "cross_scale_adaptation": "周/月页作收尾；日页可缩成一个可选问题，不强迫用户填满。",
+      "parameters": [
+        "prompts",
+        "rule count",
+        "width"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/w-margin.svg",
+      "sha256": "aa1d396139d06c2c22909f25410c043d88315423770775c58972a5c53a56ccb8",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "d-number",
+      "title": "Expressive day number",
+      "title_zh": "展示型单日数字",
+      "primary_scale": "day",
+      "suggested_scales": [
+        "day",
+        "month"
+      ],
+      "role": "type-module",
+      "purpose": "数字作为单页视觉主角，查阅信息用另一层级完整标注。",
+      "tags": [
+        "display numeral",
+        "hierarchy",
+        "date identity"
+      ],
+      "cross_scale_adaptation": "日页显示日号；月封面显示月号，不能让月号被误读成日期。",
+      "parameters": [
+        "date",
+        "font role",
+        "size",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/d-number.svg",
+      "sha256": "a1b3e91c428ee61fe85fa0bf07df6fd0c1911b7263615356aa0ef02053481c34",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6
+        }
+      ],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "d-perforation",
+      "title": "Perforated edge",
+      "title_zh": "撕页孔线边饰",
+      "primary_scale": "day",
+      "suggested_scales": [
+        "day",
+        "week"
+      ],
+      "role": "carrier-motif",
+      "purpose": "向撕页形式借用视觉提示；图中孔线仅为平面图形，未验证实体装订和裁切。",
+      "tags": [
+        "tear off",
+        "edge",
+        "paper"
+      ],
+      "cross_scale_adaptation": "日页作页首边饰；周历作收尾分隔，不作为真实裁切工程图。",
+      "parameters": [
+        "hole spacing",
+        "edge depth",
+        "palette"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/d-perforation.svg",
+      "sha256": "730a85379b94fca7f52b89afee992a69692c803bc151f95211bb5de33a761911",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "d-detail",
+      "title": "One image, four windows",
+      "title_zh": "单图局部连载窗口",
+      "primary_scale": "day",
+      "suggested_scales": [
+        "day",
+        "week",
+        "month"
+      ],
+      "role": "sequence-module",
+      "purpose": "预留四个局部观察窗口；衍生裁切仍要保留来源，不能宣称是四件独立作品。",
+      "tags": [
+        "detail",
+        "sequence",
+        "crop"
+      ],
+      "cross_scale_adaptation": "同图跨四天逐步观察，或月历主图搭配周页细节；先确认裁切权限。",
+      "parameters": [
+        "source image",
+        "crop positions",
+        "sequence length"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/d-detail.svg",
+      "sha256": "eb3d2bdc7c5398382b9796a29be7201a5a8b3ac5517787696da53432ee3e382a",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    },
+    {
+      "id": "d-observe",
+      "title": "Observation slip",
+      "title_zh": "一日观察笺",
+      "primary_scale": "day",
+      "suggested_scales": [
+        "day",
+        "week"
+      ],
+      "role": "writing-module",
+      "purpose": "用少量原创提示支持记录；空白区域保持可用，不预填励志语录。",
+      "tags": [
+        "journal",
+        "observation",
+        "prompt"
+      ],
+      "cross_scale_adaptation": "日页三个字段；周页七张短笺，按成品尺寸减少问题数量。",
+      "parameters": [
+        "prompts",
+        "rule spacing",
+        "field count"
+      ],
+      "parameter_scope": "Editable design variables in source. The current CLI exposes year and output directory only.",
+      "rights_status": "project-original-no-public-license-selected",
+      "sharing_scope": "Retained as original project material; no additional public reuse grant is asserted.",
+      "local_path": "assets/library/components/d-observe.svg",
+      "sha256": "1710422caa793ca92c09d045d1b8a8d6be3670b6ac7099a1cba9ff801ac7ab42",
+      "dimensions": {
+        "width": 800,
+        "height": 500
+      },
+      "calendar_dates": [],
+      "example_year": 2027,
+      "implementation": "scripts/build_material_library.py",
+      "note": "Editable code + outlined SVG proof; not a finished calendar or validated user preference."
+    }
+  ],
+  "implementation_sha256": "87211d747a9ac3770886f3f002420594fbd8942435c34a70b14e8c6a1aa21929",
+  "font_manifest": "assets/fonts/provenance.json"
+}
