@@ -2,6 +2,8 @@
 
 This is a small recording convention, not an implemented universal renderer or a fixed template schema. Evolve it from working designs.
 
+For local case/revision/artifact records and the standard-library initializer/checker, use [case-record.md](case-record.md). A recipe points to an actual retained revision; it may remain a draft. Keep actual replay evidence separate from a declared intent to support another week or year.
+
 Keep enough information to reopen and rerender the selected design:
 
 | Part | Retain |

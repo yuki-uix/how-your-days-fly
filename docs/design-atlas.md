@@ -2,6 +2,8 @@
 
 从这里一起调用项目已有的结构、设计语言、样本和素材。它们回答不同问题：**怎样组织时间、怎样建立阅读关系、用什么内容实现、已有作品证明了什么**。详细规则和资产记录仍保存在各自原文件，本页与[统一索引](../design/catalog.json)负责连接它们。
 
+实际开始一轮设计时，使用[基础 skill](../.agents/skills/calendar-design-lab/SKILL.md)：[渐进澄清](../.agents/skills/calendar-design-lab/references/discovery.md) → [方向探索与定向修改](../.agents/skills/calendar-design-lab/references/design-exploration.md) → [案例与证据留档](../.agents/skills/calendar-design-lab/references/case-record.md)。这些流程引用本总览；统一查询也返回对应 workflow 路径。
+
 ```mermaid
 flowchart LR
     A[用途与时间尺度] --> B[选择时间结构]

@@ -1,0 +1,62 @@
+{
+  "record_version": 1,
+  "experiment_id": "003-skill-foundation",
+  "kind": "workflow-and-record-tool-validation",
+  "status": "foundation-implemented-awaiting-real-design-case",
+  "skill": ".agents/skills/calendar-design-lab/SKILL.md",
+  "resources": [
+    ".agents/skills/calendar-design-lab/references/discovery.md",
+    ".agents/skills/calendar-design-lab/references/design-exploration.md",
+    ".agents/skills/calendar-design-lab/references/case-record.md"
+  ],
+  "technical_review": {
+    "status": "passed",
+    "scope": [
+      "skill frontmatter and structure validation",
+      "44 repository tests including 8 new case-record checks",
+      "local documentation links",
+      "joined design/material index refresh"
+    ],
+    "case_invariants": [
+      "initialization does not invent confirmed choices or approval",
+      "confirmed decisions require scoped evidence",
+      "mixed direction selection references existing IDs",
+      "approval targets its own revision",
+      "rendered status requires a retained preview or export",
+      "changed retained-file hashes are detected",
+      "replay claims need recorded run evidence",
+      "initialization refuses to overwrite an existing record"
+    ]
+  },
+  "independent_forward_test": {
+    "method": "independent agent with skill and repository access, no inherited conversation",
+    "side_effect_scope": "read-only repository; no real user questions, rendering or external services",
+    "cases": [
+      {
+        "synthetic_request": "我想要书籍主题的周历，先帮我探索一下。",
+        "observed": "Proposed visible whole-direction studies with explicit sample/default choices; did not infer a book list or selected style.",
+        "execution_limit": "No artwork was rendered in this test."
+      },
+      {
+        "synthetic_request": "如果用户想做书籍周历，我们需要哪些产品能力？",
+        "observed": "Stayed in discussion mode and separated existing tools/samples from missing capabilities; did not open a personal design case."
+      },
+      {
+        "synthetic_request": "这一版我喜欢七天等宽的排法，帮我把书的图片缩小一点，右边加大笔记区。",
+        "observed": "Retained the equal-column intent, scoped the edits and recognized that the parent source was unavailable; did not substitute an old study or inherit overall approval.",
+        "execution_limit": "No source design was provided, so no revision was produced."
+      }
+    ],
+    "narrow_followups": [
+      "Clarified locating the current source before requesting a missing parent version.",
+      "Clarified the minimum first-study record to avoid excessive preparation before visual work."
+    ]
+  },
+  "user_design_review": "not-performed",
+  "real_cases_completed": 0,
+  "limitations": [
+    "Workflow routing and record integrity are checked; aesthetic quality is unvalidated.",
+    "No general theme-to-layout generator or online editor was implemented.",
+    "Chinese typography and book content curation remain separate capability work."
+  ]
+}

@@ -144,7 +144,12 @@ def build_catalog():
         'primary_component_ids':material['groups'][scale]['components'],
         'material_relation':'Candidates for a new design or adaptation, not a claim of use in retained studies.',
     } for scale in SCALES}
-    inputs=[REF+name for name in ['patterns.md','design-language.md','learning-guide.md','temporal-semantics.md','typographic-composition.md']]
+    workflow={
+        'skill':'.agents/skills/calendar-design-lab/SKILL.md',
+        'discovery':REF+'discovery.md','exploration':REF+'design-exploration.md',
+        'case_record':REF+'case-record.md','review':REF+'review.md','recipe':REF+'recipe.md',
+    }
+    inputs=[REF+name for name in ['patterns.md','design-language.md','learning-guide.md','temporal-semantics.md','typographic-composition.md']]+list(workflow.values())
     inputs+=['studies/pattern-atlas/manifest.json','studies/learned-language/manifest.json','assets/library/catalog.json']+material['source_files']
     inputs=list(dict.fromkeys(inputs))
     return {
@@ -163,6 +168,7 @@ def build_catalog():
             'status':'previously-recorded-case-linked-without-new-analysis',
         } for key,title,url,material_id,doc in LEGACY_CASES],
         'material_catalog':'assets/library/catalog.json',
+        'workflow':workflow,
         'source_hashes':{p:sha(ROOT/p) for p in inputs},
         'builder_sha256':sha(Path(__file__)),
     }
@@ -193,6 +199,7 @@ def select(index,scale=None):
         'primary_component_ids':group['primary_component_ids'] if group else None,
         'material_relation':'Selection candidates; used_material_ids on a study records actual retained use.',
         'semantics':index['semantics'],
+        'workflow':index['workflow'],
     }
 
 

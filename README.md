@@ -62,6 +62,19 @@ python3 scripts/material_catalog.py --scale day --shareable-only --json
 
 从[设计总览](docs/design-atlas.md)开始；在支持项目 skills 的 agent 中使用 `.agents/skills/calendar-design-lab/SKILL.md`。其他环境可直接读取该文件及其按需引用的资源。
 
+基础 skill 已包含[需求澄清](.agents/skills/calendar-design-lab/references/discovery.md)、[设计探索与局部修改](.agents/skills/calendar-design-lab/references/design-exploration.md)、[案例记录](.agents/skills/calendar-design-lab/references/case-record.md)及原有审查／配方流程。它区分用户要求、默认值和假设，按需询问或出可见样本，并将个人偏好、条件规则和工具需求分别沉淀。
+
+为实际设计创建本地案例（真实请求默认放在忽略的 `output/`）：
+
+```sh
+python3 .agents/skills/calendar-design-lab/scripts/design_case.py new --id my-calendar --request '我的日历需求'
+python3 .agents/skills/calendar-design-lab/scripts/design_case.py check output/cases/my-calendar/record.json
+```
+
+[书籍周历示例](.agents/skills/calendar-design-lab/examples/book-weekly.json)是用于说明工作方法的合成案例，没有实际成品或用户批准。记录工具可检查状态、证据范围和文件哈希；它不生成日历，也不证明设计质量。中文排版与通用主题编排仍需实现。
+
+基础版的[验证记录](experiments/003-skill-foundation/record.json)包含记录工具检查和三个合成场景的独立试跑，真实设计案例尚待执行。
+
 生成日期数据：
 
 ```sh

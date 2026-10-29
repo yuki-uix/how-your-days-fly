@@ -23,4 +23,6 @@ An agent may critique these questions, but only the user can confirm personal sa
 
 For a useful revision, keep the feedback, interpretation, changed source/parameters, intentionally retained decisions, and resulting preview. Mark an interpretation as provisional until supported. If feedback could imply materially different changes, clarify with a comparison rather than silently choosing.
 
+Use [design-exploration.md](design-exploration.md) for the keep/change/unknown loop and [case-record.md](case-record.md) for revision-scoped evidence. Retaining an accepted date arrangement does not approve the new image, layout or entire revision. A record check only checks the recorded structure and file identities.
+
 Example: “time feels fragmented” could concern month grouping, visual interruptions, or how weeks cross month boundaries. Establish which feature caused the impression before changing all three.

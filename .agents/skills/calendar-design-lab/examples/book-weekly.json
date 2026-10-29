@@ -1,0 +1,185 @@
+{
+  "case_version": 1,
+  "case_id": "book-weekly-example",
+  "case_kind": "synthetic",
+  "mode": "create",
+  "phase": "brief",
+  "request": {
+    "text": "我想要书籍主题的周历。",
+    "source": "synthetic-example"
+  },
+  "brief": {
+    "view": {
+      "value": "week",
+      "basis": "user-stated",
+      "evidence": [
+        "Synthetic example request explicitly says 周历; its single-page/series meaning remains unresolved."
+      ]
+    },
+    "use": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    },
+    "theme": {
+      "value": "books",
+      "basis": "user-stated",
+      "evidence": [
+        "Synthetic example request explicitly says 书籍主题; no title, palette or theme role is specified."
+      ]
+    },
+    "theme_role": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    },
+    "period": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    },
+    "sequence": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    },
+    "medium": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    },
+    "dimensions": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    },
+    "language": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    },
+    "week_start": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    },
+    "visual_preferences": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": []
+    }
+  },
+  "questions": [
+    {
+      "id": "main-use",
+      "question": "主要想安排一周、记录阅读，还是观看一张主题作品？可以兼顾。",
+      "affects": [
+        "use",
+        "theme_role"
+      ],
+      "status": "not-asked-synthetic"
+    },
+    {
+      "id": "book-role",
+      "question": "有指定的书或书单，还是先探索书页、章节等视觉语言？",
+      "affects": [
+        "theme_role"
+      ],
+      "status": "not-asked-synthetic"
+    }
+  ],
+  "directions": [
+    {
+      "id": "chapter-like",
+      "title": "像一本书的周页",
+      "status": "proposed",
+      "hypothesis": "Books as a visual language: chapter heading for the week, marginal notes for optional writing.",
+      "design_card": {
+        "reading_task": "provisional weekly lookup and writing",
+        "main_relationship": "chapter hierarchy and seven-day structure",
+        "structure_ids": [
+          "agenda-matrix"
+        ],
+        "rule_ids": [
+          "type:display-versus-lookup",
+          "type:purposeful-whitespace"
+        ],
+        "candidate_material_ids": [
+          "w-notes",
+          "font-ibmplexmono"
+        ],
+        "limits": [
+          "Output language and carrier unresolved; current font assets do not establish Chinese support."
+        ]
+      },
+      "artifacts": []
+    },
+    {
+      "id": "one-book",
+      "title": "本周一本",
+      "status": "proposed",
+      "hypothesis": "One selected book as weekly content; no book or cover has been selected.",
+      "design_card": {
+        "reading_task": "provisional viewing plus date lookup",
+        "main_relationship": "one content unit beside a complete week",
+        "structure_ids": [
+          "agenda-matrix",
+          "serial-units"
+        ],
+        "rule_ids": [
+          "type:image-date-anchors",
+          "type:series-invariants"
+        ],
+        "candidate_material_ids": [
+          "m-mat",
+          "w-notes"
+        ],
+        "limits": [
+          "Book information, content source and image use need evidence before selection."
+        ]
+      },
+      "artifacts": []
+    },
+    {
+      "id": "reading-record",
+      "title": "阅读中的一周",
+      "status": "proposed",
+      "hypothesis": "A record of reading, only if the person wants to record it.",
+      "design_card": {
+        "reading_task": "provisional short daily notes",
+        "main_relationship": "seven writing areas with optional reading fields",
+        "structure_ids": [
+          "agenda-matrix"
+        ],
+        "rule_ids": [
+          "type:purposeful-whitespace"
+        ],
+        "candidate_material_ids": [
+          "w-notes",
+          "w-margin"
+        ],
+        "limits": [
+          "No reading goal, progress or personal book list is assumed."
+        ]
+      },
+      "artifacts": []
+    }
+  ],
+  "selection": {
+    "value": null,
+    "basis": "unknown",
+    "evidence": []
+  },
+  "revisions": [],
+  "recipe": null,
+  "learning": [
+    {
+      "kind": "hypothesis",
+      "observation": "The same short theme request can lead to different roles and compositions. These three proposals have not been rendered or tested with a user.",
+      "promotion_status": "not-a-validated-rule"
+    }
+  ],
+  "sharing": {
+    "status": "synthetic-public-example"
+  }
+}
