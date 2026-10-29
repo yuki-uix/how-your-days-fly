@@ -21,7 +21,7 @@ Record user-approved decisions and unresolved questions in the active experiment
 ## Repository boundaries
 
 - Work inside this repository. Do not modify unrelated project mirrors or reference sources.
-- This is a public repository: do not commit private conversation history, personal reference uploads, credentials, local font files, or unrelated outputs.
+- This is a public repository: do not commit private conversation history, personal reference uploads, credentials, unlicensed/private local or system font files, or unrelated outputs. Licensed font assets may be shared with their original licenses and provenance.
 - Use public reference links and brief original analysis where appropriate. Do not copy third-party calendar art into shared templates without the necessary rights.
 - Keep `.env`, `reference-inputs/`, `output/`, and `tmp/` local. Review staged files before pushing.
 - Do not add a blanket open-source license or import third-party assets without checking the relevant scope and recording the decision.
@@ -29,5 +29,7 @@ Record user-approved decisions and unresolved questions in the active experiment
 ## Validation
 
 Run `python3 -m unittest discover -s tests -v` after changes to the date tool. Add meaningful date-boundary tests when behavior changes.
+
+Install `requirements-design.txt` for the learned-language renderer and its visual-study checks. Without FontTools, those optional checks skip; the date/first-atlas checks remain usable with the standard library. Preserve retained asset hashes, or explicitly revise the recipe/provenance when changing assets.
 
 Technical verification and subjective approval must be reported separately. Test or skill-structure validation does not certify visual quality or clear a third-party asset's rights.

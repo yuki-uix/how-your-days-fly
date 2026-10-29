@@ -1,0 +1,30 @@
+{
+  "asset_id": "paper-light-j4-v1",
+  "asset_role": "Original exploratory art plate for J4 image-led monthly calendar study",
+  "preference_status": "exploratory-not-user-confirmed",
+  "created_date": "2026-10-29",
+  "generation": {
+    "tool": "image_gen.imagegen",
+    "mode": "built-in-generate",
+    "transparent_background": false,
+    "reference_images": []
+  },
+  "prompt": "Use case: photorealistic-natural\nAsset type: original editorial art plate for the top image area of an exploratory monthly calendar; art only\nPrimary request: Create a sophisticated abstract material-and-light photograph of translucent cobalt-blue paper layers and one pale apricot translucent sheet on a neutral light-gray ground. Carefully composed paper shapes overlap so their translucency and directional natural light form a restrained interplay of soft shadows with crisp edges. Preserve tactile fine paper grain and believable photographic material detail. Generous negative space, a calm but visually distinctive photogram / still-life feeling.\nComposition: landscape, approximately 3:2; a complete editorial image usable as a calendar's top hero, with deliberate spatial balance and room for cropping.\nLighting: directional natural light, controlled soft sharp-edged cast shadows, realistic subtle translucency.\nColor palette: cobalt blue, pale apricot, neutral light gray.\nConstraints: one original art image, no text, no numerals, no logos, no calendar, no mockup, no frame, no artist or brand references. Do not imitate a named existing artwork. This is an exploratory art direction and does not represent a confirmed user's visual preference.",
+  "source_filename": "exec-335241a0-c972-41e7-9be9-028099f13267.png",
+  "chosen_local_filename": "paper-light-j4-v1.png",
+  "sha256": "bd1b41d9c80338cf907fdc646cff48583f6c7ddedc2ba9bf17bbd2b7c4faa41e",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024,
+    "unit": "px",
+    "color_mode": "RGB"
+  },
+  "selected_bytes_preserved": true,
+  "rights_review": {
+    "status": "provenance-recorded",
+    "third_party_reference_assets": [],
+    "use_context": "Generated for the original project studies requested by the user.",
+    "copyright_clearance": "not-asserted",
+    "note": "No external reference images were used. Provenance is recorded; copyright, exclusivity, and every possible future use are not guaranteed."
+  }
+}

@@ -8,9 +8,9 @@
 
 先验证日历设计能力，再把验证有效的方法开放到网站。
 
-- 已有：项目专用的 `calendar-design-lab` skill 初稿、支持年/月/周/日的公历数据工具，以及 8 份可重放 SVG 源码的原创模式样本。
+- 已有：项目专用的 `calendar-design-lab`、从公开资料精读提炼的条件性设计规则、公历数据工具、8 份结构样本，以及固定字体和素材的 6 份新设计研究。
 - 正在开始：[第一个真实设计实验](docs/first-experiment.md)。
-- 尚未验证：设计满意度、反馈后的改进、跨用户效果、完整设计配方的重放。
+- 尚未验证：用户设计满意度、用户反馈后的改进、跨用户效果和通用设计生成能力。特定样本的资产重放及 2028 年变体已检查。
 - 尚未实现：通用视觉设计引擎、网站、在线 AI 生成、分享与导出服务。当前样本渲染器是实验工具。
 
 ```mermaid
@@ -43,6 +43,23 @@ python3 scripts/render_pattern_atlas.py --pdf output/pdf/calendar-pattern-atlas.
 ```
 
 SVG 生成只用标准库；可选 PDF 导出需要 `reportlab`。SVG 源码可确定性重放，浏览器字形依赖本机字体；后续正式配方需固定字体版本。原图形与 `manifest.json` 保存在 `studies/pattern-atlas/`，PDF 和本地预览保存在忽略的 `output/`。
+
+## 精读之后的新样本
+
+本轮将 TimeViz、Timelines Revisited、Vignelli、数字排版与字体选择资料中的相关章节，提炼为[设计决策语言](.agents/skills/calendar-design-lab/references/design-language.md)，分别保存来源认识、迁移假设与验证结果。
+
+![六份新的日历研究](studies/learned-language/overview.jpg)
+
+J1 为横向连续年历；J2/J3 固定视觉条件比较等日／等月；J4 为原创光影图像月历；J5 为等面积书写周页；J6 为比例宽数字主导的单日页。它们是待用户评价的设计研究，详见[样本记录](studies/learned-language/README.md)。
+
+```sh
+python3 -m pip install -r requirements-design.txt
+python3 scripts/render_language_studies.py --pdf output/pdf/learned-calendar-studies.pdf
+python3 scripts/render_language_studies.py --year 2028 --out-dir tmp/learned-2028
+python3 -m unittest discover -s tests -v
+```
+
+原始开放字体、许可证、所选生成图像及来源记录位于 `assets/`。SVG 使用字形轮廓并嵌入选定图像；可编辑文字和布局保留在源码，设计卡与素材/实现哈希保存在 manifest。生成器会拒绝与记录不一致的素材。当前新样本只检查所用英文、数字与符号的覆盖，尚未验证多语言排版。
 
 ## 使用当前能力
 

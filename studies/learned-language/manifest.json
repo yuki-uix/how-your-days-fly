@@ -1,0 +1,6467 @@
+{
+  "recipe_version": 2,
+  "year": 2027,
+  "implementation": {
+    "entrypoint": "scripts/render_language_studies.py",
+    "entrypoint_sha256": "5e2f35979c2297adf6f248cc30358852c47dbbf953b600e23f545508b28e6e2b",
+    "scene_renderer": "scripts/design_scene.py",
+    "scene_renderer_sha256": "76db24f3968e6a35a0ea760cad0ccabd09f54a3d595044c09b7430bcc75fae63",
+    "requirements": "requirements-design.txt",
+    "requirements_sha256": "987876095bdb553cf5b2d8ebec3315885d9af963984a9f70277e098d4351aca4"
+  },
+  "fonts": {
+    "retrieved_on": "2026-10-29",
+    "license": "SIL Open Font License 1.1; see each family OFL.txt",
+    "files": [
+      {
+        "path": "assets/fonts/instrumentserif/InstrumentSerif-Regular.ttf",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+        "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/instrumentserif/InstrumentSerif-Italic.ttf",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/InstrumentSerif-Italic.ttf",
+        "sha256": "08939b8bdf534afec24ae0ef5e03f948940cd9a8fe08e7fecbad040e62327385",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/instrumentserif/OFL.txt",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/instrumentserif/OFL.txt",
+        "sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+        "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/ibmplexmono/IBMPlexMono-Medium.ttf",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Medium.ttf",
+        "sha256": "a9b4c49bb299e05b5f6c481e7fb5e78943d2793249a0c8874ab574a2d1ea6755",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/ibmplexmono/OFL.txt",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+        "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+        "sha256": "e7437c072eef2ef592ae6f2beb0000446287385907abb57ac1cf07bcbaa2aa33",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.ttf",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-Medium.ttf",
+        "sha256": "426350c298277f7f9d1a93956572799ca3d16e2d43e7f60eec8382bcd795ec30",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/IBMPlexSansCondensed-SemiBold.ttf",
+        "sha256": "a081ca60548aea14100757a2d6fe71ca60fd90ebce779c9a8ae5a0c8fb4526d4",
+        "modified": false
+      },
+      {
+        "path": "assets/fonts/ibmplexsanscondensed/OFL.txt",
+        "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsanscondensed/OFL.txt",
+        "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "modified": false
+      }
+    ]
+  },
+  "image_asset": {
+    "asset_id": "paper-light-j4-v1",
+    "asset_role": "Original exploratory art plate for J4 image-led monthly calendar study",
+    "preference_status": "exploratory-not-user-confirmed",
+    "created_date": "2026-10-29",
+    "generation": {
+      "tool": "image_gen.imagegen",
+      "mode": "built-in-generate",
+      "transparent_background": false,
+      "reference_images": []
+    },
+    "prompt": "Use case: photorealistic-natural\nAsset type: original editorial art plate for the top image area of an exploratory monthly calendar; art only\nPrimary request: Create a sophisticated abstract material-and-light photograph of translucent cobalt-blue paper layers and one pale apricot translucent sheet on a neutral light-gray ground. Carefully composed paper shapes overlap so their translucency and directional natural light form a restrained interplay of soft shadows with crisp edges. Preserve tactile fine paper grain and believable photographic material detail. Generous negative space, a calm but visually distinctive photogram / still-life feeling.\nComposition: landscape, approximately 3:2; a complete editorial image usable as a calendar's top hero, with deliberate spatial balance and room for cropping.\nLighting: directional natural light, controlled soft sharp-edged cast shadows, realistic subtle translucency.\nColor palette: cobalt blue, pale apricot, neutral light gray.\nConstraints: one original art image, no text, no numerals, no logos, no calendar, no mockup, no frame, no artist or brand references. Do not imitate a named existing artwork. This is an exploratory art direction and does not represent a confirmed user's visual preference.",
+    "source_filename": "exec-335241a0-c972-41e7-9be9-028099f13267.png",
+    "chosen_local_filename": "paper-light-j4-v1.png",
+    "sha256": "bd1b41d9c80338cf907fdc646cff48583f6c7ddedc2ba9bf17bbd2b7c4faa41e",
+    "dimensions": {
+      "width": 1536,
+      "height": 1024,
+      "unit": "px",
+      "color_mode": "RGB"
+    },
+    "selected_bytes_preserved": true,
+    "rights_review": {
+      "status": "provenance-recorded",
+      "third_party_reference_assets": [],
+      "use_context": "Generated for the original project studies requested by the user.",
+      "copyright_clearance": "not-asserted",
+      "note": "No external reference images were used. Provenance is recorded; copyright, exclusivity, and every possible future use are not guaranteed."
+    }
+  },
+  "replay_scope": "Pinned fonts and retained art; SVG uses outlines and embeds the chosen image. Editable text and layout remain in source.",
+  "studies": [
+    {
+      "id": "J1",
+      "title": "The long view",
+      "source": "j1.svg",
+      "sha256": "f35c5d007c0d6e0fff78412fd423ccbf0f4c653d27119c4a08158e43d9e91f3c",
+      "dimensions": {
+        "width": 1400,
+        "height": 1000
+      },
+      "design_card": {
+        "reading_task": "Locate a civil date within a continuous annual span",
+        "display_extent": {
+          "view": "year",
+          "start": "2027-01-01",
+          "end": "2027-12-31"
+        },
+        "temporal_unit": "civil-date",
+        "temporal_mapping": "equal-civil-day-units",
+        "spatial_layout": "53 continuous week columns x seven weekday rows",
+        "typographic_roles": {
+          "year": "display",
+          "lookup_dates": "mono",
+          "month_index": "sans-medium"
+        },
+        "whitespace_role": "Separate the annual overview from its date index",
+        "source_rules": [
+          "temporal:continuous-order",
+          "type:display-versus-lookup",
+          "type:shared-anchors"
+        ],
+        "hypothesis": "A horizontal span may communicate continuity while month markers preserve lookup.",
+        "user_preference_status": "unconfirmed",
+        "study_language": "en",
+        "comparison_kind": "whole-direction",
+        "style": {
+          "paper": "#F1EFE8",
+          "ink": "#262923",
+          "accent": "#A64532",
+          "lookup_font": "mono",
+          "display_font": "display"
+        }
+      },
+      "represented_dates": [
+        {
+          "date": "2027-01-01",
+          "weekday_monday0": 4,
+          "column": 0,
+          "row": 4
+        },
+        {
+          "date": "2027-01-02",
+          "weekday_monday0": 5,
+          "column": 0,
+          "row": 5
+        },
+        {
+          "date": "2027-01-03",
+          "weekday_monday0": 6,
+          "column": 0,
+          "row": 6
+        },
+        {
+          "date": "2027-01-04",
+          "weekday_monday0": 0,
+          "column": 1,
+          "row": 0
+        },
+        {
+          "date": "2027-01-05",
+          "weekday_monday0": 1,
+          "column": 1,
+          "row": 1
+        },
+        {
+          "date": "2027-01-06",
+          "weekday_monday0": 2,
+          "column": 1,
+          "row": 2
+        },
+        {
+          "date": "2027-01-07",
+          "weekday_monday0": 3,
+          "column": 1,
+          "row": 3
+        },
+        {
+          "date": "2027-01-08",
+          "weekday_monday0": 4,
+          "column": 1,
+          "row": 4
+        },
+        {
+          "date": "2027-01-09",
+          "weekday_monday0": 5,
+          "column": 1,
+          "row": 5
+        },
+        {
+          "date": "2027-01-10",
+          "weekday_monday0": 6,
+          "column": 1,
+          "row": 6
+        },
+        {
+          "date": "2027-01-11",
+          "weekday_monday0": 0,
+          "column": 2,
+          "row": 0
+        },
+        {
+          "date": "2027-01-12",
+          "weekday_monday0": 1,
+          "column": 2,
+          "row": 1
+        },
+        {
+          "date": "2027-01-13",
+          "weekday_monday0": 2,
+          "column": 2,
+          "row": 2
+        },
+        {
+          "date": "2027-01-14",
+          "weekday_monday0": 3,
+          "column": 2,
+          "row": 3
+        },
+        {
+          "date": "2027-01-15",
+          "weekday_monday0": 4,
+          "column": 2,
+          "row": 4
+        },
+        {
+          "date": "2027-01-16",
+          "weekday_monday0": 5,
+          "column": 2,
+          "row": 5
+        },
+        {
+          "date": "2027-01-17",
+          "weekday_monday0": 6,
+          "column": 2,
+          "row": 6
+        },
+        {
+          "date": "2027-01-18",
+          "weekday_monday0": 0,
+          "column": 3,
+          "row": 0
+        },
+        {
+          "date": "2027-01-19",
+          "weekday_monday0": 1,
+          "column": 3,
+          "row": 1
+        },
+        {
+          "date": "2027-01-20",
+          "weekday_monday0": 2,
+          "column": 3,
+          "row": 2
+        },
+        {
+          "date": "2027-01-21",
+          "weekday_monday0": 3,
+          "column": 3,
+          "row": 3
+        },
+        {
+          "date": "2027-01-22",
+          "weekday_monday0": 4,
+          "column": 3,
+          "row": 4
+        },
+        {
+          "date": "2027-01-23",
+          "weekday_monday0": 5,
+          "column": 3,
+          "row": 5
+        },
+        {
+          "date": "2027-01-24",
+          "weekday_monday0": 6,
+          "column": 3,
+          "row": 6
+        },
+        {
+          "date": "2027-01-25",
+          "weekday_monday0": 0,
+          "column": 4,
+          "row": 0
+        },
+        {
+          "date": "2027-01-26",
+          "weekday_monday0": 1,
+          "column": 4,
+          "row": 1
+        },
+        {
+          "date": "2027-01-27",
+          "weekday_monday0": 2,
+          "column": 4,
+          "row": 2
+        },
+        {
+          "date": "2027-01-28",
+          "weekday_monday0": 3,
+          "column": 4,
+          "row": 3
+        },
+        {
+          "date": "2027-01-29",
+          "weekday_monday0": 4,
+          "column": 4,
+          "row": 4
+        },
+        {
+          "date": "2027-01-30",
+          "weekday_monday0": 5,
+          "column": 4,
+          "row": 5
+        },
+        {
+          "date": "2027-01-31",
+          "weekday_monday0": 6,
+          "column": 4,
+          "row": 6
+        },
+        {
+          "date": "2027-02-01",
+          "weekday_monday0": 0,
+          "column": 5,
+          "row": 0
+        },
+        {
+          "date": "2027-02-02",
+          "weekday_monday0": 1,
+          "column": 5,
+          "row": 1
+        },
+        {
+          "date": "2027-02-03",
+          "weekday_monday0": 2,
+          "column": 5,
+          "row": 2
+        },
+        {
+          "date": "2027-02-04",
+          "weekday_monday0": 3,
+          "column": 5,
+          "row": 3
+        },
+        {
+          "date": "2027-02-05",
+          "weekday_monday0": 4,
+          "column": 5,
+          "row": 4
+        },
+        {
+          "date": "2027-02-06",
+          "weekday_monday0": 5,
+          "column": 5,
+          "row": 5
+        },
+        {
+          "date": "2027-02-07",
+          "weekday_monday0": 6,
+          "column": 5,
+          "row": 6
+        },
+        {
+          "date": "2027-02-08",
+          "weekday_monday0": 0,
+          "column": 6,
+          "row": 0
+        },
+        {
+          "date": "2027-02-09",
+          "weekday_monday0": 1,
+          "column": 6,
+          "row": 1
+        },
+        {
+          "date": "2027-02-10",
+          "weekday_monday0": 2,
+          "column": 6,
+          "row": 2
+        },
+        {
+          "date": "2027-02-11",
+          "weekday_monday0": 3,
+          "column": 6,
+          "row": 3
+        },
+        {
+          "date": "2027-02-12",
+          "weekday_monday0": 4,
+          "column": 6,
+          "row": 4
+        },
+        {
+          "date": "2027-02-13",
+          "weekday_monday0": 5,
+          "column": 6,
+          "row": 5
+        },
+        {
+          "date": "2027-02-14",
+          "weekday_monday0": 6,
+          "column": 6,
+          "row": 6
+        },
+        {
+          "date": "2027-02-15",
+          "weekday_monday0": 0,
+          "column": 7,
+          "row": 0
+        },
+        {
+          "date": "2027-02-16",
+          "weekday_monday0": 1,
+          "column": 7,
+          "row": 1
+        },
+        {
+          "date": "2027-02-17",
+          "weekday_monday0": 2,
+          "column": 7,
+          "row": 2
+        },
+        {
+          "date": "2027-02-18",
+          "weekday_monday0": 3,
+          "column": 7,
+          "row": 3
+        },
+        {
+          "date": "2027-02-19",
+          "weekday_monday0": 4,
+          "column": 7,
+          "row": 4
+        },
+        {
+          "date": "2027-02-20",
+          "weekday_monday0": 5,
+          "column": 7,
+          "row": 5
+        },
+        {
+          "date": "2027-02-21",
+          "weekday_monday0": 6,
+          "column": 7,
+          "row": 6
+        },
+        {
+          "date": "2027-02-22",
+          "weekday_monday0": 0,
+          "column": 8,
+          "row": 0
+        },
+        {
+          "date": "2027-02-23",
+          "weekday_monday0": 1,
+          "column": 8,
+          "row": 1
+        },
+        {
+          "date": "2027-02-24",
+          "weekday_monday0": 2,
+          "column": 8,
+          "row": 2
+        },
+        {
+          "date": "2027-02-25",
+          "weekday_monday0": 3,
+          "column": 8,
+          "row": 3
+        },
+        {
+          "date": "2027-02-26",
+          "weekday_monday0": 4,
+          "column": 8,
+          "row": 4
+        },
+        {
+          "date": "2027-02-27",
+          "weekday_monday0": 5,
+          "column": 8,
+          "row": 5
+        },
+        {
+          "date": "2027-02-28",
+          "weekday_monday0": 6,
+          "column": 8,
+          "row": 6
+        },
+        {
+          "date": "2027-03-01",
+          "weekday_monday0": 0,
+          "column": 9,
+          "row": 0
+        },
+        {
+          "date": "2027-03-02",
+          "weekday_monday0": 1,
+          "column": 9,
+          "row": 1
+        },
+        {
+          "date": "2027-03-03",
+          "weekday_monday0": 2,
+          "column": 9,
+          "row": 2
+        },
+        {
+          "date": "2027-03-04",
+          "weekday_monday0": 3,
+          "column": 9,
+          "row": 3
+        },
+        {
+          "date": "2027-03-05",
+          "weekday_monday0": 4,
+          "column": 9,
+          "row": 4
+        },
+        {
+          "date": "2027-03-06",
+          "weekday_monday0": 5,
+          "column": 9,
+          "row": 5
+        },
+        {
+          "date": "2027-03-07",
+          "weekday_monday0": 6,
+          "column": 9,
+          "row": 6
+        },
+        {
+          "date": "2027-03-08",
+          "weekday_monday0": 0,
+          "column": 10,
+          "row": 0
+        },
+        {
+          "date": "2027-03-09",
+          "weekday_monday0": 1,
+          "column": 10,
+          "row": 1
+        },
+        {
+          "date": "2027-03-10",
+          "weekday_monday0": 2,
+          "column": 10,
+          "row": 2
+        },
+        {
+          "date": "2027-03-11",
+          "weekday_monday0": 3,
+          "column": 10,
+          "row": 3
+        },
+        {
+          "date": "2027-03-12",
+          "weekday_monday0": 4,
+          "column": 10,
+          "row": 4
+        },
+        {
+          "date": "2027-03-13",
+          "weekday_monday0": 5,
+          "column": 10,
+          "row": 5
+        },
+        {
+          "date": "2027-03-14",
+          "weekday_monday0": 6,
+          "column": 10,
+          "row": 6
+        },
+        {
+          "date": "2027-03-15",
+          "weekday_monday0": 0,
+          "column": 11,
+          "row": 0
+        },
+        {
+          "date": "2027-03-16",
+          "weekday_monday0": 1,
+          "column": 11,
+          "row": 1
+        },
+        {
+          "date": "2027-03-17",
+          "weekday_monday0": 2,
+          "column": 11,
+          "row": 2
+        },
+        {
+          "date": "2027-03-18",
+          "weekday_monday0": 3,
+          "column": 11,
+          "row": 3
+        },
+        {
+          "date": "2027-03-19",
+          "weekday_monday0": 4,
+          "column": 11,
+          "row": 4
+        },
+        {
+          "date": "2027-03-20",
+          "weekday_monday0": 5,
+          "column": 11,
+          "row": 5
+        },
+        {
+          "date": "2027-03-21",
+          "weekday_monday0": 6,
+          "column": 11,
+          "row": 6
+        },
+        {
+          "date": "2027-03-22",
+          "weekday_monday0": 0,
+          "column": 12,
+          "row": 0
+        },
+        {
+          "date": "2027-03-23",
+          "weekday_monday0": 1,
+          "column": 12,
+          "row": 1
+        },
+        {
+          "date": "2027-03-24",
+          "weekday_monday0": 2,
+          "column": 12,
+          "row": 2
+        },
+        {
+          "date": "2027-03-25",
+          "weekday_monday0": 3,
+          "column": 12,
+          "row": 3
+        },
+        {
+          "date": "2027-03-26",
+          "weekday_monday0": 4,
+          "column": 12,
+          "row": 4
+        },
+        {
+          "date": "2027-03-27",
+          "weekday_monday0": 5,
+          "column": 12,
+          "row": 5
+        },
+        {
+          "date": "2027-03-28",
+          "weekday_monday0": 6,
+          "column": 12,
+          "row": 6
+        },
+        {
+          "date": "2027-03-29",
+          "weekday_monday0": 0,
+          "column": 13,
+          "row": 0
+        },
+        {
+          "date": "2027-03-30",
+          "weekday_monday0": 1,
+          "column": 13,
+          "row": 1
+        },
+        {
+          "date": "2027-03-31",
+          "weekday_monday0": 2,
+          "column": 13,
+          "row": 2
+        },
+        {
+          "date": "2027-04-01",
+          "weekday_monday0": 3,
+          "column": 13,
+          "row": 3
+        },
+        {
+          "date": "2027-04-02",
+          "weekday_monday0": 4,
+          "column": 13,
+          "row": 4
+        },
+        {
+          "date": "2027-04-03",
+          "weekday_monday0": 5,
+          "column": 13,
+          "row": 5
+        },
+        {
+          "date": "2027-04-04",
+          "weekday_monday0": 6,
+          "column": 13,
+          "row": 6
+        },
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "column": 14,
+          "row": 0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "column": 14,
+          "row": 1
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "column": 14,
+          "row": 2
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "column": 14,
+          "row": 3
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "column": 14,
+          "row": 4
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "column": 14,
+          "row": 5
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "column": 14,
+          "row": 6
+        },
+        {
+          "date": "2027-04-12",
+          "weekday_monday0": 0,
+          "column": 15,
+          "row": 0
+        },
+        {
+          "date": "2027-04-13",
+          "weekday_monday0": 1,
+          "column": 15,
+          "row": 1
+        },
+        {
+          "date": "2027-04-14",
+          "weekday_monday0": 2,
+          "column": 15,
+          "row": 2
+        },
+        {
+          "date": "2027-04-15",
+          "weekday_monday0": 3,
+          "column": 15,
+          "row": 3
+        },
+        {
+          "date": "2027-04-16",
+          "weekday_monday0": 4,
+          "column": 15,
+          "row": 4
+        },
+        {
+          "date": "2027-04-17",
+          "weekday_monday0": 5,
+          "column": 15,
+          "row": 5
+        },
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6,
+          "column": 15,
+          "row": 6
+        },
+        {
+          "date": "2027-04-19",
+          "weekday_monday0": 0,
+          "column": 16,
+          "row": 0
+        },
+        {
+          "date": "2027-04-20",
+          "weekday_monday0": 1,
+          "column": 16,
+          "row": 1
+        },
+        {
+          "date": "2027-04-21",
+          "weekday_monday0": 2,
+          "column": 16,
+          "row": 2
+        },
+        {
+          "date": "2027-04-22",
+          "weekday_monday0": 3,
+          "column": 16,
+          "row": 3
+        },
+        {
+          "date": "2027-04-23",
+          "weekday_monday0": 4,
+          "column": 16,
+          "row": 4
+        },
+        {
+          "date": "2027-04-24",
+          "weekday_monday0": 5,
+          "column": 16,
+          "row": 5
+        },
+        {
+          "date": "2027-04-25",
+          "weekday_monday0": 6,
+          "column": 16,
+          "row": 6
+        },
+        {
+          "date": "2027-04-26",
+          "weekday_monday0": 0,
+          "column": 17,
+          "row": 0
+        },
+        {
+          "date": "2027-04-27",
+          "weekday_monday0": 1,
+          "column": 17,
+          "row": 1
+        },
+        {
+          "date": "2027-04-28",
+          "weekday_monday0": 2,
+          "column": 17,
+          "row": 2
+        },
+        {
+          "date": "2027-04-29",
+          "weekday_monday0": 3,
+          "column": 17,
+          "row": 3
+        },
+        {
+          "date": "2027-04-30",
+          "weekday_monday0": 4,
+          "column": 17,
+          "row": 4
+        },
+        {
+          "date": "2027-05-01",
+          "weekday_monday0": 5,
+          "column": 17,
+          "row": 5
+        },
+        {
+          "date": "2027-05-02",
+          "weekday_monday0": 6,
+          "column": 17,
+          "row": 6
+        },
+        {
+          "date": "2027-05-03",
+          "weekday_monday0": 0,
+          "column": 18,
+          "row": 0
+        },
+        {
+          "date": "2027-05-04",
+          "weekday_monday0": 1,
+          "column": 18,
+          "row": 1
+        },
+        {
+          "date": "2027-05-05",
+          "weekday_monday0": 2,
+          "column": 18,
+          "row": 2
+        },
+        {
+          "date": "2027-05-06",
+          "weekday_monday0": 3,
+          "column": 18,
+          "row": 3
+        },
+        {
+          "date": "2027-05-07",
+          "weekday_monday0": 4,
+          "column": 18,
+          "row": 4
+        },
+        {
+          "date": "2027-05-08",
+          "weekday_monday0": 5,
+          "column": 18,
+          "row": 5
+        },
+        {
+          "date": "2027-05-09",
+          "weekday_monday0": 6,
+          "column": 18,
+          "row": 6
+        },
+        {
+          "date": "2027-05-10",
+          "weekday_monday0": 0,
+          "column": 19,
+          "row": 0
+        },
+        {
+          "date": "2027-05-11",
+          "weekday_monday0": 1,
+          "column": 19,
+          "row": 1
+        },
+        {
+          "date": "2027-05-12",
+          "weekday_monday0": 2,
+          "column": 19,
+          "row": 2
+        },
+        {
+          "date": "2027-05-13",
+          "weekday_monday0": 3,
+          "column": 19,
+          "row": 3
+        },
+        {
+          "date": "2027-05-14",
+          "weekday_monday0": 4,
+          "column": 19,
+          "row": 4
+        },
+        {
+          "date": "2027-05-15",
+          "weekday_monday0": 5,
+          "column": 19,
+          "row": 5
+        },
+        {
+          "date": "2027-05-16",
+          "weekday_monday0": 6,
+          "column": 19,
+          "row": 6
+        },
+        {
+          "date": "2027-05-17",
+          "weekday_monday0": 0,
+          "column": 20,
+          "row": 0
+        },
+        {
+          "date": "2027-05-18",
+          "weekday_monday0": 1,
+          "column": 20,
+          "row": 1
+        },
+        {
+          "date": "2027-05-19",
+          "weekday_monday0": 2,
+          "column": 20,
+          "row": 2
+        },
+        {
+          "date": "2027-05-20",
+          "weekday_monday0": 3,
+          "column": 20,
+          "row": 3
+        },
+        {
+          "date": "2027-05-21",
+          "weekday_monday0": 4,
+          "column": 20,
+          "row": 4
+        },
+        {
+          "date": "2027-05-22",
+          "weekday_monday0": 5,
+          "column": 20,
+          "row": 5
+        },
+        {
+          "date": "2027-05-23",
+          "weekday_monday0": 6,
+          "column": 20,
+          "row": 6
+        },
+        {
+          "date": "2027-05-24",
+          "weekday_monday0": 0,
+          "column": 21,
+          "row": 0
+        },
+        {
+          "date": "2027-05-25",
+          "weekday_monday0": 1,
+          "column": 21,
+          "row": 1
+        },
+        {
+          "date": "2027-05-26",
+          "weekday_monday0": 2,
+          "column": 21,
+          "row": 2
+        },
+        {
+          "date": "2027-05-27",
+          "weekday_monday0": 3,
+          "column": 21,
+          "row": 3
+        },
+        {
+          "date": "2027-05-28",
+          "weekday_monday0": 4,
+          "column": 21,
+          "row": 4
+        },
+        {
+          "date": "2027-05-29",
+          "weekday_monday0": 5,
+          "column": 21,
+          "row": 5
+        },
+        {
+          "date": "2027-05-30",
+          "weekday_monday0": 6,
+          "column": 21,
+          "row": 6
+        },
+        {
+          "date": "2027-05-31",
+          "weekday_monday0": 0,
+          "column": 22,
+          "row": 0
+        },
+        {
+          "date": "2027-06-01",
+          "weekday_monday0": 1,
+          "column": 22,
+          "row": 1
+        },
+        {
+          "date": "2027-06-02",
+          "weekday_monday0": 2,
+          "column": 22,
+          "row": 2
+        },
+        {
+          "date": "2027-06-03",
+          "weekday_monday0": 3,
+          "column": 22,
+          "row": 3
+        },
+        {
+          "date": "2027-06-04",
+          "weekday_monday0": 4,
+          "column": 22,
+          "row": 4
+        },
+        {
+          "date": "2027-06-05",
+          "weekday_monday0": 5,
+          "column": 22,
+          "row": 5
+        },
+        {
+          "date": "2027-06-06",
+          "weekday_monday0": 6,
+          "column": 22,
+          "row": 6
+        },
+        {
+          "date": "2027-06-07",
+          "weekday_monday0": 0,
+          "column": 23,
+          "row": 0
+        },
+        {
+          "date": "2027-06-08",
+          "weekday_monday0": 1,
+          "column": 23,
+          "row": 1
+        },
+        {
+          "date": "2027-06-09",
+          "weekday_monday0": 2,
+          "column": 23,
+          "row": 2
+        },
+        {
+          "date": "2027-06-10",
+          "weekday_monday0": 3,
+          "column": 23,
+          "row": 3
+        },
+        {
+          "date": "2027-06-11",
+          "weekday_monday0": 4,
+          "column": 23,
+          "row": 4
+        },
+        {
+          "date": "2027-06-12",
+          "weekday_monday0": 5,
+          "column": 23,
+          "row": 5
+        },
+        {
+          "date": "2027-06-13",
+          "weekday_monday0": 6,
+          "column": 23,
+          "row": 6
+        },
+        {
+          "date": "2027-06-14",
+          "weekday_monday0": 0,
+          "column": 24,
+          "row": 0
+        },
+        {
+          "date": "2027-06-15",
+          "weekday_monday0": 1,
+          "column": 24,
+          "row": 1
+        },
+        {
+          "date": "2027-06-16",
+          "weekday_monday0": 2,
+          "column": 24,
+          "row": 2
+        },
+        {
+          "date": "2027-06-17",
+          "weekday_monday0": 3,
+          "column": 24,
+          "row": 3
+        },
+        {
+          "date": "2027-06-18",
+          "weekday_monday0": 4,
+          "column": 24,
+          "row": 4
+        },
+        {
+          "date": "2027-06-19",
+          "weekday_monday0": 5,
+          "column": 24,
+          "row": 5
+        },
+        {
+          "date": "2027-06-20",
+          "weekday_monday0": 6,
+          "column": 24,
+          "row": 6
+        },
+        {
+          "date": "2027-06-21",
+          "weekday_monday0": 0,
+          "column": 25,
+          "row": 0
+        },
+        {
+          "date": "2027-06-22",
+          "weekday_monday0": 1,
+          "column": 25,
+          "row": 1
+        },
+        {
+          "date": "2027-06-23",
+          "weekday_monday0": 2,
+          "column": 25,
+          "row": 2
+        },
+        {
+          "date": "2027-06-24",
+          "weekday_monday0": 3,
+          "column": 25,
+          "row": 3
+        },
+        {
+          "date": "2027-06-25",
+          "weekday_monday0": 4,
+          "column": 25,
+          "row": 4
+        },
+        {
+          "date": "2027-06-26",
+          "weekday_monday0": 5,
+          "column": 25,
+          "row": 5
+        },
+        {
+          "date": "2027-06-27",
+          "weekday_monday0": 6,
+          "column": 25,
+          "row": 6
+        },
+        {
+          "date": "2027-06-28",
+          "weekday_monday0": 0,
+          "column": 26,
+          "row": 0
+        },
+        {
+          "date": "2027-06-29",
+          "weekday_monday0": 1,
+          "column": 26,
+          "row": 1
+        },
+        {
+          "date": "2027-06-30",
+          "weekday_monday0": 2,
+          "column": 26,
+          "row": 2
+        },
+        {
+          "date": "2027-07-01",
+          "weekday_monday0": 3,
+          "column": 26,
+          "row": 3
+        },
+        {
+          "date": "2027-07-02",
+          "weekday_monday0": 4,
+          "column": 26,
+          "row": 4
+        },
+        {
+          "date": "2027-07-03",
+          "weekday_monday0": 5,
+          "column": 26,
+          "row": 5
+        },
+        {
+          "date": "2027-07-04",
+          "weekday_monday0": 6,
+          "column": 26,
+          "row": 6
+        },
+        {
+          "date": "2027-07-05",
+          "weekday_monday0": 0,
+          "column": 27,
+          "row": 0
+        },
+        {
+          "date": "2027-07-06",
+          "weekday_monday0": 1,
+          "column": 27,
+          "row": 1
+        },
+        {
+          "date": "2027-07-07",
+          "weekday_monday0": 2,
+          "column": 27,
+          "row": 2
+        },
+        {
+          "date": "2027-07-08",
+          "weekday_monday0": 3,
+          "column": 27,
+          "row": 3
+        },
+        {
+          "date": "2027-07-09",
+          "weekday_monday0": 4,
+          "column": 27,
+          "row": 4
+        },
+        {
+          "date": "2027-07-10",
+          "weekday_monday0": 5,
+          "column": 27,
+          "row": 5
+        },
+        {
+          "date": "2027-07-11",
+          "weekday_monday0": 6,
+          "column": 27,
+          "row": 6
+        },
+        {
+          "date": "2027-07-12",
+          "weekday_monday0": 0,
+          "column": 28,
+          "row": 0
+        },
+        {
+          "date": "2027-07-13",
+          "weekday_monday0": 1,
+          "column": 28,
+          "row": 1
+        },
+        {
+          "date": "2027-07-14",
+          "weekday_monday0": 2,
+          "column": 28,
+          "row": 2
+        },
+        {
+          "date": "2027-07-15",
+          "weekday_monday0": 3,
+          "column": 28,
+          "row": 3
+        },
+        {
+          "date": "2027-07-16",
+          "weekday_monday0": 4,
+          "column": 28,
+          "row": 4
+        },
+        {
+          "date": "2027-07-17",
+          "weekday_monday0": 5,
+          "column": 28,
+          "row": 5
+        },
+        {
+          "date": "2027-07-18",
+          "weekday_monday0": 6,
+          "column": 28,
+          "row": 6
+        },
+        {
+          "date": "2027-07-19",
+          "weekday_monday0": 0,
+          "column": 29,
+          "row": 0
+        },
+        {
+          "date": "2027-07-20",
+          "weekday_monday0": 1,
+          "column": 29,
+          "row": 1
+        },
+        {
+          "date": "2027-07-21",
+          "weekday_monday0": 2,
+          "column": 29,
+          "row": 2
+        },
+        {
+          "date": "2027-07-22",
+          "weekday_monday0": 3,
+          "column": 29,
+          "row": 3
+        },
+        {
+          "date": "2027-07-23",
+          "weekday_monday0": 4,
+          "column": 29,
+          "row": 4
+        },
+        {
+          "date": "2027-07-24",
+          "weekday_monday0": 5,
+          "column": 29,
+          "row": 5
+        },
+        {
+          "date": "2027-07-25",
+          "weekday_monday0": 6,
+          "column": 29,
+          "row": 6
+        },
+        {
+          "date": "2027-07-26",
+          "weekday_monday0": 0,
+          "column": 30,
+          "row": 0
+        },
+        {
+          "date": "2027-07-27",
+          "weekday_monday0": 1,
+          "column": 30,
+          "row": 1
+        },
+        {
+          "date": "2027-07-28",
+          "weekday_monday0": 2,
+          "column": 30,
+          "row": 2
+        },
+        {
+          "date": "2027-07-29",
+          "weekday_monday0": 3,
+          "column": 30,
+          "row": 3
+        },
+        {
+          "date": "2027-07-30",
+          "weekday_monday0": 4,
+          "column": 30,
+          "row": 4
+        },
+        {
+          "date": "2027-07-31",
+          "weekday_monday0": 5,
+          "column": 30,
+          "row": 5
+        },
+        {
+          "date": "2027-08-01",
+          "weekday_monday0": 6,
+          "column": 30,
+          "row": 6
+        },
+        {
+          "date": "2027-08-02",
+          "weekday_monday0": 0,
+          "column": 31,
+          "row": 0
+        },
+        {
+          "date": "2027-08-03",
+          "weekday_monday0": 1,
+          "column": 31,
+          "row": 1
+        },
+        {
+          "date": "2027-08-04",
+          "weekday_monday0": 2,
+          "column": 31,
+          "row": 2
+        },
+        {
+          "date": "2027-08-05",
+          "weekday_monday0": 3,
+          "column": 31,
+          "row": 3
+        },
+        {
+          "date": "2027-08-06",
+          "weekday_monday0": 4,
+          "column": 31,
+          "row": 4
+        },
+        {
+          "date": "2027-08-07",
+          "weekday_monday0": 5,
+          "column": 31,
+          "row": 5
+        },
+        {
+          "date": "2027-08-08",
+          "weekday_monday0": 6,
+          "column": 31,
+          "row": 6
+        },
+        {
+          "date": "2027-08-09",
+          "weekday_monday0": 0,
+          "column": 32,
+          "row": 0
+        },
+        {
+          "date": "2027-08-10",
+          "weekday_monday0": 1,
+          "column": 32,
+          "row": 1
+        },
+        {
+          "date": "2027-08-11",
+          "weekday_monday0": 2,
+          "column": 32,
+          "row": 2
+        },
+        {
+          "date": "2027-08-12",
+          "weekday_monday0": 3,
+          "column": 32,
+          "row": 3
+        },
+        {
+          "date": "2027-08-13",
+          "weekday_monday0": 4,
+          "column": 32,
+          "row": 4
+        },
+        {
+          "date": "2027-08-14",
+          "weekday_monday0": 5,
+          "column": 32,
+          "row": 5
+        },
+        {
+          "date": "2027-08-15",
+          "weekday_monday0": 6,
+          "column": 32,
+          "row": 6
+        },
+        {
+          "date": "2027-08-16",
+          "weekday_monday0": 0,
+          "column": 33,
+          "row": 0
+        },
+        {
+          "date": "2027-08-17",
+          "weekday_monday0": 1,
+          "column": 33,
+          "row": 1
+        },
+        {
+          "date": "2027-08-18",
+          "weekday_monday0": 2,
+          "column": 33,
+          "row": 2
+        },
+        {
+          "date": "2027-08-19",
+          "weekday_monday0": 3,
+          "column": 33,
+          "row": 3
+        },
+        {
+          "date": "2027-08-20",
+          "weekday_monday0": 4,
+          "column": 33,
+          "row": 4
+        },
+        {
+          "date": "2027-08-21",
+          "weekday_monday0": 5,
+          "column": 33,
+          "row": 5
+        },
+        {
+          "date": "2027-08-22",
+          "weekday_monday0": 6,
+          "column": 33,
+          "row": 6
+        },
+        {
+          "date": "2027-08-23",
+          "weekday_monday0": 0,
+          "column": 34,
+          "row": 0
+        },
+        {
+          "date": "2027-08-24",
+          "weekday_monday0": 1,
+          "column": 34,
+          "row": 1
+        },
+        {
+          "date": "2027-08-25",
+          "weekday_monday0": 2,
+          "column": 34,
+          "row": 2
+        },
+        {
+          "date": "2027-08-26",
+          "weekday_monday0": 3,
+          "column": 34,
+          "row": 3
+        },
+        {
+          "date": "2027-08-27",
+          "weekday_monday0": 4,
+          "column": 34,
+          "row": 4
+        },
+        {
+          "date": "2027-08-28",
+          "weekday_monday0": 5,
+          "column": 34,
+          "row": 5
+        },
+        {
+          "date": "2027-08-29",
+          "weekday_monday0": 6,
+          "column": 34,
+          "row": 6
+        },
+        {
+          "date": "2027-08-30",
+          "weekday_monday0": 0,
+          "column": 35,
+          "row": 0
+        },
+        {
+          "date": "2027-08-31",
+          "weekday_monday0": 1,
+          "column": 35,
+          "row": 1
+        },
+        {
+          "date": "2027-09-01",
+          "weekday_monday0": 2,
+          "column": 35,
+          "row": 2
+        },
+        {
+          "date": "2027-09-02",
+          "weekday_monday0": 3,
+          "column": 35,
+          "row": 3
+        },
+        {
+          "date": "2027-09-03",
+          "weekday_monday0": 4,
+          "column": 35,
+          "row": 4
+        },
+        {
+          "date": "2027-09-04",
+          "weekday_monday0": 5,
+          "column": 35,
+          "row": 5
+        },
+        {
+          "date": "2027-09-05",
+          "weekday_monday0": 6,
+          "column": 35,
+          "row": 6
+        },
+        {
+          "date": "2027-09-06",
+          "weekday_monday0": 0,
+          "column": 36,
+          "row": 0
+        },
+        {
+          "date": "2027-09-07",
+          "weekday_monday0": 1,
+          "column": 36,
+          "row": 1
+        },
+        {
+          "date": "2027-09-08",
+          "weekday_monday0": 2,
+          "column": 36,
+          "row": 2
+        },
+        {
+          "date": "2027-09-09",
+          "weekday_monday0": 3,
+          "column": 36,
+          "row": 3
+        },
+        {
+          "date": "2027-09-10",
+          "weekday_monday0": 4,
+          "column": 36,
+          "row": 4
+        },
+        {
+          "date": "2027-09-11",
+          "weekday_monday0": 5,
+          "column": 36,
+          "row": 5
+        },
+        {
+          "date": "2027-09-12",
+          "weekday_monday0": 6,
+          "column": 36,
+          "row": 6
+        },
+        {
+          "date": "2027-09-13",
+          "weekday_monday0": 0,
+          "column": 37,
+          "row": 0
+        },
+        {
+          "date": "2027-09-14",
+          "weekday_monday0": 1,
+          "column": 37,
+          "row": 1
+        },
+        {
+          "date": "2027-09-15",
+          "weekday_monday0": 2,
+          "column": 37,
+          "row": 2
+        },
+        {
+          "date": "2027-09-16",
+          "weekday_monday0": 3,
+          "column": 37,
+          "row": 3
+        },
+        {
+          "date": "2027-09-17",
+          "weekday_monday0": 4,
+          "column": 37,
+          "row": 4
+        },
+        {
+          "date": "2027-09-18",
+          "weekday_monday0": 5,
+          "column": 37,
+          "row": 5
+        },
+        {
+          "date": "2027-09-19",
+          "weekday_monday0": 6,
+          "column": 37,
+          "row": 6
+        },
+        {
+          "date": "2027-09-20",
+          "weekday_monday0": 0,
+          "column": 38,
+          "row": 0
+        },
+        {
+          "date": "2027-09-21",
+          "weekday_monday0": 1,
+          "column": 38,
+          "row": 1
+        },
+        {
+          "date": "2027-09-22",
+          "weekday_monday0": 2,
+          "column": 38,
+          "row": 2
+        },
+        {
+          "date": "2027-09-23",
+          "weekday_monday0": 3,
+          "column": 38,
+          "row": 3
+        },
+        {
+          "date": "2027-09-24",
+          "weekday_monday0": 4,
+          "column": 38,
+          "row": 4
+        },
+        {
+          "date": "2027-09-25",
+          "weekday_monday0": 5,
+          "column": 38,
+          "row": 5
+        },
+        {
+          "date": "2027-09-26",
+          "weekday_monday0": 6,
+          "column": 38,
+          "row": 6
+        },
+        {
+          "date": "2027-09-27",
+          "weekday_monday0": 0,
+          "column": 39,
+          "row": 0
+        },
+        {
+          "date": "2027-09-28",
+          "weekday_monday0": 1,
+          "column": 39,
+          "row": 1
+        },
+        {
+          "date": "2027-09-29",
+          "weekday_monday0": 2,
+          "column": 39,
+          "row": 2
+        },
+        {
+          "date": "2027-09-30",
+          "weekday_monday0": 3,
+          "column": 39,
+          "row": 3
+        },
+        {
+          "date": "2027-10-01",
+          "weekday_monday0": 4,
+          "column": 39,
+          "row": 4
+        },
+        {
+          "date": "2027-10-02",
+          "weekday_monday0": 5,
+          "column": 39,
+          "row": 5
+        },
+        {
+          "date": "2027-10-03",
+          "weekday_monday0": 6,
+          "column": 39,
+          "row": 6
+        },
+        {
+          "date": "2027-10-04",
+          "weekday_monday0": 0,
+          "column": 40,
+          "row": 0
+        },
+        {
+          "date": "2027-10-05",
+          "weekday_monday0": 1,
+          "column": 40,
+          "row": 1
+        },
+        {
+          "date": "2027-10-06",
+          "weekday_monday0": 2,
+          "column": 40,
+          "row": 2
+        },
+        {
+          "date": "2027-10-07",
+          "weekday_monday0": 3,
+          "column": 40,
+          "row": 3
+        },
+        {
+          "date": "2027-10-08",
+          "weekday_monday0": 4,
+          "column": 40,
+          "row": 4
+        },
+        {
+          "date": "2027-10-09",
+          "weekday_monday0": 5,
+          "column": 40,
+          "row": 5
+        },
+        {
+          "date": "2027-10-10",
+          "weekday_monday0": 6,
+          "column": 40,
+          "row": 6
+        },
+        {
+          "date": "2027-10-11",
+          "weekday_monday0": 0,
+          "column": 41,
+          "row": 0
+        },
+        {
+          "date": "2027-10-12",
+          "weekday_monday0": 1,
+          "column": 41,
+          "row": 1
+        },
+        {
+          "date": "2027-10-13",
+          "weekday_monday0": 2,
+          "column": 41,
+          "row": 2
+        },
+        {
+          "date": "2027-10-14",
+          "weekday_monday0": 3,
+          "column": 41,
+          "row": 3
+        },
+        {
+          "date": "2027-10-15",
+          "weekday_monday0": 4,
+          "column": 41,
+          "row": 4
+        },
+        {
+          "date": "2027-10-16",
+          "weekday_monday0": 5,
+          "column": 41,
+          "row": 5
+        },
+        {
+          "date": "2027-10-17",
+          "weekday_monday0": 6,
+          "column": 41,
+          "row": 6
+        },
+        {
+          "date": "2027-10-18",
+          "weekday_monday0": 0,
+          "column": 42,
+          "row": 0
+        },
+        {
+          "date": "2027-10-19",
+          "weekday_monday0": 1,
+          "column": 42,
+          "row": 1
+        },
+        {
+          "date": "2027-10-20",
+          "weekday_monday0": 2,
+          "column": 42,
+          "row": 2
+        },
+        {
+          "date": "2027-10-21",
+          "weekday_monday0": 3,
+          "column": 42,
+          "row": 3
+        },
+        {
+          "date": "2027-10-22",
+          "weekday_monday0": 4,
+          "column": 42,
+          "row": 4
+        },
+        {
+          "date": "2027-10-23",
+          "weekday_monday0": 5,
+          "column": 42,
+          "row": 5
+        },
+        {
+          "date": "2027-10-24",
+          "weekday_monday0": 6,
+          "column": 42,
+          "row": 6
+        },
+        {
+          "date": "2027-10-25",
+          "weekday_monday0": 0,
+          "column": 43,
+          "row": 0
+        },
+        {
+          "date": "2027-10-26",
+          "weekday_monday0": 1,
+          "column": 43,
+          "row": 1
+        },
+        {
+          "date": "2027-10-27",
+          "weekday_monday0": 2,
+          "column": 43,
+          "row": 2
+        },
+        {
+          "date": "2027-10-28",
+          "weekday_monday0": 3,
+          "column": 43,
+          "row": 3
+        },
+        {
+          "date": "2027-10-29",
+          "weekday_monday0": 4,
+          "column": 43,
+          "row": 4
+        },
+        {
+          "date": "2027-10-30",
+          "weekday_monday0": 5,
+          "column": 43,
+          "row": 5
+        },
+        {
+          "date": "2027-10-31",
+          "weekday_monday0": 6,
+          "column": 43,
+          "row": 6
+        },
+        {
+          "date": "2027-11-01",
+          "weekday_monday0": 0,
+          "column": 44,
+          "row": 0
+        },
+        {
+          "date": "2027-11-02",
+          "weekday_monday0": 1,
+          "column": 44,
+          "row": 1
+        },
+        {
+          "date": "2027-11-03",
+          "weekday_monday0": 2,
+          "column": 44,
+          "row": 2
+        },
+        {
+          "date": "2027-11-04",
+          "weekday_monday0": 3,
+          "column": 44,
+          "row": 3
+        },
+        {
+          "date": "2027-11-05",
+          "weekday_monday0": 4,
+          "column": 44,
+          "row": 4
+        },
+        {
+          "date": "2027-11-06",
+          "weekday_monday0": 5,
+          "column": 44,
+          "row": 5
+        },
+        {
+          "date": "2027-11-07",
+          "weekday_monday0": 6,
+          "column": 44,
+          "row": 6
+        },
+        {
+          "date": "2027-11-08",
+          "weekday_monday0": 0,
+          "column": 45,
+          "row": 0
+        },
+        {
+          "date": "2027-11-09",
+          "weekday_monday0": 1,
+          "column": 45,
+          "row": 1
+        },
+        {
+          "date": "2027-11-10",
+          "weekday_monday0": 2,
+          "column": 45,
+          "row": 2
+        },
+        {
+          "date": "2027-11-11",
+          "weekday_monday0": 3,
+          "column": 45,
+          "row": 3
+        },
+        {
+          "date": "2027-11-12",
+          "weekday_monday0": 4,
+          "column": 45,
+          "row": 4
+        },
+        {
+          "date": "2027-11-13",
+          "weekday_monday0": 5,
+          "column": 45,
+          "row": 5
+        },
+        {
+          "date": "2027-11-14",
+          "weekday_monday0": 6,
+          "column": 45,
+          "row": 6
+        },
+        {
+          "date": "2027-11-15",
+          "weekday_monday0": 0,
+          "column": 46,
+          "row": 0
+        },
+        {
+          "date": "2027-11-16",
+          "weekday_monday0": 1,
+          "column": 46,
+          "row": 1
+        },
+        {
+          "date": "2027-11-17",
+          "weekday_monday0": 2,
+          "column": 46,
+          "row": 2
+        },
+        {
+          "date": "2027-11-18",
+          "weekday_monday0": 3,
+          "column": 46,
+          "row": 3
+        },
+        {
+          "date": "2027-11-19",
+          "weekday_monday0": 4,
+          "column": 46,
+          "row": 4
+        },
+        {
+          "date": "2027-11-20",
+          "weekday_monday0": 5,
+          "column": 46,
+          "row": 5
+        },
+        {
+          "date": "2027-11-21",
+          "weekday_monday0": 6,
+          "column": 46,
+          "row": 6
+        },
+        {
+          "date": "2027-11-22",
+          "weekday_monday0": 0,
+          "column": 47,
+          "row": 0
+        },
+        {
+          "date": "2027-11-23",
+          "weekday_monday0": 1,
+          "column": 47,
+          "row": 1
+        },
+        {
+          "date": "2027-11-24",
+          "weekday_monday0": 2,
+          "column": 47,
+          "row": 2
+        },
+        {
+          "date": "2027-11-25",
+          "weekday_monday0": 3,
+          "column": 47,
+          "row": 3
+        },
+        {
+          "date": "2027-11-26",
+          "weekday_monday0": 4,
+          "column": 47,
+          "row": 4
+        },
+        {
+          "date": "2027-11-27",
+          "weekday_monday0": 5,
+          "column": 47,
+          "row": 5
+        },
+        {
+          "date": "2027-11-28",
+          "weekday_monday0": 6,
+          "column": 47,
+          "row": 6
+        },
+        {
+          "date": "2027-11-29",
+          "weekday_monday0": 0,
+          "column": 48,
+          "row": 0
+        },
+        {
+          "date": "2027-11-30",
+          "weekday_monday0": 1,
+          "column": 48,
+          "row": 1
+        },
+        {
+          "date": "2027-12-01",
+          "weekday_monday0": 2,
+          "column": 48,
+          "row": 2
+        },
+        {
+          "date": "2027-12-02",
+          "weekday_monday0": 3,
+          "column": 48,
+          "row": 3
+        },
+        {
+          "date": "2027-12-03",
+          "weekday_monday0": 4,
+          "column": 48,
+          "row": 4
+        },
+        {
+          "date": "2027-12-04",
+          "weekday_monday0": 5,
+          "column": 48,
+          "row": 5
+        },
+        {
+          "date": "2027-12-05",
+          "weekday_monday0": 6,
+          "column": 48,
+          "row": 6
+        },
+        {
+          "date": "2027-12-06",
+          "weekday_monday0": 0,
+          "column": 49,
+          "row": 0
+        },
+        {
+          "date": "2027-12-07",
+          "weekday_monday0": 1,
+          "column": 49,
+          "row": 1
+        },
+        {
+          "date": "2027-12-08",
+          "weekday_monday0": 2,
+          "column": 49,
+          "row": 2
+        },
+        {
+          "date": "2027-12-09",
+          "weekday_monday0": 3,
+          "column": 49,
+          "row": 3
+        },
+        {
+          "date": "2027-12-10",
+          "weekday_monday0": 4,
+          "column": 49,
+          "row": 4
+        },
+        {
+          "date": "2027-12-11",
+          "weekday_monday0": 5,
+          "column": 49,
+          "row": 5
+        },
+        {
+          "date": "2027-12-12",
+          "weekday_monday0": 6,
+          "column": 49,
+          "row": 6
+        },
+        {
+          "date": "2027-12-13",
+          "weekday_monday0": 0,
+          "column": 50,
+          "row": 0
+        },
+        {
+          "date": "2027-12-14",
+          "weekday_monday0": 1,
+          "column": 50,
+          "row": 1
+        },
+        {
+          "date": "2027-12-15",
+          "weekday_monday0": 2,
+          "column": 50,
+          "row": 2
+        },
+        {
+          "date": "2027-12-16",
+          "weekday_monday0": 3,
+          "column": 50,
+          "row": 3
+        },
+        {
+          "date": "2027-12-17",
+          "weekday_monday0": 4,
+          "column": 50,
+          "row": 4
+        },
+        {
+          "date": "2027-12-18",
+          "weekday_monday0": 5,
+          "column": 50,
+          "row": 5
+        },
+        {
+          "date": "2027-12-19",
+          "weekday_monday0": 6,
+          "column": 50,
+          "row": 6
+        },
+        {
+          "date": "2027-12-20",
+          "weekday_monday0": 0,
+          "column": 51,
+          "row": 0
+        },
+        {
+          "date": "2027-12-21",
+          "weekday_monday0": 1,
+          "column": 51,
+          "row": 1
+        },
+        {
+          "date": "2027-12-22",
+          "weekday_monday0": 2,
+          "column": 51,
+          "row": 2
+        },
+        {
+          "date": "2027-12-23",
+          "weekday_monday0": 3,
+          "column": 51,
+          "row": 3
+        },
+        {
+          "date": "2027-12-24",
+          "weekday_monday0": 4,
+          "column": 51,
+          "row": 4
+        },
+        {
+          "date": "2027-12-25",
+          "weekday_monday0": 5,
+          "column": 51,
+          "row": 5
+        },
+        {
+          "date": "2027-12-26",
+          "weekday_monday0": 6,
+          "column": 51,
+          "row": 6
+        },
+        {
+          "date": "2027-12-27",
+          "weekday_monday0": 0,
+          "column": 52,
+          "row": 0
+        },
+        {
+          "date": "2027-12-28",
+          "weekday_monday0": 1,
+          "column": 52,
+          "row": 1
+        },
+        {
+          "date": "2027-12-29",
+          "weekday_monday0": 2,
+          "column": 52,
+          "row": 2
+        },
+        {
+          "date": "2027-12-30",
+          "weekday_monday0": 3,
+          "column": 52,
+          "row": 3
+        },
+        {
+          "date": "2027-12-31",
+          "weekday_monday0": 4,
+          "column": 52,
+          "row": 4
+        }
+      ],
+      "user_review": "pending"
+    },
+    {
+      "id": "J2",
+      "title": "A year in the round",
+      "source": "j2.svg",
+      "sha256": "5d705fd119c4ad4720d1bc99edc06d35cc58f2cdc1b681ab6a3d9f2df7307415",
+      "dimensions": {
+        "width": 1000,
+        "height": 1400
+      },
+      "design_card": {
+        "reading_task": "Read the annual cycle and compare the weight assigned to days and months",
+        "display_extent": {
+          "view": "year",
+          "start": "2027-01-01",
+          "end": "2027-12-31"
+        },
+        "temporal_unit": "civil-date",
+        "temporal_mapping": "equal-civil-day",
+        "spatial_layout": "one clockwise radial year",
+        "typographic_roles": {
+          "year": "display",
+          "month_index": "mono-medium",
+          "selected_day_labels": "mono"
+        },
+        "whitespace_role": "Keep the central year distinct from the date ring",
+        "source_rules": [
+          "temporal:declared-normalization",
+          "type:nested-hierarchy"
+        ],
+        "hypothesis": "Equal-day and equal-month views may support different senses of annual rhythm.",
+        "user_preference_status": "unconfirmed",
+        "study_language": "en",
+        "comparison_kind": "controlled",
+        "changed_variable": "temporal_mapping",
+        "control_group": "annual-ring",
+        "style": {
+          "paper": "#17342E",
+          "ink": "#E9EDCF",
+          "muted": "#9EAEA1",
+          "quiet": "#70877B",
+          "accent": "#D8E598",
+          "cx": 500,
+          "cy": 730,
+          "tick_inner": 322,
+          "tick_outer": 352,
+          "arc_radius": 374,
+          "label_radius": 414,
+          "start_degrees": -90,
+          "direction": "clockwise",
+          "display_font": "display",
+          "lookup_font": "mono",
+          "day_label_size": 12
+        }
+      },
+      "represented_dates": [
+        {
+          "date": "2027-01-01",
+          "weekday_monday0": 4,
+          "angle_degrees": -90.0
+        },
+        {
+          "date": "2027-01-02",
+          "weekday_monday0": 5,
+          "angle_degrees": -89.01369863013699
+        },
+        {
+          "date": "2027-01-03",
+          "weekday_monday0": 6,
+          "angle_degrees": -88.02739726027397
+        },
+        {
+          "date": "2027-01-04",
+          "weekday_monday0": 0,
+          "angle_degrees": -87.04109589041096
+        },
+        {
+          "date": "2027-01-05",
+          "weekday_monday0": 1,
+          "angle_degrees": -86.05479452054794
+        },
+        {
+          "date": "2027-01-06",
+          "weekday_monday0": 2,
+          "angle_degrees": -85.06849315068493
+        },
+        {
+          "date": "2027-01-07",
+          "weekday_monday0": 3,
+          "angle_degrees": -84.08219178082192
+        },
+        {
+          "date": "2027-01-08",
+          "weekday_monday0": 4,
+          "angle_degrees": -83.0958904109589
+        },
+        {
+          "date": "2027-01-09",
+          "weekday_monday0": 5,
+          "angle_degrees": -82.10958904109589
+        },
+        {
+          "date": "2027-01-10",
+          "weekday_monday0": 6,
+          "angle_degrees": -81.12328767123287
+        },
+        {
+          "date": "2027-01-11",
+          "weekday_monday0": 0,
+          "angle_degrees": -80.13698630136986
+        },
+        {
+          "date": "2027-01-12",
+          "weekday_monday0": 1,
+          "angle_degrees": -79.15068493150685
+        },
+        {
+          "date": "2027-01-13",
+          "weekday_monday0": 2,
+          "angle_degrees": -78.16438356164383
+        },
+        {
+          "date": "2027-01-14",
+          "weekday_monday0": 3,
+          "angle_degrees": -77.17808219178082
+        },
+        {
+          "date": "2027-01-15",
+          "weekday_monday0": 4,
+          "angle_degrees": -76.1917808219178
+        },
+        {
+          "date": "2027-01-16",
+          "weekday_monday0": 5,
+          "angle_degrees": -75.20547945205479
+        },
+        {
+          "date": "2027-01-17",
+          "weekday_monday0": 6,
+          "angle_degrees": -74.21917808219177
+        },
+        {
+          "date": "2027-01-18",
+          "weekday_monday0": 0,
+          "angle_degrees": -73.23287671232876
+        },
+        {
+          "date": "2027-01-19",
+          "weekday_monday0": 1,
+          "angle_degrees": -72.24657534246575
+        },
+        {
+          "date": "2027-01-20",
+          "weekday_monday0": 2,
+          "angle_degrees": -71.26027397260273
+        },
+        {
+          "date": "2027-01-21",
+          "weekday_monday0": 3,
+          "angle_degrees": -70.27397260273972
+        },
+        {
+          "date": "2027-01-22",
+          "weekday_monday0": 4,
+          "angle_degrees": -69.2876712328767
+        },
+        {
+          "date": "2027-01-23",
+          "weekday_monday0": 5,
+          "angle_degrees": -68.30136986301369
+        },
+        {
+          "date": "2027-01-24",
+          "weekday_monday0": 6,
+          "angle_degrees": -67.31506849315069
+        },
+        {
+          "date": "2027-01-25",
+          "weekday_monday0": 0,
+          "angle_degrees": -66.32876712328768
+        },
+        {
+          "date": "2027-01-26",
+          "weekday_monday0": 1,
+          "angle_degrees": -65.34246575342466
+        },
+        {
+          "date": "2027-01-27",
+          "weekday_monday0": 2,
+          "angle_degrees": -64.35616438356165
+        },
+        {
+          "date": "2027-01-28",
+          "weekday_monday0": 3,
+          "angle_degrees": -63.369863013698634
+        },
+        {
+          "date": "2027-01-29",
+          "weekday_monday0": 4,
+          "angle_degrees": -62.38356164383562
+        },
+        {
+          "date": "2027-01-30",
+          "weekday_monday0": 5,
+          "angle_degrees": -61.397260273972606
+        },
+        {
+          "date": "2027-01-31",
+          "weekday_monday0": 6,
+          "angle_degrees": -60.41095890410959
+        },
+        {
+          "date": "2027-02-01",
+          "weekday_monday0": 0,
+          "angle_degrees": -59.42465753424658
+        },
+        {
+          "date": "2027-02-02",
+          "weekday_monday0": 1,
+          "angle_degrees": -58.43835616438356
+        },
+        {
+          "date": "2027-02-03",
+          "weekday_monday0": 2,
+          "angle_degrees": -57.45205479452055
+        },
+        {
+          "date": "2027-02-04",
+          "weekday_monday0": 3,
+          "angle_degrees": -56.465753424657535
+        },
+        {
+          "date": "2027-02-05",
+          "weekday_monday0": 4,
+          "angle_degrees": -55.47945205479452
+        },
+        {
+          "date": "2027-02-06",
+          "weekday_monday0": 5,
+          "angle_degrees": -54.49315068493151
+        },
+        {
+          "date": "2027-02-07",
+          "weekday_monday0": 6,
+          "angle_degrees": -53.50684931506849
+        },
+        {
+          "date": "2027-02-08",
+          "weekday_monday0": 0,
+          "angle_degrees": -52.52054794520548
+        },
+        {
+          "date": "2027-02-09",
+          "weekday_monday0": 1,
+          "angle_degrees": -51.534246575342465
+        },
+        {
+          "date": "2027-02-10",
+          "weekday_monday0": 2,
+          "angle_degrees": -50.54794520547945
+        },
+        {
+          "date": "2027-02-11",
+          "weekday_monday0": 3,
+          "angle_degrees": -49.56164383561644
+        },
+        {
+          "date": "2027-02-12",
+          "weekday_monday0": 4,
+          "angle_degrees": -48.57534246575342
+        },
+        {
+          "date": "2027-02-13",
+          "weekday_monday0": 5,
+          "angle_degrees": -47.58904109589041
+        },
+        {
+          "date": "2027-02-14",
+          "weekday_monday0": 6,
+          "angle_degrees": -46.602739726027394
+        },
+        {
+          "date": "2027-02-15",
+          "weekday_monday0": 0,
+          "angle_degrees": -45.61643835616438
+        },
+        {
+          "date": "2027-02-16",
+          "weekday_monday0": 1,
+          "angle_degrees": -44.63013698630137
+        },
+        {
+          "date": "2027-02-17",
+          "weekday_monday0": 2,
+          "angle_degrees": -43.64383561643836
+        },
+        {
+          "date": "2027-02-18",
+          "weekday_monday0": 3,
+          "angle_degrees": -42.657534246575345
+        },
+        {
+          "date": "2027-02-19",
+          "weekday_monday0": 4,
+          "angle_degrees": -41.67123287671233
+        },
+        {
+          "date": "2027-02-20",
+          "weekday_monday0": 5,
+          "angle_degrees": -40.68493150684932
+        },
+        {
+          "date": "2027-02-21",
+          "weekday_monday0": 6,
+          "angle_degrees": -39.6986301369863
+        },
+        {
+          "date": "2027-02-22",
+          "weekday_monday0": 0,
+          "angle_degrees": -38.71232876712329
+        },
+        {
+          "date": "2027-02-23",
+          "weekday_monday0": 1,
+          "angle_degrees": -37.726027397260275
+        },
+        {
+          "date": "2027-02-24",
+          "weekday_monday0": 2,
+          "angle_degrees": -36.73972602739726
+        },
+        {
+          "date": "2027-02-25",
+          "weekday_monday0": 3,
+          "angle_degrees": -35.75342465753425
+        },
+        {
+          "date": "2027-02-26",
+          "weekday_monday0": 4,
+          "angle_degrees": -34.76712328767123
+        },
+        {
+          "date": "2027-02-27",
+          "weekday_monday0": 5,
+          "angle_degrees": -33.78082191780822
+        },
+        {
+          "date": "2027-02-28",
+          "weekday_monday0": 6,
+          "angle_degrees": -32.794520547945204
+        },
+        {
+          "date": "2027-03-01",
+          "weekday_monday0": 0,
+          "angle_degrees": -31.80821917808219
+        },
+        {
+          "date": "2027-03-02",
+          "weekday_monday0": 1,
+          "angle_degrees": -30.821917808219176
+        },
+        {
+          "date": "2027-03-03",
+          "weekday_monday0": 2,
+          "angle_degrees": -29.835616438356162
+        },
+        {
+          "date": "2027-03-04",
+          "weekday_monday0": 3,
+          "angle_degrees": -28.849315068493148
+        },
+        {
+          "date": "2027-03-05",
+          "weekday_monday0": 4,
+          "angle_degrees": -27.863013698630134
+        },
+        {
+          "date": "2027-03-06",
+          "weekday_monday0": 5,
+          "angle_degrees": -26.876712328767127
+        },
+        {
+          "date": "2027-03-07",
+          "weekday_monday0": 6,
+          "angle_degrees": -25.890410958904113
+        },
+        {
+          "date": "2027-03-08",
+          "weekday_monday0": 0,
+          "angle_degrees": -24.9041095890411
+        },
+        {
+          "date": "2027-03-09",
+          "weekday_monday0": 1,
+          "angle_degrees": -23.917808219178085
+        },
+        {
+          "date": "2027-03-10",
+          "weekday_monday0": 2,
+          "angle_degrees": -22.93150684931507
+        },
+        {
+          "date": "2027-03-11",
+          "weekday_monday0": 3,
+          "angle_degrees": -21.945205479452056
+        },
+        {
+          "date": "2027-03-12",
+          "weekday_monday0": 4,
+          "angle_degrees": -20.958904109589042
+        },
+        {
+          "date": "2027-03-13",
+          "weekday_monday0": 5,
+          "angle_degrees": -19.972602739726028
+        },
+        {
+          "date": "2027-03-14",
+          "weekday_monday0": 6,
+          "angle_degrees": -18.986301369863014
+        },
+        {
+          "date": "2027-03-15",
+          "weekday_monday0": 0,
+          "angle_degrees": -18.0
+        },
+        {
+          "date": "2027-03-16",
+          "weekday_monday0": 1,
+          "angle_degrees": -17.013698630136986
+        },
+        {
+          "date": "2027-03-17",
+          "weekday_monday0": 2,
+          "angle_degrees": -16.027397260273972
+        },
+        {
+          "date": "2027-03-18",
+          "weekday_monday0": 3,
+          "angle_degrees": -15.041095890410958
+        },
+        {
+          "date": "2027-03-19",
+          "weekday_monday0": 4,
+          "angle_degrees": -14.054794520547944
+        },
+        {
+          "date": "2027-03-20",
+          "weekday_monday0": 5,
+          "angle_degrees": -13.06849315068493
+        },
+        {
+          "date": "2027-03-21",
+          "weekday_monday0": 6,
+          "angle_degrees": -12.082191780821915
+        },
+        {
+          "date": "2027-03-22",
+          "weekday_monday0": 0,
+          "angle_degrees": -11.095890410958901
+        },
+        {
+          "date": "2027-03-23",
+          "weekday_monday0": 1,
+          "angle_degrees": -10.109589041095887
+        },
+        {
+          "date": "2027-03-24",
+          "weekday_monday0": 2,
+          "angle_degrees": -9.123287671232873
+        },
+        {
+          "date": "2027-03-25",
+          "weekday_monday0": 3,
+          "angle_degrees": -8.13698630136986
+        },
+        {
+          "date": "2027-03-26",
+          "weekday_monday0": 4,
+          "angle_degrees": -7.150684931506845
+        },
+        {
+          "date": "2027-03-27",
+          "weekday_monday0": 5,
+          "angle_degrees": -6.164383561643831
+        },
+        {
+          "date": "2027-03-28",
+          "weekday_monday0": 6,
+          "angle_degrees": -5.178082191780817
+        },
+        {
+          "date": "2027-03-29",
+          "weekday_monday0": 0,
+          "angle_degrees": -4.191780821917803
+        },
+        {
+          "date": "2027-03-30",
+          "weekday_monday0": 1,
+          "angle_degrees": -3.2054794520547887
+        },
+        {
+          "date": "2027-03-31",
+          "weekday_monday0": 2,
+          "angle_degrees": -2.2191780821917746
+        },
+        {
+          "date": "2027-04-01",
+          "weekday_monday0": 3,
+          "angle_degrees": -1.2328767123287605
+        },
+        {
+          "date": "2027-04-02",
+          "weekday_monday0": 4,
+          "angle_degrees": -0.24657534246574642
+        },
+        {
+          "date": "2027-04-03",
+          "weekday_monday0": 5,
+          "angle_degrees": 0.7397260273972535
+        },
+        {
+          "date": "2027-04-04",
+          "weekday_monday0": 6,
+          "angle_degrees": 1.7260273972602675
+        },
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "angle_degrees": 2.7123287671232816
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "angle_degrees": 3.6986301369862957
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "angle_degrees": 4.68493150684931
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "angle_degrees": 5.671232876712324
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "angle_degrees": 6.657534246575338
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "angle_degrees": 7.643835616438352
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "angle_degrees": 8.630136986301366
+        },
+        {
+          "date": "2027-04-12",
+          "weekday_monday0": 0,
+          "angle_degrees": 9.61643835616438
+        },
+        {
+          "date": "2027-04-13",
+          "weekday_monday0": 1,
+          "angle_degrees": 10.602739726027394
+        },
+        {
+          "date": "2027-04-14",
+          "weekday_monday0": 2,
+          "angle_degrees": 11.589041095890408
+        },
+        {
+          "date": "2027-04-15",
+          "weekday_monday0": 3,
+          "angle_degrees": 12.575342465753423
+        },
+        {
+          "date": "2027-04-16",
+          "weekday_monday0": 4,
+          "angle_degrees": 13.561643835616437
+        },
+        {
+          "date": "2027-04-17",
+          "weekday_monday0": 5,
+          "angle_degrees": 14.54794520547945
+        },
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6,
+          "angle_degrees": 15.534246575342465
+        },
+        {
+          "date": "2027-04-19",
+          "weekday_monday0": 0,
+          "angle_degrees": 16.52054794520548
+        },
+        {
+          "date": "2027-04-20",
+          "weekday_monday0": 1,
+          "angle_degrees": 17.506849315068493
+        },
+        {
+          "date": "2027-04-21",
+          "weekday_monday0": 2,
+          "angle_degrees": 18.493150684931507
+        },
+        {
+          "date": "2027-04-22",
+          "weekday_monday0": 3,
+          "angle_degrees": 19.47945205479452
+        },
+        {
+          "date": "2027-04-23",
+          "weekday_monday0": 4,
+          "angle_degrees": 20.465753424657535
+        },
+        {
+          "date": "2027-04-24",
+          "weekday_monday0": 5,
+          "angle_degrees": 21.45205479452055
+        },
+        {
+          "date": "2027-04-25",
+          "weekday_monday0": 6,
+          "angle_degrees": 22.438356164383563
+        },
+        {
+          "date": "2027-04-26",
+          "weekday_monday0": 0,
+          "angle_degrees": 23.424657534246577
+        },
+        {
+          "date": "2027-04-27",
+          "weekday_monday0": 1,
+          "angle_degrees": 24.41095890410959
+        },
+        {
+          "date": "2027-04-28",
+          "weekday_monday0": 2,
+          "angle_degrees": 25.397260273972606
+        },
+        {
+          "date": "2027-04-29",
+          "weekday_monday0": 3,
+          "angle_degrees": 26.38356164383562
+        },
+        {
+          "date": "2027-04-30",
+          "weekday_monday0": 4,
+          "angle_degrees": 27.369863013698634
+        },
+        {
+          "date": "2027-05-01",
+          "weekday_monday0": 5,
+          "angle_degrees": 28.356164383561648
+        },
+        {
+          "date": "2027-05-02",
+          "weekday_monday0": 6,
+          "angle_degrees": 29.342465753424662
+        },
+        {
+          "date": "2027-05-03",
+          "weekday_monday0": 0,
+          "angle_degrees": 30.328767123287676
+        },
+        {
+          "date": "2027-05-04",
+          "weekday_monday0": 1,
+          "angle_degrees": 31.31506849315069
+        },
+        {
+          "date": "2027-05-05",
+          "weekday_monday0": 2,
+          "angle_degrees": 32.301369863013704
+        },
+        {
+          "date": "2027-05-06",
+          "weekday_monday0": 3,
+          "angle_degrees": 33.28767123287672
+        },
+        {
+          "date": "2027-05-07",
+          "weekday_monday0": 4,
+          "angle_degrees": 34.27397260273973
+        },
+        {
+          "date": "2027-05-08",
+          "weekday_monday0": 5,
+          "angle_degrees": 35.26027397260275
+        },
+        {
+          "date": "2027-05-09",
+          "weekday_monday0": 6,
+          "angle_degrees": 36.246575342465746
+        },
+        {
+          "date": "2027-05-10",
+          "weekday_monday0": 0,
+          "angle_degrees": 37.23287671232876
+        },
+        {
+          "date": "2027-05-11",
+          "weekday_monday0": 1,
+          "angle_degrees": 38.219178082191775
+        },
+        {
+          "date": "2027-05-12",
+          "weekday_monday0": 2,
+          "angle_degrees": 39.20547945205479
+        },
+        {
+          "date": "2027-05-13",
+          "weekday_monday0": 3,
+          "angle_degrees": 40.1917808219178
+        },
+        {
+          "date": "2027-05-14",
+          "weekday_monday0": 4,
+          "angle_degrees": 41.17808219178082
+        },
+        {
+          "date": "2027-05-15",
+          "weekday_monday0": 5,
+          "angle_degrees": 42.16438356164383
+        },
+        {
+          "date": "2027-05-16",
+          "weekday_monday0": 6,
+          "angle_degrees": 43.150684931506845
+        },
+        {
+          "date": "2027-05-17",
+          "weekday_monday0": 0,
+          "angle_degrees": 44.13698630136986
+        },
+        {
+          "date": "2027-05-18",
+          "weekday_monday0": 1,
+          "angle_degrees": 45.12328767123287
+        },
+        {
+          "date": "2027-05-19",
+          "weekday_monday0": 2,
+          "angle_degrees": 46.10958904109589
+        },
+        {
+          "date": "2027-05-20",
+          "weekday_monday0": 3,
+          "angle_degrees": 47.0958904109589
+        },
+        {
+          "date": "2027-05-21",
+          "weekday_monday0": 4,
+          "angle_degrees": 48.082191780821915
+        },
+        {
+          "date": "2027-05-22",
+          "weekday_monday0": 5,
+          "angle_degrees": 49.06849315068493
+        },
+        {
+          "date": "2027-05-23",
+          "weekday_monday0": 6,
+          "angle_degrees": 50.054794520547944
+        },
+        {
+          "date": "2027-05-24",
+          "weekday_monday0": 0,
+          "angle_degrees": 51.04109589041096
+        },
+        {
+          "date": "2027-05-25",
+          "weekday_monday0": 1,
+          "angle_degrees": 52.02739726027397
+        },
+        {
+          "date": "2027-05-26",
+          "weekday_monday0": 2,
+          "angle_degrees": 53.013698630136986
+        },
+        {
+          "date": "2027-05-27",
+          "weekday_monday0": 3,
+          "angle_degrees": 54.0
+        },
+        {
+          "date": "2027-05-28",
+          "weekday_monday0": 4,
+          "angle_degrees": 54.986301369863014
+        },
+        {
+          "date": "2027-05-29",
+          "weekday_monday0": 5,
+          "angle_degrees": 55.97260273972603
+        },
+        {
+          "date": "2027-05-30",
+          "weekday_monday0": 6,
+          "angle_degrees": 56.95890410958904
+        },
+        {
+          "date": "2027-05-31",
+          "weekday_monday0": 0,
+          "angle_degrees": 57.945205479452056
+        },
+        {
+          "date": "2027-06-01",
+          "weekday_monday0": 1,
+          "angle_degrees": 58.93150684931507
+        },
+        {
+          "date": "2027-06-02",
+          "weekday_monday0": 2,
+          "angle_degrees": 59.917808219178085
+        },
+        {
+          "date": "2027-06-03",
+          "weekday_monday0": 3,
+          "angle_degrees": 60.9041095890411
+        },
+        {
+          "date": "2027-06-04",
+          "weekday_monday0": 4,
+          "angle_degrees": 61.89041095890411
+        },
+        {
+          "date": "2027-06-05",
+          "weekday_monday0": 5,
+          "angle_degrees": 62.87671232876713
+        },
+        {
+          "date": "2027-06-06",
+          "weekday_monday0": 6,
+          "angle_degrees": 63.86301369863014
+        },
+        {
+          "date": "2027-06-07",
+          "weekday_monday0": 0,
+          "angle_degrees": 64.84931506849315
+        },
+        {
+          "date": "2027-06-08",
+          "weekday_monday0": 1,
+          "angle_degrees": 65.83561643835617
+        },
+        {
+          "date": "2027-06-09",
+          "weekday_monday0": 2,
+          "angle_degrees": 66.82191780821918
+        },
+        {
+          "date": "2027-06-10",
+          "weekday_monday0": 3,
+          "angle_degrees": 67.8082191780822
+        },
+        {
+          "date": "2027-06-11",
+          "weekday_monday0": 4,
+          "angle_degrees": 68.79452054794521
+        },
+        {
+          "date": "2027-06-12",
+          "weekday_monday0": 5,
+          "angle_degrees": 69.78082191780823
+        },
+        {
+          "date": "2027-06-13",
+          "weekday_monday0": 6,
+          "angle_degrees": 70.76712328767124
+        },
+        {
+          "date": "2027-06-14",
+          "weekday_monday0": 0,
+          "angle_degrees": 71.75342465753425
+        },
+        {
+          "date": "2027-06-15",
+          "weekday_monday0": 1,
+          "angle_degrees": 72.73972602739727
+        },
+        {
+          "date": "2027-06-16",
+          "weekday_monday0": 2,
+          "angle_degrees": 73.72602739726028
+        },
+        {
+          "date": "2027-06-17",
+          "weekday_monday0": 3,
+          "angle_degrees": 74.7123287671233
+        },
+        {
+          "date": "2027-06-18",
+          "weekday_monday0": 4,
+          "angle_degrees": 75.69863013698631
+        },
+        {
+          "date": "2027-06-19",
+          "weekday_monday0": 5,
+          "angle_degrees": 76.68493150684932
+        },
+        {
+          "date": "2027-06-20",
+          "weekday_monday0": 6,
+          "angle_degrees": 77.67123287671234
+        },
+        {
+          "date": "2027-06-21",
+          "weekday_monday0": 0,
+          "angle_degrees": 78.65753424657535
+        },
+        {
+          "date": "2027-06-22",
+          "weekday_monday0": 1,
+          "angle_degrees": 79.64383561643837
+        },
+        {
+          "date": "2027-06-23",
+          "weekday_monday0": 2,
+          "angle_degrees": 80.63013698630138
+        },
+        {
+          "date": "2027-06-24",
+          "weekday_monday0": 3,
+          "angle_degrees": 81.6164383561644
+        },
+        {
+          "date": "2027-06-25",
+          "weekday_monday0": 4,
+          "angle_degrees": 82.60273972602741
+        },
+        {
+          "date": "2027-06-26",
+          "weekday_monday0": 5,
+          "angle_degrees": 83.58904109589042
+        },
+        {
+          "date": "2027-06-27",
+          "weekday_monday0": 6,
+          "angle_degrees": 84.57534246575344
+        },
+        {
+          "date": "2027-06-28",
+          "weekday_monday0": 0,
+          "angle_degrees": 85.56164383561645
+        },
+        {
+          "date": "2027-06-29",
+          "weekday_monday0": 1,
+          "angle_degrees": 86.54794520547946
+        },
+        {
+          "date": "2027-06-30",
+          "weekday_monday0": 2,
+          "angle_degrees": 87.53424657534248
+        },
+        {
+          "date": "2027-07-01",
+          "weekday_monday0": 3,
+          "angle_degrees": 88.5205479452055
+        },
+        {
+          "date": "2027-07-02",
+          "weekday_monday0": 4,
+          "angle_degrees": 89.50684931506851
+        },
+        {
+          "date": "2027-07-03",
+          "weekday_monday0": 5,
+          "angle_degrees": 90.49315068493149
+        },
+        {
+          "date": "2027-07-04",
+          "weekday_monday0": 6,
+          "angle_degrees": 91.4794520547945
+        },
+        {
+          "date": "2027-07-05",
+          "weekday_monday0": 0,
+          "angle_degrees": 92.46575342465752
+        },
+        {
+          "date": "2027-07-06",
+          "weekday_monday0": 1,
+          "angle_degrees": 93.45205479452054
+        },
+        {
+          "date": "2027-07-07",
+          "weekday_monday0": 2,
+          "angle_degrees": 94.43835616438355
+        },
+        {
+          "date": "2027-07-08",
+          "weekday_monday0": 3,
+          "angle_degrees": 95.42465753424656
+        },
+        {
+          "date": "2027-07-09",
+          "weekday_monday0": 4,
+          "angle_degrees": 96.41095890410958
+        },
+        {
+          "date": "2027-07-10",
+          "weekday_monday0": 5,
+          "angle_degrees": 97.39726027397259
+        },
+        {
+          "date": "2027-07-11",
+          "weekday_monday0": 6,
+          "angle_degrees": 98.3835616438356
+        },
+        {
+          "date": "2027-07-12",
+          "weekday_monday0": 0,
+          "angle_degrees": 99.36986301369862
+        },
+        {
+          "date": "2027-07-13",
+          "weekday_monday0": 1,
+          "angle_degrees": 100.35616438356163
+        },
+        {
+          "date": "2027-07-14",
+          "weekday_monday0": 2,
+          "angle_degrees": 101.34246575342465
+        },
+        {
+          "date": "2027-07-15",
+          "weekday_monday0": 3,
+          "angle_degrees": 102.32876712328766
+        },
+        {
+          "date": "2027-07-16",
+          "weekday_monday0": 4,
+          "angle_degrees": 103.31506849315068
+        },
+        {
+          "date": "2027-07-17",
+          "weekday_monday0": 5,
+          "angle_degrees": 104.30136986301369
+        },
+        {
+          "date": "2027-07-18",
+          "weekday_monday0": 6,
+          "angle_degrees": 105.2876712328767
+        },
+        {
+          "date": "2027-07-19",
+          "weekday_monday0": 0,
+          "angle_degrees": 106.27397260273972
+        },
+        {
+          "date": "2027-07-20",
+          "weekday_monday0": 1,
+          "angle_degrees": 107.26027397260273
+        },
+        {
+          "date": "2027-07-21",
+          "weekday_monday0": 2,
+          "angle_degrees": 108.24657534246575
+        },
+        {
+          "date": "2027-07-22",
+          "weekday_monday0": 3,
+          "angle_degrees": 109.23287671232876
+        },
+        {
+          "date": "2027-07-23",
+          "weekday_monday0": 4,
+          "angle_degrees": 110.21917808219177
+        },
+        {
+          "date": "2027-07-24",
+          "weekday_monday0": 5,
+          "angle_degrees": 111.20547945205479
+        },
+        {
+          "date": "2027-07-25",
+          "weekday_monday0": 6,
+          "angle_degrees": 112.1917808219178
+        },
+        {
+          "date": "2027-07-26",
+          "weekday_monday0": 0,
+          "angle_degrees": 113.17808219178082
+        },
+        {
+          "date": "2027-07-27",
+          "weekday_monday0": 1,
+          "angle_degrees": 114.16438356164383
+        },
+        {
+          "date": "2027-07-28",
+          "weekday_monday0": 2,
+          "angle_degrees": 115.15068493150685
+        },
+        {
+          "date": "2027-07-29",
+          "weekday_monday0": 3,
+          "angle_degrees": 116.13698630136986
+        },
+        {
+          "date": "2027-07-30",
+          "weekday_monday0": 4,
+          "angle_degrees": 117.12328767123287
+        },
+        {
+          "date": "2027-07-31",
+          "weekday_monday0": 5,
+          "angle_degrees": 118.10958904109589
+        },
+        {
+          "date": "2027-08-01",
+          "weekday_monday0": 6,
+          "angle_degrees": 119.0958904109589
+        },
+        {
+          "date": "2027-08-02",
+          "weekday_monday0": 0,
+          "angle_degrees": 120.08219178082192
+        },
+        {
+          "date": "2027-08-03",
+          "weekday_monday0": 1,
+          "angle_degrees": 121.06849315068493
+        },
+        {
+          "date": "2027-08-04",
+          "weekday_monday0": 2,
+          "angle_degrees": 122.05479452054794
+        },
+        {
+          "date": "2027-08-05",
+          "weekday_monday0": 3,
+          "angle_degrees": 123.04109589041096
+        },
+        {
+          "date": "2027-08-06",
+          "weekday_monday0": 4,
+          "angle_degrees": 124.02739726027397
+        },
+        {
+          "date": "2027-08-07",
+          "weekday_monday0": 5,
+          "angle_degrees": 125.01369863013699
+        },
+        {
+          "date": "2027-08-08",
+          "weekday_monday0": 6,
+          "angle_degrees": 126.0
+        },
+        {
+          "date": "2027-08-09",
+          "weekday_monday0": 0,
+          "angle_degrees": 126.98630136986301
+        },
+        {
+          "date": "2027-08-10",
+          "weekday_monday0": 1,
+          "angle_degrees": 127.97260273972603
+        },
+        {
+          "date": "2027-08-11",
+          "weekday_monday0": 2,
+          "angle_degrees": 128.95890410958904
+        },
+        {
+          "date": "2027-08-12",
+          "weekday_monday0": 3,
+          "angle_degrees": 129.94520547945206
+        },
+        {
+          "date": "2027-08-13",
+          "weekday_monday0": 4,
+          "angle_degrees": 130.93150684931507
+        },
+        {
+          "date": "2027-08-14",
+          "weekday_monday0": 5,
+          "angle_degrees": 131.91780821917808
+        },
+        {
+          "date": "2027-08-15",
+          "weekday_monday0": 6,
+          "angle_degrees": 132.9041095890411
+        },
+        {
+          "date": "2027-08-16",
+          "weekday_monday0": 0,
+          "angle_degrees": 133.8904109589041
+        },
+        {
+          "date": "2027-08-17",
+          "weekday_monday0": 1,
+          "angle_degrees": 134.87671232876713
+        },
+        {
+          "date": "2027-08-18",
+          "weekday_monday0": 2,
+          "angle_degrees": 135.86301369863014
+        },
+        {
+          "date": "2027-08-19",
+          "weekday_monday0": 3,
+          "angle_degrees": 136.84931506849315
+        },
+        {
+          "date": "2027-08-20",
+          "weekday_monday0": 4,
+          "angle_degrees": 137.83561643835617
+        },
+        {
+          "date": "2027-08-21",
+          "weekday_monday0": 5,
+          "angle_degrees": 138.82191780821918
+        },
+        {
+          "date": "2027-08-22",
+          "weekday_monday0": 6,
+          "angle_degrees": 139.8082191780822
+        },
+        {
+          "date": "2027-08-23",
+          "weekday_monday0": 0,
+          "angle_degrees": 140.7945205479452
+        },
+        {
+          "date": "2027-08-24",
+          "weekday_monday0": 1,
+          "angle_degrees": 141.78082191780823
+        },
+        {
+          "date": "2027-08-25",
+          "weekday_monday0": 2,
+          "angle_degrees": 142.76712328767124
+        },
+        {
+          "date": "2027-08-26",
+          "weekday_monday0": 3,
+          "angle_degrees": 143.75342465753425
+        },
+        {
+          "date": "2027-08-27",
+          "weekday_monday0": 4,
+          "angle_degrees": 144.73972602739727
+        },
+        {
+          "date": "2027-08-28",
+          "weekday_monday0": 5,
+          "angle_degrees": 145.72602739726028
+        },
+        {
+          "date": "2027-08-29",
+          "weekday_monday0": 6,
+          "angle_degrees": 146.7123287671233
+        },
+        {
+          "date": "2027-08-30",
+          "weekday_monday0": 0,
+          "angle_degrees": 147.6986301369863
+        },
+        {
+          "date": "2027-08-31",
+          "weekday_monday0": 1,
+          "angle_degrees": 148.68493150684932
+        },
+        {
+          "date": "2027-09-01",
+          "weekday_monday0": 2,
+          "angle_degrees": 149.67123287671234
+        },
+        {
+          "date": "2027-09-02",
+          "weekday_monday0": 3,
+          "angle_degrees": 150.65753424657535
+        },
+        {
+          "date": "2027-09-03",
+          "weekday_monday0": 4,
+          "angle_degrees": 151.64383561643837
+        },
+        {
+          "date": "2027-09-04",
+          "weekday_monday0": 5,
+          "angle_degrees": 152.63013698630138
+        },
+        {
+          "date": "2027-09-05",
+          "weekday_monday0": 6,
+          "angle_degrees": 153.6164383561644
+        },
+        {
+          "date": "2027-09-06",
+          "weekday_monday0": 0,
+          "angle_degrees": 154.6027397260274
+        },
+        {
+          "date": "2027-09-07",
+          "weekday_monday0": 1,
+          "angle_degrees": 155.58904109589042
+        },
+        {
+          "date": "2027-09-08",
+          "weekday_monday0": 2,
+          "angle_degrees": 156.57534246575344
+        },
+        {
+          "date": "2027-09-09",
+          "weekday_monday0": 3,
+          "angle_degrees": 157.56164383561645
+        },
+        {
+          "date": "2027-09-10",
+          "weekday_monday0": 4,
+          "angle_degrees": 158.54794520547946
+        },
+        {
+          "date": "2027-09-11",
+          "weekday_monday0": 5,
+          "angle_degrees": 159.53424657534248
+        },
+        {
+          "date": "2027-09-12",
+          "weekday_monday0": 6,
+          "angle_degrees": 160.5205479452055
+        },
+        {
+          "date": "2027-09-13",
+          "weekday_monday0": 0,
+          "angle_degrees": 161.5068493150685
+        },
+        {
+          "date": "2027-09-14",
+          "weekday_monday0": 1,
+          "angle_degrees": 162.4931506849315
+        },
+        {
+          "date": "2027-09-15",
+          "weekday_monday0": 2,
+          "angle_degrees": 163.4794520547945
+        },
+        {
+          "date": "2027-09-16",
+          "weekday_monday0": 3,
+          "angle_degrees": 164.46575342465752
+        },
+        {
+          "date": "2027-09-17",
+          "weekday_monday0": 4,
+          "angle_degrees": 165.45205479452054
+        },
+        {
+          "date": "2027-09-18",
+          "weekday_monday0": 5,
+          "angle_degrees": 166.43835616438355
+        },
+        {
+          "date": "2027-09-19",
+          "weekday_monday0": 6,
+          "angle_degrees": 167.4246575342466
+        },
+        {
+          "date": "2027-09-20",
+          "weekday_monday0": 0,
+          "angle_degrees": 168.41095890410958
+        },
+        {
+          "date": "2027-09-21",
+          "weekday_monday0": 1,
+          "angle_degrees": 169.39726027397262
+        },
+        {
+          "date": "2027-09-22",
+          "weekday_monday0": 2,
+          "angle_degrees": 170.3835616438356
+        },
+        {
+          "date": "2027-09-23",
+          "weekday_monday0": 3,
+          "angle_degrees": 171.36986301369865
+        },
+        {
+          "date": "2027-09-24",
+          "weekday_monday0": 4,
+          "angle_degrees": 172.35616438356163
+        },
+        {
+          "date": "2027-09-25",
+          "weekday_monday0": 5,
+          "angle_degrees": 173.34246575342468
+        },
+        {
+          "date": "2027-09-26",
+          "weekday_monday0": 6,
+          "angle_degrees": 174.32876712328766
+        },
+        {
+          "date": "2027-09-27",
+          "weekday_monday0": 0,
+          "angle_degrees": 175.3150684931507
+        },
+        {
+          "date": "2027-09-28",
+          "weekday_monday0": 1,
+          "angle_degrees": 176.3013698630137
+        },
+        {
+          "date": "2027-09-29",
+          "weekday_monday0": 2,
+          "angle_degrees": 177.28767123287673
+        },
+        {
+          "date": "2027-09-30",
+          "weekday_monday0": 3,
+          "angle_degrees": 178.27397260273972
+        },
+        {
+          "date": "2027-10-01",
+          "weekday_monday0": 4,
+          "angle_degrees": 179.26027397260276
+        },
+        {
+          "date": "2027-10-02",
+          "weekday_monday0": 5,
+          "angle_degrees": 180.24657534246575
+        },
+        {
+          "date": "2027-10-03",
+          "weekday_monday0": 6,
+          "angle_degrees": 181.2328767123288
+        },
+        {
+          "date": "2027-10-04",
+          "weekday_monday0": 0,
+          "angle_degrees": 182.21917808219177
+        },
+        {
+          "date": "2027-10-05",
+          "weekday_monday0": 1,
+          "angle_degrees": 183.20547945205482
+        },
+        {
+          "date": "2027-10-06",
+          "weekday_monday0": 2,
+          "angle_degrees": 184.1917808219178
+        },
+        {
+          "date": "2027-10-07",
+          "weekday_monday0": 3,
+          "angle_degrees": 185.17808219178085
+        },
+        {
+          "date": "2027-10-08",
+          "weekday_monday0": 4,
+          "angle_degrees": 186.16438356164383
+        },
+        {
+          "date": "2027-10-09",
+          "weekday_monday0": 5,
+          "angle_degrees": 187.15068493150687
+        },
+        {
+          "date": "2027-10-10",
+          "weekday_monday0": 6,
+          "angle_degrees": 188.13698630136986
+        },
+        {
+          "date": "2027-10-11",
+          "weekday_monday0": 0,
+          "angle_degrees": 189.1232876712329
+        },
+        {
+          "date": "2027-10-12",
+          "weekday_monday0": 1,
+          "angle_degrees": 190.1095890410959
+        },
+        {
+          "date": "2027-10-13",
+          "weekday_monday0": 2,
+          "angle_degrees": 191.09589041095893
+        },
+        {
+          "date": "2027-10-14",
+          "weekday_monday0": 3,
+          "angle_degrees": 192.08219178082192
+        },
+        {
+          "date": "2027-10-15",
+          "weekday_monday0": 4,
+          "angle_degrees": 193.06849315068496
+        },
+        {
+          "date": "2027-10-16",
+          "weekday_monday0": 5,
+          "angle_degrees": 194.05479452054794
+        },
+        {
+          "date": "2027-10-17",
+          "weekday_monday0": 6,
+          "angle_degrees": 195.041095890411
+        },
+        {
+          "date": "2027-10-18",
+          "weekday_monday0": 0,
+          "angle_degrees": 196.02739726027397
+        },
+        {
+          "date": "2027-10-19",
+          "weekday_monday0": 1,
+          "angle_degrees": 197.01369863013701
+        },
+        {
+          "date": "2027-10-20",
+          "weekday_monday0": 2,
+          "angle_degrees": 198.0
+        },
+        {
+          "date": "2027-10-21",
+          "weekday_monday0": 3,
+          "angle_degrees": 198.98630136986299
+        },
+        {
+          "date": "2027-10-22",
+          "weekday_monday0": 4,
+          "angle_degrees": 199.97260273972603
+        },
+        {
+          "date": "2027-10-23",
+          "weekday_monday0": 5,
+          "angle_degrees": 200.958904109589
+        },
+        {
+          "date": "2027-10-24",
+          "weekday_monday0": 6,
+          "angle_degrees": 201.94520547945206
+        },
+        {
+          "date": "2027-10-25",
+          "weekday_monday0": 0,
+          "angle_degrees": 202.93150684931504
+        },
+        {
+          "date": "2027-10-26",
+          "weekday_monday0": 1,
+          "angle_degrees": 203.91780821917808
+        },
+        {
+          "date": "2027-10-27",
+          "weekday_monday0": 2,
+          "angle_degrees": 204.90410958904107
+        },
+        {
+          "date": "2027-10-28",
+          "weekday_monday0": 3,
+          "angle_degrees": 205.8904109589041
+        },
+        {
+          "date": "2027-10-29",
+          "weekday_monday0": 4,
+          "angle_degrees": 206.8767123287671
+        },
+        {
+          "date": "2027-10-30",
+          "weekday_monday0": 5,
+          "angle_degrees": 207.86301369863014
+        },
+        {
+          "date": "2027-10-31",
+          "weekday_monday0": 6,
+          "angle_degrees": 208.84931506849313
+        },
+        {
+          "date": "2027-11-01",
+          "weekday_monday0": 0,
+          "angle_degrees": 209.83561643835617
+        },
+        {
+          "date": "2027-11-02",
+          "weekday_monday0": 1,
+          "angle_degrees": 210.82191780821915
+        },
+        {
+          "date": "2027-11-03",
+          "weekday_monday0": 2,
+          "angle_degrees": 211.8082191780822
+        },
+        {
+          "date": "2027-11-04",
+          "weekday_monday0": 3,
+          "angle_degrees": 212.79452054794518
+        },
+        {
+          "date": "2027-11-05",
+          "weekday_monday0": 4,
+          "angle_degrees": 213.78082191780823
+        },
+        {
+          "date": "2027-11-06",
+          "weekday_monday0": 5,
+          "angle_degrees": 214.7671232876712
+        },
+        {
+          "date": "2027-11-07",
+          "weekday_monday0": 6,
+          "angle_degrees": 215.75342465753425
+        },
+        {
+          "date": "2027-11-08",
+          "weekday_monday0": 0,
+          "angle_degrees": 216.73972602739724
+        },
+        {
+          "date": "2027-11-09",
+          "weekday_monday0": 1,
+          "angle_degrees": 217.72602739726028
+        },
+        {
+          "date": "2027-11-10",
+          "weekday_monday0": 2,
+          "angle_degrees": 218.71232876712327
+        },
+        {
+          "date": "2027-11-11",
+          "weekday_monday0": 3,
+          "angle_degrees": 219.6986301369863
+        },
+        {
+          "date": "2027-11-12",
+          "weekday_monday0": 4,
+          "angle_degrees": 220.6849315068493
+        },
+        {
+          "date": "2027-11-13",
+          "weekday_monday0": 5,
+          "angle_degrees": 221.67123287671234
+        },
+        {
+          "date": "2027-11-14",
+          "weekday_monday0": 6,
+          "angle_degrees": 222.65753424657532
+        },
+        {
+          "date": "2027-11-15",
+          "weekday_monday0": 0,
+          "angle_degrees": 223.64383561643837
+        },
+        {
+          "date": "2027-11-16",
+          "weekday_monday0": 1,
+          "angle_degrees": 224.63013698630135
+        },
+        {
+          "date": "2027-11-17",
+          "weekday_monday0": 2,
+          "angle_degrees": 225.6164383561644
+        },
+        {
+          "date": "2027-11-18",
+          "weekday_monday0": 3,
+          "angle_degrees": 226.60273972602738
+        },
+        {
+          "date": "2027-11-19",
+          "weekday_monday0": 4,
+          "angle_degrees": 227.58904109589042
+        },
+        {
+          "date": "2027-11-20",
+          "weekday_monday0": 5,
+          "angle_degrees": 228.5753424657534
+        },
+        {
+          "date": "2027-11-21",
+          "weekday_monday0": 6,
+          "angle_degrees": 229.56164383561645
+        },
+        {
+          "date": "2027-11-22",
+          "weekday_monday0": 0,
+          "angle_degrees": 230.54794520547944
+        },
+        {
+          "date": "2027-11-23",
+          "weekday_monday0": 1,
+          "angle_degrees": 231.53424657534248
+        },
+        {
+          "date": "2027-11-24",
+          "weekday_monday0": 2,
+          "angle_degrees": 232.52054794520546
+        },
+        {
+          "date": "2027-11-25",
+          "weekday_monday0": 3,
+          "angle_degrees": 233.5068493150685
+        },
+        {
+          "date": "2027-11-26",
+          "weekday_monday0": 4,
+          "angle_degrees": 234.4931506849315
+        },
+        {
+          "date": "2027-11-27",
+          "weekday_monday0": 5,
+          "angle_degrees": 235.47945205479454
+        },
+        {
+          "date": "2027-11-28",
+          "weekday_monday0": 6,
+          "angle_degrees": 236.46575342465752
+        },
+        {
+          "date": "2027-11-29",
+          "weekday_monday0": 0,
+          "angle_degrees": 237.45205479452056
+        },
+        {
+          "date": "2027-11-30",
+          "weekday_monday0": 1,
+          "angle_degrees": 238.43835616438355
+        },
+        {
+          "date": "2027-12-01",
+          "weekday_monday0": 2,
+          "angle_degrees": 239.4246575342466
+        },
+        {
+          "date": "2027-12-02",
+          "weekday_monday0": 3,
+          "angle_degrees": 240.41095890410958
+        },
+        {
+          "date": "2027-12-03",
+          "weekday_monday0": 4,
+          "angle_degrees": 241.39726027397262
+        },
+        {
+          "date": "2027-12-04",
+          "weekday_monday0": 5,
+          "angle_degrees": 242.3835616438356
+        },
+        {
+          "date": "2027-12-05",
+          "weekday_monday0": 6,
+          "angle_degrees": 243.36986301369865
+        },
+        {
+          "date": "2027-12-06",
+          "weekday_monday0": 0,
+          "angle_degrees": 244.35616438356163
+        },
+        {
+          "date": "2027-12-07",
+          "weekday_monday0": 1,
+          "angle_degrees": 245.34246575342468
+        },
+        {
+          "date": "2027-12-08",
+          "weekday_monday0": 2,
+          "angle_degrees": 246.32876712328766
+        },
+        {
+          "date": "2027-12-09",
+          "weekday_monday0": 3,
+          "angle_degrees": 247.3150684931507
+        },
+        {
+          "date": "2027-12-10",
+          "weekday_monday0": 4,
+          "angle_degrees": 248.3013698630137
+        },
+        {
+          "date": "2027-12-11",
+          "weekday_monday0": 5,
+          "angle_degrees": 249.28767123287673
+        },
+        {
+          "date": "2027-12-12",
+          "weekday_monday0": 6,
+          "angle_degrees": 250.27397260273972
+        },
+        {
+          "date": "2027-12-13",
+          "weekday_monday0": 0,
+          "angle_degrees": 251.26027397260276
+        },
+        {
+          "date": "2027-12-14",
+          "weekday_monday0": 1,
+          "angle_degrees": 252.24657534246575
+        },
+        {
+          "date": "2027-12-15",
+          "weekday_monday0": 2,
+          "angle_degrees": 253.2328767123288
+        },
+        {
+          "date": "2027-12-16",
+          "weekday_monday0": 3,
+          "angle_degrees": 254.21917808219177
+        },
+        {
+          "date": "2027-12-17",
+          "weekday_monday0": 4,
+          "angle_degrees": 255.20547945205482
+        },
+        {
+          "date": "2027-12-18",
+          "weekday_monday0": 5,
+          "angle_degrees": 256.1917808219178
+        },
+        {
+          "date": "2027-12-19",
+          "weekday_monday0": 6,
+          "angle_degrees": 257.17808219178085
+        },
+        {
+          "date": "2027-12-20",
+          "weekday_monday0": 0,
+          "angle_degrees": 258.16438356164383
+        },
+        {
+          "date": "2027-12-21",
+          "weekday_monday0": 1,
+          "angle_degrees": 259.1506849315069
+        },
+        {
+          "date": "2027-12-22",
+          "weekday_monday0": 2,
+          "angle_degrees": 260.13698630136986
+        },
+        {
+          "date": "2027-12-23",
+          "weekday_monday0": 3,
+          "angle_degrees": 261.1232876712329
+        },
+        {
+          "date": "2027-12-24",
+          "weekday_monday0": 4,
+          "angle_degrees": 262.1095890410959
+        },
+        {
+          "date": "2027-12-25",
+          "weekday_monday0": 5,
+          "angle_degrees": 263.09589041095893
+        },
+        {
+          "date": "2027-12-26",
+          "weekday_monday0": 6,
+          "angle_degrees": 264.0821917808219
+        },
+        {
+          "date": "2027-12-27",
+          "weekday_monday0": 0,
+          "angle_degrees": 265.06849315068496
+        },
+        {
+          "date": "2027-12-28",
+          "weekday_monday0": 1,
+          "angle_degrees": 266.05479452054794
+        },
+        {
+          "date": "2027-12-29",
+          "weekday_monday0": 2,
+          "angle_degrees": 267.041095890411
+        },
+        {
+          "date": "2027-12-30",
+          "weekday_monday0": 3,
+          "angle_degrees": 268.027397260274
+        },
+        {
+          "date": "2027-12-31",
+          "weekday_monday0": 4,
+          "angle_degrees": 269.013698630137
+        }
+      ],
+      "user_review": "pending"
+    },
+    {
+      "id": "J3",
+      "title": "A year in the round",
+      "source": "j3.svg",
+      "sha256": "246f32576d3968e9e3469850ec7e83942e9546bf4bf307bf38e089af24785d13",
+      "dimensions": {
+        "width": 1000,
+        "height": 1400
+      },
+      "design_card": {
+        "reading_task": "Read the annual cycle and compare the weight assigned to days and months",
+        "display_extent": {
+          "view": "year",
+          "start": "2027-01-01",
+          "end": "2027-12-31"
+        },
+        "temporal_unit": "civil-date",
+        "temporal_mapping": "equal-month",
+        "spatial_layout": "one clockwise radial year",
+        "typographic_roles": {
+          "year": "display",
+          "month_index": "mono-medium",
+          "selected_day_labels": "mono"
+        },
+        "whitespace_role": "Keep the central year distinct from the date ring",
+        "source_rules": [
+          "temporal:declared-normalization",
+          "type:nested-hierarchy"
+        ],
+        "hypothesis": "Equal-day and equal-month views may support different senses of annual rhythm.",
+        "user_preference_status": "unconfirmed",
+        "study_language": "en",
+        "comparison_kind": "controlled",
+        "changed_variable": "temporal_mapping",
+        "control_group": "annual-ring",
+        "style": {
+          "paper": "#17342E",
+          "ink": "#E9EDCF",
+          "muted": "#9EAEA1",
+          "quiet": "#70877B",
+          "accent": "#D8E598",
+          "cx": 500,
+          "cy": 730,
+          "tick_inner": 322,
+          "tick_outer": 352,
+          "arc_radius": 374,
+          "label_radius": 414,
+          "start_degrees": -90,
+          "direction": "clockwise",
+          "display_font": "display",
+          "lookup_font": "mono",
+          "day_label_size": 12
+        }
+      },
+      "represented_dates": [
+        {
+          "date": "2027-01-01",
+          "weekday_monday0": 4,
+          "angle_degrees": -90.0
+        },
+        {
+          "date": "2027-01-02",
+          "weekday_monday0": 5,
+          "angle_degrees": -89.03225806451613
+        },
+        {
+          "date": "2027-01-03",
+          "weekday_monday0": 6,
+          "angle_degrees": -88.06451612903226
+        },
+        {
+          "date": "2027-01-04",
+          "weekday_monday0": 0,
+          "angle_degrees": -87.09677419354838
+        },
+        {
+          "date": "2027-01-05",
+          "weekday_monday0": 1,
+          "angle_degrees": -86.12903225806451
+        },
+        {
+          "date": "2027-01-06",
+          "weekday_monday0": 2,
+          "angle_degrees": -85.16129032258064
+        },
+        {
+          "date": "2027-01-07",
+          "weekday_monday0": 3,
+          "angle_degrees": -84.19354838709677
+        },
+        {
+          "date": "2027-01-08",
+          "weekday_monday0": 4,
+          "angle_degrees": -83.2258064516129
+        },
+        {
+          "date": "2027-01-09",
+          "weekday_monday0": 5,
+          "angle_degrees": -82.25806451612902
+        },
+        {
+          "date": "2027-01-10",
+          "weekday_monday0": 6,
+          "angle_degrees": -81.29032258064515
+        },
+        {
+          "date": "2027-01-11",
+          "weekday_monday0": 0,
+          "angle_degrees": -80.3225806451613
+        },
+        {
+          "date": "2027-01-12",
+          "weekday_monday0": 1,
+          "angle_degrees": -79.35483870967742
+        },
+        {
+          "date": "2027-01-13",
+          "weekday_monday0": 2,
+          "angle_degrees": -78.38709677419355
+        },
+        {
+          "date": "2027-01-14",
+          "weekday_monday0": 3,
+          "angle_degrees": -77.41935483870968
+        },
+        {
+          "date": "2027-01-15",
+          "weekday_monday0": 4,
+          "angle_degrees": -76.45161290322581
+        },
+        {
+          "date": "2027-01-16",
+          "weekday_monday0": 5,
+          "angle_degrees": -75.48387096774194
+        },
+        {
+          "date": "2027-01-17",
+          "weekday_monday0": 6,
+          "angle_degrees": -74.51612903225806
+        },
+        {
+          "date": "2027-01-18",
+          "weekday_monday0": 0,
+          "angle_degrees": -73.54838709677419
+        },
+        {
+          "date": "2027-01-19",
+          "weekday_monday0": 1,
+          "angle_degrees": -72.58064516129032
+        },
+        {
+          "date": "2027-01-20",
+          "weekday_monday0": 2,
+          "angle_degrees": -71.61290322580645
+        },
+        {
+          "date": "2027-01-21",
+          "weekday_monday0": 3,
+          "angle_degrees": -70.64516129032258
+        },
+        {
+          "date": "2027-01-22",
+          "weekday_monday0": 4,
+          "angle_degrees": -69.67741935483872
+        },
+        {
+          "date": "2027-01-23",
+          "weekday_monday0": 5,
+          "angle_degrees": -68.70967741935483
+        },
+        {
+          "date": "2027-01-24",
+          "weekday_monday0": 6,
+          "angle_degrees": -67.74193548387098
+        },
+        {
+          "date": "2027-01-25",
+          "weekday_monday0": 0,
+          "angle_degrees": -66.7741935483871
+        },
+        {
+          "date": "2027-01-26",
+          "weekday_monday0": 1,
+          "angle_degrees": -65.80645161290323
+        },
+        {
+          "date": "2027-01-27",
+          "weekday_monday0": 2,
+          "angle_degrees": -64.83870967741936
+        },
+        {
+          "date": "2027-01-28",
+          "weekday_monday0": 3,
+          "angle_degrees": -63.87096774193549
+        },
+        {
+          "date": "2027-01-29",
+          "weekday_monday0": 4,
+          "angle_degrees": -62.903225806451616
+        },
+        {
+          "date": "2027-01-30",
+          "weekday_monday0": 5,
+          "angle_degrees": -61.935483870967744
+        },
+        {
+          "date": "2027-01-31",
+          "weekday_monday0": 6,
+          "angle_degrees": -60.96774193548387
+        },
+        {
+          "date": "2027-02-01",
+          "weekday_monday0": 0,
+          "angle_degrees": -60.0
+        },
+        {
+          "date": "2027-02-02",
+          "weekday_monday0": 1,
+          "angle_degrees": -58.92857142857143
+        },
+        {
+          "date": "2027-02-03",
+          "weekday_monday0": 2,
+          "angle_degrees": -57.857142857142854
+        },
+        {
+          "date": "2027-02-04",
+          "weekday_monday0": 3,
+          "angle_degrees": -56.785714285714285
+        },
+        {
+          "date": "2027-02-05",
+          "weekday_monday0": 4,
+          "angle_degrees": -55.714285714285715
+        },
+        {
+          "date": "2027-02-06",
+          "weekday_monday0": 5,
+          "angle_degrees": -54.64285714285714
+        },
+        {
+          "date": "2027-02-07",
+          "weekday_monday0": 6,
+          "angle_degrees": -53.57142857142857
+        },
+        {
+          "date": "2027-02-08",
+          "weekday_monday0": 0,
+          "angle_degrees": -52.5
+        },
+        {
+          "date": "2027-02-09",
+          "weekday_monday0": 1,
+          "angle_degrees": -51.42857142857143
+        },
+        {
+          "date": "2027-02-10",
+          "weekday_monday0": 2,
+          "angle_degrees": -50.357142857142854
+        },
+        {
+          "date": "2027-02-11",
+          "weekday_monday0": 3,
+          "angle_degrees": -49.285714285714285
+        },
+        {
+          "date": "2027-02-12",
+          "weekday_monday0": 4,
+          "angle_degrees": -48.214285714285715
+        },
+        {
+          "date": "2027-02-13",
+          "weekday_monday0": 5,
+          "angle_degrees": -47.142857142857146
+        },
+        {
+          "date": "2027-02-14",
+          "weekday_monday0": 6,
+          "angle_degrees": -46.07142857142857
+        },
+        {
+          "date": "2027-02-15",
+          "weekday_monday0": 0,
+          "angle_degrees": -45.0
+        },
+        {
+          "date": "2027-02-16",
+          "weekday_monday0": 1,
+          "angle_degrees": -43.92857142857143
+        },
+        {
+          "date": "2027-02-17",
+          "weekday_monday0": 2,
+          "angle_degrees": -42.85714285714286
+        },
+        {
+          "date": "2027-02-18",
+          "weekday_monday0": 3,
+          "angle_degrees": -41.78571428571429
+        },
+        {
+          "date": "2027-02-19",
+          "weekday_monday0": 4,
+          "angle_degrees": -40.71428571428571
+        },
+        {
+          "date": "2027-02-20",
+          "weekday_monday0": 5,
+          "angle_degrees": -39.64285714285714
+        },
+        {
+          "date": "2027-02-21",
+          "weekday_monday0": 6,
+          "angle_degrees": -38.57142857142857
+        },
+        {
+          "date": "2027-02-22",
+          "weekday_monday0": 0,
+          "angle_degrees": -37.5
+        },
+        {
+          "date": "2027-02-23",
+          "weekday_monday0": 1,
+          "angle_degrees": -36.42857142857143
+        },
+        {
+          "date": "2027-02-24",
+          "weekday_monday0": 2,
+          "angle_degrees": -35.35714285714286
+        },
+        {
+          "date": "2027-02-25",
+          "weekday_monday0": 3,
+          "angle_degrees": -34.28571428571429
+        },
+        {
+          "date": "2027-02-26",
+          "weekday_monday0": 4,
+          "angle_degrees": -33.21428571428571
+        },
+        {
+          "date": "2027-02-27",
+          "weekday_monday0": 5,
+          "angle_degrees": -32.14285714285714
+        },
+        {
+          "date": "2027-02-28",
+          "weekday_monday0": 6,
+          "angle_degrees": -31.07142857142857
+        },
+        {
+          "date": "2027-03-01",
+          "weekday_monday0": 0,
+          "angle_degrees": -30.0
+        },
+        {
+          "date": "2027-03-02",
+          "weekday_monday0": 1,
+          "angle_degrees": -29.032258064516128
+        },
+        {
+          "date": "2027-03-03",
+          "weekday_monday0": 2,
+          "angle_degrees": -28.064516129032256
+        },
+        {
+          "date": "2027-03-04",
+          "weekday_monday0": 3,
+          "angle_degrees": -27.096774193548388
+        },
+        {
+          "date": "2027-03-05",
+          "weekday_monday0": 4,
+          "angle_degrees": -26.129032258064516
+        },
+        {
+          "date": "2027-03-06",
+          "weekday_monday0": 5,
+          "angle_degrees": -25.161290322580644
+        },
+        {
+          "date": "2027-03-07",
+          "weekday_monday0": 6,
+          "angle_degrees": -24.193548387096776
+        },
+        {
+          "date": "2027-03-08",
+          "weekday_monday0": 0,
+          "angle_degrees": -23.225806451612904
+        },
+        {
+          "date": "2027-03-09",
+          "weekday_monday0": 1,
+          "angle_degrees": -22.258064516129032
+        },
+        {
+          "date": "2027-03-10",
+          "weekday_monday0": 2,
+          "angle_degrees": -21.29032258064516
+        },
+        {
+          "date": "2027-03-11",
+          "weekday_monday0": 3,
+          "angle_degrees": -20.32258064516129
+        },
+        {
+          "date": "2027-03-12",
+          "weekday_monday0": 4,
+          "angle_degrees": -19.354838709677416
+        },
+        {
+          "date": "2027-03-13",
+          "weekday_monday0": 5,
+          "angle_degrees": -18.387096774193548
+        },
+        {
+          "date": "2027-03-14",
+          "weekday_monday0": 6,
+          "angle_degrees": -17.419354838709676
+        },
+        {
+          "date": "2027-03-15",
+          "weekday_monday0": 0,
+          "angle_degrees": -16.451612903225808
+        },
+        {
+          "date": "2027-03-16",
+          "weekday_monday0": 1,
+          "angle_degrees": -15.483870967741936
+        },
+        {
+          "date": "2027-03-17",
+          "weekday_monday0": 2,
+          "angle_degrees": -14.516129032258064
+        },
+        {
+          "date": "2027-03-18",
+          "weekday_monday0": 3,
+          "angle_degrees": -13.548387096774196
+        },
+        {
+          "date": "2027-03-19",
+          "weekday_monday0": 4,
+          "angle_degrees": -12.58064516129032
+        },
+        {
+          "date": "2027-03-20",
+          "weekday_monday0": 5,
+          "angle_degrees": -11.612903225806452
+        },
+        {
+          "date": "2027-03-21",
+          "weekday_monday0": 6,
+          "angle_degrees": -10.64516129032258
+        },
+        {
+          "date": "2027-03-22",
+          "weekday_monday0": 0,
+          "angle_degrees": -9.677419354838712
+        },
+        {
+          "date": "2027-03-23",
+          "weekday_monday0": 1,
+          "angle_degrees": -8.709677419354836
+        },
+        {
+          "date": "2027-03-24",
+          "weekday_monday0": 2,
+          "angle_degrees": -7.741935483870968
+        },
+        {
+          "date": "2027-03-25",
+          "weekday_monday0": 3,
+          "angle_degrees": -6.774193548387096
+        },
+        {
+          "date": "2027-03-26",
+          "weekday_monday0": 4,
+          "angle_degrees": -5.806451612903228
+        },
+        {
+          "date": "2027-03-27",
+          "weekday_monday0": 5,
+          "angle_degrees": -4.838709677419352
+        },
+        {
+          "date": "2027-03-28",
+          "weekday_monday0": 6,
+          "angle_degrees": -3.870967741935484
+        },
+        {
+          "date": "2027-03-29",
+          "weekday_monday0": 0,
+          "angle_degrees": -2.903225806451612
+        },
+        {
+          "date": "2027-03-30",
+          "weekday_monday0": 1,
+          "angle_degrees": -1.9354838709677438
+        },
+        {
+          "date": "2027-03-31",
+          "weekday_monday0": 2,
+          "angle_degrees": -0.9677419354838719
+        },
+        {
+          "date": "2027-04-01",
+          "weekday_monday0": 3,
+          "angle_degrees": 0.0
+        },
+        {
+          "date": "2027-04-02",
+          "weekday_monday0": 4,
+          "angle_degrees": 1.0
+        },
+        {
+          "date": "2027-04-03",
+          "weekday_monday0": 5,
+          "angle_degrees": 2.0
+        },
+        {
+          "date": "2027-04-04",
+          "weekday_monday0": 6,
+          "angle_degrees": 3.0
+        },
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "angle_degrees": 4.0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "angle_degrees": 5.0
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "angle_degrees": 6.0
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "angle_degrees": 7.0
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "angle_degrees": 8.0
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "angle_degrees": 9.0
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "angle_degrees": 10.0
+        },
+        {
+          "date": "2027-04-12",
+          "weekday_monday0": 0,
+          "angle_degrees": 11.0
+        },
+        {
+          "date": "2027-04-13",
+          "weekday_monday0": 1,
+          "angle_degrees": 12.0
+        },
+        {
+          "date": "2027-04-14",
+          "weekday_monday0": 2,
+          "angle_degrees": 13.0
+        },
+        {
+          "date": "2027-04-15",
+          "weekday_monday0": 3,
+          "angle_degrees": 14.0
+        },
+        {
+          "date": "2027-04-16",
+          "weekday_monday0": 4,
+          "angle_degrees": 15.0
+        },
+        {
+          "date": "2027-04-17",
+          "weekday_monday0": 5,
+          "angle_degrees": 16.0
+        },
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6,
+          "angle_degrees": 17.0
+        },
+        {
+          "date": "2027-04-19",
+          "weekday_monday0": 0,
+          "angle_degrees": 18.0
+        },
+        {
+          "date": "2027-04-20",
+          "weekday_monday0": 1,
+          "angle_degrees": 19.0
+        },
+        {
+          "date": "2027-04-21",
+          "weekday_monday0": 2,
+          "angle_degrees": 20.0
+        },
+        {
+          "date": "2027-04-22",
+          "weekday_monday0": 3,
+          "angle_degrees": 21.0
+        },
+        {
+          "date": "2027-04-23",
+          "weekday_monday0": 4,
+          "angle_degrees": 22.0
+        },
+        {
+          "date": "2027-04-24",
+          "weekday_monday0": 5,
+          "angle_degrees": 23.0
+        },
+        {
+          "date": "2027-04-25",
+          "weekday_monday0": 6,
+          "angle_degrees": 24.0
+        },
+        {
+          "date": "2027-04-26",
+          "weekday_monday0": 0,
+          "angle_degrees": 25.0
+        },
+        {
+          "date": "2027-04-27",
+          "weekday_monday0": 1,
+          "angle_degrees": 26.0
+        },
+        {
+          "date": "2027-04-28",
+          "weekday_monday0": 2,
+          "angle_degrees": 27.0
+        },
+        {
+          "date": "2027-04-29",
+          "weekday_monday0": 3,
+          "angle_degrees": 28.0
+        },
+        {
+          "date": "2027-04-30",
+          "weekday_monday0": 4,
+          "angle_degrees": 29.0
+        },
+        {
+          "date": "2027-05-01",
+          "weekday_monday0": 5,
+          "angle_degrees": 30.0
+        },
+        {
+          "date": "2027-05-02",
+          "weekday_monday0": 6,
+          "angle_degrees": 30.967741935483872
+        },
+        {
+          "date": "2027-05-03",
+          "weekday_monday0": 0,
+          "angle_degrees": 31.935483870967744
+        },
+        {
+          "date": "2027-05-04",
+          "weekday_monday0": 1,
+          "angle_degrees": 32.903225806451616
+        },
+        {
+          "date": "2027-05-05",
+          "weekday_monday0": 2,
+          "angle_degrees": 33.87096774193549
+        },
+        {
+          "date": "2027-05-06",
+          "weekday_monday0": 3,
+          "angle_degrees": 34.83870967741935
+        },
+        {
+          "date": "2027-05-07",
+          "weekday_monday0": 4,
+          "angle_degrees": 35.806451612903224
+        },
+        {
+          "date": "2027-05-08",
+          "weekday_monday0": 5,
+          "angle_degrees": 36.774193548387096
+        },
+        {
+          "date": "2027-05-09",
+          "weekday_monday0": 6,
+          "angle_degrees": 37.74193548387097
+        },
+        {
+          "date": "2027-05-10",
+          "weekday_monday0": 0,
+          "angle_degrees": 38.70967741935484
+        },
+        {
+          "date": "2027-05-11",
+          "weekday_monday0": 1,
+          "angle_degrees": 39.67741935483871
+        },
+        {
+          "date": "2027-05-12",
+          "weekday_monday0": 2,
+          "angle_degrees": 40.645161290322584
+        },
+        {
+          "date": "2027-05-13",
+          "weekday_monday0": 3,
+          "angle_degrees": 41.61290322580645
+        },
+        {
+          "date": "2027-05-14",
+          "weekday_monday0": 4,
+          "angle_degrees": 42.58064516129032
+        },
+        {
+          "date": "2027-05-15",
+          "weekday_monday0": 5,
+          "angle_degrees": 43.54838709677419
+        },
+        {
+          "date": "2027-05-16",
+          "weekday_monday0": 6,
+          "angle_degrees": 44.516129032258064
+        },
+        {
+          "date": "2027-05-17",
+          "weekday_monday0": 0,
+          "angle_degrees": 45.483870967741936
+        },
+        {
+          "date": "2027-05-18",
+          "weekday_monday0": 1,
+          "angle_degrees": 46.45161290322581
+        },
+        {
+          "date": "2027-05-19",
+          "weekday_monday0": 2,
+          "angle_degrees": 47.41935483870968
+        },
+        {
+          "date": "2027-05-20",
+          "weekday_monday0": 3,
+          "angle_degrees": 48.38709677419355
+        },
+        {
+          "date": "2027-05-21",
+          "weekday_monday0": 4,
+          "angle_degrees": 49.35483870967742
+        },
+        {
+          "date": "2027-05-22",
+          "weekday_monday0": 5,
+          "angle_degrees": 50.32258064516129
+        },
+        {
+          "date": "2027-05-23",
+          "weekday_monday0": 6,
+          "angle_degrees": 51.29032258064517
+        },
+        {
+          "date": "2027-05-24",
+          "weekday_monday0": 0,
+          "angle_degrees": 52.25806451612903
+        },
+        {
+          "date": "2027-05-25",
+          "weekday_monday0": 1,
+          "angle_degrees": 53.225806451612904
+        },
+        {
+          "date": "2027-05-26",
+          "weekday_monday0": 2,
+          "angle_degrees": 54.19354838709677
+        },
+        {
+          "date": "2027-05-27",
+          "weekday_monday0": 3,
+          "angle_degrees": 55.16129032258065
+        },
+        {
+          "date": "2027-05-28",
+          "weekday_monday0": 4,
+          "angle_degrees": 56.12903225806451
+        },
+        {
+          "date": "2027-05-29",
+          "weekday_monday0": 5,
+          "angle_degrees": 57.096774193548384
+        },
+        {
+          "date": "2027-05-30",
+          "weekday_monday0": 6,
+          "angle_degrees": 58.064516129032256
+        },
+        {
+          "date": "2027-05-31",
+          "weekday_monday0": 0,
+          "angle_degrees": 59.03225806451613
+        },
+        {
+          "date": "2027-06-01",
+          "weekday_monday0": 1,
+          "angle_degrees": 60.0
+        },
+        {
+          "date": "2027-06-02",
+          "weekday_monday0": 2,
+          "angle_degrees": 61.0
+        },
+        {
+          "date": "2027-06-03",
+          "weekday_monday0": 3,
+          "angle_degrees": 62.0
+        },
+        {
+          "date": "2027-06-04",
+          "weekday_monday0": 4,
+          "angle_degrees": 63.0
+        },
+        {
+          "date": "2027-06-05",
+          "weekday_monday0": 5,
+          "angle_degrees": 64.0
+        },
+        {
+          "date": "2027-06-06",
+          "weekday_monday0": 6,
+          "angle_degrees": 65.0
+        },
+        {
+          "date": "2027-06-07",
+          "weekday_monday0": 0,
+          "angle_degrees": 66.0
+        },
+        {
+          "date": "2027-06-08",
+          "weekday_monday0": 1,
+          "angle_degrees": 67.0
+        },
+        {
+          "date": "2027-06-09",
+          "weekday_monday0": 2,
+          "angle_degrees": 68.0
+        },
+        {
+          "date": "2027-06-10",
+          "weekday_monday0": 3,
+          "angle_degrees": 69.0
+        },
+        {
+          "date": "2027-06-11",
+          "weekday_monday0": 4,
+          "angle_degrees": 70.0
+        },
+        {
+          "date": "2027-06-12",
+          "weekday_monday0": 5,
+          "angle_degrees": 71.0
+        },
+        {
+          "date": "2027-06-13",
+          "weekday_monday0": 6,
+          "angle_degrees": 72.0
+        },
+        {
+          "date": "2027-06-14",
+          "weekday_monday0": 0,
+          "angle_degrees": 73.0
+        },
+        {
+          "date": "2027-06-15",
+          "weekday_monday0": 1,
+          "angle_degrees": 74.0
+        },
+        {
+          "date": "2027-06-16",
+          "weekday_monday0": 2,
+          "angle_degrees": 75.0
+        },
+        {
+          "date": "2027-06-17",
+          "weekday_monday0": 3,
+          "angle_degrees": 76.0
+        },
+        {
+          "date": "2027-06-18",
+          "weekday_monday0": 4,
+          "angle_degrees": 77.0
+        },
+        {
+          "date": "2027-06-19",
+          "weekday_monday0": 5,
+          "angle_degrees": 78.0
+        },
+        {
+          "date": "2027-06-20",
+          "weekday_monday0": 6,
+          "angle_degrees": 79.0
+        },
+        {
+          "date": "2027-06-21",
+          "weekday_monday0": 0,
+          "angle_degrees": 80.0
+        },
+        {
+          "date": "2027-06-22",
+          "weekday_monday0": 1,
+          "angle_degrees": 81.0
+        },
+        {
+          "date": "2027-06-23",
+          "weekday_monday0": 2,
+          "angle_degrees": 82.0
+        },
+        {
+          "date": "2027-06-24",
+          "weekday_monday0": 3,
+          "angle_degrees": 83.0
+        },
+        {
+          "date": "2027-06-25",
+          "weekday_monday0": 4,
+          "angle_degrees": 84.0
+        },
+        {
+          "date": "2027-06-26",
+          "weekday_monday0": 5,
+          "angle_degrees": 85.0
+        },
+        {
+          "date": "2027-06-27",
+          "weekday_monday0": 6,
+          "angle_degrees": 86.0
+        },
+        {
+          "date": "2027-06-28",
+          "weekday_monday0": 0,
+          "angle_degrees": 87.0
+        },
+        {
+          "date": "2027-06-29",
+          "weekday_monday0": 1,
+          "angle_degrees": 88.0
+        },
+        {
+          "date": "2027-06-30",
+          "weekday_monday0": 2,
+          "angle_degrees": 89.0
+        },
+        {
+          "date": "2027-07-01",
+          "weekday_monday0": 3,
+          "angle_degrees": 90.0
+        },
+        {
+          "date": "2027-07-02",
+          "weekday_monday0": 4,
+          "angle_degrees": 90.96774193548387
+        },
+        {
+          "date": "2027-07-03",
+          "weekday_monday0": 5,
+          "angle_degrees": 91.93548387096774
+        },
+        {
+          "date": "2027-07-04",
+          "weekday_monday0": 6,
+          "angle_degrees": 92.90322580645162
+        },
+        {
+          "date": "2027-07-05",
+          "weekday_monday0": 0,
+          "angle_degrees": 93.87096774193549
+        },
+        {
+          "date": "2027-07-06",
+          "weekday_monday0": 1,
+          "angle_degrees": 94.83870967741936
+        },
+        {
+          "date": "2027-07-07",
+          "weekday_monday0": 2,
+          "angle_degrees": 95.80645161290323
+        },
+        {
+          "date": "2027-07-08",
+          "weekday_monday0": 3,
+          "angle_degrees": 96.7741935483871
+        },
+        {
+          "date": "2027-07-09",
+          "weekday_monday0": 4,
+          "angle_degrees": 97.74193548387098
+        },
+        {
+          "date": "2027-07-10",
+          "weekday_monday0": 5,
+          "angle_degrees": 98.70967741935485
+        },
+        {
+          "date": "2027-07-11",
+          "weekday_monday0": 6,
+          "angle_degrees": 99.6774193548387
+        },
+        {
+          "date": "2027-07-12",
+          "weekday_monday0": 0,
+          "angle_degrees": 100.64516129032258
+        },
+        {
+          "date": "2027-07-13",
+          "weekday_monday0": 1,
+          "angle_degrees": 101.61290322580645
+        },
+        {
+          "date": "2027-07-14",
+          "weekday_monday0": 2,
+          "angle_degrees": 102.58064516129032
+        },
+        {
+          "date": "2027-07-15",
+          "weekday_monday0": 3,
+          "angle_degrees": 103.54838709677419
+        },
+        {
+          "date": "2027-07-16",
+          "weekday_monday0": 4,
+          "angle_degrees": 104.51612903225806
+        },
+        {
+          "date": "2027-07-17",
+          "weekday_monday0": 5,
+          "angle_degrees": 105.48387096774194
+        },
+        {
+          "date": "2027-07-18",
+          "weekday_monday0": 6,
+          "angle_degrees": 106.45161290322581
+        },
+        {
+          "date": "2027-07-19",
+          "weekday_monday0": 0,
+          "angle_degrees": 107.41935483870968
+        },
+        {
+          "date": "2027-07-20",
+          "weekday_monday0": 1,
+          "angle_degrees": 108.38709677419355
+        },
+        {
+          "date": "2027-07-21",
+          "weekday_monday0": 2,
+          "angle_degrees": 109.35483870967742
+        },
+        {
+          "date": "2027-07-22",
+          "weekday_monday0": 3,
+          "angle_degrees": 110.32258064516128
+        },
+        {
+          "date": "2027-07-23",
+          "weekday_monday0": 4,
+          "angle_degrees": 111.29032258064517
+        },
+        {
+          "date": "2027-07-24",
+          "weekday_monday0": 5,
+          "angle_degrees": 112.25806451612902
+        },
+        {
+          "date": "2027-07-25",
+          "weekday_monday0": 6,
+          "angle_degrees": 113.2258064516129
+        },
+        {
+          "date": "2027-07-26",
+          "weekday_monday0": 0,
+          "angle_degrees": 114.19354838709677
+        },
+        {
+          "date": "2027-07-27",
+          "weekday_monday0": 1,
+          "angle_degrees": 115.16129032258064
+        },
+        {
+          "date": "2027-07-28",
+          "weekday_monday0": 2,
+          "angle_degrees": 116.12903225806451
+        },
+        {
+          "date": "2027-07-29",
+          "weekday_monday0": 3,
+          "angle_degrees": 117.09677419354838
+        },
+        {
+          "date": "2027-07-30",
+          "weekday_monday0": 4,
+          "angle_degrees": 118.06451612903226
+        },
+        {
+          "date": "2027-07-31",
+          "weekday_monday0": 5,
+          "angle_degrees": 119.03225806451613
+        },
+        {
+          "date": "2027-08-01",
+          "weekday_monday0": 6,
+          "angle_degrees": 120.0
+        },
+        {
+          "date": "2027-08-02",
+          "weekday_monday0": 0,
+          "angle_degrees": 120.96774193548387
+        },
+        {
+          "date": "2027-08-03",
+          "weekday_monday0": 1,
+          "angle_degrees": 121.93548387096774
+        },
+        {
+          "date": "2027-08-04",
+          "weekday_monday0": 2,
+          "angle_degrees": 122.90322580645162
+        },
+        {
+          "date": "2027-08-05",
+          "weekday_monday0": 3,
+          "angle_degrees": 123.87096774193549
+        },
+        {
+          "date": "2027-08-06",
+          "weekday_monday0": 4,
+          "angle_degrees": 124.83870967741936
+        },
+        {
+          "date": "2027-08-07",
+          "weekday_monday0": 5,
+          "angle_degrees": 125.80645161290323
+        },
+        {
+          "date": "2027-08-08",
+          "weekday_monday0": 6,
+          "angle_degrees": 126.7741935483871
+        },
+        {
+          "date": "2027-08-09",
+          "weekday_monday0": 0,
+          "angle_degrees": 127.74193548387098
+        },
+        {
+          "date": "2027-08-10",
+          "weekday_monday0": 1,
+          "angle_degrees": 128.70967741935485
+        },
+        {
+          "date": "2027-08-11",
+          "weekday_monday0": 2,
+          "angle_degrees": 129.67741935483872
+        },
+        {
+          "date": "2027-08-12",
+          "weekday_monday0": 3,
+          "angle_degrees": 130.6451612903226
+        },
+        {
+          "date": "2027-08-13",
+          "weekday_monday0": 4,
+          "angle_degrees": 131.61290322580646
+        },
+        {
+          "date": "2027-08-14",
+          "weekday_monday0": 5,
+          "angle_degrees": 132.58064516129033
+        },
+        {
+          "date": "2027-08-15",
+          "weekday_monday0": 6,
+          "angle_degrees": 133.5483870967742
+        },
+        {
+          "date": "2027-08-16",
+          "weekday_monday0": 0,
+          "angle_degrees": 134.51612903225805
+        },
+        {
+          "date": "2027-08-17",
+          "weekday_monday0": 1,
+          "angle_degrees": 135.48387096774195
+        },
+        {
+          "date": "2027-08-18",
+          "weekday_monday0": 2,
+          "angle_degrees": 136.4516129032258
+        },
+        {
+          "date": "2027-08-19",
+          "weekday_monday0": 3,
+          "angle_degrees": 137.4193548387097
+        },
+        {
+          "date": "2027-08-20",
+          "weekday_monday0": 4,
+          "angle_degrees": 138.38709677419354
+        },
+        {
+          "date": "2027-08-21",
+          "weekday_monday0": 5,
+          "angle_degrees": 139.3548387096774
+        },
+        {
+          "date": "2027-08-22",
+          "weekday_monday0": 6,
+          "angle_degrees": 140.32258064516128
+        },
+        {
+          "date": "2027-08-23",
+          "weekday_monday0": 0,
+          "angle_degrees": 141.29032258064515
+        },
+        {
+          "date": "2027-08-24",
+          "weekday_monday0": 1,
+          "angle_degrees": 142.25806451612902
+        },
+        {
+          "date": "2027-08-25",
+          "weekday_monday0": 2,
+          "angle_degrees": 143.2258064516129
+        },
+        {
+          "date": "2027-08-26",
+          "weekday_monday0": 3,
+          "angle_degrees": 144.19354838709677
+        },
+        {
+          "date": "2027-08-27",
+          "weekday_monday0": 4,
+          "angle_degrees": 145.16129032258064
+        },
+        {
+          "date": "2027-08-28",
+          "weekday_monday0": 5,
+          "angle_degrees": 146.1290322580645
+        },
+        {
+          "date": "2027-08-29",
+          "weekday_monday0": 6,
+          "angle_degrees": 147.09677419354838
+        },
+        {
+          "date": "2027-08-30",
+          "weekday_monday0": 0,
+          "angle_degrees": 148.06451612903226
+        },
+        {
+          "date": "2027-08-31",
+          "weekday_monday0": 1,
+          "angle_degrees": 149.03225806451613
+        },
+        {
+          "date": "2027-09-01",
+          "weekday_monday0": 2,
+          "angle_degrees": 150.0
+        },
+        {
+          "date": "2027-09-02",
+          "weekday_monday0": 3,
+          "angle_degrees": 151.0
+        },
+        {
+          "date": "2027-09-03",
+          "weekday_monday0": 4,
+          "angle_degrees": 152.0
+        },
+        {
+          "date": "2027-09-04",
+          "weekday_monday0": 5,
+          "angle_degrees": 153.0
+        },
+        {
+          "date": "2027-09-05",
+          "weekday_monday0": 6,
+          "angle_degrees": 154.0
+        },
+        {
+          "date": "2027-09-06",
+          "weekday_monday0": 0,
+          "angle_degrees": 155.0
+        },
+        {
+          "date": "2027-09-07",
+          "weekday_monday0": 1,
+          "angle_degrees": 156.0
+        },
+        {
+          "date": "2027-09-08",
+          "weekday_monday0": 2,
+          "angle_degrees": 157.0
+        },
+        {
+          "date": "2027-09-09",
+          "weekday_monday0": 3,
+          "angle_degrees": 158.0
+        },
+        {
+          "date": "2027-09-10",
+          "weekday_monday0": 4,
+          "angle_degrees": 159.0
+        },
+        {
+          "date": "2027-09-11",
+          "weekday_monday0": 5,
+          "angle_degrees": 160.0
+        },
+        {
+          "date": "2027-09-12",
+          "weekday_monday0": 6,
+          "angle_degrees": 161.0
+        },
+        {
+          "date": "2027-09-13",
+          "weekday_monday0": 0,
+          "angle_degrees": 162.0
+        },
+        {
+          "date": "2027-09-14",
+          "weekday_monday0": 1,
+          "angle_degrees": 163.0
+        },
+        {
+          "date": "2027-09-15",
+          "weekday_monday0": 2,
+          "angle_degrees": 164.0
+        },
+        {
+          "date": "2027-09-16",
+          "weekday_monday0": 3,
+          "angle_degrees": 165.0
+        },
+        {
+          "date": "2027-09-17",
+          "weekday_monday0": 4,
+          "angle_degrees": 166.0
+        },
+        {
+          "date": "2027-09-18",
+          "weekday_monday0": 5,
+          "angle_degrees": 167.0
+        },
+        {
+          "date": "2027-09-19",
+          "weekday_monday0": 6,
+          "angle_degrees": 168.0
+        },
+        {
+          "date": "2027-09-20",
+          "weekday_monday0": 0,
+          "angle_degrees": 169.0
+        },
+        {
+          "date": "2027-09-21",
+          "weekday_monday0": 1,
+          "angle_degrees": 170.0
+        },
+        {
+          "date": "2027-09-22",
+          "weekday_monday0": 2,
+          "angle_degrees": 171.0
+        },
+        {
+          "date": "2027-09-23",
+          "weekday_monday0": 3,
+          "angle_degrees": 172.0
+        },
+        {
+          "date": "2027-09-24",
+          "weekday_monday0": 4,
+          "angle_degrees": 173.0
+        },
+        {
+          "date": "2027-09-25",
+          "weekday_monday0": 5,
+          "angle_degrees": 174.0
+        },
+        {
+          "date": "2027-09-26",
+          "weekday_monday0": 6,
+          "angle_degrees": 175.0
+        },
+        {
+          "date": "2027-09-27",
+          "weekday_monday0": 0,
+          "angle_degrees": 176.0
+        },
+        {
+          "date": "2027-09-28",
+          "weekday_monday0": 1,
+          "angle_degrees": 177.0
+        },
+        {
+          "date": "2027-09-29",
+          "weekday_monday0": 2,
+          "angle_degrees": 178.0
+        },
+        {
+          "date": "2027-09-30",
+          "weekday_monday0": 3,
+          "angle_degrees": 179.0
+        },
+        {
+          "date": "2027-10-01",
+          "weekday_monday0": 4,
+          "angle_degrees": 180.0
+        },
+        {
+          "date": "2027-10-02",
+          "weekday_monday0": 5,
+          "angle_degrees": 180.96774193548387
+        },
+        {
+          "date": "2027-10-03",
+          "weekday_monday0": 6,
+          "angle_degrees": 181.93548387096774
+        },
+        {
+          "date": "2027-10-04",
+          "weekday_monday0": 0,
+          "angle_degrees": 182.90322580645162
+        },
+        {
+          "date": "2027-10-05",
+          "weekday_monday0": 1,
+          "angle_degrees": 183.8709677419355
+        },
+        {
+          "date": "2027-10-06",
+          "weekday_monday0": 2,
+          "angle_degrees": 184.83870967741936
+        },
+        {
+          "date": "2027-10-07",
+          "weekday_monday0": 3,
+          "angle_degrees": 185.80645161290323
+        },
+        {
+          "date": "2027-10-08",
+          "weekday_monday0": 4,
+          "angle_degrees": 186.7741935483871
+        },
+        {
+          "date": "2027-10-09",
+          "weekday_monday0": 5,
+          "angle_degrees": 187.74193548387098
+        },
+        {
+          "date": "2027-10-10",
+          "weekday_monday0": 6,
+          "angle_degrees": 188.70967741935485
+        },
+        {
+          "date": "2027-10-11",
+          "weekday_monday0": 0,
+          "angle_degrees": 189.67741935483872
+        },
+        {
+          "date": "2027-10-12",
+          "weekday_monday0": 1,
+          "angle_degrees": 190.6451612903226
+        },
+        {
+          "date": "2027-10-13",
+          "weekday_monday0": 2,
+          "angle_degrees": 191.61290322580646
+        },
+        {
+          "date": "2027-10-14",
+          "weekday_monday0": 3,
+          "angle_degrees": 192.58064516129033
+        },
+        {
+          "date": "2027-10-15",
+          "weekday_monday0": 4,
+          "angle_degrees": 193.5483870967742
+        },
+        {
+          "date": "2027-10-16",
+          "weekday_monday0": 5,
+          "angle_degrees": 194.51612903225805
+        },
+        {
+          "date": "2027-10-17",
+          "weekday_monday0": 6,
+          "angle_degrees": 195.48387096774195
+        },
+        {
+          "date": "2027-10-18",
+          "weekday_monday0": 0,
+          "angle_degrees": 196.4516129032258
+        },
+        {
+          "date": "2027-10-19",
+          "weekday_monday0": 1,
+          "angle_degrees": 197.4193548387097
+        },
+        {
+          "date": "2027-10-20",
+          "weekday_monday0": 2,
+          "angle_degrees": 198.38709677419354
+        },
+        {
+          "date": "2027-10-21",
+          "weekday_monday0": 3,
+          "angle_degrees": 199.3548387096774
+        },
+        {
+          "date": "2027-10-22",
+          "weekday_monday0": 4,
+          "angle_degrees": 200.32258064516128
+        },
+        {
+          "date": "2027-10-23",
+          "weekday_monday0": 5,
+          "angle_degrees": 201.29032258064515
+        },
+        {
+          "date": "2027-10-24",
+          "weekday_monday0": 6,
+          "angle_degrees": 202.25806451612902
+        },
+        {
+          "date": "2027-10-25",
+          "weekday_monday0": 0,
+          "angle_degrees": 203.2258064516129
+        },
+        {
+          "date": "2027-10-26",
+          "weekday_monday0": 1,
+          "angle_degrees": 204.19354838709677
+        },
+        {
+          "date": "2027-10-27",
+          "weekday_monday0": 2,
+          "angle_degrees": 205.16129032258064
+        },
+        {
+          "date": "2027-10-28",
+          "weekday_monday0": 3,
+          "angle_degrees": 206.1290322580645
+        },
+        {
+          "date": "2027-10-29",
+          "weekday_monday0": 4,
+          "angle_degrees": 207.09677419354838
+        },
+        {
+          "date": "2027-10-30",
+          "weekday_monday0": 5,
+          "angle_degrees": 208.06451612903226
+        },
+        {
+          "date": "2027-10-31",
+          "weekday_monday0": 6,
+          "angle_degrees": 209.03225806451613
+        },
+        {
+          "date": "2027-11-01",
+          "weekday_monday0": 0,
+          "angle_degrees": 210.0
+        },
+        {
+          "date": "2027-11-02",
+          "weekday_monday0": 1,
+          "angle_degrees": 211.0
+        },
+        {
+          "date": "2027-11-03",
+          "weekday_monday0": 2,
+          "angle_degrees": 212.0
+        },
+        {
+          "date": "2027-11-04",
+          "weekday_monday0": 3,
+          "angle_degrees": 213.0
+        },
+        {
+          "date": "2027-11-05",
+          "weekday_monday0": 4,
+          "angle_degrees": 214.0
+        },
+        {
+          "date": "2027-11-06",
+          "weekday_monday0": 5,
+          "angle_degrees": 215.0
+        },
+        {
+          "date": "2027-11-07",
+          "weekday_monday0": 6,
+          "angle_degrees": 216.0
+        },
+        {
+          "date": "2027-11-08",
+          "weekday_monday0": 0,
+          "angle_degrees": 217.0
+        },
+        {
+          "date": "2027-11-09",
+          "weekday_monday0": 1,
+          "angle_degrees": 218.0
+        },
+        {
+          "date": "2027-11-10",
+          "weekday_monday0": 2,
+          "angle_degrees": 219.0
+        },
+        {
+          "date": "2027-11-11",
+          "weekday_monday0": 3,
+          "angle_degrees": 220.0
+        },
+        {
+          "date": "2027-11-12",
+          "weekday_monday0": 4,
+          "angle_degrees": 221.0
+        },
+        {
+          "date": "2027-11-13",
+          "weekday_monday0": 5,
+          "angle_degrees": 222.0
+        },
+        {
+          "date": "2027-11-14",
+          "weekday_monday0": 6,
+          "angle_degrees": 223.0
+        },
+        {
+          "date": "2027-11-15",
+          "weekday_monday0": 0,
+          "angle_degrees": 224.0
+        },
+        {
+          "date": "2027-11-16",
+          "weekday_monday0": 1,
+          "angle_degrees": 225.0
+        },
+        {
+          "date": "2027-11-17",
+          "weekday_monday0": 2,
+          "angle_degrees": 226.0
+        },
+        {
+          "date": "2027-11-18",
+          "weekday_monday0": 3,
+          "angle_degrees": 227.0
+        },
+        {
+          "date": "2027-11-19",
+          "weekday_monday0": 4,
+          "angle_degrees": 228.0
+        },
+        {
+          "date": "2027-11-20",
+          "weekday_monday0": 5,
+          "angle_degrees": 229.0
+        },
+        {
+          "date": "2027-11-21",
+          "weekday_monday0": 6,
+          "angle_degrees": 230.0
+        },
+        {
+          "date": "2027-11-22",
+          "weekday_monday0": 0,
+          "angle_degrees": 231.0
+        },
+        {
+          "date": "2027-11-23",
+          "weekday_monday0": 1,
+          "angle_degrees": 232.0
+        },
+        {
+          "date": "2027-11-24",
+          "weekday_monday0": 2,
+          "angle_degrees": 233.0
+        },
+        {
+          "date": "2027-11-25",
+          "weekday_monday0": 3,
+          "angle_degrees": 234.0
+        },
+        {
+          "date": "2027-11-26",
+          "weekday_monday0": 4,
+          "angle_degrees": 235.0
+        },
+        {
+          "date": "2027-11-27",
+          "weekday_monday0": 5,
+          "angle_degrees": 236.0
+        },
+        {
+          "date": "2027-11-28",
+          "weekday_monday0": 6,
+          "angle_degrees": 237.0
+        },
+        {
+          "date": "2027-11-29",
+          "weekday_monday0": 0,
+          "angle_degrees": 238.0
+        },
+        {
+          "date": "2027-11-30",
+          "weekday_monday0": 1,
+          "angle_degrees": 239.0
+        },
+        {
+          "date": "2027-12-01",
+          "weekday_monday0": 2,
+          "angle_degrees": 240.0
+        },
+        {
+          "date": "2027-12-02",
+          "weekday_monday0": 3,
+          "angle_degrees": 240.96774193548387
+        },
+        {
+          "date": "2027-12-03",
+          "weekday_monday0": 4,
+          "angle_degrees": 241.93548387096774
+        },
+        {
+          "date": "2027-12-04",
+          "weekday_monday0": 5,
+          "angle_degrees": 242.90322580645162
+        },
+        {
+          "date": "2027-12-05",
+          "weekday_monday0": 6,
+          "angle_degrees": 243.8709677419355
+        },
+        {
+          "date": "2027-12-06",
+          "weekday_monday0": 0,
+          "angle_degrees": 244.83870967741936
+        },
+        {
+          "date": "2027-12-07",
+          "weekday_monday0": 1,
+          "angle_degrees": 245.80645161290323
+        },
+        {
+          "date": "2027-12-08",
+          "weekday_monday0": 2,
+          "angle_degrees": 246.7741935483871
+        },
+        {
+          "date": "2027-12-09",
+          "weekday_monday0": 3,
+          "angle_degrees": 247.74193548387098
+        },
+        {
+          "date": "2027-12-10",
+          "weekday_monday0": 4,
+          "angle_degrees": 248.70967741935485
+        },
+        {
+          "date": "2027-12-11",
+          "weekday_monday0": 5,
+          "angle_degrees": 249.67741935483872
+        },
+        {
+          "date": "2027-12-12",
+          "weekday_monday0": 6,
+          "angle_degrees": 250.6451612903226
+        },
+        {
+          "date": "2027-12-13",
+          "weekday_monday0": 0,
+          "angle_degrees": 251.61290322580646
+        },
+        {
+          "date": "2027-12-14",
+          "weekday_monday0": 1,
+          "angle_degrees": 252.58064516129033
+        },
+        {
+          "date": "2027-12-15",
+          "weekday_monday0": 2,
+          "angle_degrees": 253.5483870967742
+        },
+        {
+          "date": "2027-12-16",
+          "weekday_monday0": 3,
+          "angle_degrees": 254.51612903225805
+        },
+        {
+          "date": "2027-12-17",
+          "weekday_monday0": 4,
+          "angle_degrees": 255.48387096774195
+        },
+        {
+          "date": "2027-12-18",
+          "weekday_monday0": 5,
+          "angle_degrees": 256.4516129032258
+        },
+        {
+          "date": "2027-12-19",
+          "weekday_monday0": 6,
+          "angle_degrees": 257.4193548387097
+        },
+        {
+          "date": "2027-12-20",
+          "weekday_monday0": 0,
+          "angle_degrees": 258.38709677419354
+        },
+        {
+          "date": "2027-12-21",
+          "weekday_monday0": 1,
+          "angle_degrees": 259.35483870967744
+        },
+        {
+          "date": "2027-12-22",
+          "weekday_monday0": 2,
+          "angle_degrees": 260.3225806451613
+        },
+        {
+          "date": "2027-12-23",
+          "weekday_monday0": 3,
+          "angle_degrees": 261.2903225806452
+        },
+        {
+          "date": "2027-12-24",
+          "weekday_monday0": 4,
+          "angle_degrees": 262.258064516129
+        },
+        {
+          "date": "2027-12-25",
+          "weekday_monday0": 5,
+          "angle_degrees": 263.2258064516129
+        },
+        {
+          "date": "2027-12-26",
+          "weekday_monday0": 6,
+          "angle_degrees": 264.19354838709677
+        },
+        {
+          "date": "2027-12-27",
+          "weekday_monday0": 0,
+          "angle_degrees": 265.16129032258067
+        },
+        {
+          "date": "2027-12-28",
+          "weekday_monday0": 1,
+          "angle_degrees": 266.1290322580645
+        },
+        {
+          "date": "2027-12-29",
+          "weekday_monday0": 2,
+          "angle_degrees": 267.0967741935484
+        },
+        {
+          "date": "2027-12-30",
+          "weekday_monday0": 3,
+          "angle_degrees": 268.06451612903226
+        },
+        {
+          "date": "2027-12-31",
+          "weekday_monday0": 4,
+          "angle_degrees": 269.0322580645161
+        }
+      ],
+      "user_review": "pending"
+    },
+    {
+      "id": "J4",
+      "title": "April / paper and light",
+      "source": "j4.svg",
+      "sha256": "b14c916385979f3e45c1448855b2c05fa999373de3832d597f88c7b9d34f9879",
+      "dimensions": {
+        "width": 1000,
+        "height": 1400
+      },
+      "design_card": {
+        "reading_task": "Encounter a monthly image while retaining a complete date index",
+        "display_extent": {
+          "view": "month",
+          "start": "2027-04-01",
+          "end": "2027-04-30"
+        },
+        "temporal_unit": "civil-date",
+        "temporal_mapping": "chronological days segmented into weeks",
+        "spatial_layout": "shared-edge image plus month grid",
+        "typographic_roles": {
+          "month": "display",
+          "lookup_dates": "sans-medium",
+          "weekdays": "mono"
+        },
+        "whitespace_role": "Separate material image, month identity and date lookup",
+        "source_rules": [
+          "type:image-date-anchors",
+          "type:display-versus-lookup"
+        ],
+        "hypothesis": "An image-led page may feel like a changing domestic print while remaining useful.",
+        "user_preference_status": "unconfirmed",
+        "study_language": "en",
+        "comparison_kind": "whole-direction",
+        "image_asset": "assets/images/paper-light/paper-light-j4-v1.png"
+      },
+      "represented_dates": [
+        {
+          "date": "2027-04-01",
+          "weekday_monday0": 3,
+          "row": 0,
+          "column": 3
+        },
+        {
+          "date": "2027-04-02",
+          "weekday_monday0": 4,
+          "row": 0,
+          "column": 4
+        },
+        {
+          "date": "2027-04-03",
+          "weekday_monday0": 5,
+          "row": 0,
+          "column": 5
+        },
+        {
+          "date": "2027-04-04",
+          "weekday_monday0": 6,
+          "row": 0,
+          "column": 6
+        },
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "row": 1,
+          "column": 0
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "row": 1,
+          "column": 1
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "row": 1,
+          "column": 2
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "row": 1,
+          "column": 3
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "row": 1,
+          "column": 4
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "row": 1,
+          "column": 5
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "row": 1,
+          "column": 6
+        },
+        {
+          "date": "2027-04-12",
+          "weekday_monday0": 0,
+          "row": 2,
+          "column": 0
+        },
+        {
+          "date": "2027-04-13",
+          "weekday_monday0": 1,
+          "row": 2,
+          "column": 1
+        },
+        {
+          "date": "2027-04-14",
+          "weekday_monday0": 2,
+          "row": 2,
+          "column": 2
+        },
+        {
+          "date": "2027-04-15",
+          "weekday_monday0": 3,
+          "row": 2,
+          "column": 3
+        },
+        {
+          "date": "2027-04-16",
+          "weekday_monday0": 4,
+          "row": 2,
+          "column": 4
+        },
+        {
+          "date": "2027-04-17",
+          "weekday_monday0": 5,
+          "row": 2,
+          "column": 5
+        },
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6,
+          "row": 2,
+          "column": 6
+        },
+        {
+          "date": "2027-04-19",
+          "weekday_monday0": 0,
+          "row": 3,
+          "column": 0
+        },
+        {
+          "date": "2027-04-20",
+          "weekday_monday0": 1,
+          "row": 3,
+          "column": 1
+        },
+        {
+          "date": "2027-04-21",
+          "weekday_monday0": 2,
+          "row": 3,
+          "column": 2
+        },
+        {
+          "date": "2027-04-22",
+          "weekday_monday0": 3,
+          "row": 3,
+          "column": 3
+        },
+        {
+          "date": "2027-04-23",
+          "weekday_monday0": 4,
+          "row": 3,
+          "column": 4
+        },
+        {
+          "date": "2027-04-24",
+          "weekday_monday0": 5,
+          "row": 3,
+          "column": 5
+        },
+        {
+          "date": "2027-04-25",
+          "weekday_monday0": 6,
+          "row": 3,
+          "column": 6
+        },
+        {
+          "date": "2027-04-26",
+          "weekday_monday0": 0,
+          "row": 4,
+          "column": 0
+        },
+        {
+          "date": "2027-04-27",
+          "weekday_monday0": 1,
+          "row": 4,
+          "column": 1
+        },
+        {
+          "date": "2027-04-28",
+          "weekday_monday0": 2,
+          "row": 4,
+          "column": 2
+        },
+        {
+          "date": "2027-04-29",
+          "weekday_monday0": 3,
+          "row": 4,
+          "column": 3
+        },
+        {
+          "date": "2027-04-30",
+          "weekday_monday0": 4,
+          "row": 4,
+          "column": 4
+        }
+      ],
+      "user_review": "pending"
+    },
+    {
+      "id": "J5",
+      "title": "A week with room",
+      "source": "j5.svg",
+      "sha256": "bab38415c894abe9806c4a5dbeb01a08d8654d1e1f6e52f327850a8340e8e994",
+      "dimensions": {
+        "width": 1400,
+        "height": 1000
+      },
+      "design_card": {
+        "reading_task": "Write in seven equal daily areas while keeping the week visible",
+        "display_extent": {
+          "view": "week",
+          "start": "2027-04-05",
+          "end": "2027-04-11"
+        },
+        "temporal_unit": "civil-date",
+        "temporal_mapping": "chronological seven-day sequence",
+        "spatial_layout": "seven equally sized columns",
+        "typographic_roles": {
+          "week_title": "display",
+          "day_numbers": "display",
+          "weekday_index": "sans-medium"
+        },
+        "whitespace_role": "Writing area is the main content",
+        "source_rules": [
+          "type:purposeful-whitespace",
+          "type:series-invariants"
+        ],
+        "hypothesis": "Consistent baselines and equal day areas may make a weekly page more inviting to use.",
+        "user_preference_status": "unconfirmed",
+        "study_language": "en",
+        "comparison_kind": "whole-direction",
+        "daily_writing_width": 180
+      },
+      "represented_dates": [
+        {
+          "date": "2027-04-05",
+          "weekday_monday0": 0,
+          "column": 0,
+          "writing_width": 180
+        },
+        {
+          "date": "2027-04-06",
+          "weekday_monday0": 1,
+          "column": 1,
+          "writing_width": 180
+        },
+        {
+          "date": "2027-04-07",
+          "weekday_monday0": 2,
+          "column": 2,
+          "writing_width": 180
+        },
+        {
+          "date": "2027-04-08",
+          "weekday_monday0": 3,
+          "column": 3,
+          "writing_width": 180
+        },
+        {
+          "date": "2027-04-09",
+          "weekday_monday0": 4,
+          "column": 4,
+          "writing_width": 180
+        },
+        {
+          "date": "2027-04-10",
+          "weekday_monday0": 5,
+          "column": 5,
+          "writing_width": 180
+        },
+        {
+          "date": "2027-04-11",
+          "weekday_monday0": 6,
+          "column": 6,
+          "writing_width": 180
+        }
+      ],
+      "user_review": "pending"
+    },
+    {
+      "id": "J6",
+      "title": "One day / 18 April",
+      "source": "j6.svg",
+      "sha256": "354b48a8358f5cc1b4600b7e984a90a4444d3d8b27be18f7f46d97e5cb936ed2",
+      "dimensions": {
+        "width": 1000,
+        "height": 1400
+      },
+      "design_card": {
+        "reading_task": "Give one civil date a clear identity and a page-turning presence",
+        "display_extent": {
+          "view": "day",
+          "start": "2027-04-18",
+          "end": "2027-04-18"
+        },
+        "temporal_unit": "civil-date",
+        "temporal_mapping": "one civil date per page",
+        "spatial_layout": "single page with expressive date and stable context",
+        "typographic_roles": {
+          "day": "display-italic proportional figures",
+          "weekday_month_year": "sans/mono"
+        },
+        "whitespace_role": "Give the numeral silhouette space while preserving contextual anchors",
+        "source_rules": [
+          "type:expressive-display-numerals",
+          "type:series-invariants"
+        ],
+        "hypothesis": "A date can carry visual identity through its letterform and scale.",
+        "user_preference_status": "unconfirmed",
+        "study_language": "en",
+        "comparison_kind": "whole-direction",
+        "series_invariants": [
+          "month/year anchors",
+          "weekday anchor",
+          "adjacent-date rail"
+        ]
+      },
+      "represented_dates": [
+        {
+          "date": "2027-04-18",
+          "weekday_monday0": 6
+        }
+      ],
+      "user_review": "pending"
+    }
+  ],
+  "evidence": {
+    "source_reading": [
+      ".agents/skills/calendar-design-lab/references/temporal-semantics.md",
+      ".agents/skills/calendar-design-lab/references/typographic-composition.md"
+    ],
+    "personal_preference": "not-established",
+    "cross_user_validation": "not-run"
+  }
+}

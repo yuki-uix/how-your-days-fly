@@ -17,13 +17,19 @@ Record calendar scale, use, time organization, output size, language, week start
 
 ## Explore and implement
 
+For a new calendar concept or a substantial visual revision, read [references/design-language.md](references/design-language.md). State a compact design card covering reading task, temporal semantics, spatial organization, typography roles, composition/whitespace, series invariants, and validation. Keep unconfirmed choices provisional; a well-reasoned design is still a hypothesis until the user evaluates it.
+
 When summarizing calendar modes or comparing time structures, read [references/patterns.md](references/patterns.md). Treat this as an extensible design vocabulary. Separate time structure, hierarchy, content role, and medium; do not turn exploratory studies into user preferences or a closed set of product templates.
 
 For public learning materials or the rationale behind this vocabulary, read [references/learning-guide.md](references/learning-guide.md). Preserve each source's terminology and distinguish viewing extent, temporal granularity, temporal mapping, and spatial layout. Turn relevant concepts into controlled studies before treating them as validated design rules.
 
+For a new mapping, date grouping, normalization, or cross-period change, read [references/temporal-semantics.md](references/temporal-semantics.md). For hierarchy, numeral choice, whitespace, or a multi-page series, read [references/typographic-composition.md](references/typographic-composition.md). Read only what the current decision needs. Do not collapse calendar days into equal elapsed seconds or infer a numeral feature from a font's broad category.
+
 Analyze references in terms of number forms, hierarchy, grouping, density, whitespace, materials, image relationships, and how time is experienced. Distinguish studying an approach from permission to redistribute the reference's concrete artwork.
 
 Propose substantially different directions where useful. Give each a spatial or temporal idea and connect visual choices to the brief. Avoid producing near-identical color variants as evidence of exploration. Do not prescribe one universal aesthetic or require all calendars to use illustration.
+
+Separate whole-direction studies from controlled comparisons: a whole direction may change several visual decisions, while a comparison testing a particular rule should identify its changed variable and retain the rest. Preserve source evidence, transfer hypotheses, technical findings and subjective feedback as separate records.
 
 Use `scripts/calendar_data.py` for deterministic Gregorian date data, or a verified alternative when requirements extend beyond its scope. Run `--help` for options. Keep date facts separate from generated imagery. The tool does not provide lunar dates, holidays, solar terms, typography, or visual layout.
 
