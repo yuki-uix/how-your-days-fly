@@ -1,0 +1,25 @@
+{
+  "record_version": 1,
+  "experiment_id": "001-calendar",
+  "status": "collecting-preferences",
+  "brief": {
+    "view": "year",
+    "year": 2027,
+    "use": "home-wall-calendar",
+    "confirmed_visual_preferences": [],
+    "unknown": [
+      "time-organization",
+      "visual-direction",
+      "information-density",
+      "dimensions",
+      "language",
+      "week-start"
+    ]
+  },
+  "references": [],
+  "hypotheses": [],
+  "selected_design": null,
+  "technical_review": {"status": "not-run"},
+  "user_review": {"status": "not-requested", "feedback": []},
+  "recipe": null
+}

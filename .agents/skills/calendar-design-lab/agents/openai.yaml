@@ -1,0 +1,4 @@
+interface:
+  display_name: "Calendar Design Lab"
+  short_description: "Design, revise, and reproduce personal calendars"
+  default_prompt: "Use $calendar-design-lab to explore a calendar design from a real brief and preserve the approved design as a reusable recipe."
