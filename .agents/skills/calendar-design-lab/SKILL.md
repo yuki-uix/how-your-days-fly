@@ -35,6 +35,8 @@ For a new mapping, date grouping, normalization, or cross-period change, read [r
 
 When type or layout lacks a defensible choice or receives explicit criticism, use that reference's actual-content specimen and composition-study method before another full design. Compare the relevant font roles, remove or demote unjustified auxiliary information, and inspect whole-page balance as well as actual-size glyphs. Font availability and passing technical checks are not selection rationales.
 
+For date-numeral roles, figure forms, padding, alignment or dedicated numeral materials, use the [numeral topic guide](../../../docs/numeral-font-library.md). Independent role selection may reuse a family; check actual shaped results and language, not feature tags alone.
+
 For English/Latin family selection, native italics, letterspacing or optical-size studies, use the [English topic guide](../../../docs/latin-type-library.md) and query `--tag latin`; categories and weight numbers are descriptors, not quality ratings.
 
 For deeper selection, query the library by `--domain typography` or `--domain layout` and role; use the [type/layout topic guide](../../../docs/type-layout-library.md). Keep requirements, aesthetic positions, project hypotheses and renderer support distinct. Font axes/features do not prove the exporter applies them; sparse grids and expressive density are alternatives with conditions, not universal quality standards.

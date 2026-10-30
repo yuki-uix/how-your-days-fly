@@ -2,7 +2,7 @@
 
 2026-10-30。本页是[统一设计总览](design-atlas.md)与[素材库](material-library.md)的专题入口，已接入相同索引。基础整理有 **26 条阅读记录，涉及 25 个去重页面**：中文／混排 8 条、选字／配字／数字／光学设计 8 条、构图审美 7 条、设计师立场／渲染边界 3 条。同一 Font Matrix 页面保留两个阅读视角，不算两个独立来源。
 
-[英文专项扩展](latin-type-library.md)另增14条阅读记录、6个字体家族、5个条件条目和2张英文字样板；当前合计40条字体／排版阅读记录与15个条件条目，均接入原索引。
+[英文专项扩展](latin-type-library.md)另增14条阅读记录、6个字体家族、5个条件条目和2张英文字样板；该阶段合计40条字体／排版阅读记录与15个条件条目，均接入原索引。[数字专项](numeral-font-library.md)另增7条阅读、5家族、3个条件方法，并为全部16家族建立数字档案；当前合计47条字体／排版阅读记录与18个条件条目。
 
 每条保留阅读位置、实际范围、适用条件、反例及权利说明。原书、论文和网站作品图没有被镜像进素材库；本轮所有研究图均为项目原创。
 
@@ -37,9 +37,9 @@
 
 ## 字体资产与原创研究
 
-新增 [Noto Serif SC 与 Noto Sans SC 原字体及 OFL](../assets/fonts/type-study/README.md)，与原有 Instrument Serif、IBM Plex Mono、IBM Plex Sans Condensed 构成基础五家族；[英文扩展](latin-type-library.md)另保留六家族，素材库合计十一家族，均为候选。新增的是可变 TTF；使用时明确字重和目标环境。
+新增 [Noto Serif SC 与 Noto Sans SC 原字体及 OFL](../assets/fonts/type-study/README.md)，与原有 Instrument Serif、IBM Plex Mono、IBM Plex Sans Condensed 构成基础五家族；[英文扩展](latin-type-library.md)另保留六家族，数字专项扩充后素材库合计十六家族，均为候选。新增的是可变 TTF；使用时明确字重和目标环境。
 
-两套 Noto 均只有 `wght`，没有 `opsz`，默认字重分别为 200 与 100。在明确的 400 字重下，本轮实测 Serif 默认数字 advance 不全等宽，Sans 数字等宽；不把这个结果外推为所有宋／黑体的规律。[字体 manifest](../assets/fonts/type-study/manifest.json)保留原始字节、版本、Git blob、许可、轴和指标。
+两套 Noto 均只有 `wght`，没有 `opsz`，默认字重分别为 200 与 100。在明确的 400 字重下，此处原始 cmap/hmtx 实测 Serif 数字 advance 不全等宽，Sans 数字等宽；不把这个结果外推为所有宋／黑体的规律。[字体 manifest](../assets/fonts/type-study/manifest.json)保留原始字节、版本、Git blob、许可、轴和指标。[数字审计](research/numeral-feature-audit.md)进一步显示该 Serif 在 Latn/en 与 Latn/zh-Hans 下有不同实际替换结果，原始指标与塑形结果分别记录。
 
 ![字形、视觉尺度与角色研究](../studies/type-layout-atlas/type-specimens.jpg)
 

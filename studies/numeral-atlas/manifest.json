@@ -1,0 +1,2812 @@
+{
+  "profiles": "assets/fonts/numeral-study/profiles.json",
+  "working_fonts": {
+    "fonttools": "4.68.0",
+    "profiles_sha256": "49cc9ff75d20cd12826de20bb1fdb467ef1c442769a301b25f4f57487471f7b1",
+    "fonts": [
+      {
+        "alias": "num-source-sans",
+        "font_id": "font-source-sans-3-vf",
+        "file": "numeral-study-01.ttf",
+        "sha256": "644c84cf78730695f5476917bc0a8df79adfc3fa8b2da36cc1da25099e4d77ee",
+        "license_file": "num-source-sans-LICENSE.txt",
+        "license_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+        "source_file": "assets/fonts/latin-study/source-sans-3/SourceSans3[wght].ttf",
+        "source_sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+        "coordinates": {
+          "wght": 400
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-inter",
+        "font_id": "font-inter-vf",
+        "file": "numeral-study-02.ttf",
+        "sha256": "32674a1e5dcb853f60e1c8dfcb4764a7ea304d584017344bcd46906b9adcf6d1",
+        "license_file": "num-inter-LICENSE.txt",
+        "license_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+        "source_file": "assets/fonts/latin-study/inter/Inter[opsz,wght].ttf",
+        "source_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "coordinates": {
+          "opsz": 14,
+          "wght": 400
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-source-serif",
+        "font_id": "font-source-serif-4-vf",
+        "file": "numeral-study-03.ttf",
+        "sha256": "b4e63b10287042e9b7e1c3f13cadcb7052e7f98280a86bbe16a00aebf00c3aba",
+        "license_file": "num-source-serif-LICENSE.txt",
+        "license_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+        "source_file": "assets/fonts/latin-study/source-serif-4/SourceSerif4[opsz,wght].ttf",
+        "source_sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 20
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-newsreader",
+        "font_id": "font-newsreader-vf",
+        "file": "numeral-study-04.ttf",
+        "sha256": "3540eae677a773ce335f69cd69efe8dde642b105806263540eee4fb25dd99b32",
+        "license_file": "num-newsreader-LICENSE.txt",
+        "license_sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+        "source_file": "assets/fonts/latin-study/newsreader/Newsreader[opsz,wght].ttf",
+        "source_sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 18
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-bodoni",
+        "font_id": "font-bodoni-moda-vf",
+        "file": "numeral-study-05.ttf",
+        "sha256": "bb3e0bff450e3e0ee4a774f5cada3014c0b75af52ab20387a7d094bbccd816cc",
+        "license_file": "num-bodoni-LICENSE.txt",
+        "license_sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046",
+        "source_file": "assets/fonts/latin-study/bodoni-moda/BodoniModa[opsz,wght].ttf",
+        "source_sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 24
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-space",
+        "font_id": "font-space-grotesk-vf",
+        "file": "numeral-study-06.ttf",
+        "sha256": "79e578151b8ad9613e426f32966090ae5786688fa085a160c9f4a73401b979f4",
+        "license_file": "num-space-LICENSE.txt",
+        "license_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+        "source_file": "assets/fonts/latin-study/space-grotesk/SpaceGrotesk[wght].ttf",
+        "source_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+        "coordinates": {
+          "wght": 400
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-instrument",
+        "font_id": "font-instrumentserif",
+        "file": "numeral-study-07.ttf",
+        "sha256": "5f6a6ce26244aa48dcfa48e964afd1312739f665cb1fe8d716fba7610ec7d703",
+        "license_file": "num-instrument-LICENSE.txt",
+        "license_sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+        "source_file": "assets/fonts/instrumentserif/InstrumentSerif-Regular.ttf",
+        "source_sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+        "coordinates": {},
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-plex-mono",
+        "font_id": "font-ibmplexmono",
+        "file": "numeral-study-08.ttf",
+        "sha256": "6d17f562556ace4667dc7c20da84006f5e3098cc9f17c1c28f38ce2d1b7acad5",
+        "license_file": "num-plex-mono-LICENSE.txt",
+        "license_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "source_file": "assets/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+        "source_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "coordinates": {},
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-plex-condensed",
+        "font_id": "font-ibmplexsanscondensed",
+        "file": "numeral-study-09.ttf",
+        "sha256": "ac7ff8254acc5ff81cbdae9d02e886dbc8f461ca949dda41109b08d87fa9b494",
+        "license_file": "num-plex-condensed-LICENSE.txt",
+        "license_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "source_file": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+        "source_sha256": "e7437c072eef2ef592ae6f2beb0000446287385907abb57ac1cf07bcbaa2aa33",
+        "coordinates": {},
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-noto-serif",
+        "font_id": "font-noto-serif-sc-vf",
+        "file": "numeral-study-10.ttf",
+        "sha256": "5b7a8f4645b75859e4d5ea3738f695e3215807d4a6a743a831144ca9d4fef5aa",
+        "license_file": "num-noto-serif-LICENSE.txt",
+        "license_sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+        "source_file": "assets/fonts/type-study/noto-serif-sc/NotoSerifSC-VF.ttf",
+        "source_sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+        "coordinates": {
+          "wght": 400
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-noto-sans",
+        "font_id": "font-noto-sans-sc-vf",
+        "file": "numeral-study-11.ttf",
+        "sha256": "2875ff6c987062ea0ecaed7ace83f7f8327886447844d87cdc77bf55eea4cd2a",
+        "license_file": "num-noto-sans-LICENSE.txt",
+        "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+        "source_file": "assets/fonts/type-study/noto-sans-sc/NotoSansSC-VF.ttf",
+        "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+        "coordinates": {
+          "wght": 400
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-fraunces",
+        "font_id": "font-fraunces-vf",
+        "file": "numeral-study-12.ttf",
+        "sha256": "bb4f2790b31e9c82149f0417718f61e3e02e6441a09746b6473c023816f45f91",
+        "license_file": "num-fraunces-LICENSE.txt",
+        "license_sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+        "source_file": "assets/fonts/numeral-study/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "source_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+        "coordinates": {
+          "opsz": 24,
+          "wght": 400,
+          "SOFT": 0.0,
+          "WONK": 1.0
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-slab",
+        "font_id": "font-zilla-slab-regular",
+        "file": "numeral-study-13.ttf",
+        "sha256": "e10f009124f783cc0b767b37c5fd10a390b9b83d8322c6e164f3f5a8cf59dbd2",
+        "license_file": "num-slab-LICENSE.txt",
+        "license_sha256": "240b385d3ec8c8d5c1d4af2bbba6ac72bac0309a80c1a8ff112c168643cc6811",
+        "source_file": "assets/fonts/numeral-study/zilla-slab/ZillaSlab-Regular.ttf",
+        "source_sha256": "41a4626844da9216b031308d4423045c765fe4231d99862d85d7d74509d37703",
+        "coordinates": {},
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-barlow",
+        "font_id": "font-barlow-condensed-regular",
+        "file": "numeral-study-14.ttf",
+        "sha256": "e1a46e2ab5e2c9a5994caf9d49ba2a20c207da300fe31c7dd17e97d25831c88b",
+        "license_file": "num-barlow-LICENSE.txt",
+        "license_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+        "source_file": "assets/fonts/numeral-study/barlow-condensed/BarlowCondensed-Regular.ttf",
+        "source_sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+        "coordinates": {},
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-azeret",
+        "font_id": "font-azeret-mono-vf",
+        "file": "numeral-study-15.ttf",
+        "sha256": "a6bd05b6554a63f18738c8195619ae3c491e293383475036a92d11dec2afd1d4",
+        "license_file": "num-azeret-LICENSE.txt",
+        "license_sha256": "2a0fd31798d131b38a9fe730a260bc9a1d85452e36cdf79e5fcaf937bf4d9f86",
+        "source_file": "assets/fonts/numeral-study/azeret-mono/AzeretMono[wght].ttf",
+        "source_sha256": "f13962c26c1baa864aff7768364001f9bca6e506f41b9a3037c0d6a31e2ca736",
+        "coordinates": {
+          "wght": 400
+        },
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      },
+      {
+        "alias": "num-dseg",
+        "font_id": "font-dseg7-classic-regular",
+        "file": "numeral-study-16.ttf",
+        "sha256": "2736c6d6c45c3b4c6cfe2d371bc9eb7831844c3d3fd0e820a9f7854a95d48014",
+        "license_file": "num-dseg-LICENSE.txt",
+        "license_sha256": "c6ee0567859cb7cc8d992149bbd96ad359ef65fb7355f7feae0547555ffacd23",
+        "source_file": "assets/fonts/numeral-study/dseg7-classic/DSEG7Classic-Regular.ttf",
+        "source_sha256": "e3270928ced68082f32d3b62877a6741426116335ac0832919326341a8b5cfaf",
+        "coordinates": {},
+        "modified": true,
+        "modification": "All axes pinned where variable; ASCII subset retaining layout-feature closure; primary names changed. Original copyright and license retained."
+      }
+    ],
+    "scope": "Study-only working instances, not newly authored typefaces or website loading assets."
+  },
+  "family_measurements": [
+    {
+      "font_id": "font-source-sans-3-vf",
+      "alias": "num-source-sans",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 497,
+          "1": 497,
+          "2": 497,
+          "3": 497,
+          "4": 497,
+          "5": 497,
+          "6": 497,
+          "7": 497,
+          "8": 497,
+          "9": 497
+        },
+        "glyph_ids": {
+          "0": [
+            66
+          ],
+          "1": [
+            67
+          ],
+          "2": [
+            68
+          ],
+          "3": [
+            69
+          ],
+          "4": [
+            70
+          ],
+          "5": [
+            71
+          ],
+          "6": [
+            72
+          ],
+          "7": [
+            73
+          ],
+          "8": [
+            74
+          ],
+          "9": [
+            75
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.044,
+            -0.65,
+            0.453,
+            0.012
+          ],
+          "1": [
+            0.079,
+            -0.638,
+            0.439,
+            0.0
+          ],
+          "2": [
+            0.037,
+            -0.65,
+            0.452,
+            0.0
+          ],
+          "3": [
+            0.026000000000000002,
+            -0.65,
+            0.446,
+            0.012
+          ],
+          "4": [
+            0.017,
+            -0.638,
+            0.46900000000000003,
+            0.0
+          ],
+          "5": [
+            0.025,
+            -0.638,
+            0.449,
+            0.012
+          ],
+          "6": [
+            0.048,
+            -0.65,
+            0.457,
+            0.012
+          ],
+          "7": [
+            0.044,
+            -0.638,
+            0.455,
+            0.0
+          ],
+          "8": [
+            0.041,
+            -0.65,
+            0.456,
+            0.012
+          ],
+          "9": [
+            0.04,
+            -0.65,
+            0.448,
+            0.012
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 105.74018126888217,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-inter-vf",
+      "alias": "num-inter",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 1292,
+          "1": 833,
+          "2": 1249,
+          "3": 1265,
+          "4": 1323,
+          "5": 1215,
+          "6": 1270,
+          "7": 1159,
+          "8": 1267,
+          "9": 1270
+        },
+        "glyph_ids": {
+          "0": [
+            65
+          ],
+          "1": [
+            66
+          ],
+          "2": [
+            67
+          ],
+          "3": [
+            68
+          ],
+          "4": [
+            69
+          ],
+          "5": [
+            70
+          ],
+          "6": [
+            71
+          ],
+          "7": [
+            72
+          ],
+          "8": [
+            73
+          ],
+          "9": [
+            74
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.0595703125,
+            -0.7373046875,
+            0.5712890625,
+            0.009765625
+          ],
+          "1": [
+            0.046875,
+            -0.7275390625,
+            0.31884765625,
+            0.0
+          ],
+          "2": [
+            0.0751953125,
+            -0.7373046875,
+            0.53857421875,
+            0.0
+          ],
+          "3": [
+            0.06103515625,
+            -0.7373046875,
+            0.55810546875,
+            0.009765625
+          ],
+          "4": [
+            0.05859375,
+            -0.7275390625,
+            0.58837890625,
+            0.0
+          ],
+          "5": [
+            0.0625,
+            -0.7275390625,
+            0.53369140625,
+            0.009765625
+          ],
+          "6": [
+            0.0595703125,
+            -0.7373046875,
+            0.560546875,
+            0.009765625
+          ],
+          "7": [
+            0.0478515625,
+            -0.7275390625,
+            0.51806640625,
+            0.0
+          ],
+          "8": [
+            0.0595703125,
+            -0.7373046875,
+            0.55908203125,
+            0.009765625
+          ],
+          "9": [
+            0.0595703125,
+            -0.7373670212765957,
+            0.560546875,
+            0.009765625
+          ]
+        },
+        "units_per_em": 2048,
+        "default_or_requested_digits_tabular": false
+      },
+      "matched_28_size": 93.69934640522875,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-source-serif-4-vf",
+      "alias": "num-source-serif",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 500,
+          "1": 500,
+          "2": 500,
+          "3": 500,
+          "4": 500,
+          "5": 500,
+          "6": 500,
+          "7": 500,
+          "8": 500,
+          "9": 500
+        },
+        "glyph_ids": {
+          "0": [
+            66
+          ],
+          "1": [
+            67
+          ],
+          "2": [
+            68
+          ],
+          "3": [
+            69
+          ],
+          "4": [
+            70
+          ],
+          "5": [
+            71
+          ],
+          "6": [
+            72
+          ],
+          "7": [
+            73
+          ],
+          "8": [
+            74
+          ],
+          "9": [
+            75
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.041,
+            -0.66,
+            0.46,
+            0.013000000000000001
+          ],
+          "1": [
+            0.074,
+            -0.655,
+            0.445,
+            0.0
+          ],
+          "2": [
+            0.044,
+            -0.66,
+            0.46,
+            0.0
+          ],
+          "3": [
+            0.044,
+            -0.66,
+            0.46,
+            0.013000000000000001
+          ],
+          "4": [
+            0.024,
+            -0.656,
+            0.484,
+            0.015
+          ],
+          "5": [
+            0.038,
+            -0.647,
+            0.458,
+            0.013000000000000001
+          ],
+          "6": [
+            0.04,
+            -0.66,
+            0.457,
+            0.013000000000000001
+          ],
+          "7": [
+            0.051000000000000004,
+            -0.647,
+            0.464,
+            0.0
+          ],
+          "8": [
+            0.044,
+            -0.66,
+            0.455,
+            0.013000000000000001
+          ],
+          "9": [
+            0.029,
+            -0.66,
+            0.45,
+            0.015
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 104.01188707280832,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-newsreader-vf",
+      "alias": "num-newsreader",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 1100,
+          "1": 1100,
+          "2": 1100,
+          "3": 1100,
+          "4": 1100,
+          "5": 1100,
+          "6": 1100,
+          "7": 1100,
+          "8": 1100,
+          "9": 1100
+        },
+        "glyph_ids": {
+          "0": [
+            90
+          ],
+          "1": [
+            91
+          ],
+          "2": [
+            92
+          ],
+          "3": [
+            93
+          ],
+          "4": [
+            94
+          ],
+          "5": [
+            95
+          ],
+          "6": [
+            96
+          ],
+          "7": [
+            97
+          ],
+          "8": [
+            98
+          ],
+          "9": [
+            99
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.0345,
+            -0.68,
+            0.5155,
+            0.01
+          ],
+          "1": [
+            0.085,
+            -0.68,
+            0.4835,
+            0.0
+          ],
+          "2": [
+            0.0475,
+            -0.68,
+            0.4985,
+            0.0095
+          ],
+          "3": [
+            0.0615,
+            -0.68,
+            0.47800000000000004,
+            0.01
+          ],
+          "4": [
+            0.006500000000000001,
+            -0.68,
+            0.538,
+            0.0
+          ],
+          "5": [
+            0.053,
+            -0.6890000000000001,
+            0.4935,
+            0.01
+          ],
+          "6": [
+            0.0625,
+            -0.6935,
+            0.4995,
+            0.01
+          ],
+          "7": [
+            0.0645,
+            -0.6795,
+            0.5075000000000001,
+            0.0
+          ],
+          "8": [
+            0.0535,
+            -0.68,
+            0.4965,
+            0.01
+          ],
+          "9": [
+            0.05,
+            -0.68,
+            0.4865,
+            0.0235
+          ]
+        },
+        "units_per_em": 2000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 101.44927536231883,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-bodoni-moda-vf",
+      "alias": "num-bodoni",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 1239,
+          "1": 869,
+          "2": 1099,
+          "3": 1041,
+          "4": 1189,
+          "5": 1000,
+          "6": 1119,
+          "7": 1009,
+          "8": 1099,
+          "9": 1119
+        },
+        "glyph_ids": {
+          "0": [
+            91
+          ],
+          "1": [
+            92
+          ],
+          "2": [
+            93
+          ],
+          "3": [
+            94
+          ],
+          "4": [
+            95
+          ],
+          "5": [
+            96
+          ],
+          "6": [
+            97
+          ],
+          "7": [
+            98
+          ],
+          "8": [
+            99
+          ],
+          "9": [
+            100
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.04,
+            -0.76,
+            0.58,
+            0.01
+          ],
+          "1": [
+            0.05,
+            -0.75,
+            0.385,
+            0.0
+          ],
+          "2": [
+            0.04,
+            -0.76,
+            0.5145,
+            0.0
+          ],
+          "3": [
+            0.025,
+            -0.759,
+            0.481,
+            0.01
+          ],
+          "4": [
+            0.034,
+            -0.75,
+            0.585,
+            0.0
+          ],
+          "5": [
+            0.0305,
+            -0.8045,
+            0.46950000000000003,
+            0.01
+          ],
+          "6": [
+            0.05,
+            -0.76,
+            0.53,
+            0.01
+          ],
+          "7": [
+            0.04,
+            -0.75,
+            0.495,
+            0.01
+          ],
+          "8": [
+            0.04,
+            -0.76,
+            0.51,
+            0.01
+          ],
+          "9": [
+            0.03,
+            -0.76,
+            0.51,
+            0.01
+          ]
+        },
+        "units_per_em": 2000,
+        "default_or_requested_digits_tabular": false
+      },
+      "matched_28_size": 90.9090909090909,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-space-grotesk-vf",
+      "alias": "num-space",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 641,
+          "1": 418,
+          "2": 603,
+          "3": 604,
+          "4": 625,
+          "5": 599,
+          "6": 612,
+          "7": 564,
+          "8": 623,
+          "9": 612
+        },
+        "glyph_ids": {
+          "0": [
+            54
+          ],
+          "1": [
+            55
+          ],
+          "2": [
+            56
+          ],
+          "3": [
+            57
+          ],
+          "4": [
+            58
+          ],
+          "5": [
+            59
+          ],
+          "6": [
+            60
+          ],
+          "7": [
+            61
+          ],
+          "8": [
+            62
+          ],
+          "9": [
+            63
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.06,
+            -0.714,
+            0.581,
+            0.014
+          ],
+          "1": [
+            0.018000000000000002,
+            -0.7000000000000001,
+            0.338,
+            0.0
+          ],
+          "2": [
+            0.053,
+            -0.714,
+            0.554,
+            0.0
+          ],
+          "3": [
+            0.045,
+            -0.7000000000000001,
+            0.553,
+            0.014
+          ],
+          "4": [
+            0.032,
+            -0.7000000000000001,
+            0.598,
+            0.0
+          ],
+          "5": [
+            0.051000000000000004,
+            -0.7000000000000001,
+            0.551,
+            0.014
+          ],
+          "6": [
+            0.06,
+            -0.714,
+            0.561,
+            0.014
+          ],
+          "7": [
+            0.032,
+            -0.7000000000000001,
+            0.533,
+            0.0
+          ],
+          "8": [
+            0.046,
+            -0.714,
+            0.5760000000000001,
+            0.014
+          ],
+          "9": [
+            0.051000000000000004,
+            -0.714,
+            0.552,
+            0.014
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": false
+      },
+      "matched_28_size": 96.15384615384616,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-instrumentserif",
+      "alias": "num-instrument",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 460,
+          "1": 249,
+          "2": 404,
+          "3": 371,
+          "4": 393,
+          "5": 382,
+          "6": 404,
+          "7": 364,
+          "8": 433,
+          "9": 402
+        },
+        "glyph_ids": {
+          "0": [
+            69
+          ],
+          "1": [
+            70
+          ],
+          "2": [
+            71
+          ],
+          "3": [
+            72
+          ],
+          "4": [
+            73
+          ],
+          "5": [
+            74
+          ],
+          "6": [
+            75
+          ],
+          "7": [
+            76
+          ],
+          "8": [
+            77
+          ],
+          "9": [
+            78
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.036000000000000004,
+            -0.73,
+            0.424,
+            0.009000000000000001
+          ],
+          "1": [
+            0.005,
+            -0.735,
+            0.23900000000000002,
+            0.0
+          ],
+          "2": [
+            0.02,
+            -0.73,
+            0.37825000000000003,
+            0.0
+          ],
+          "3": [
+            0.02,
+            -0.73,
+            0.341,
+            0.009000000000000001
+          ],
+          "4": [
+            0.01,
+            -0.72,
+            0.379,
+            0.0
+          ],
+          "5": [
+            0.01,
+            -0.745,
+            0.3521428571428572,
+            0.009000000000000001
+          ],
+          "6": [
+            0.036000000000000004,
+            -0.7296666666666667,
+            0.376,
+            0.009000000000000001
+          ],
+          "7": [
+            0.01785714285714286,
+            -0.72,
+            0.36,
+            0.0
+          ],
+          "8": [
+            0.028,
+            -0.73,
+            0.405,
+            0.009000000000000001
+          ],
+          "9": [
+            0.026000000000000002,
+            -0.73,
+            0.366,
+            0.008666666666666666
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": false
+      },
+      "matched_28_size": 94.72259810554804,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-ibmplexmono",
+      "alias": "num-plex-mono",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 600,
+          "1": 600,
+          "2": 600,
+          "3": 600,
+          "4": 600,
+          "5": 600,
+          "6": 600,
+          "7": 600,
+          "8": 600,
+          "9": 600
+        },
+        "glyph_ids": {
+          "0": [
+            56
+          ],
+          "1": [
+            59
+          ],
+          "2": [
+            60
+          ],
+          "3": [
+            61
+          ],
+          "4": [
+            62
+          ],
+          "5": [
+            63
+          ],
+          "6": [
+            64
+          ],
+          "7": [
+            65
+          ],
+          "8": [
+            66
+          ],
+          "9": [
+            67
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.056,
+            -0.71,
+            0.544,
+            0.012
+          ],
+          "1": [
+            0.053,
+            -0.6980000000000001,
+            0.553,
+            0.0
+          ],
+          "2": [
+            0.065,
+            -0.71,
+            0.537,
+            0.0
+          ],
+          "3": [
+            0.048,
+            -0.71,
+            0.518,
+            0.012
+          ],
+          "4": [
+            0.034,
+            -0.6980000000000001,
+            0.562,
+            0.0
+          ],
+          "5": [
+            0.073,
+            -0.6980000000000001,
+            0.533,
+            0.012
+          ],
+          "6": [
+            0.064,
+            -0.6980000000000001,
+            0.536,
+            0.012
+          ],
+          "7": [
+            0.065,
+            -0.6980000000000001,
+            0.531,
+            0.0
+          ],
+          "8": [
+            0.055,
+            -0.71,
+            0.545,
+            0.012
+          ],
+          "9": [
+            0.064,
+            -0.71,
+            0.536,
+            0.0
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 96.95290858725762,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-ibmplexsanscondensed",
+      "alias": "num-plex-condensed",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 540,
+          "1": 540,
+          "2": 540,
+          "3": 540,
+          "4": 540,
+          "5": 540,
+          "6": 540,
+          "7": 540,
+          "8": 540,
+          "9": 540
+        },
+        "glyph_ids": {
+          "0": [
+            57
+          ],
+          "1": [
+            60
+          ],
+          "2": [
+            61
+          ],
+          "3": [
+            62
+          ],
+          "4": [
+            63
+          ],
+          "5": [
+            64
+          ],
+          "6": [
+            65
+          ],
+          "7": [
+            66
+          ],
+          "8": [
+            67
+          ],
+          "9": [
+            68
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.052000000000000005,
+            -0.71,
+            0.488,
+            0.012
+          ],
+          "1": [
+            0.054,
+            -0.6980000000000001,
+            0.493,
+            0.0
+          ],
+          "2": [
+            0.063,
+            -0.71,
+            0.481,
+            0.0
+          ],
+          "3": [
+            0.037,
+            -0.71,
+            0.457,
+            0.012
+          ],
+          "4": [
+            0.034,
+            -0.6980000000000001,
+            0.501,
+            0.0
+          ],
+          "5": [
+            0.067,
+            -0.6980000000000001,
+            0.48,
+            0.012
+          ],
+          "6": [
+            0.057,
+            -0.6980000000000001,
+            0.483,
+            0.012
+          ],
+          "7": [
+            0.061,
+            -0.6980000000000001,
+            0.47600000000000003,
+            0.0
+          ],
+          "8": [
+            0.051000000000000004,
+            -0.71,
+            0.489,
+            0.012
+          ],
+          "9": [
+            0.057,
+            -0.71,
+            0.483,
+            0.0
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 96.95290858725762,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-noto-serif-sc-vf",
+      "alias": "num-noto-serif",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 550,
+          "1": 550,
+          "2": 550,
+          "3": 550,
+          "4": 550,
+          "5": 550,
+          "6": 550,
+          "7": 550,
+          "8": 550,
+          "9": 550
+        },
+        "glyph_ids": {
+          "0": [
+            320
+          ],
+          "1": [
+            321
+          ],
+          "2": [
+            322
+          ],
+          "3": [
+            323
+          ],
+          "4": [
+            324
+          ],
+          "5": [
+            325
+          ],
+          "6": [
+            326
+          ],
+          "7": [
+            327
+          ],
+          "8": [
+            328
+          ],
+          "9": [
+            329
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.05,
+            -0.717,
+            0.501,
+            0.015
+          ],
+          "1": [
+            0.085,
+            -0.713,
+            0.482,
+            0.0
+          ],
+          "2": [
+            0.054,
+            -0.717,
+            0.502,
+            0.0
+          ],
+          "3": [
+            0.049,
+            -0.717,
+            0.495,
+            0.015
+          ],
+          "4": [
+            0.031,
+            -0.712,
+            0.531,
+            0.018000000000000002
+          ],
+          "5": [
+            0.042,
+            -0.7030000000000001,
+            0.5,
+            0.015
+          ],
+          "6": [
+            0.048,
+            -0.717,
+            0.501,
+            0.015
+          ],
+          "7": [
+            0.054,
+            -0.7030000000000001,
+            0.493,
+            0.0
+          ],
+          "8": [
+            0.053,
+            -0.717,
+            0.498,
+            0.015
+          ],
+          "9": [
+            0.042,
+            -0.717,
+            0.496,
+            0.016
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 95.62841530054645,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-noto-sans-sc-vf",
+      "alias": "num-noto-sans",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 555,
+          "1": 555,
+          "2": 555,
+          "3": 555,
+          "4": 555,
+          "5": 555,
+          "6": 555,
+          "7": 555,
+          "8": 555,
+          "9": 555
+        },
+        "glyph_ids": {
+          "0": [
+            320
+          ],
+          "1": [
+            321
+          ],
+          "2": [
+            322
+          ],
+          "3": [
+            323
+          ],
+          "4": [
+            324
+          ],
+          "5": [
+            325
+          ],
+          "6": [
+            326
+          ],
+          "7": [
+            327
+          ],
+          "8": [
+            328
+          ],
+          "9": [
+            329
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.05,
+            -0.726,
+            0.506,
+            0.013000000000000001
+          ],
+          "1": [
+            0.088,
+            -0.713,
+            0.49,
+            0.0
+          ],
+          "2": [
+            0.04,
+            -0.726,
+            0.505,
+            0.0
+          ],
+          "3": [
+            0.029,
+            -0.726,
+            0.499,
+            0.013000000000000001
+          ],
+          "4": [
+            0.02,
+            -0.713,
+            0.524,
+            0.0
+          ],
+          "5": [
+            0.027,
+            -0.713,
+            0.502,
+            0.013000000000000001
+          ],
+          "6": [
+            0.054,
+            -0.726,
+            0.51,
+            0.013000000000000001
+          ],
+          "7": [
+            0.049,
+            -0.713,
+            0.508,
+            0.0
+          ],
+          "8": [
+            0.046,
+            -0.726,
+            0.509,
+            0.013000000000000001
+          ],
+          "9": [
+            0.044,
+            -0.726,
+            0.501,
+            0.013000000000000001
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 94.72259810554804,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-fraunces-vf",
+      "alias": "num-fraunces",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 1291,
+          "1": 886,
+          "2": 1181,
+          "3": 1073,
+          "4": 1184,
+          "5": 1124,
+          "6": 1179,
+          "7": 1006,
+          "8": 1155,
+          "9": 1187
+        },
+        "glyph_ids": {
+          "0": [
+            79
+          ],
+          "1": [
+            80
+          ],
+          "2": [
+            81
+          ],
+          "3": [
+            82
+          ],
+          "4": [
+            83
+          ],
+          "5": [
+            84
+          ],
+          "6": [
+            85
+          ],
+          "7": [
+            86
+          ],
+          "8": [
+            87
+          ],
+          "9": [
+            88
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.0415,
+            -0.713,
+            0.6035,
+            0.0135
+          ],
+          "1": [
+            0.048,
+            -0.719,
+            0.40900000000000003,
+            0.0
+          ],
+          "2": [
+            0.0485,
+            -0.713,
+            0.5594090909090909,
+            0.0135
+          ],
+          "3": [
+            0.0405,
+            -0.7000000000000001,
+            0.511,
+            0.0135
+          ],
+          "4": [
+            0.0185,
+            -0.72,
+            0.5485,
+            0.0
+          ],
+          "5": [
+            0.059000000000000004,
+            -0.7246923076923077,
+            0.522,
+            0.0135
+          ],
+          "6": [
+            0.04149337748344371,
+            -0.713,
+            0.5535,
+            0.0135
+          ],
+          "7": [
+            0.02784,
+            -0.7000000000000001,
+            0.5035000000000001,
+            0.0135
+          ],
+          "8": [
+            0.051000000000000004,
+            -0.7135,
+            0.539,
+            0.0135
+          ],
+          "9": [
+            0.041,
+            -0.7135,
+            0.553,
+            0.0135
+          ]
+        },
+        "units_per_em": 2000,
+        "default_or_requested_digits_tabular": false
+      },
+      "matched_28_size": 96.28610729023384,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-zilla-slab-regular",
+      "alias": "num-slab",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 576,
+          "1": 385,
+          "2": 515,
+          "3": 489,
+          "4": 539,
+          "5": 512,
+          "6": 531,
+          "7": 471,
+          "8": 538,
+          "9": 531
+        },
+        "glyph_ids": {
+          "0": [
+            55
+          ],
+          "1": [
+            56
+          ],
+          "2": [
+            57
+          ],
+          "3": [
+            58
+          ],
+          "4": [
+            59
+          ],
+          "5": [
+            60
+          ],
+          "6": [
+            61
+          ],
+          "7": [
+            62
+          ],
+          "8": [
+            63
+          ],
+          "9": [
+            64
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.047,
+            -0.531,
+            0.529,
+            0.01
+          ],
+          "1": [
+            0.052000000000000005,
+            -0.521,
+            0.365,
+            0.0
+          ],
+          "2": [
+            0.048,
+            -0.531,
+            0.47300000000000003,
+            0.0
+          ],
+          "3": [
+            0.034,
+            -0.531,
+            0.445,
+            0.14100000000000001
+          ],
+          "4": [
+            0.019,
+            -0.521,
+            0.513,
+            0.131
+          ],
+          "5": [
+            0.057,
+            -0.521,
+            0.47000000000000003,
+            0.14
+          ],
+          "6": [
+            0.048,
+            -0.66,
+            0.483,
+            0.01
+          ],
+          "7": [
+            0.034,
+            -0.521,
+            0.455,
+            0.13
+          ],
+          "8": [
+            0.045,
+            -0.66,
+            0.495,
+            0.01
+          ],
+          "9": [
+            0.048,
+            -0.531,
+            0.483,
+            0.139
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": false
+      },
+      "matched_28_size": 104.4776119402985,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-barlow-condensed-regular",
+      "alias": "num-barlow",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 444,
+          "1": 256,
+          "2": 402,
+          "3": 408,
+          "4": 415,
+          "5": 409,
+          "6": 410,
+          "7": 366,
+          "8": 422,
+          "9": 403
+        },
+        "glyph_ids": {
+          "0": [
+            93
+          ],
+          "1": [
+            94
+          ],
+          "2": [
+            95
+          ],
+          "3": [
+            96
+          ],
+          "4": [
+            97
+          ],
+          "5": [
+            98
+          ],
+          "6": [
+            99
+          ],
+          "7": [
+            100
+          ],
+          "8": [
+            101
+          ],
+          "9": [
+            102
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.052000000000000005,
+            -0.71,
+            0.392,
+            0.01
+          ],
+          "1": [
+            0.01,
+            -0.7000000000000001,
+            0.197,
+            0.0
+          ],
+          "2": [
+            0.039,
+            -0.708,
+            0.374,
+            0.0
+          ],
+          "3": [
+            0.037,
+            -0.7000000000000001,
+            0.356,
+            0.008
+          ],
+          "4": [
+            0.022,
+            -0.7000000000000001,
+            0.393,
+            0.0
+          ],
+          "5": [
+            0.053,
+            -0.7000000000000001,
+            0.372,
+            0.008
+          ],
+          "6": [
+            0.053,
+            -0.708,
+            0.373,
+            0.008
+          ],
+          "7": [
+            0.023,
+            -0.7000000000000001,
+            0.34900000000000003,
+            0.0
+          ],
+          "8": [
+            0.052000000000000005,
+            -0.71,
+            0.37,
+            0.008
+          ],
+          "9": [
+            0.03,
+            -0.708,
+            0.35000000000000003,
+            0.008
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": false
+      },
+      "matched_28_size": 97.49303621169916,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-azeret-mono-vf",
+      "alias": "num-azeret",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 650,
+          "1": 650,
+          "2": 650,
+          "3": 650,
+          "4": 650,
+          "5": 650,
+          "6": 650,
+          "7": 650,
+          "8": 650,
+          "9": 650
+        },
+        "glyph_ids": {
+          "0": [
+            98
+          ],
+          "1": [
+            99
+          ],
+          "2": [
+            100
+          ],
+          "3": [
+            101
+          ],
+          "4": [
+            102
+          ],
+          "5": [
+            103
+          ],
+          "6": [
+            104
+          ],
+          "7": [
+            105
+          ],
+          "8": [
+            106
+          ],
+          "9": [
+            107
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.056,
+            -0.71,
+            0.594,
+            0.012
+          ],
+          "1": [
+            0.084,
+            -0.6980000000000001,
+            0.578,
+            0.0
+          ],
+          "2": [
+            0.077,
+            -0.71,
+            0.5710000000000001,
+            0.0
+          ],
+          "3": [
+            0.077,
+            -0.71,
+            0.583,
+            0.012
+          ],
+          "4": [
+            0.04,
+            -0.6980000000000001,
+            0.612,
+            0.0
+          ],
+          "5": [
+            0.084,
+            -0.6980000000000001,
+            0.58,
+            0.011
+          ],
+          "6": [
+            0.069,
+            -0.71,
+            0.585,
+            0.012
+          ],
+          "7": [
+            0.074,
+            -0.6980000000000001,
+            0.594,
+            0.0
+          ],
+          "8": [
+            0.076,
+            -0.71,
+            0.5740000000000001,
+            0.012
+          ],
+          "9": [
+            0.065,
+            -0.71,
+            0.581,
+            0.012
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 96.95290858725762,
+      "matched_28_ink_height": 70
+    },
+    {
+      "font_id": "font-dseg7-classic-regular",
+      "alias": "num-dseg",
+      "measurements": {
+        "features_requested": {
+          "kern": true,
+          "liga": true
+        },
+        "individual_digit_advances": {
+          "0": 816,
+          "1": 816,
+          "2": 816,
+          "3": 816,
+          "4": 816,
+          "5": 816,
+          "6": 816,
+          "7": 816,
+          "8": 816,
+          "9": 816
+        },
+        "glyph_ids": {
+          "0": [
+            5
+          ],
+          "1": [
+            6
+          ],
+          "2": [
+            7
+          ],
+          "3": [
+            8
+          ],
+          "4": [
+            9
+          ],
+          "5": [
+            10
+          ],
+          "6": [
+            11
+          ],
+          "7": [
+            12
+          ],
+          "8": [
+            13
+          ],
+          "9": [
+            14
+          ]
+        },
+        "ink_bounds_em": {
+          "0": [
+            0.099,
+            -1.0,
+            0.717,
+            0.0
+          ],
+          "1": [
+            0.624,
+            -0.9550000000000001,
+            0.717,
+            -0.045
+          ],
+          "2": [
+            0.099,
+            -1.0,
+            0.717,
+            0.0
+          ],
+          "3": [
+            0.14400000000000002,
+            -1.0,
+            0.717,
+            0.0
+          ],
+          "4": [
+            0.099,
+            -0.9550000000000001,
+            0.717,
+            -0.045
+          ],
+          "5": [
+            0.099,
+            -1.0,
+            0.717,
+            0.0
+          ],
+          "6": [
+            0.099,
+            -1.0,
+            0.717,
+            0.0
+          ],
+          "7": [
+            0.099,
+            -1.0,
+            0.717,
+            -0.045
+          ],
+          "8": [
+            0.099,
+            -1.0,
+            0.717,
+            0.0
+          ],
+          "9": [
+            0.099,
+            -1.0,
+            0.717,
+            0.0
+          ]
+        },
+        "units_per_em": 1000,
+        "default_or_requested_digits_tabular": true
+      },
+      "matched_28_size": 70.0,
+      "matched_28_ink_height": 70
+    }
+  ],
+  "four_forms": [
+    {
+      "label": "Lining / proportional",
+      "features_requested": {
+        "kern": false,
+        "liga": true,
+        "lnum": true,
+        "onum": false,
+        "pnum": true,
+        "tnum": false
+      },
+      "individual_digit_advances": {
+        "0": 502,
+        "1": 426,
+        "2": 508,
+        "3": 503,
+        "4": 497,
+        "5": 507,
+        "6": 509,
+        "7": 479,
+        "8": 509,
+        "9": 520
+      },
+      "glyph_ids": {
+        "0": [
+          77
+        ],
+        "1": [
+          78
+        ],
+        "2": [
+          79
+        ],
+        "3": [
+          80
+        ],
+        "4": [
+          81
+        ],
+        "5": [
+          82
+        ],
+        "6": [
+          83
+        ],
+        "7": [
+          84
+        ],
+        "8": [
+          85
+        ],
+        "9": [
+          86
+        ]
+      },
+      "ink_bounds_em": {
+        "0": [
+          0.039,
+          -0.66,
+          0.462,
+          0.013000000000000001
+        ],
+        "1": [
+          0.063,
+          -0.656,
+          0.392,
+          0.0
+        ],
+        "2": [
+          0.051000000000000004,
+          -0.66,
+          0.467,
+          0.0
+        ],
+        "3": [
+          0.036000000000000004,
+          -0.66,
+          0.452,
+          0.013000000000000001
+        ],
+        "4": [
+          0.029,
+          -0.656,
+          0.489,
+          0.015
+        ],
+        "5": [
+          0.041,
+          -0.647,
+          0.461,
+          0.013000000000000001
+        ],
+        "6": [
+          0.051000000000000004,
+          -0.66,
+          0.468,
+          0.013000000000000001
+        ],
+        "7": [
+          0.028,
+          -0.647,
+          0.441,
+          0.0
+        ],
+        "8": [
+          0.049,
+          -0.66,
+          0.46,
+          0.013000000000000001
+        ],
+        "9": [
+          0.046,
+          -0.66,
+          0.467,
+          0.015
+        ]
+      },
+      "units_per_em": 1000,
+      "default_or_requested_digits_tabular": false
+    },
+    {
+      "label": "Lining / tabular",
+      "features_requested": {
+        "kern": false,
+        "liga": true,
+        "lnum": true,
+        "onum": false,
+        "pnum": false,
+        "tnum": true
+      },
+      "individual_digit_advances": {
+        "0": 500,
+        "1": 500,
+        "2": 500,
+        "3": 500,
+        "4": 500,
+        "5": 500,
+        "6": 500,
+        "7": 500,
+        "8": 500,
+        "9": 500
+      },
+      "glyph_ids": {
+        "0": [
+          66
+        ],
+        "1": [
+          67
+        ],
+        "2": [
+          68
+        ],
+        "3": [
+          69
+        ],
+        "4": [
+          70
+        ],
+        "5": [
+          71
+        ],
+        "6": [
+          72
+        ],
+        "7": [
+          73
+        ],
+        "8": [
+          74
+        ],
+        "9": [
+          75
+        ]
+      },
+      "ink_bounds_em": {
+        "0": [
+          0.041,
+          -0.66,
+          0.46,
+          0.013000000000000001
+        ],
+        "1": [
+          0.074,
+          -0.655,
+          0.445,
+          0.0
+        ],
+        "2": [
+          0.044,
+          -0.66,
+          0.46,
+          0.0
+        ],
+        "3": [
+          0.044,
+          -0.66,
+          0.46,
+          0.013000000000000001
+        ],
+        "4": [
+          0.024,
+          -0.656,
+          0.484,
+          0.015
+        ],
+        "5": [
+          0.038,
+          -0.647,
+          0.458,
+          0.013000000000000001
+        ],
+        "6": [
+          0.04,
+          -0.66,
+          0.457,
+          0.013000000000000001
+        ],
+        "7": [
+          0.051000000000000004,
+          -0.647,
+          0.464,
+          0.0
+        ],
+        "8": [
+          0.044,
+          -0.66,
+          0.455,
+          0.013000000000000001
+        ],
+        "9": [
+          0.029,
+          -0.66,
+          0.45,
+          0.015
+        ]
+      },
+      "units_per_em": 1000,
+      "default_or_requested_digits_tabular": true
+    },
+    {
+      "label": "Oldstyle / proportional",
+      "features_requested": {
+        "kern": false,
+        "liga": true,
+        "lnum": false,
+        "onum": true,
+        "pnum": true,
+        "tnum": false
+      },
+      "individual_digit_advances": {
+        "0": 550,
+        "1": 436,
+        "2": 508,
+        "3": 503,
+        "4": 497,
+        "5": 507,
+        "6": 509,
+        "7": 479,
+        "8": 509,
+        "9": 520
+      },
+      "glyph_ids": {
+        "0": [
+          97
+        ],
+        "1": [
+          98
+        ],
+        "2": [
+          99
+        ],
+        "3": [
+          100
+        ],
+        "4": [
+          101
+        ],
+        "5": [
+          102
+        ],
+        "6": [
+          103
+        ],
+        "7": [
+          104
+        ],
+        "8": [
+          105
+        ],
+        "9": [
+          106
+        ]
+      },
+      "ink_bounds_em": {
+        "0": [
+          0.035,
+          -0.54,
+          0.515,
+          0.013000000000000001
+        ],
+        "1": [
+          0.063,
+          -0.536,
+          0.402,
+          0.0
+        ],
+        "2": [
+          0.055,
+          -0.54,
+          0.465,
+          0.0
+        ],
+        "3": [
+          0.036000000000000004,
+          -0.54,
+          0.452,
+          0.133
+        ],
+        "4": [
+          0.029,
+          -0.536,
+          0.489,
+          0.135
+        ],
+        "5": [
+          0.041,
+          -0.527,
+          0.461,
+          0.133
+        ],
+        "6": [
+          0.051000000000000004,
+          -0.66,
+          0.468,
+          0.013000000000000001
+        ],
+        "7": [
+          0.028,
+          -0.527,
+          0.441,
+          0.12
+        ],
+        "8": [
+          0.049,
+          -0.66,
+          0.46,
+          0.013000000000000001
+        ],
+        "9": [
+          0.046,
+          -0.54,
+          0.467,
+          0.135
+        ]
+      },
+      "units_per_em": 1000,
+      "default_or_requested_digits_tabular": false
+    },
+    {
+      "label": "Oldstyle / tabular",
+      "features_requested": {
+        "kern": false,
+        "liga": true,
+        "lnum": false,
+        "onum": true,
+        "pnum": false,
+        "tnum": true
+      },
+      "individual_digit_advances": {
+        "0": 500,
+        "1": 500,
+        "2": 500,
+        "3": 500,
+        "4": 500,
+        "5": 500,
+        "6": 500,
+        "7": 500,
+        "8": 500,
+        "9": 500
+      },
+      "glyph_ids": {
+        "0": [
+          87
+        ],
+        "1": [
+          88
+        ],
+        "2": [
+          89
+        ],
+        "3": [
+          90
+        ],
+        "4": [
+          91
+        ],
+        "5": [
+          92
+        ],
+        "6": [
+          93
+        ],
+        "7": [
+          94
+        ],
+        "8": [
+          95
+        ],
+        "9": [
+          96
+        ]
+      },
+      "ink_bounds_em": {
+        "0": [
+          0.033,
+          -0.54,
+          0.467,
+          0.013000000000000001
+        ],
+        "1": [
+          0.073,
+          -0.536,
+          0.444,
+          0.0
+        ],
+        "2": [
+          0.046,
+          -0.54,
+          0.456,
+          0.0
+        ],
+        "3": [
+          0.043000000000000003,
+          -0.54,
+          0.459,
+          0.133
+        ],
+        "4": [
+          0.024,
+          -0.536,
+          0.484,
+          0.135
+        ],
+        "5": [
+          0.038,
+          -0.527,
+          0.458,
+          0.133
+        ],
+        "6": [
+          0.04,
+          -0.66,
+          0.457,
+          0.013000000000000001
+        ],
+        "7": [
+          0.046,
+          -0.527,
+          0.459,
+          0.12
+        ],
+        "8": [
+          0.045,
+          -0.66,
+          0.456,
+          0.013000000000000001
+        ],
+        "9": [
+          0.035,
+          -0.54,
+          0.456,
+          0.135
+        ]
+      },
+      "units_per_em": 1000,
+      "default_or_requested_digits_tabular": true
+    }
+  ],
+  "calendar_contexts": [
+    {
+      "id": "quarter",
+      "represented_dates": [
+        "2028-01-01",
+        "2028-01-02",
+        "2028-01-03",
+        "2028-01-04",
+        "2028-01-05",
+        "2028-01-06",
+        "2028-01-07",
+        "2028-01-08",
+        "2028-01-09",
+        "2028-01-10",
+        "2028-01-11",
+        "2028-01-12",
+        "2028-01-13",
+        "2028-01-14",
+        "2028-01-15",
+        "2028-01-16",
+        "2028-01-17",
+        "2028-01-18",
+        "2028-01-19",
+        "2028-01-20",
+        "2028-01-21",
+        "2028-01-22",
+        "2028-01-23",
+        "2028-01-24",
+        "2028-01-25",
+        "2028-01-26",
+        "2028-01-27",
+        "2028-01-28",
+        "2028-01-29",
+        "2028-01-30",
+        "2028-01-31",
+        "2028-02-01",
+        "2028-02-02",
+        "2028-02-03",
+        "2028-02-04",
+        "2028-02-05",
+        "2028-02-06",
+        "2028-02-07",
+        "2028-02-08",
+        "2028-02-09",
+        "2028-02-10",
+        "2028-02-11",
+        "2028-02-12",
+        "2028-02-13",
+        "2028-02-14",
+        "2028-02-15",
+        "2028-02-16",
+        "2028-02-17",
+        "2028-02-18",
+        "2028-02-19",
+        "2028-02-20",
+        "2028-02-21",
+        "2028-02-22",
+        "2028-02-23",
+        "2028-02-24",
+        "2028-02-25",
+        "2028-02-26",
+        "2028-02-27",
+        "2028-02-28",
+        "2028-02-29",
+        "2028-03-01",
+        "2028-03-02",
+        "2028-03-03",
+        "2028-03-04",
+        "2028-03-05",
+        "2028-03-06",
+        "2028-03-07",
+        "2028-03-08",
+        "2028-03-09",
+        "2028-03-10",
+        "2028-03-11",
+        "2028-03-12",
+        "2028-03-13",
+        "2028-03-14",
+        "2028-03-15",
+        "2028-03-16",
+        "2028-03-17",
+        "2028-03-18",
+        "2028-03-19",
+        "2028-03-20",
+        "2028-03-21",
+        "2028-03-22",
+        "2028-03-23",
+        "2028-03-24",
+        "2028-03-25",
+        "2028-03-26",
+        "2028-03-27",
+        "2028-03-28",
+        "2028-03-29",
+        "2028-03-30",
+        "2028-03-31"
+      ]
+    },
+    {
+      "id": "month",
+      "represented_dates": [
+        "2028-02-01",
+        "2028-02-02",
+        "2028-02-03",
+        "2028-02-04",
+        "2028-02-05",
+        "2028-02-06",
+        "2028-02-07",
+        "2028-02-08",
+        "2028-02-09",
+        "2028-02-10",
+        "2028-02-11",
+        "2028-02-12",
+        "2028-02-13",
+        "2028-02-14",
+        "2028-02-15",
+        "2028-02-16",
+        "2028-02-17",
+        "2028-02-18",
+        "2028-02-19",
+        "2028-02-20",
+        "2028-02-21",
+        "2028-02-22",
+        "2028-02-23",
+        "2028-02-24",
+        "2028-02-25",
+        "2028-02-26",
+        "2028-02-27",
+        "2028-02-28",
+        "2028-02-29"
+      ]
+    },
+    {
+      "id": "week",
+      "represented_dates": [
+        "2028-02-28",
+        "2028-02-29",
+        "2028-03-01",
+        "2028-03-02",
+        "2028-03-03",
+        "2028-03-04",
+        "2028-03-05"
+      ]
+    },
+    {
+      "id": "day",
+      "represented_dates": [
+        "2028-02-29"
+      ]
+    }
+  ],
+  "glyph_shaping": {
+    "uharfbuzz": "0.57.0",
+    "harfbuzz": "15.0.0",
+    "language": "en",
+    "script": "Latn",
+    "direction": "ltr"
+  },
+  "original_content": "Project-authored generic numeral samples and exact public dates; no real user calendar, illustration or feedback imported.",
+  "scope": "Separate SVG study path with actual requested features. No paragraph layout or PDF export; design_scene remains unchanged.",
+  "implementation_sha256": "263bdf001a7c3e54cf787970d285dd86f91d0128c71b75147172846532769523",
+  "glyph_study_sha256": "729d2f0b30ebfc503aa110805bbe220495dbc55e56b92a2e687998fb39be8a8c",
+  "preparer_sha256": "295b5a0906fcce21b6a163a22db56af4e6611ce79adf2f12e7b0bebbd804786a",
+  "svg_sha256": {
+    "numeral-contexts.svg": "47a9087920a59083fb7ce2ce3d67d1738aa09d00167db2cf70299654617bc7fd",
+    "numeral-families.svg": "daba59ecd6338bc08a31530cb82c319831e32eb39a705cff67e2be7206396e52",
+    "numeral-features.svg": "a9891000edb8dd8335c29db81db5006510344adea22e8a668e75db32f611644f"
+  }
+}

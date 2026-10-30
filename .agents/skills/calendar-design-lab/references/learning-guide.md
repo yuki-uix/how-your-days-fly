@@ -142,3 +142,5 @@ Cynthia A. Huang、Mitchell O’Hara-Wild、Rob J. Hyndman、Matthew Kay。
 建议的首轮顺序：先浏览 TimeViz 案例与 Timelines 讲座，再选读主教材第 3、4 章；并行读 Vignelli 与数字排版文章。每读一段就回到 A–H 做一个小对照。两篇实现研究放到需要相应能力时深入。
 
 2026-10-30 英文专项补充见[英文字体专题](../../../../docs/latin-type-library.md)：14条新来源覆盖具体家族、分类词汇、数字、原生Italic、字距与光学尺寸，使用相同素材索引；未追写为早期样张已采用的材料。
+
+2026-10-30 数字专项补充见[数字专题](../../../../docs/numeral-font-library.md)：7条新来源、16家族档案与19文件实际特性审计，保留raw-cmap、语言替换、请求与实际轮廓之间的区别。

@@ -44,7 +44,8 @@ def prepare(out_dir=ROOT/'tmp/latin-study-fonts'):
         asset=next(a for a in assets if normalize(a.get('family') or a['title'])==normalize(family))
         source_file=next(f for f in asset['local_files'] if f['path'].endswith('.ttf') and ('italic' in Path(f['path']).name.casefold())==italic)
         license_file=next(f for f in asset['local_files'] if f['path'].endswith('OFL.txt'))
-        font=TTFont(ROOT/source_file['path'],recalcTimestamp=False)
+        # Preserve byte replay regardless of optional HarfBuzz installation.
+        font=TTFont(ROOT/source_file['path'],recalcTimestamp=False,cfg={'fontTools.ttLib.tables.otBase:USE_HARFBUZZ_REPACKER':False})
         axes={a.axisTag:a.defaultValue for a in font['fvar'].axes}
         axes['wght']=400
         if opsz is not None: axes['opsz']=opsz

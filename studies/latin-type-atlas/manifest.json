@@ -369,7 +369,7 @@
   "limits": "cmap/hmtx outlines and explicit tracking only. No automatic GSUB/GPOS, kerning, feature substitution, paragraph breaking or user approval.",
   "original_content": "Project-authored generic text and comparison diagrams; no private case content or third-party specimen art.",
   "implementation_sha256": "26bbcdfb5fa4d389176793cceeef14ca17b3172a0b0e98dbcffd799a2d59499a",
-  "preparer_sha256": "ed88c53083e7f238dd71af199ec77fc59137e27e7270cc1945e74154176f3947",
+  "preparer_sha256": "0e067f785fb8ebbc92e1dfa0799a430b944cbf4720ab49e1b19e6ae4acf3e430",
   "svg_sha256": {
     "latin-details.svg": "156ec3ad1f332aaf140119711b7c7bb41b58da836ffe45fe834875ae7e3f7b97",
     "latin-families.svg": "3198f21311c3b9c99e2be5f92ac3136f660edcb70efb19f583908b5278bcc3a4"

@@ -22,7 +22,7 @@ class TypeLayoutIndexTests(unittest.TestCase):
     def test_conditions_join_real_sources_fonts_and_proofs(self):
         index=materials.build_catalog(); by_id={a['id']:a for a in index['items']}
         elements=materials.select(index,kind='design-element')
-        self.assertEqual(len(elements),15)
+        self.assertEqual(len(elements),18)
         self.assertEqual(len(by_id),len(index['items']))
         for item in elements:
             self.assertTrue(item['condition'] and item['choices'] and item['tradeoff'] and item['counterexample'])
@@ -42,7 +42,7 @@ class TypeLayoutIndexTests(unittest.TestCase):
         found=materials.select(index,domain='typography',query='混排')
         self.assertIn('type-cjk-language',{a['id'] for a in found})
         allowed=materials.select(index,domain='typography',shareable_only=True)
-        self.assertEqual(len(allowed),11)
+        self.assertEqual(len(allowed),16)
         self.assertTrue(all(a['kind']=='font' and a['distribution_status']=='OFL-1.1' for a in allowed))
         joined=design.select(design.build_catalog(),'week','layout')
         self.assertEqual(len(joined['design_elements']),4)

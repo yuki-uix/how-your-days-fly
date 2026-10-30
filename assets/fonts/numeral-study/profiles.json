@@ -1,0 +1,507 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "scope": "Representative retained Roman files for Western 0-9 calendar roles. Reuses original files; no font duplication for existing families.",
+  "profiles": [
+    {
+      "id": "profile-num-source-sans",
+      "font_id": "font-source-sans-3-vf",
+      "alias": "num-source-sans",
+      "family": "Source Sans 3",
+      "visual_dimension": "Sans / open shapes",
+      "candidate_uses": [
+        "dense-grid",
+        "week-row"
+      ],
+      "suggested_scales": [
+        "year",
+        "month",
+        "week"
+      ],
+      "condition": "Candidate for small dates or wide weekly cells; still test actual size and contrast.",
+      "source_file": "assets/fonts/latin-study/source-sans-3/SourceSans3[wght].ttf",
+      "source_sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+      "license_file": "assets/fonts/latin-study/source-sans-3/OFL.txt",
+      "license_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+      "coordinates": {
+        "wght": 400
+      },
+      "coordinate_label": "wght 400",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-inter",
+      "font_id": "font-inter-vf",
+      "alias": "num-inter",
+      "family": "Inter",
+      "visual_dimension": "Sans / optical sizes",
+      "candidate_uses": [
+        "dense-grid",
+        "week-row"
+      ],
+      "suggested_scales": [
+        "year",
+        "month",
+        "week"
+      ],
+      "condition": "Candidate for clear date lookup; requested numeric forms depend on the retained file.",
+      "source_file": "assets/fonts/latin-study/inter/Inter[opsz,wght].ttf",
+      "source_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "license_file": "assets/fonts/latin-study/inter/OFL.txt",
+      "license_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "coordinates": {
+        "opsz": 14,
+        "wght": 400
+      },
+      "coordinate_label": "opsz 14; wght 400",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-source-serif",
+      "font_id": "font-source-serif-4-vf",
+      "alias": "num-source-serif",
+      "family": "Source Serif 4",
+      "visual_dimension": "Text serif / four forms",
+      "candidate_uses": [
+        "book-pairing",
+        "month-grid",
+        "week-row"
+      ],
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for coordinating dates with reading typography, using actual form choices.",
+      "source_file": "assets/fonts/latin-study/source-serif-4/SourceSerif4[opsz,wght].ttf",
+      "source_sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+      "license_file": "assets/fonts/latin-study/source-serif-4/OFL.txt",
+      "license_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+      "coordinates": {
+        "wght": 400,
+        "opsz": 20
+      },
+      "coordinate_label": "wght 400; opsz 20",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-newsreader",
+      "font_id": "font-newsreader-vf",
+      "alias": "num-newsreader",
+      "family": "Newsreader",
+      "visual_dimension": "Editorial serif",
+      "candidate_uses": [
+        "book-pairing",
+        "week-row"
+      ],
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for Roman date numerals; do not infer Italic metrics from Roman.",
+      "source_file": "assets/fonts/latin-study/newsreader/Newsreader[opsz,wght].ttf",
+      "source_sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+      "license_file": "assets/fonts/latin-study/newsreader/OFL.txt",
+      "license_sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+      "coordinates": {
+        "wght": 400,
+        "opsz": 18
+      },
+      "coordinate_label": "wght 400; opsz 18",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-bodoni",
+      "font_id": "font-bodoni-moda-vf",
+      "alias": "num-bodoni",
+      "family": "Bodoni Moda",
+      "visual_dimension": "High-contrast serif",
+      "candidate_uses": [
+        "large-day",
+        "week-row"
+      ],
+      "suggested_scales": [
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for display numerals; inspect fine strokes at the actual output size.",
+      "source_file": "assets/fonts/latin-study/bodoni-moda/BodoniModa[opsz,wght].ttf",
+      "source_sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+      "license_file": "assets/fonts/latin-study/bodoni-moda/OFL.txt",
+      "license_sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046",
+      "coordinates": {
+        "wght": 400,
+        "opsz": 24
+      },
+      "coordinate_label": "wght 400; opsz 24",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-space",
+      "font_id": "font-space-grotesk-vf",
+      "alias": "num-space",
+      "family": "Space Grotesk",
+      "visual_dimension": "Proportional sans",
+      "candidate_uses": [
+        "week-row",
+        "large-day"
+      ],
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for distinctive numeral shapes; mono ancestry does not make defaults monospaced.",
+      "source_file": "assets/fonts/latin-study/space-grotesk/SpaceGrotesk[wght].ttf",
+      "source_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+      "license_file": "assets/fonts/latin-study/space-grotesk/OFL.txt",
+      "license_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+      "coordinates": {
+        "wght": 400
+      },
+      "coordinate_label": "wght 400",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-instrument",
+      "font_id": "font-instrumentserif",
+      "alias": "num-instrument",
+      "family": "Instrument Serif",
+      "visual_dimension": "Condensed display serif",
+      "candidate_uses": [
+        "large-day"
+      ],
+      "suggested_scales": [
+        "day",
+        "week"
+      ],
+      "condition": "Display candidate; do not extrapolate a large numeral to a dense small grid.",
+      "source_file": "assets/fonts/instrumentserif/InstrumentSerif-Regular.ttf",
+      "source_sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+      "license_file": "assets/fonts/instrumentserif/OFL.txt",
+      "license_sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+      "coordinates": {},
+      "coordinate_label": "Regular / static",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-plex-mono",
+      "font_id": "font-ibmplexmono",
+      "alias": "num-plex-mono",
+      "family": "IBM Plex Mono",
+      "visual_dimension": "Monospaced / index",
+      "candidate_uses": [
+        "index",
+        "dense-grid"
+      ],
+      "suggested_scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for a deliberate fixed-width rhythm, not a default requirement for all dates.",
+      "source_file": "assets/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "source_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "license_file": "assets/fonts/ibmplexmono/OFL.txt",
+      "license_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "coordinates": {},
+      "coordinate_label": "Regular / static",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-plex-condensed",
+      "font_id": "font-ibmplexsanscondensed",
+      "alias": "num-plex-condensed",
+      "family": "IBM Plex Sans Condensed",
+      "visual_dimension": "Condensed sans",
+      "candidate_uses": [
+        "dense-grid"
+      ],
+      "suggested_scales": [
+        "year",
+        "month"
+      ],
+      "condition": "Candidate when width is constrained; use actual condensed outlines, not horizontal scaling.",
+      "source_file": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+      "source_sha256": "e7437c072eef2ef592ae6f2beb0000446287385907abb57ac1cf07bcbaa2aa33",
+      "license_file": "assets/fonts/ibmplexsanscondensed/OFL.txt",
+      "license_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "coordinates": {},
+      "coordinate_label": "Regular / static",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-noto-serif",
+      "font_id": "font-noto-serif-sc-vf",
+      "alias": "num-noto-serif",
+      "family": "Noto Serif SC",
+      "visual_dimension": "CJK family / Latin figures",
+      "candidate_uses": [
+        "mixed-script",
+        "book-pairing"
+      ],
+      "suggested_scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for a shared CJK family; Latn/en and Latn/zh-Hans numeric defaults differ in this file.",
+      "source_file": "assets/fonts/type-study/noto-serif-sc/NotoSerifSC-VF.ttf",
+      "source_sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+      "license_file": "assets/fonts/type-study/noto-serif-sc/OFL.txt",
+      "license_sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "coordinates": {
+        "wght": 400
+      },
+      "coordinate_label": "wght 400",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-noto-sans",
+      "font_id": "font-noto-sans-sc-vf",
+      "alias": "num-noto-sans",
+      "family": "Noto Sans SC",
+      "visual_dimension": "CJK family / Latin figures",
+      "candidate_uses": [
+        "mixed-script",
+        "dense-grid"
+      ],
+      "suggested_scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for unified language coverage; glyph coverage and actual locale still need checking.",
+      "source_file": "assets/fonts/type-study/noto-sans-sc/NotoSansSC-VF.ttf",
+      "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "license_file": "assets/fonts/type-study/noto-sans-sc/OFL.txt",
+      "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "coordinates": {
+        "wght": 400
+      },
+      "coordinate_label": "wght 400",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-fraunces",
+      "font_id": "font-fraunces-vf",
+      "alias": "num-fraunces",
+      "family": "Fraunces",
+      "visual_dimension": "Expressive serif / axes",
+      "candidate_uses": [
+        "large-day",
+        "week-row"
+      ],
+      "suggested_scales": [
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for expressive numerals; Old Style family naming does not prove onum figure support.",
+      "source_file": "assets/fonts/numeral-study/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "source_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+      "license_file": "assets/fonts/numeral-study/fraunces/OFL.txt",
+      "license_sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+      "coordinates": {
+        "opsz": 24,
+        "wght": 400,
+        "SOFT": 0.0,
+        "WONK": 1.0
+      },
+      "coordinate_label": "opsz 24; wght 400; SOFT 0; WONK 1",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-slab",
+      "font_id": "font-zilla-slab-regular",
+      "alias": "num-slab",
+      "family": "Zilla Slab",
+      "visual_dimension": "Slab serif",
+      "candidate_uses": [
+        "month-grid",
+        "large-day"
+      ],
+      "suggested_scales": [
+        "month",
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for stronger slab terminals; contrast and spacing are assessed in context.",
+      "source_file": "assets/fonts/numeral-study/zilla-slab/ZillaSlab-Regular.ttf",
+      "source_sha256": "41a4626844da9216b031308d4423045c765fe4231d99862d85d7d74509d37703",
+      "license_file": "assets/fonts/numeral-study/zilla-slab/OFL.txt",
+      "license_sha256": "240b385d3ec8c8d5c1d4af2bbba6ac72bac0309a80c1a8ff112c168643cc6811",
+      "coordinates": {},
+      "coordinate_label": "Regular / static",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-barlow",
+      "font_id": "font-barlow-condensed-regular",
+      "alias": "num-barlow",
+      "family": "Barlow Condensed",
+      "visual_dimension": "Narrow / low contrast",
+      "candidate_uses": [
+        "dense-grid"
+      ],
+      "suggested_scales": [
+        "year",
+        "month"
+      ],
+      "condition": "Candidate for narrow date cells; road-sign references do not establish readability.",
+      "source_file": "assets/fonts/numeral-study/barlow-condensed/BarlowCondensed-Regular.ttf",
+      "source_sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+      "license_file": "assets/fonts/numeral-study/barlow-condensed/OFL.txt",
+      "license_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+      "coordinates": {},
+      "coordinate_label": "Regular / static",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-azeret",
+      "font_id": "font-azeret-mono-vf",
+      "alias": "num-azeret",
+      "family": "Azeret Mono",
+      "visual_dimension": "Angular / monospaced",
+      "candidate_uses": [
+        "index",
+        "large-day"
+      ],
+      "suggested_scales": [
+        "week",
+        "day"
+      ],
+      "condition": "Candidate for mechanical rhythm; use this open Mono file, not commercial-collection promises.",
+      "source_file": "assets/fonts/numeral-study/azeret-mono/AzeretMono[wght].ttf",
+      "source_sha256": "f13962c26c1baa864aff7768364001f9bca6e506f41b9a3037c0d6a31e2ca736",
+      "license_file": "assets/fonts/numeral-study/azeret-mono/OFL.txt",
+      "license_sha256": "2a0fd31798d131b38a9fe730a260bc9a1d85452e36cdf79e5fcaf937bf4d9f86",
+      "coordinates": {
+        "wght": 400
+      },
+      "coordinate_label": "wght 400",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    },
+    {
+      "id": "profile-num-dseg",
+      "font_id": "font-dseg7-classic-regular",
+      "alias": "num-dseg",
+      "family": "DSEG7 Classic",
+      "visual_dimension": "Segment display",
+      "candidate_uses": [
+        "large-day",
+        "digital-display"
+      ],
+      "suggested_scales": [
+        "day"
+      ],
+      "condition": "Candidate for a deliberate segmented display; no ordinary body-text or date-separator coverage is assumed.",
+      "source_file": "assets/fonts/numeral-study/dseg7-classic/DSEG7Classic-Regular.ttf",
+      "source_sha256": "e3270928ced68082f32d3b62877a6741426116335ac0832919326341a8b5cfaf",
+      "license_file": "assets/fonts/numeral-study/dseg7-classic/OFL.txt",
+      "license_sha256": "c6ee0567859cb7cc8d992149bbd96ad359ef65fb7355f7feae0547555ffacd23",
+      "coordinates": {},
+      "coordinate_label": "Regular / static",
+      "shaping_context": {
+        "script": "Latn",
+        "language": "en",
+        "direction": "ltr"
+      },
+      "proof": "studies/numeral-atlas/numeral-families.svg",
+      "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+    }
+  ]
+}

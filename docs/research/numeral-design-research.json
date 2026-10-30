@@ -1,0 +1,367 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-30",
+  "scope": "Six new primary-source reading records for calendar numeral selection. No source illustrations mirrored; file measurements and proof renders belong to separate records.",
+  "sources": [
+    {
+      "id": "num-cldr-day-padding",
+      "title": "Unicode CLDR 49 / Date Field Symbol Table: d and dd",
+      "url": "https://www.unicode.org/reports/tr35/tr35-79/tr35-dates.html#Date_Field_Symbol_Table",
+      "source_type": "unicode-technical-standard",
+      "reading_locator": "UTS #35 Part 4, version 49 (2026-10-21), Date Field Symbol Table: day d/dd; adjacent month M/MM and week w/ww entries for context.",
+      "actual_reading": "Read the version/status header and the selected date-field rows. The day-of-month d entry uses minimum digits; dd specifies two digits with zero padding. Not a full reading of the entire CLDR document.",
+      "findings": [
+        "日号显示1或01是日期格式字段与补零的选择，不是等宽或比例数字的效果。",
+        "月份、日号和周号各有自己的字段语义；不能因为字面都是数字便互换。"
+      ],
+      "transfer_conditions": [
+        "配方分别保存原始日期、日号格式d/dd、字体实例和数字特性。",
+        "比较1 7 11与01 07 11时，标明改变的是输出内容格式；它不替代比例/等宽的字形对照。"
+      ],
+      "limitations": [
+        "字段定义不规定哪种日历更美，也不强制展示型周历补零。",
+        "这里只研究格式语义，不声称项目已实现CLDR各语言和全部日历系统。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "format",
+        "leading-zero"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "num-ot-zero",
+      "title": "OpenType registered feature zero / Slashed Zero",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/features_uz#tag-zero",
+      "source_type": "official-font-technology-specification",
+      "reading_locator": "Registered features u–z, Tag zero: Function, recommended implementation, application interface, UI suggestion and feature interaction.",
+      "actual_reading": "Read the complete zero section. It describes optional substitution of the lining zero, its use when 0 and O might mix, and its interaction with oldstyle figure features. Adjacent vertical features were not used as numeral-selection evidence.",
+      "findings": [
+        "斜线零是可选字形替代，回应0与大写O在混合标签中的辨识；不是必须用于所有日期的符号。",
+        "zero特性适用于等高数字，与旧式数字特性存在互斥；不能随意叠加所有功能。"
+      ],
+      "transfer_conditions": [
+        "在含字母的日期编码、索引或编号中，实际比较0/O；纯日号与完整日期另看，不把编程字体的全部偏好迁移过来。",
+        "记录默认零与可选zero的实际字形、字宽和塑形设置；未应用功能时只标默认形。"
+      ],
+      "limitations": [
+        "规范定义替代行为，不保证某个文件支持zero或其默认零一定无斜线。",
+        "特性标签存在、请求已发送与输出已发生替换需要分别验证。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "zero",
+        "disambiguation",
+        "OpenType"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "num-fraunces-design",
+      "title": "Undercase Type / Fraunces: SOFT, WONK and optical size",
+      "url": "https://fraunces.undercase.xyz/",
+      "source_type": "original-type-designer-explanation",
+      "reading_locator": "Meet Fraunces; Your friend, Fraunces; A Softie at Heart; Ask Me About My Optical Size Axis; Extra Wonk Included.",
+      "actual_reading": "Read the designer narrative and all four axis explanations in page text. Did not operate live controls or evaluate downloaded third-party specimen images.",
+      "findings": [
+        "设计者把Fraunces定位为有表现力的展示家族；SOFT改变墨感/对比，opsz还影响字距、x-height与对比。",
+        "WONK包含特定字母替换，不能仅因轴名或家族的‘Old Style’定位，就断言日号全部启用了旧式数字。"
+      ],
+      "transfer_conditions": [
+        "把它作为大日号与有表现力周历的一种候选，固定内容/字重比较实际轴坐标，再回目标尺寸。",
+        "分别核验数字形态、轴对实际数字的影响和可用数字特性；不要从字母样本推断日号变化。"
+      ],
+      "limitations": [
+        "作者关于友好、个性和历史风格的叙述是设计意图，不是本项目用户的审美偏好。",
+        "官网对小尺寸的说明不认证本次日历的打印/远读性能。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "expressive-serif",
+        "optical-size",
+        "axes"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "num-barlow-design",
+      "title": "Jeremy Tribby / Barlow official README",
+      "url": "https://github.com/jpt/barlow/blob/main/README.md",
+      "source_type": "original-type-designer-repository",
+      "reading_locator": "README opening family description and family width/weight paragraph; official project page was also checked for its redirect to Google Fonts/GitHub.",
+      "actual_reading": "Read the README opening paragraphs through the family-size/width discussion. The current author website is a short version-1.5 holding page; it was not treated as a full specimen or as proof of the retained file version.",
+      "findings": [
+        "Barlow的作者说明低对比、略圆和三种宽度，参考加州公共环境中的车牌、标识与交通视觉。",
+        "家族有多宽度，不意味着保存的单个Condensed文件具有可调wdth轴；作者整体用途也不等于每个日历场景已验证。"
+      ],
+      "transfer_conditions": [
+        "当全年/月度网格或较长日期标签空间有限时，把真实窄体作为一条候选，与常宽字体对照。",
+        "记录宽度分支与实际文件，观察1/7、0/8、31和小尺寸间隙，避免在网页中机械压扁常宽字形。"
+      ],
+      "limitations": [
+        "交通参考不能自动证明适合远看日历，也不为项目设定‘标识字体更清楚’的通用结论。",
+        "README宣传的整个家族范围不能替代当前保留文件的轴/覆盖/字宽测量。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "condensed",
+        "low-contrast",
+        "width"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "num-azeret-mono-design",
+      "title": "Displaay / Azeret open monospaced sub-family README",
+      "url": "https://github.com/displaay/Azeret/blob/main/README.md",
+      "source_type": "original-type-designer-repository",
+      "reading_locator": "Azeret family description, open monospaced sub-family sentence, designers/license and FONTLOG language-range scope.",
+      "actual_reading": "Read the official open-repository text and cross-checked Google Fonts' Azeret Mono description. The present paid Azeret Collection page was inspected only to distinguish its larger family/axes/features from the retained open Mono asset; no commercial font imported.",
+      "findings": [
+        "开放Mono子家族来自对OCR、操作系统和界面的探索，具有低笔画对比及作者描述的特定连接细节。",
+        "同一品牌名下有开放Mono与更广的家族集合，不能把付费集合页面的轴和功能数量写到某个开放文件上。"
+      ],
+      "transfer_conditions": [
+        "用于编目、索引或有明确机械节奏的日号候选时，与Plex Mono等比较真实0/1/7和两位数字的宽度。",
+        "等宽家族不自动获得更好的书籍气质或阅读性能；以实际字形、单元宽度与主题关系选择。"
+      ],
+      "limitations": [
+        "OCR起源是设计参考，不表示通过OCR识别率或人类阅读实验。",
+        "语言覆盖与特性以具体保留文件为准；README的整个家族说明不等于逐文件认证。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "monospaced",
+        "index",
+        "file-scope"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "num-dseg-semantics",
+      "title": "Keshikan / DSEG usage and character specifications",
+      "url": "https://www.keshikan.net/fonts-e.html",
+      "source_type": "original-type-designer-specification",
+      "reading_locator": "Overview; 3.2 colon; 3.3 period; 3.4 all-off/all-on; 3.5 character codes (DSEG7/14 versus DSEGWeather); license/version notes.",
+      "actual_reading": "Read the specified body text and character-code tables. No clock demo was operated and no DSEG source image was copied. The font license itself is retained and checked separately by the asset workflow.",
+      "findings": [
+        "DSEG模拟7/14段显示器；DSEGWeather把数字码位0–9映射为天气图标，字符覆盖不能证明语义正确。",
+        "作者规定冒号与空格等宽，句点advance为零，并赋予部分ASCII符号全开/全关的显示意义。",
+        "数码显示的字形与标点行为是专门设计，不能当作完整正文或任意日期标点字体。"
+      ],
+      "transfer_conditions": [
+        "把DSEG7用于明确的数码日号、倒计时或器物主题时，单独设置数字角色，星期与书名另配文字字体。",
+        "使用指定DSEG7 Classic文件，验证0–9和冒号/句点/连字符的实际语义与边界；完整日期可能需要拆分字体角色。"
+      ],
+      "limitations": [
+        "数码风格是一条条件候选，不用于推断所有日历都需要像时钟；纯文字查读与小尺寸效果另验。",
+        "不能仅因DSEGWeather的cmap含数字就作为日号，也不按DSEG整个家族名推定某文件拥有全部符号。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "segmented",
+        "semantic-coverage",
+        "punctuation"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "num-css-numeric",
+      "title": "CSS Fonts 4: numerical formatting",
+      "url": "https://www.w3.org/TR/2026/WD-css-fonts-4-20261022/#font-variant-numeric-prop",
+      "source_type": "W3C Working Draft",
+      "reading_locator": "Status of this document; section6.7 numeric grammar, values and examples; CSS-to-OpenType feature mapping.",
+      "actual_reading": "Read the draft status, numerical-formatting body, allowed figure/spacing combinations and mapping to lnum/onum/pnum/tnum/zero; not the full specification or browser implementation tests.",
+      "findings": [
+        "数字高度形式与宽度形式可组合，CSS为具体元素请求相应字体特性。",
+        "选择日号角色可以沿用家族并设置数字样式，不必为此增加一个字体家族。"
+      ],
+      "transfer_conditions": [
+        "使用font-variant-numeric描述预期，另查实际文件与最终输出；日期角色可以与星期分别设置。"
+      ],
+      "limitations": [
+        "2026-10-22版本为Working Draft，不称已获W3C背书的定稿。",
+        "规范说明不证明字体包含功能、浏览器已启用或输出已经符合；本轮HarfBuzz SVG不是浏览器测试。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "font-features"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    }
+  ],
+  "reused_existing_source_ids": [
+    "font-pairing",
+    "font-numerals",
+    "font-optical-size",
+    "font-butterick-mixing",
+    "latin-ot-figure-widths",
+    "latin-ot-figure-forms",
+    "latin-ot-optical-axis"
+  ],
+  "additional_source_owned_by_root": "num-css-numeric",
+  "non_claims": [
+    "No universal aesthetic ranking of serif, sans, mono, condensed, slab or segmented designs.",
+    "No assumption that calendar numerals require a separate font family or a digits-only file.",
+    "No source illustrations, user calendar samples or private feedback were imported into these public reading records."
+  ],
+  "proposed_design_elements": [
+    {
+      "id": "num-role-and-family",
+      "role": "numeral-selection",
+      "condition": "需要明确日号的展示/查读任务，但可能把单独角色误写成必须另用家族。",
+      "choices": [
+        "同一家族中单独选择数字样式、字重和轴值。",
+        "有明确的形态或覆盖理由时为日号另配家族，再校准星期/月名。"
+      ],
+      "tradeoff": "同族可能过于同调；另配可能引入竞争或不协调。",
+      "counterexample": "机械规定日号必须无衬线，或每个文字角色都必须有不同字体。",
+      "reference_ids": [
+        "num-css-numeric",
+        "font-pairing",
+        "font-butterick-mixing"
+      ],
+      "status": "proposed-source-informed-not-user-validated"
+    },
+    {
+      "id": "num-format-and-zero",
+      "role": "numeral-format",
+      "condition": "1/01、0/O或编码标签混合引起视觉或语义问题。",
+      "choices": [
+        "先固定d/dd输出内容，再对比实际数字字形。",
+        "在确有辨识需求且字体支持时检查zero替代；纯日号可以保留普通零。"
+      ],
+      "tradeoff": "补零改变视觉密度与词形，斜线零也会改变风格和数字对比。",
+      "counterexample": "用tnum‘实现’前导零，或为了专业感无条件打开zero。",
+      "reference_ids": [
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "latin-ot-figure-widths"
+      ],
+      "status": "proposed-source-informed-not-user-validated"
+    },
+    {
+      "id": "num-width-and-space",
+      "role": "numeral-width",
+      "condition": "数字占位、对齐和内部空白需要协调，尤其1与8的实际字面不同。",
+      "choices": [
+        "把advance、侧边空白和数字墨迹分别记录。",
+        "比例/等宽与等高/旧式分开；宽松七日单元可由锚点定位，密集表格另查行列。"
+      ],
+      "tradeoff": "等宽有利占位稳定，但窄数字周围可能留下较大空白；比例宽不自动破坏单元定位。",
+      "counterexample": "认为所有等高数字都等宽，或将墨迹框等宽当成字体advance等宽。",
+      "reference_ids": [
+        "latin-ot-figure-widths",
+        "latin-ot-figure-forms",
+        "font-numerals",
+        "num-dseg-semantics"
+      ],
+      "status": "proposed-source-informed-not-user-validated"
+    },
+    {
+      "id": "num-scale-and-form",
+      "role": "numeral-display",
+      "condition": "同一候选需跨大日号、周/月查读与全年密集网格。",
+      "choices": [
+        "固定内容并分开比较em尺度、墨迹高度、字宽、字重与实际opsz。",
+        "允许表现衬线、slab、低对比窄体或等宽等不同路线，回到目标尺寸和距离。"
+      ],
+      "tradeoff": "展示形态可能强化主题，也可能在缩小后增加误读或拥挤；窄体能省空间但不等于可读性更高。",
+      "counterexample": "把Fraunces的Old Style家族名等同onum，或把窄体当成横向压缩常宽字形。",
+      "reference_ids": [
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "font-optical-size"
+      ],
+      "status": "proposed-source-informed-not-user-validated"
+    },
+    {
+      "id": "num-symbol-semantics",
+      "role": "numeral-coverage",
+      "condition": "专用显示字体可能把常见码位赋予不同意义，或缺少日期所需标点。",
+      "choices": [
+        "验证0–9和分隔符实际图形/advance，不只做cmap存在检查。",
+        "专用数字与完整日期/星期分配独立但协调的字体角色。"
+      ],
+      "tradeoff": "分配多个字体增加角色控制，也增加基线、字重与间距协调的工作。",
+      "counterexample": "将DSEGWeather的数字码位当作日号，或用零宽句点参与普通字符串布局却不验结果。",
+      "reference_ids": [
+        "num-dseg-semantics",
+        "num-ot-zero",
+        "num-cldr-day-padding"
+      ],
+      "status": "proposed-source-informed-not-user-validated"
+    }
+  ]
+}

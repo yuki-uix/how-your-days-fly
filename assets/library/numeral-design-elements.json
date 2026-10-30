@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "assets": [
+    {
+      "id": "num-role-and-family",
+      "role": "numeral-selection",
+      "condition": "需要明确日号的展示/查读任务，但可能把单独角色误写成必须另用家族。",
+      "choices": [
+        "同一家族中单独选择数字样式、字重和轴值。",
+        "有明确的形态或覆盖理由时为日号另配家族，再校准星期/月名。"
+      ],
+      "tradeoff": "同族可能过于同调；另配可能引入竞争或不协调。",
+      "counterexample": "机械规定日号必须无衬线，或每个文字角色都必须有不同字体。",
+      "reference_ids": [
+        "num-css-numeric",
+        "font-pairing",
+        "font-butterick-mixing"
+      ],
+      "status": "source-informed-conditional-method",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "numeral-selection"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified",
+      "rights_status": "project-original-analysis-and-study",
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-source-sans-3-vf",
+        "font-dseg7-classic-regular"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/numeral-atlas/numeral-features.svg",
+          "scope": "Actual feature and content studies; not a selected template."
+        },
+        {
+          "path": "studies/numeral-atlas/numeral-contexts.svg",
+          "scope": "Four contextual typography proposals, not a controlled causal experiment."
+        }
+      ],
+      "evidence_status": "source-informed transfer hypothesis; user preference not established",
+      "title": "数字角色与配字",
+      "title_zh": "数字角色与配字"
+    },
+    {
+      "id": "num-format-and-zero",
+      "role": "numeral-format",
+      "condition": "1/01、0/O或编码标签混合引起视觉或语义问题。",
+      "choices": [
+        "先固定d/dd输出内容，再对比实际数字字形。",
+        "在确有辨识需求且字体支持时检查zero替代；纯日号可以保留普通零。"
+      ],
+      "tradeoff": "补零改变视觉密度与词形，斜线零也会改变风格和数字对比。",
+      "counterexample": "用tnum‘实现’前导零，或为了专业感无条件打开zero。",
+      "reference_ids": [
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "latin-ot-figure-widths"
+      ],
+      "status": "source-informed-conditional-method",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "numeral-format"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified",
+      "rights_status": "project-original-analysis-and-study",
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-source-sans-3-vf",
+        "font-dseg7-classic-regular"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/numeral-atlas/numeral-features.svg",
+          "scope": "Actual feature and content studies; not a selected template."
+        },
+        {
+          "path": "studies/numeral-atlas/numeral-contexts.svg",
+          "scope": "Four contextual typography proposals, not a controlled causal experiment."
+        }
+      ],
+      "evidence_status": "source-informed transfer hypothesis; user preference not established",
+      "title": "日号格式与零的字形",
+      "title_zh": "日号格式与零的字形"
+    },
+    {
+      "id": "num-symbol-semantics",
+      "role": "numeral-coverage",
+      "condition": "专用显示字体可能把常见码位赋予不同意义，或缺少日期所需标点。",
+      "choices": [
+        "验证0–9和分隔符实际图形/advance，不只做cmap存在检查。",
+        "专用数字与完整日期/星期分配独立但协调的字体角色。"
+      ],
+      "tradeoff": "分配多个字体增加角色控制，也增加基线、字重与间距协调的工作。",
+      "counterexample": "将DSEGWeather的数字码位当作日号，或用零宽句点参与普通字符串布局却不验结果。",
+      "reference_ids": [
+        "num-dseg-semantics",
+        "num-ot-zero",
+        "num-cldr-day-padding"
+      ],
+      "status": "source-informed-conditional-method",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "numeral-coverage"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified",
+      "rights_status": "project-original-analysis-and-study",
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-source-sans-3-vf",
+        "font-dseg7-classic-regular"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/numeral-atlas/numeral-features.svg",
+          "scope": "Actual feature and content studies; not a selected template."
+        },
+        {
+          "path": "studies/numeral-atlas/numeral-contexts.svg",
+          "scope": "Four contextual typography proposals, not a controlled causal experiment."
+        }
+      ],
+      "evidence_status": "source-informed transfer hypothesis; user preference not established",
+      "title": "数字与标点的语义覆盖",
+      "title_zh": "数字与标点的语义覆盖"
+    }
+  ]
+}

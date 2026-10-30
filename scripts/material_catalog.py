@@ -13,6 +13,7 @@ TYPE_RESEARCH_FILES = [
     'docs/research/cjk-typography.json','docs/research/font-selection.json',
     'docs/research/layout-aesthetics.json','docs/research/type-rendering-boundaries.json',
     'docs/research/latin-type-research.json','docs/research/latin-calendar-reading.json',
+    'docs/research/numeral-design-research.json',
 ]
 
 
@@ -38,7 +39,7 @@ def build_catalog():
             'usage_notes':'Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.',
             'source_record':'assets/fonts/provenance.json',
         })
-    for path in ['assets/fonts/type-study/manifest.json','assets/fonts/latin-study/manifest.json']:
+    for path in ['assets/fonts/type-study/manifest.json','assets/fonts/latin-study/manifest.json','assets/fonts/numeral-study/manifest.json']:
         for a in load(path)['assets']:
             items.append({**a,'domains':['typography']})
     items.append({
@@ -68,6 +69,12 @@ def build_catalog():
                           'source_record':path,'ready':False,'distribution_status':'research-only','local_asset':None})
     items.extend(load('assets/library/type-layout-elements.json')['assets'])
     items.extend(load('assets/library/latin-type-elements.json')['assets'])
+    items.extend(load('assets/library/numeral-design-elements.json')['assets'])
+    numeric={p['font_id']:p for p in load('assets/fonts/numeral-study/profiles.json')['profiles']}
+    for a in items:
+        if a['kind']=='font' and a['id'] in numeric:
+            a['numeral_profile']=numeric[a['id']]
+            a['tags']=list(dict.fromkeys(a.get('tags',[])+['numeral','date-type']))
     for a in items:
         a.setdefault('domains',['typography'] if a['kind']=='font' else [])
     groups={scale:{
@@ -92,11 +99,14 @@ def build_catalog():
             'docs/research/annual-monthly-materials.json','docs/research/weekly-daily-materials.json',
             'assets/fonts/type-study/manifest.json','assets/library/type-layout-elements.json',
             'assets/fonts/latin-study/manifest.json','assets/library/latin-type-elements.json',
+            'assets/fonts/numeral-study/manifest.json','assets/fonts/numeral-study/profiles.json',
+            'assets/library/numeral-design-elements.json','docs/research/numeral-feature-audit.json',
+            'studies/numeral-atlas/manifest.json',
         ]+TYPE_RESEARCH_FILES,
     }
 
 
-def select(catalog, scale=None, kind=None, tag=None, ready_only=False, shareable_only=False, domain=None, role=None, query=None):
+def select(catalog, scale=None, kind=None, tag=None, ready_only=False, shareable_only=False, domain=None, role=None, query=None, numeral_use=None):
     found=catalog['items']
     if scale: found=[a for a in found if scale in a['scales']]
     if kind: found=[a for a in found if a['kind']==kind]
@@ -106,6 +116,7 @@ def select(catalog, scale=None, kind=None, tag=None, ready_only=False, shareable
     if domain: found=[a for a in found if domain in a.get('domains',[])]
     if role: found=[a for a in found if role==a.get('role')]
     if query: found=[a for a in found if query.casefold() in json.dumps(a,ensure_ascii=False).casefold()]
+    if numeral_use: found=[a for a in found if numeral_use in a.get('numeral_profile',{}).get('candidate_uses',[])]
     return found
 
 
@@ -118,6 +129,7 @@ def main(argv=None):
     p.add_argument('--domain',help='For example typography or layout; combines with scale and rights filters.')
     p.add_argument('--role',help='For example font-pairing, numerals, grid or spacing.')
     p.add_argument('--query',help='Literal keyword search over retained metadata; not semantic search.')
+    p.add_argument('--numeral-use',help='Narrow date-font candidates by a recorded proposed use, for example dense-grid or large-day.')
     p.add_argument('--ready-only',action='store_true')
     p.add_argument('--shareable-only',action='store_true',help='Only assets with recorded CC0/OFL scope; retain conditions.')
     p.add_argument('--json',action='store_true')
@@ -127,7 +139,7 @@ def main(argv=None):
         CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
     else:
         catalog=json.loads(CATALOG.read_text())
-    found=select(catalog,args.scale,args.kind,args.tag,args.ready_only,args.shareable_only,args.domain,args.role,args.query)
+    found=select(catalog,args.scale,args.kind,args.tag,args.ready_only,args.shareable_only,args.domain,args.role,args.query,args.numeral_use)
     if args.json:
         print(json.dumps(found,ensure_ascii=False,indent=2))
     else:

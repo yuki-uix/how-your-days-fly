@@ -35,7 +35,8 @@ def prepare(out_dir=ROOT/'tmp/type-layout-fonts'):
         for weight in ([400,600] if serif else [400,500]):
             key=('serif' if serif else 'sans')+str(weight)
             target=out_dir/(key+'.ttf')
-            source=TTFont(ROOT/original['path'],recalcTimestamp=False)
+            # Preserve byte replay regardless of optional HarfBuzz installation.
+            source=TTFont(ROOT/original['path'],recalcTimestamp=False,cfg={'fontTools.ttLib.tables.otBase:USE_HARFBUZZ_REPACKER':False})
             work=instantiateVariableFont(source,{'wght':weight},inplace=True,optimize=True)
             style={400:'Regular',500:'Medium',600:'SemiBold'}[weight]
             ps=family.replace(' ','')+'-'+style

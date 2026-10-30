@@ -2,3 +2,4 @@
 assets/fonts/*/OFL.txt -text -whitespace
 assets/fonts/type-study/*/OFL.txt -text -whitespace
 assets/fonts/latin-study/*/OFL.txt -text -whitespace
+assets/fonts/numeral-study/*/OFL.txt -text -whitespace

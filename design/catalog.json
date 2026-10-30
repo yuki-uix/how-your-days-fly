@@ -638,6 +638,11 @@
         "font-source-sans-3-vf",
         "font-inter-vf",
         "font-space-grotesk-vf",
+        "font-fraunces-vf",
+        "font-zilla-slab-regular",
+        "font-barlow-condensed-regular",
+        "font-azeret-mono-vf",
+        "font-dseg7-classic-regular",
         "paper-light-j4",
         "ref-y-01",
         "ref-y-02",
@@ -683,6 +688,13 @@
         "latin-ot-optical-axis",
         "latin-adobe-spacing",
         "latin-apple-size-tracking",
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "num-dseg-semantics",
+        "num-css-numeric",
         "type-role-first",
         "type-role-pairing",
         "type-size-context",
@@ -697,7 +709,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ],
       "primary_component_ids": [
         "y-ribbon",
@@ -720,7 +735,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ],
       "material_relation": "Candidates for a new design or adaptation, not a claim of use in retained studies."
     },
@@ -775,6 +793,11 @@
         "font-source-sans-3-vf",
         "font-inter-vf",
         "font-space-grotesk-vf",
+        "font-fraunces-vf",
+        "font-zilla-slab-regular",
+        "font-barlow-condensed-regular",
+        "font-azeret-mono-vf",
+        "font-dseg7-classic-regular",
         "paper-light-j4",
         "ref-m-01",
         "ref-m-02",
@@ -825,6 +848,13 @@
         "latin-ot-optical-axis",
         "latin-adobe-spacing",
         "latin-apple-size-tracking",
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "num-dseg-semantics",
+        "num-css-numeric",
         "type-role-first",
         "type-role-pairing",
         "type-size-context",
@@ -839,7 +869,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ],
       "primary_component_ids": [
         "m-mat",
@@ -862,7 +895,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ],
       "material_relation": "Candidates for a new design or adaptation, not a claim of use in retained studies."
     },
@@ -909,6 +945,11 @@
         "font-source-sans-3-vf",
         "font-inter-vf",
         "font-space-grotesk-vf",
+        "font-fraunces-vf",
+        "font-zilla-slab-regular",
+        "font-barlow-condensed-regular",
+        "font-azeret-mono-vf",
+        "font-dseg7-classic-regular",
         "paper-light-j4",
         "weekly-hobonichi-24h",
         "weekly-travelers-open-memo",
@@ -959,6 +1000,13 @@
         "latin-ot-optical-axis",
         "latin-adobe-spacing",
         "latin-apple-size-tracking",
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "num-dseg-semantics",
+        "num-css-numeric",
         "type-role-first",
         "type-role-pairing",
         "type-size-context",
@@ -973,7 +1021,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ],
       "primary_component_ids": [
         "w-hours",
@@ -996,7 +1047,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ],
       "material_relation": "Candidates for a new design or adaptation, not a claim of use in retained studies."
     },
@@ -1048,6 +1102,11 @@
         "font-source-sans-3-vf",
         "font-inter-vf",
         "font-space-grotesk-vf",
+        "font-fraunces-vf",
+        "font-zilla-slab-regular",
+        "font-barlow-condensed-regular",
+        "font-azeret-mono-vf",
+        "font-dseg7-classic-regular",
         "paper-light-j4",
         "daily-mack-art-sequence",
         "daily-chronicle-same-date-years",
@@ -1096,6 +1155,13 @@
         "latin-ot-optical-axis",
         "latin-adobe-spacing",
         "latin-apple-size-tracking",
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "num-dseg-semantics",
+        "num-css-numeric",
         "type-role-first",
         "type-role-pairing",
         "type-size-context",
@@ -1110,7 +1176,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ],
       "primary_component_ids": [
         "d-number",
@@ -1133,7 +1202,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ],
       "material_relation": "Candidates for a new design or adaptation, not a claim of use in retained studies."
     }
@@ -1206,10 +1278,10 @@
   "source_hashes": {
     ".agents/skills/calendar-design-lab/references/patterns.md": "718ce5bbe508f4dc4b82f04407de4fabde21004191611ff8cc31deb064348bfe",
     ".agents/skills/calendar-design-lab/references/design-language.md": "fb75b9021cff47a2d4bd08e79127fa247fc2ea2bf54b6bc9708ec4634a19b8a4",
-    ".agents/skills/calendar-design-lab/references/learning-guide.md": "88056514d0f695c576b072a6f16da5861cba102a5d2b1ca7f110fcaa2797f4a3",
+    ".agents/skills/calendar-design-lab/references/learning-guide.md": "03a8e623291cfb401d09ffa17711bde2968466afb14844d2fc5876e5585309b5",
     ".agents/skills/calendar-design-lab/references/temporal-semantics.md": "8b07a84d010443325bb220d30badd35ebd0f39cd97018f7a546063d0f34787b7",
-    ".agents/skills/calendar-design-lab/references/typographic-composition.md": "a5cb65b3945361293911263816388e33747b1721d3974e6ed815fe5020b2bb23",
-    ".agents/skills/calendar-design-lab/SKILL.md": "de9113160cc26402a6bd488211543c9ca924068564f91c88561c126473b2d361",
+    ".agents/skills/calendar-design-lab/references/typographic-composition.md": "38083fd97ae31e594e564943573a25f6e987b8e1bce8a334ee9a12c3c4bedcec",
+    ".agents/skills/calendar-design-lab/SKILL.md": "13a5bb9f9b0880546bfb92d8bfc65e3af82ebe9afb19f2a8ff4d6ca7c0183704",
     ".agents/skills/calendar-design-lab/references/discovery.md": "ece9ffe20306db656d9ca4e1b8a048661ddcd0d79cea5119d5870bee4097a486",
     ".agents/skills/calendar-design-lab/references/design-exploration.md": "367d8cffc2af93a654e1658343f60a216e76967a8d4db3a54af78e5ec0e57091",
     ".agents/skills/calendar-design-lab/references/case-record.md": "141a68a9d1c588eb8aaa0f3b836299b7d352638dee7276452161eed21ec9058f",
@@ -1217,7 +1289,7 @@
     ".agents/skills/calendar-design-lab/references/recipe.md": "43c10b4aafaf44daf0794af933e13eea6eecfa390c8bd7e1f2d2965d91889f19",
     "studies/pattern-atlas/manifest.json": "091564accb8e3e3c6dd22cf90a296c28f9bba553a10996ae86e35fbcd52c1723",
     "studies/learned-language/manifest.json": "b09b7be88c62970cbe2580f6b9c398f617e60d2eb32e6524fc59212751eb3feb",
-    "assets/library/catalog.json": "35f30e34439e9a322d515272460a07e97157527c0c71923144408dbd58807ff5",
+    "assets/library/catalog.json": "b3afbe78b725d7d2cc2dbf02b0395d3c910a9a24f0c1648951f5cca34895ea96",
     "assets/library/components/manifest.json": "ced9ae8015dadf3b16b735cc82f951f3317fd158268213a891c74198e4bc2fa1",
     "assets/library/open-images/manifest.json": "a354b2a972b28f674f6b3d6dbce93f41f21a7d74caa68ebeedd7c86db1f66b03",
     "assets/fonts/provenance.json": "25a10a0f04100250a6797fe185e1018290b035e6aaf624a6d56881557dec51c6",
@@ -1228,12 +1300,18 @@
     "assets/library/type-layout-elements.json": "e13cfc5dfa7ad14b816151d90e1e7dc79966e84a7dd229aff231c0204b9bc399",
     "assets/fonts/latin-study/manifest.json": "7c84294c2bdc6adb4ed3cd194f40e5ce4385e0ffd670b60d5939ecfcc3dc2a65",
     "assets/library/latin-type-elements.json": "c67fd622d266df5e44b7bfafc02e74666b2cca275387196b8a0b8ba4a2e6754d",
+    "assets/fonts/numeral-study/manifest.json": "dc92655da710de88f71d31b63d8cfeaba673bfe6e2160c686b5fd0399fe5e47e",
+    "assets/fonts/numeral-study/profiles.json": "49cc9ff75d20cd12826de20bb1fdb467ef1c442769a301b25f4f57487471f7b1",
+    "assets/library/numeral-design-elements.json": "2ff4d10b13a991e4398ccc2c97aeee98f67a0625ee80d4f4a2b8d93332bd1c48",
+    "docs/research/numeral-feature-audit.json": "5429b0f047eb909ba6dd4db20bfb57e87e86a6120c4526c1ed3c8614578245e0",
+    "studies/numeral-atlas/manifest.json": "af196b434044b6014397d8f0fd177b16f1f3660fd0dd4bfaf0cad2c84e5bcd87",
     "docs/research/cjk-typography.json": "b3ff2fe46eeecaa87f6f4381d7b7fb541496450720b2fa9092dad6b4c33b5137",
     "docs/research/font-selection.json": "09e2652cb3f5b8be8387d4b6d6a1fd57ce01faf482883958d4484c966eba095c",
     "docs/research/layout-aesthetics.json": "bd25a853ec272d350eb869e47840a1e7b6747f25488ea4cb2743a8f7da8393aa",
     "docs/research/type-rendering-boundaries.json": "49b5a71386d1acbec647ca88054992734de1ebad359c5ad5d1a5bcfd099ada9a",
     "docs/research/latin-type-research.json": "8b578335dc333dbf64362b90cde4c696354312b84f3bc57a3bb92b654df6dbd3",
-    "docs/research/latin-calendar-reading.json": "be3706ccb2592cef0145662205395d3ffe3ac2b02280a4d6dcf2ea36edbc059e"
+    "docs/research/latin-calendar-reading.json": "be3706ccb2592cef0145662205395d3ffe3ac2b02280a4d6dcf2ea36edbc059e",
+    "docs/research/numeral-design-research.json": "4fd3bc0ae1c682158c9b11fa8faa8be6e7adef94a9b8361042b56bd3374af229"
   },
   "builder_sha256": "5940db300183a3713d355310a38784e3f7ec07dfb429776630802503e1d86f98"
 }

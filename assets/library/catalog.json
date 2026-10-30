@@ -60,7 +60,14 @@
         "latin-ot-italic-axis",
         "latin-ot-optical-axis",
         "latin-adobe-spacing",
-        "latin-apple-size-tracking"
+        "latin-apple-size-tracking",
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "num-dseg-semantics",
+        "num-css-numeric"
       ],
       "font_families": [
         "font-instrumentserif",
@@ -73,7 +80,12 @@
         "font-bodoni-moda-vf",
         "font-source-sans-3-vf",
         "font-inter-vf",
-        "font-space-grotesk-vf"
+        "font-space-grotesk-vf",
+        "font-fraunces-vf",
+        "font-zilla-slab-regular",
+        "font-barlow-condensed-regular",
+        "font-azeret-mono-vf",
+        "font-dseg7-classic-regular"
       ],
       "proposals": [],
       "design_elements": [
@@ -91,7 +103,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ]
     },
     "month": {
@@ -158,7 +173,14 @@
         "latin-ot-italic-axis",
         "latin-ot-optical-axis",
         "latin-adobe-spacing",
-        "latin-apple-size-tracking"
+        "latin-apple-size-tracking",
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "num-dseg-semantics",
+        "num-css-numeric"
       ],
       "font_families": [
         "font-instrumentserif",
@@ -171,7 +193,12 @@
         "font-bodoni-moda-vf",
         "font-source-sans-3-vf",
         "font-inter-vf",
-        "font-space-grotesk-vf"
+        "font-space-grotesk-vf",
+        "font-fraunces-vf",
+        "font-zilla-slab-regular",
+        "font-barlow-condensed-regular",
+        "font-azeret-mono-vf",
+        "font-dseg7-classic-regular"
       ],
       "proposals": [
         "proposal-week-habit-strip",
@@ -193,7 +220,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ]
     },
     "week": {
@@ -256,7 +286,14 @@
         "latin-ot-italic-axis",
         "latin-ot-optical-axis",
         "latin-adobe-spacing",
-        "latin-apple-size-tracking"
+        "latin-apple-size-tracking",
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "num-dseg-semantics",
+        "num-css-numeric"
       ],
       "font_families": [
         "font-instrumentserif",
@@ -269,7 +306,12 @@
         "font-bodoni-moda-vf",
         "font-source-sans-3-vf",
         "font-inter-vf",
-        "font-space-grotesk-vf"
+        "font-space-grotesk-vf",
+        "font-fraunces-vf",
+        "font-zilla-slab-regular",
+        "font-barlow-condensed-regular",
+        "font-azeret-mono-vf",
+        "font-dseg7-classic-regular"
       ],
       "proposals": [
         "proposal-week-habit-strip",
@@ -292,7 +334,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ]
     },
     "day": {
@@ -358,7 +403,14 @@
         "latin-ot-italic-axis",
         "latin-ot-optical-axis",
         "latin-adobe-spacing",
-        "latin-apple-size-tracking"
+        "latin-apple-size-tracking",
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "num-fraunces-design",
+        "num-barlow-design",
+        "num-azeret-mono-design",
+        "num-dseg-semantics",
+        "num-css-numeric"
       ],
       "font_families": [
         "font-instrumentserif",
@@ -371,7 +423,12 @@
         "font-bodoni-moda-vf",
         "font-source-sans-3-vf",
         "font-inter-vf",
-        "font-space-grotesk-vf"
+        "font-space-grotesk-vf",
+        "font-fraunces-vf",
+        "font-zilla-slab-regular",
+        "font-barlow-condensed-regular",
+        "font-azeret-mono-vf",
+        "font-dseg7-classic-regular"
       ],
       "proposals": [
         "proposal-day-one-observation",
@@ -392,7 +449,10 @@
         "type-latin-italic",
         "type-latin-optical",
         "type-latin-spacing",
-        "type-latin-calendar-roles"
+        "type-latin-calendar-roles",
+        "num-role-and-family",
+        "num-format-and-zero",
+        "num-symbol-semantics"
       ]
     }
   },
@@ -4152,7 +4212,8 @@
         "numeral",
         "latin",
         "english",
-        "instrumentserif"
+        "instrumentserif",
+        "date-type"
       ],
       "local_files": [
         {
@@ -4179,6 +4240,34 @@
       "ready": true,
       "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
       "source_record": "assets/fonts/provenance.json",
+      "numeral_profile": {
+        "id": "profile-num-instrument",
+        "font_id": "font-instrumentserif",
+        "alias": "num-instrument",
+        "family": "Instrument Serif",
+        "visual_dimension": "Condensed display serif",
+        "candidate_uses": [
+          "large-day"
+        ],
+        "suggested_scales": [
+          "day",
+          "week"
+        ],
+        "condition": "Display candidate; do not extrapolate a large numeral to a dense small grid.",
+        "source_file": "assets/fonts/instrumentserif/InstrumentSerif-Regular.ttf",
+        "source_sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+        "license_file": "assets/fonts/instrumentserif/OFL.txt",
+        "license_sha256": "129ed7618959716959f2941fdd5b49e0ad6e6c1d78726761786a00253d865521",
+        "coordinates": {},
+        "coordinate_label": "Regular / static",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      },
       "domains": [
         "typography"
       ]
@@ -4199,7 +4288,8 @@
         "numeral",
         "latin",
         "english",
-        "ibmplexmono"
+        "ibmplexmono",
+        "date-type"
       ],
       "local_files": [
         {
@@ -4226,6 +4316,37 @@
       "ready": true,
       "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
       "source_record": "assets/fonts/provenance.json",
+      "numeral_profile": {
+        "id": "profile-num-plex-mono",
+        "font_id": "font-ibmplexmono",
+        "alias": "num-plex-mono",
+        "family": "IBM Plex Mono",
+        "visual_dimension": "Monospaced / index",
+        "candidate_uses": [
+          "index",
+          "dense-grid"
+        ],
+        "suggested_scales": [
+          "year",
+          "month",
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for a deliberate fixed-width rhythm, not a default requirement for all dates.",
+        "source_file": "assets/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+        "source_sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+        "license_file": "assets/fonts/ibmplexmono/OFL.txt",
+        "license_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "coordinates": {},
+        "coordinate_label": "Regular / static",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      },
       "domains": [
         "typography"
       ]
@@ -4246,7 +4367,8 @@
         "numeral",
         "latin",
         "english",
-        "ibmplexsanscondensed"
+        "ibmplexsanscondensed",
+        "date-type"
       ],
       "local_files": [
         {
@@ -4279,6 +4401,34 @@
       "ready": true,
       "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
       "source_record": "assets/fonts/provenance.json",
+      "numeral_profile": {
+        "id": "profile-num-plex-condensed",
+        "font_id": "font-ibmplexsanscondensed",
+        "alias": "num-plex-condensed",
+        "family": "IBM Plex Sans Condensed",
+        "visual_dimension": "Condensed sans",
+        "candidate_uses": [
+          "dense-grid"
+        ],
+        "suggested_scales": [
+          "year",
+          "month"
+        ],
+        "condition": "Candidate when width is constrained; use actual condensed outlines, not horizontal scaling.",
+        "source_file": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+        "source_sha256": "e7437c072eef2ef592ae6f2beb0000446287385907abb57ac1cf07bcbaa2aa33",
+        "license_file": "assets/fonts/ibmplexsanscondensed/OFL.txt",
+        "license_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+        "coordinates": {},
+        "coordinate_label": "Regular / static",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      },
       "domains": [
         "typography"
       ]
@@ -4301,7 +4451,8 @@
         "serif",
         "variable",
         "weight",
-        "numeral"
+        "numeral",
+        "date-type"
       ],
       "ready": true,
       "rights_status": "OFL-1.1",
@@ -4411,7 +4562,40 @@
       "usage_notes": "Original unmodified variable TrueType file retained. Choose and record wght explicitly; its default is not 400. No opsz axis exists in this file. For export, retain an actual supported instance or outline the selected glyphs and preserve editable source. A full CJK typesetting/shaping system is not established by this asset.",
       "domains": [
         "typography"
-      ]
+      ],
+      "numeral_profile": {
+        "id": "profile-num-noto-serif",
+        "font_id": "font-noto-serif-sc-vf",
+        "alias": "num-noto-serif",
+        "family": "Noto Serif SC",
+        "visual_dimension": "CJK family / Latin figures",
+        "candidate_uses": [
+          "mixed-script",
+          "book-pairing"
+        ],
+        "suggested_scales": [
+          "year",
+          "month",
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for a shared CJK family; Latn/en and Latn/zh-Hans numeric defaults differ in this file.",
+        "source_file": "assets/fonts/type-study/noto-serif-sc/NotoSerifSC-VF.ttf",
+        "source_sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+        "license_file": "assets/fonts/type-study/noto-serif-sc/OFL.txt",
+        "license_sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+        "coordinates": {
+          "wght": 400
+        },
+        "coordinate_label": "wght 400",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
     },
     {
       "id": "font-noto-sans-sc-vf",
@@ -4431,7 +4615,8 @@
         "sans",
         "variable",
         "weight",
-        "numeral"
+        "numeral",
+        "date-type"
       ],
       "ready": true,
       "rights_status": "OFL-1.1",
@@ -4543,7 +4728,40 @@
       "usage_notes": "Original unmodified variable TrueType file retained. Choose and record wght explicitly; its default is not 400. No opsz axis exists in this file. For export, retain an actual supported instance or outline the selected glyphs and preserve editable source. A full CJK typesetting/shaping system is not established by this asset.",
       "domains": [
         "typography"
-      ]
+      ],
+      "numeral_profile": {
+        "id": "profile-num-noto-sans",
+        "font_id": "font-noto-sans-sc-vf",
+        "alias": "num-noto-sans",
+        "family": "Noto Sans SC",
+        "visual_dimension": "CJK family / Latin figures",
+        "candidate_uses": [
+          "mixed-script",
+          "dense-grid"
+        ],
+        "suggested_scales": [
+          "year",
+          "month",
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for unified language coverage; glyph coverage and actual locale still need checking.",
+        "source_file": "assets/fonts/type-study/noto-sans-sc/NotoSansSC-VF.ttf",
+        "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+        "license_file": "assets/fonts/type-study/noto-sans-sc/OFL.txt",
+        "license_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+        "coordinates": {
+          "wght": 400
+        },
+        "coordinate_label": "wght 400",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
     },
     {
       "id": "font-source-serif-4-vf",
@@ -4567,7 +4785,8 @@
         "serif",
         "optical-size",
         "weight",
-        "italic"
+        "italic",
+        "date-type"
       ],
       "ready": true,
       "rights_status": "OFL-1.1",
@@ -5239,7 +5458,41 @@
       ],
       "version": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601",
       "reserved_font_names": [],
-      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification.",
+      "numeral_profile": {
+        "id": "profile-num-source-serif",
+        "font_id": "font-source-serif-4-vf",
+        "alias": "num-source-serif",
+        "family": "Source Serif 4",
+        "visual_dimension": "Text serif / four forms",
+        "candidate_uses": [
+          "book-pairing",
+          "month-grid",
+          "week-row"
+        ],
+        "suggested_scales": [
+          "month",
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for coordinating dates with reading typography, using actual form choices.",
+        "source_file": "assets/fonts/latin-study/source-serif-4/SourceSerif4[opsz,wght].ttf",
+        "source_sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+        "license_file": "assets/fonts/latin-study/source-serif-4/OFL.txt",
+        "license_sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 20
+        },
+        "coordinate_label": "wght 400; opsz 20",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
     },
     {
       "id": "font-newsreader-vf",
@@ -5263,7 +5516,8 @@
         "serif",
         "optical-size",
         "weight",
-        "italic"
+        "italic",
+        "date-type"
       ],
       "ready": true,
       "rights_status": "OFL-1.1",
@@ -5896,7 +6150,40 @@
       ],
       "version": "Version 1.003",
       "reserved_font_names": [],
-      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification.",
+      "numeral_profile": {
+        "id": "profile-num-newsreader",
+        "font_id": "font-newsreader-vf",
+        "alias": "num-newsreader",
+        "family": "Newsreader",
+        "visual_dimension": "Editorial serif",
+        "candidate_uses": [
+          "book-pairing",
+          "week-row"
+        ],
+        "suggested_scales": [
+          "month",
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for Roman date numerals; do not infer Italic metrics from Roman.",
+        "source_file": "assets/fonts/latin-study/newsreader/Newsreader[opsz,wght].ttf",
+        "source_sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+        "license_file": "assets/fonts/latin-study/newsreader/OFL.txt",
+        "license_sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 18
+        },
+        "coordinate_label": "wght 400; opsz 18",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
     },
     {
       "id": "font-bodoni-moda-vf",
@@ -5920,7 +6207,8 @@
         "serif",
         "optical-size",
         "weight",
-        "display"
+        "display",
+        "date-type"
       ],
       "ready": true,
       "rights_status": "OFL-1.1",
@@ -6365,7 +6653,39 @@
       ],
       "version": "Version 2.005",
       "reserved_font_names": [],
-      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification.",
+      "numeral_profile": {
+        "id": "profile-num-bodoni",
+        "font_id": "font-bodoni-moda-vf",
+        "alias": "num-bodoni",
+        "family": "Bodoni Moda",
+        "visual_dimension": "High-contrast serif",
+        "candidate_uses": [
+          "large-day",
+          "week-row"
+        ],
+        "suggested_scales": [
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for display numerals; inspect fine strokes at the actual output size.",
+        "source_file": "assets/fonts/latin-study/bodoni-moda/BodoniModa[opsz,wght].ttf",
+        "source_sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+        "license_file": "assets/fonts/latin-study/bodoni-moda/OFL.txt",
+        "license_sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 24
+        },
+        "coordinate_label": "wght 400; opsz 24",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
     },
     {
       "id": "font-source-sans-3-vf",
@@ -6387,7 +6707,8 @@
         "variable",
         "numeral",
         "sans",
-        "weight"
+        "weight",
+        "date-type"
       ],
       "ready": true,
       "rights_status": "OFL-1.1",
@@ -6884,7 +7205,39 @@
       "reserved_font_names": [
         "Source"
       ],
-      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification.",
+      "numeral_profile": {
+        "id": "profile-num-source-sans",
+        "font_id": "font-source-sans-3-vf",
+        "alias": "num-source-sans",
+        "family": "Source Sans 3",
+        "visual_dimension": "Sans / open shapes",
+        "candidate_uses": [
+          "dense-grid",
+          "week-row"
+        ],
+        "suggested_scales": [
+          "year",
+          "month",
+          "week"
+        ],
+        "condition": "Candidate for small dates or wide weekly cells; still test actual size and contrast.",
+        "source_file": "assets/fonts/latin-study/source-sans-3/SourceSans3[wght].ttf",
+        "source_sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+        "license_file": "assets/fonts/latin-study/source-sans-3/OFL.txt",
+        "license_sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+        "coordinates": {
+          "wght": 400
+        },
+        "coordinate_label": "wght 400",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
     },
     {
       "id": "font-inter-vf",
@@ -6907,7 +7260,8 @@
         "numeral",
         "sans",
         "optical-size",
-        "weight"
+        "weight",
+        "date-type"
       ],
       "ready": true,
       "rights_status": "OFL-1.1",
@@ -7396,7 +7750,40 @@
       ],
       "version": "Version 4.001;git-66647c0bb",
       "reserved_font_names": [],
-      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification.",
+      "numeral_profile": {
+        "id": "profile-num-inter",
+        "font_id": "font-inter-vf",
+        "alias": "num-inter",
+        "family": "Inter",
+        "visual_dimension": "Sans / optical sizes",
+        "candidate_uses": [
+          "dense-grid",
+          "week-row"
+        ],
+        "suggested_scales": [
+          "year",
+          "month",
+          "week"
+        ],
+        "condition": "Candidate for clear date lookup; requested numeric forms depend on the retained file.",
+        "source_file": "assets/fonts/latin-study/inter/Inter[opsz,wght].ttf",
+        "source_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "license_file": "assets/fonts/latin-study/inter/OFL.txt",
+        "license_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+        "coordinates": {
+          "opsz": 14,
+          "wght": 400
+        },
+        "coordinate_label": "opsz 14; wght 400",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
     },
     {
       "id": "font-space-grotesk-vf",
@@ -7418,7 +7805,8 @@
         "variable",
         "numeral",
         "sans",
-        "weight"
+        "weight",
+        "date-type"
       ],
       "ready": true,
       "rights_status": "OFL-1.1",
@@ -7857,7 +8245,1859 @@
       ],
       "version": "Version 2.000",
       "reserved_font_names": [],
-      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification.",
+      "numeral_profile": {
+        "id": "profile-num-space",
+        "font_id": "font-space-grotesk-vf",
+        "alias": "num-space",
+        "family": "Space Grotesk",
+        "visual_dimension": "Proportional sans",
+        "candidate_uses": [
+          "week-row",
+          "large-day"
+        ],
+        "suggested_scales": [
+          "month",
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for distinctive numeral shapes; mono ancestry does not make defaults monospaced.",
+        "source_file": "assets/fonts/latin-study/space-grotesk/SpaceGrotesk[wght].ttf",
+        "source_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+        "license_file": "assets/fonts/latin-study/space-grotesk/OFL.txt",
+        "license_sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+        "coordinates": {
+          "wght": 400
+        },
+        "coordinate_label": "wght 400",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
+    },
+    {
+      "id": "font-fraunces-vf",
+      "title": "Fraunces",
+      "family": "Fraunces",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "numeral",
+        "date-type",
+        "serif",
+        "display",
+        "optical-size",
+        "softness",
+        "wonky",
+        "variable"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/numeral-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/fraunces",
+      "designer_source_url": "https://github.com/undercasetype/Fraunces",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/fraunces/OFL.txt",
+      "local_files": [
+        {
+          "path": "assets/fonts/numeral-study/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+          "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+          "bytes": 360440,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/fraunces/Fraunces%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf",
+          "upstream_git_blob_sha": "8210f9488d3c732359a9292dd09aca3f2bae830e",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/numeral-study/fraunces/OFL.txt",
+          "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+          "bytes": 4391,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/fraunces/OFL.txt",
+          "upstream_git_blob_sha": "22fa7ce5733434d0c634f6e55116f410858e938c"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "opsz",
+          "min": 9.0,
+          "minimum": 9.0,
+          "default": 9.0,
+          "max": 144.0,
+          "maximum": 144.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "minimum": 100.0,
+          "default": 900.0,
+          "max": 900.0,
+          "maximum": 900.0
+        },
+        {
+          "tag": "SOFT",
+          "min": 0.0,
+          "minimum": 0.0,
+          "default": 0.0,
+          "max": 100.0,
+          "maximum": 100.0
+        },
+        {
+          "tag": "WONK",
+          "min": 0.0,
+          "minimum": 0.0,
+          "default": 1.0,
+          "max": 1.0,
+          "maximum": 1.0
+        }
+      ],
+      "versions": [
+        "Version 1.000;[b76b70a41]"
+      ],
+      "family_names": [
+        "Fraunces"
+      ],
+      "style_names": [
+        "Black",
+        "Regular"
+      ],
+      "measurements_400": {
+        "axis_values": {
+          "opsz": 9.0,
+          "wght": 400,
+          "SOFT": 0.0,
+          "WONK": 1.0
+        },
+        "static_us_weight_class": 400,
+        "sample": "01 08 11 28 31",
+        "missing_glyphs": [],
+        "units_per_em": 2000,
+        "default_numeral_advance_units": {
+          "0": 1300,
+          "1": 902,
+          "2": 1192,
+          "3": 1080,
+          "4": 1192,
+          "5": 1133,
+          "6": 1186,
+          "7": 1014,
+          "8": 1165,
+          "9": 1195
+        },
+        "default_numerals_tabular": false,
+        "glyph_ink_bounds_units": {
+          "0": [
+            84.3990478515625,
+            -28.00048828125,
+            1215.8074951171875,
+            1426.800537109375
+          ],
+          "1": [
+            99.39892578125,
+            0,
+            831.2054443359375,
+            1437.19970703125
+          ],
+          "2": [
+            99.598388671875,
+            -28.00048828125,
+            1128.3069419861047,
+            1426.800537109375
+          ],
+          "3": [
+            82.999755859375,
+            -28.00048828125,
+            1027.806884765625,
+            1400
+          ],
+          "4": [
+            38.399658203125,
+            0,
+            1104.0084228515625,
+            1441.0013427734375
+          ],
+          "5": [
+            120.3983154296875,
+            -28.00048828125,
+            1052.00537109375,
+            1448.7278214845785
+          ],
+          "6": [
+            83.39426103118615,
+            -28.00048828125,
+            1113.4071044921875,
+            1426.800537109375
+          ],
+          "7": [
+            56.30429767853712,
+            -28.00048828125,
+            1014.4066162109375,
+            1400
+          ],
+          "8": [
+            104.399658203125,
+            -27.6004638671875,
+            1086.4088134765625,
+            1427.4005126953125
+          ],
+          "9": [
+            82.799072265625,
+            -27.4005126953125,
+            1112.8119542247478,
+            1427.4005126953125
+          ]
+        },
+        "probe_coverage": {
+          "0123456789": [],
+          "January Monday": [],
+          "Il1 O0": [],
+          "瓦尔登湖": [
+            "瓦",
+            "尔",
+            "登",
+            "湖"
+          ],
+          "/:.-": []
+        },
+        "cmap_codepoint_count": 624,
+        "gsub_feature_tags": [
+          "case",
+          "liga",
+          "rvrn",
+          "ss01"
+        ],
+        "gpos_feature_tags": [
+          "kern"
+        ],
+        "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+        "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+      },
+      "license_header": "Copyright 2018 The Fraunces Project Authors (https://github.com/undercasetype/Fraunces)",
+      "reserved_font_names_scope": "Read retained original header and full OFL before modifications; RFN applies only when explicitly declared.",
+      "usage_notes": "Candidate only. Preserve exact original OFL and source files; set actual axes explicitly, and verify glyphs/features in the target renderer. Numeral widths or category do not certify small-size legibility.",
+      "version": "Version 1.000;[b76b70a41]",
+      "reserved_font_names": [],
+      "style": "Roman",
+      "per_file": [
+        {
+          "path": "assets/fonts/numeral-study/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+          "style": "Roman",
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 9.0,
+              "minimum": 9.0,
+              "default": 9.0,
+              "max": 144.0,
+              "maximum": 144.0
+            },
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "minimum": 100.0,
+              "default": 900.0,
+              "max": 900.0,
+              "maximum": 900.0
+            },
+            {
+              "tag": "SOFT",
+              "min": 0.0,
+              "minimum": 0.0,
+              "default": 0.0,
+              "max": 100.0,
+              "maximum": 100.0
+            },
+            {
+              "tag": "WONK",
+              "min": 0.0,
+              "minimum": 0.0,
+              "default": 1.0,
+              "max": 1.0,
+              "maximum": 1.0
+            }
+          ],
+          "versions": [
+            "Version 1.000;[b76b70a41]"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "opsz": 9.0,
+              "wght": 400,
+              "SOFT": 0.0,
+              "WONK": 1.0
+            },
+            "static_us_weight_class": 400,
+            "sample": "01 08 11 28 31",
+            "missing_glyphs": [],
+            "units_per_em": 2000,
+            "default_numeral_advance_units": {
+              "0": 1300,
+              "1": 902,
+              "2": 1192,
+              "3": 1080,
+              "4": 1192,
+              "5": 1133,
+              "6": 1186,
+              "7": 1014,
+              "8": 1165,
+              "9": 1195
+            },
+            "default_numerals_tabular": false,
+            "glyph_ink_bounds_units": {
+              "0": [
+                84.3990478515625,
+                -28.00048828125,
+                1215.8074951171875,
+                1426.800537109375
+              ],
+              "1": [
+                99.39892578125,
+                0,
+                831.2054443359375,
+                1437.19970703125
+              ],
+              "2": [
+                99.598388671875,
+                -28.00048828125,
+                1128.3069419861047,
+                1426.800537109375
+              ],
+              "3": [
+                82.999755859375,
+                -28.00048828125,
+                1027.806884765625,
+                1400
+              ],
+              "4": [
+                38.399658203125,
+                0,
+                1104.0084228515625,
+                1441.0013427734375
+              ],
+              "5": [
+                120.3983154296875,
+                -28.00048828125,
+                1052.00537109375,
+                1448.7278214845785
+              ],
+              "6": [
+                83.39426103118615,
+                -28.00048828125,
+                1113.4071044921875,
+                1426.800537109375
+              ],
+              "7": [
+                56.30429767853712,
+                -28.00048828125,
+                1014.4066162109375,
+                1400
+              ],
+              "8": [
+                104.399658203125,
+                -27.6004638671875,
+                1086.4088134765625,
+                1427.4005126953125
+              ],
+              "9": [
+                82.799072265625,
+                -27.4005126953125,
+                1112.8119542247478,
+                1427.4005126953125
+              ]
+            },
+            "probe_coverage": {
+              "0123456789": [],
+              "January Monday": [],
+              "Il1 O0": [],
+              "瓦尔登湖": [
+                "瓦",
+                "尔",
+                "登",
+                "湖"
+              ],
+              "/:.-": []
+            },
+            "cmap_codepoint_count": 624,
+            "gsub_feature_tags": [
+              "case",
+              "liga",
+              "rvrn",
+              "ss01"
+            ],
+            "gpos_feature_tags": [
+              "kern"
+            ],
+            "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+            "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+          }
+        }
+      ],
+      "numeral_profile": {
+        "id": "profile-num-fraunces",
+        "font_id": "font-fraunces-vf",
+        "alias": "num-fraunces",
+        "family": "Fraunces",
+        "visual_dimension": "Expressive serif / axes",
+        "candidate_uses": [
+          "large-day",
+          "week-row"
+        ],
+        "suggested_scales": [
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for expressive numerals; Old Style family naming does not prove onum figure support.",
+        "source_file": "assets/fonts/numeral-study/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+        "source_sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb",
+        "license_file": "assets/fonts/numeral-study/fraunces/OFL.txt",
+        "license_sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b",
+        "coordinates": {
+          "opsz": 24,
+          "wght": 400,
+          "SOFT": 0.0,
+          "WONK": 1.0
+        },
+        "coordinate_label": "opsz 24; wght 400; SOFT 0; WONK 1",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
+    },
+    {
+      "id": "font-zilla-slab-regular",
+      "title": "Zilla Slab",
+      "family": "Zilla Slab",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "numeral",
+        "date-type",
+        "slab-serif",
+        "text",
+        "static"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/numeral-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/zillaslab",
+      "designer_source_url": "https://github.com/mozilla/zilla-slab",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/zillaslab/OFL.txt",
+      "local_files": [
+        {
+          "path": "assets/fonts/numeral-study/zilla-slab/ZillaSlab-Regular.ttf",
+          "sha256": "41a4626844da9216b031308d4423045c765fe4231d99862d85d7d74509d37703",
+          "bytes": 270104,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/zillaslab/ZillaSlab-Regular.ttf",
+          "upstream_git_blob_sha": "8a9724d1ce0e9d51a6cee6420f8b138c71ad89f1",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/numeral-study/zilla-slab/OFL.txt",
+          "sha256": "240b385d3ec8c8d5c1d4af2bbba6ac72bac0309a80c1a8ff112c168643cc6811",
+          "bytes": 4342,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/zillaslab/OFL.txt",
+          "upstream_git_blob_sha": "af9d668526d23cdc3619263d43abe83056962a4f"
+        }
+      ],
+      "axes": [],
+      "versions": [
+        "Version 1.1; 2017; ttfautohint (v1.6)"
+      ],
+      "family_names": [
+        "Zilla Slab"
+      ],
+      "style_names": [
+        "Regular"
+      ],
+      "measurements_400": {
+        "axis_values": {},
+        "static_us_weight_class": 400,
+        "sample": "01 08 11 28 31",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 576,
+          "1": 385,
+          "2": 515,
+          "3": 489,
+          "4": 539,
+          "5": 512,
+          "6": 531,
+          "7": 471,
+          "8": 538,
+          "9": 531
+        },
+        "default_numerals_tabular": false,
+        "glyph_ink_bounds_units": {
+          "0": [
+            47,
+            -10,
+            529,
+            531
+          ],
+          "1": [
+            52,
+            0,
+            365,
+            521
+          ],
+          "2": [
+            48,
+            0,
+            473,
+            531
+          ],
+          "3": [
+            34,
+            -141,
+            445,
+            531
+          ],
+          "4": [
+            19,
+            -131,
+            513,
+            521
+          ],
+          "5": [
+            57,
+            -140,
+            470,
+            521
+          ],
+          "6": [
+            48,
+            -10,
+            483,
+            660
+          ],
+          "7": [
+            34,
+            -130,
+            455,
+            521
+          ],
+          "8": [
+            45,
+            -10,
+            495,
+            660
+          ],
+          "9": [
+            48,
+            -139,
+            483,
+            531
+          ]
+        },
+        "probe_coverage": {
+          "0123456789": [],
+          "January Monday": [],
+          "Il1 O0": [],
+          "瓦尔登湖": [
+            "瓦",
+            "尔",
+            "登",
+            "湖"
+          ],
+          "/:.-": []
+        },
+        "cmap_codepoint_count": 513,
+        "gsub_feature_tags": [
+          "aalt",
+          "c2sc",
+          "case",
+          "crcy",
+          "dnom",
+          "frac",
+          "liga",
+          "lnum",
+          "locl",
+          "numr",
+          "onum",
+          "ordn",
+          "ornm",
+          "pnum",
+          "sinf",
+          "smcp",
+          "sups",
+          "tnum",
+          "zero"
+        ],
+        "gpos_feature_tags": [
+          "kern"
+        ],
+        "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+        "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+      },
+      "license_header": "Copyright 2017, The Mozilla Foundation",
+      "reserved_font_names_scope": "Read retained original header and full OFL before modifications; RFN applies only when explicitly declared.",
+      "usage_notes": "Candidate only. Preserve exact original OFL and source files; set actual axes explicitly, and verify glyphs/features in the target renderer. Numeral widths or category do not certify small-size legibility.",
+      "version": "Version 1.1; 2017; ttfautohint (v1.6)",
+      "reserved_font_names": [],
+      "style": "Roman",
+      "per_file": [
+        {
+          "path": "assets/fonts/numeral-study/zilla-slab/ZillaSlab-Regular.ttf",
+          "style": "Roman",
+          "axes": [],
+          "versions": [
+            "Version 1.1; 2017; ttfautohint (v1.6)"
+          ],
+          "measurements_400": {
+            "axis_values": {},
+            "static_us_weight_class": 400,
+            "sample": "01 08 11 28 31",
+            "missing_glyphs": [],
+            "units_per_em": 1000,
+            "default_numeral_advance_units": {
+              "0": 576,
+              "1": 385,
+              "2": 515,
+              "3": 489,
+              "4": 539,
+              "5": 512,
+              "6": 531,
+              "7": 471,
+              "8": 538,
+              "9": 531
+            },
+            "default_numerals_tabular": false,
+            "glyph_ink_bounds_units": {
+              "0": [
+                47,
+                -10,
+                529,
+                531
+              ],
+              "1": [
+                52,
+                0,
+                365,
+                521
+              ],
+              "2": [
+                48,
+                0,
+                473,
+                531
+              ],
+              "3": [
+                34,
+                -141,
+                445,
+                531
+              ],
+              "4": [
+                19,
+                -131,
+                513,
+                521
+              ],
+              "5": [
+                57,
+                -140,
+                470,
+                521
+              ],
+              "6": [
+                48,
+                -10,
+                483,
+                660
+              ],
+              "7": [
+                34,
+                -130,
+                455,
+                521
+              ],
+              "8": [
+                45,
+                -10,
+                495,
+                660
+              ],
+              "9": [
+                48,
+                -139,
+                483,
+                531
+              ]
+            },
+            "probe_coverage": {
+              "0123456789": [],
+              "January Monday": [],
+              "Il1 O0": [],
+              "瓦尔登湖": [
+                "瓦",
+                "尔",
+                "登",
+                "湖"
+              ],
+              "/:.-": []
+            },
+            "cmap_codepoint_count": 513,
+            "gsub_feature_tags": [
+              "aalt",
+              "c2sc",
+              "case",
+              "crcy",
+              "dnom",
+              "frac",
+              "liga",
+              "lnum",
+              "locl",
+              "numr",
+              "onum",
+              "ordn",
+              "ornm",
+              "pnum",
+              "sinf",
+              "smcp",
+              "sups",
+              "tnum",
+              "zero"
+            ],
+            "gpos_feature_tags": [
+              "kern"
+            ],
+            "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+            "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+          }
+        }
+      ],
+      "numeral_profile": {
+        "id": "profile-num-slab",
+        "font_id": "font-zilla-slab-regular",
+        "alias": "num-slab",
+        "family": "Zilla Slab",
+        "visual_dimension": "Slab serif",
+        "candidate_uses": [
+          "month-grid",
+          "large-day"
+        ],
+        "suggested_scales": [
+          "month",
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for stronger slab terminals; contrast and spacing are assessed in context.",
+        "source_file": "assets/fonts/numeral-study/zilla-slab/ZillaSlab-Regular.ttf",
+        "source_sha256": "41a4626844da9216b031308d4423045c765fe4231d99862d85d7d74509d37703",
+        "license_file": "assets/fonts/numeral-study/zilla-slab/OFL.txt",
+        "license_sha256": "240b385d3ec8c8d5c1d4af2bbba6ac72bac0309a80c1a8ff112c168643cc6811",
+        "coordinates": {},
+        "coordinate_label": "Regular / static",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
+    },
+    {
+      "id": "font-barlow-condensed-regular",
+      "title": "Barlow Condensed",
+      "family": "Barlow Condensed",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "numeral",
+        "date-type",
+        "sans",
+        "condensed",
+        "static"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/numeral-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/barlowcondensed",
+      "designer_source_url": "https://github.com/jpt/barlow",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/barlowcondensed/OFL.txt",
+      "local_files": [
+        {
+          "path": "assets/fonts/numeral-study/barlow-condensed/BarlowCondensed-Regular.ttf",
+          "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+          "bytes": 102480,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/barlowcondensed/BarlowCondensed-Regular.ttf",
+          "upstream_git_blob_sha": "ecbe0cc84118decc6a16216ad53d83d39888b175",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/numeral-study/barlow-condensed/OFL.txt",
+          "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+          "bytes": 4377,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/barlowcondensed/OFL.txt",
+          "upstream_git_blob_sha": "2f22ba6ca4dbc12145ae40b14c3368f387cba0e2"
+        }
+      ],
+      "axes": [],
+      "versions": [
+        "Version 1.408"
+      ],
+      "family_names": [
+        "Barlow Condensed"
+      ],
+      "style_names": [
+        "Regular"
+      ],
+      "measurements_400": {
+        "axis_values": {},
+        "static_us_weight_class": 400,
+        "sample": "01 08 11 28 31",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 444,
+          "1": 256,
+          "2": 402,
+          "3": 408,
+          "4": 415,
+          "5": 409,
+          "6": 410,
+          "7": 366,
+          "8": 422,
+          "9": 403
+        },
+        "default_numerals_tabular": false,
+        "glyph_ink_bounds_units": {
+          "0": [
+            52,
+            -10,
+            392,
+            710
+          ],
+          "1": [
+            10,
+            0,
+            197,
+            700
+          ],
+          "2": [
+            39,
+            0,
+            374,
+            708
+          ],
+          "3": [
+            37,
+            -8,
+            356,
+            700
+          ],
+          "4": [
+            22,
+            0,
+            393,
+            700
+          ],
+          "5": [
+            53,
+            -8,
+            372,
+            700
+          ],
+          "6": [
+            53,
+            -8,
+            373,
+            708
+          ],
+          "7": [
+            23,
+            0,
+            349,
+            700
+          ],
+          "8": [
+            52,
+            -8,
+            370,
+            710
+          ],
+          "9": [
+            30,
+            -8,
+            350,
+            708
+          ]
+        },
+        "probe_coverage": {
+          "0123456789": [],
+          "January Monday": [],
+          "Il1 O0": [],
+          "瓦尔登湖": [
+            "瓦",
+            "尔",
+            "登",
+            "湖"
+          ],
+          "/:.-": []
+        },
+        "cmap_codepoint_count": 525,
+        "gsub_feature_tags": [
+          "aalt",
+          "c2sc",
+          "ccmp",
+          "dnom",
+          "frac",
+          "liga",
+          "locl",
+          "numr",
+          "ordn",
+          "pnum",
+          "smcp",
+          "sups",
+          "tnum"
+        ],
+        "gpos_feature_tags": [
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+        "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+      },
+      "license_header": "Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow)",
+      "reserved_font_names_scope": "Read retained original header and full OFL before modifications; RFN applies only when explicitly declared.",
+      "usage_notes": "Candidate only. Preserve exact original OFL and source files; set actual axes explicitly, and verify glyphs/features in the target renderer. Numeral widths or category do not certify small-size legibility.",
+      "version": "Version 1.408",
+      "reserved_font_names": [],
+      "style": "Roman",
+      "per_file": [
+        {
+          "path": "assets/fonts/numeral-study/barlow-condensed/BarlowCondensed-Regular.ttf",
+          "style": "Roman",
+          "axes": [],
+          "versions": [
+            "Version 1.408"
+          ],
+          "measurements_400": {
+            "axis_values": {},
+            "static_us_weight_class": 400,
+            "sample": "01 08 11 28 31",
+            "missing_glyphs": [],
+            "units_per_em": 1000,
+            "default_numeral_advance_units": {
+              "0": 444,
+              "1": 256,
+              "2": 402,
+              "3": 408,
+              "4": 415,
+              "5": 409,
+              "6": 410,
+              "7": 366,
+              "8": 422,
+              "9": 403
+            },
+            "default_numerals_tabular": false,
+            "glyph_ink_bounds_units": {
+              "0": [
+                52,
+                -10,
+                392,
+                710
+              ],
+              "1": [
+                10,
+                0,
+                197,
+                700
+              ],
+              "2": [
+                39,
+                0,
+                374,
+                708
+              ],
+              "3": [
+                37,
+                -8,
+                356,
+                700
+              ],
+              "4": [
+                22,
+                0,
+                393,
+                700
+              ],
+              "5": [
+                53,
+                -8,
+                372,
+                700
+              ],
+              "6": [
+                53,
+                -8,
+                373,
+                708
+              ],
+              "7": [
+                23,
+                0,
+                349,
+                700
+              ],
+              "8": [
+                52,
+                -8,
+                370,
+                710
+              ],
+              "9": [
+                30,
+                -8,
+                350,
+                708
+              ]
+            },
+            "probe_coverage": {
+              "0123456789": [],
+              "January Monday": [],
+              "Il1 O0": [],
+              "瓦尔登湖": [
+                "瓦",
+                "尔",
+                "登",
+                "湖"
+              ],
+              "/:.-": []
+            },
+            "cmap_codepoint_count": 525,
+            "gsub_feature_tags": [
+              "aalt",
+              "c2sc",
+              "ccmp",
+              "dnom",
+              "frac",
+              "liga",
+              "locl",
+              "numr",
+              "ordn",
+              "pnum",
+              "smcp",
+              "sups",
+              "tnum"
+            ],
+            "gpos_feature_tags": [
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+            "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+          }
+        }
+      ],
+      "numeral_profile": {
+        "id": "profile-num-barlow",
+        "font_id": "font-barlow-condensed-regular",
+        "alias": "num-barlow",
+        "family": "Barlow Condensed",
+        "visual_dimension": "Narrow / low contrast",
+        "candidate_uses": [
+          "dense-grid"
+        ],
+        "suggested_scales": [
+          "year",
+          "month"
+        ],
+        "condition": "Candidate for narrow date cells; road-sign references do not establish readability.",
+        "source_file": "assets/fonts/numeral-study/barlow-condensed/BarlowCondensed-Regular.ttf",
+        "source_sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996",
+        "license_file": "assets/fonts/numeral-study/barlow-condensed/OFL.txt",
+        "license_sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f",
+        "coordinates": {},
+        "coordinate_label": "Regular / static",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
+    },
+    {
+      "id": "font-azeret-mono-vf",
+      "title": "Azeret Mono",
+      "family": "Azeret Mono",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "numeral",
+        "date-type",
+        "sans",
+        "monospace",
+        "geometric-detail",
+        "variable"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/numeral-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/azeretmono",
+      "designer_source_url": "https://github.com/displaay/Azeret",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/azeretmono/OFL.txt",
+      "local_files": [
+        {
+          "path": "assets/fonts/numeral-study/azeret-mono/AzeretMono[wght].ttf",
+          "sha256": "f13962c26c1baa864aff7768364001f9bca6e506f41b9a3037c0d6a31e2ca736",
+          "bytes": 106092,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/azeretmono/AzeretMono%5Bwght%5D.ttf",
+          "upstream_git_blob_sha": "105c12bf6068e656b2ad374e21645857e24dad78",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/numeral-study/azeret-mono/OFL.txt",
+          "sha256": "2a0fd31798d131b38a9fe730a260bc9a1d85452e36cdf79e5fcaf937bf4d9f86",
+          "bytes": 4383,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/azeretmono/OFL.txt",
+          "upstream_git_blob_sha": "5f3e472e15c8278a5017b264089b44fda371bddd"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "minimum": 100.0,
+          "default": 100.0,
+          "max": 900.0,
+          "maximum": 900.0
+        }
+      ],
+      "versions": [
+        "Version 1.002"
+      ],
+      "family_names": [
+        "Azeret Mono",
+        "Azeret Mono Thin"
+      ],
+      "style_names": [
+        "Regular",
+        "Thin"
+      ],
+      "measurements_400": {
+        "axis_values": {
+          "wght": 400
+        },
+        "static_us_weight_class": 400,
+        "sample": "01 08 11 28 31",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 650,
+          "1": 650,
+          "2": 650,
+          "3": 650,
+          "4": 650,
+          "5": 650,
+          "6": 650,
+          "7": 650,
+          "8": 650,
+          "9": 650
+        },
+        "default_numerals_tabular": true,
+        "glyph_ink_bounds_units": {
+          "0": [
+            56,
+            -12,
+            593.5,
+            710
+          ],
+          "1": [
+            83.5,
+            0,
+            578,
+            698
+          ],
+          "2": [
+            76.5,
+            0,
+            570.5,
+            710
+          ],
+          "3": [
+            76.5,
+            -12,
+            582.5,
+            710
+          ],
+          "4": [
+            39.5,
+            0,
+            612,
+            698
+          ],
+          "5": [
+            83.5,
+            -11.5,
+            580,
+            698
+          ],
+          "6": [
+            69,
+            -12,
+            585,
+            710
+          ],
+          "7": [
+            74,
+            0,
+            594,
+            698
+          ],
+          "8": [
+            75.5,
+            -12,
+            574,
+            710
+          ],
+          "9": [
+            65.0,
+            -12.0,
+            581.0,
+            710.0
+          ]
+        },
+        "probe_coverage": {
+          "0123456789": [],
+          "January Monday": [],
+          "Il1 O0": [],
+          "瓦尔登湖": [
+            "瓦",
+            "尔",
+            "登",
+            "湖"
+          ],
+          "/:.-": []
+        },
+        "cmap_codepoint_count": 433,
+        "gsub_feature_tags": [
+          "aalt",
+          "calt",
+          "case",
+          "ccmp",
+          "dlig",
+          "dnom",
+          "frac",
+          "liga",
+          "locl",
+          "numr",
+          "ordn",
+          "sinf",
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04",
+          "ss05",
+          "ss06",
+          "ss07",
+          "ss08",
+          "ss09",
+          "ss10",
+          "ss11",
+          "ss12",
+          "ss13",
+          "ss14",
+          "ss15",
+          "ss16",
+          "subs",
+          "sups",
+          "tnum",
+          "zero"
+        ],
+        "gpos_feature_tags": [
+          "mark",
+          "mkmk"
+        ],
+        "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+        "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+      },
+      "license_header": "Copyright 2021 The Azeret Project Authors (https://github.com/displaay/azeret)",
+      "reserved_font_names_scope": "Read retained original header and full OFL before modifications; RFN applies only when explicitly declared.",
+      "usage_notes": "Candidate only. Preserve exact original OFL and source files; set actual axes explicitly, and verify glyphs/features in the target renderer. Numeral widths or category do not certify small-size legibility.",
+      "version": "Version 1.002",
+      "reserved_font_names": [],
+      "style": "Roman",
+      "per_file": [
+        {
+          "path": "assets/fonts/numeral-study/azeret-mono/AzeretMono[wght].ttf",
+          "style": "Roman",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "minimum": 100.0,
+              "default": 100.0,
+              "max": 900.0,
+              "maximum": 900.0
+            }
+          ],
+          "versions": [
+            "Version 1.002"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "wght": 400
+            },
+            "static_us_weight_class": 400,
+            "sample": "01 08 11 28 31",
+            "missing_glyphs": [],
+            "units_per_em": 1000,
+            "default_numeral_advance_units": {
+              "0": 650,
+              "1": 650,
+              "2": 650,
+              "3": 650,
+              "4": 650,
+              "5": 650,
+              "6": 650,
+              "7": 650,
+              "8": 650,
+              "9": 650
+            },
+            "default_numerals_tabular": true,
+            "glyph_ink_bounds_units": {
+              "0": [
+                56,
+                -12,
+                593.5,
+                710
+              ],
+              "1": [
+                83.5,
+                0,
+                578,
+                698
+              ],
+              "2": [
+                76.5,
+                0,
+                570.5,
+                710
+              ],
+              "3": [
+                76.5,
+                -12,
+                582.5,
+                710
+              ],
+              "4": [
+                39.5,
+                0,
+                612,
+                698
+              ],
+              "5": [
+                83.5,
+                -11.5,
+                580,
+                698
+              ],
+              "6": [
+                69,
+                -12,
+                585,
+                710
+              ],
+              "7": [
+                74,
+                0,
+                594,
+                698
+              ],
+              "8": [
+                75.5,
+                -12,
+                574,
+                710
+              ],
+              "9": [
+                65.0,
+                -12.0,
+                581.0,
+                710.0
+              ]
+            },
+            "probe_coverage": {
+              "0123456789": [],
+              "January Monday": [],
+              "Il1 O0": [],
+              "瓦尔登湖": [
+                "瓦",
+                "尔",
+                "登",
+                "湖"
+              ],
+              "/:.-": []
+            },
+            "cmap_codepoint_count": 433,
+            "gsub_feature_tags": [
+              "aalt",
+              "calt",
+              "case",
+              "ccmp",
+              "dlig",
+              "dnom",
+              "frac",
+              "liga",
+              "locl",
+              "numr",
+              "ordn",
+              "sinf",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "ss11",
+              "ss12",
+              "ss13",
+              "ss14",
+              "ss15",
+              "ss16",
+              "subs",
+              "sups",
+              "tnum",
+              "zero"
+            ],
+            "gpos_feature_tags": [
+              "mark",
+              "mkmk"
+            ],
+            "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+            "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+          }
+        }
+      ],
+      "numeral_profile": {
+        "id": "profile-num-azeret",
+        "font_id": "font-azeret-mono-vf",
+        "alias": "num-azeret",
+        "family": "Azeret Mono",
+        "visual_dimension": "Angular / monospaced",
+        "candidate_uses": [
+          "index",
+          "large-day"
+        ],
+        "suggested_scales": [
+          "week",
+          "day"
+        ],
+        "condition": "Candidate for mechanical rhythm; use this open Mono file, not commercial-collection promises.",
+        "source_file": "assets/fonts/numeral-study/azeret-mono/AzeretMono[wght].ttf",
+        "source_sha256": "f13962c26c1baa864aff7768364001f9bca6e506f41b9a3037c0d6a31e2ca736",
+        "license_file": "assets/fonts/numeral-study/azeret-mono/OFL.txt",
+        "license_sha256": "2a0fd31798d131b38a9fe730a260bc9a1d85452e36cdf79e5fcaf937bf4d9f86",
+        "coordinates": {
+          "wght": 400
+        },
+        "coordinate_label": "wght 400",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
+    },
+    {
+      "id": "font-dseg7-classic-regular",
+      "title": "DSEG7 Classic",
+      "family": "DSEG7 Classic",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "numeral",
+        "date-type",
+        "segment-display",
+        "static",
+        "limited-alphabet"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/numeral-study/manifest.json",
+      "source_url": "https://github.com/keshikan/DSEG/releases/tag/v0.46",
+      "designer_source_url": "https://github.com/keshikan/DSEG",
+      "upstream_release": "v0.46",
+      "upstream_repository_commit": "a5019e1351dfa7b3c52aa3eff52ffb9c49538719",
+      "release_archive": {
+        "url": "https://github.com/keshikan/DSEG/releases/download/v0.46/fonts-DSEG_v046.zip",
+        "sha256": "a6c2f43520971ca8067262e78d49025e605f749bf716ec5394bad9a0ee1c238c",
+        "bytes": 1095157,
+        "scope": "Original official release zip, not committed as a whole; only specified unmodified members retained. No publisher-provided SHA digest was available in API."
+      },
+      "license_url": "https://github.com/keshikan/DSEG/blob/a5019e1351dfa7b3c52aa3eff52ffb9c49538719/DSEG-LICENSE.txt",
+      "local_files": [
+        {
+          "path": "assets/fonts/numeral-study/dseg7-classic/DSEG7Classic-Regular.ttf",
+          "sha256": "e3270928ced68082f32d3b62877a6741426116335ac0832919326341a8b5cfaf",
+          "bytes": 23272,
+          "modified": false,
+          "source": "https://github.com/keshikan/DSEG/releases/download/v0.46/fonts-DSEG_v046.zip",
+          "archive_member": "fonts-DSEG_v046/DSEG7-Classic/DSEG7Classic-Regular.ttf",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/numeral-study/dseg7-classic/OFL.txt",
+          "sha256": "c6ee0567859cb7cc8d992149bbd96ad359ef65fb7355f7feae0547555ffacd23",
+          "bytes": 4487,
+          "modified": false,
+          "source": "https://github.com/keshikan/DSEG/releases/download/v0.46/fonts-DSEG_v046.zip",
+          "archive_member": "fonts-DSEG_v046/DSEG-LICENSE.txt"
+        }
+      ],
+      "axes": [],
+      "versions": [
+        "Version 0.46"
+      ],
+      "family_names": [
+        "DSEG7 Classic"
+      ],
+      "style_names": [
+        "Regular"
+      ],
+      "measurements_400": {
+        "axis_values": {},
+        "static_us_weight_class": 400,
+        "sample": "01 08 11 28 31",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 816,
+          "1": 816,
+          "2": 816,
+          "3": 816,
+          "4": 816,
+          "5": 816,
+          "6": 816,
+          "7": 816,
+          "8": 816,
+          "9": 816
+        },
+        "default_numerals_tabular": true,
+        "glyph_ink_bounds_units": {
+          "0": [
+            99,
+            0,
+            717,
+            1000
+          ],
+          "1": [
+            624,
+            45,
+            717,
+            955
+          ],
+          "2": [
+            99,
+            0,
+            717,
+            1000
+          ],
+          "3": [
+            144,
+            0,
+            717,
+            1000
+          ],
+          "4": [
+            99,
+            45,
+            717,
+            955
+          ],
+          "5": [
+            99,
+            0,
+            717,
+            1000
+          ],
+          "6": [
+            99,
+            0,
+            717,
+            1000
+          ],
+          "7": [
+            99,
+            45,
+            717,
+            1000
+          ],
+          "8": [
+            99,
+            0,
+            717,
+            1000
+          ],
+          "9": [
+            99,
+            0,
+            717,
+            1000
+          ]
+        },
+        "probe_coverage": {
+          "0123456789": [],
+          "January Monday": [],
+          "Il1 O0": [],
+          "瓦尔登湖": [
+            "瓦",
+            "尔",
+            "登",
+            "湖"
+          ],
+          "/:.-": [
+            "/"
+          ]
+        },
+        "cmap_codepoint_count": 69,
+        "gsub_feature_tags": [],
+        "gpos_feature_tags": [],
+        "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+        "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+      },
+      "license_header": "Copyright (c) 2017, keshikan (http://www.keshikan.net),\nwith Reserved Font Name \"DSEG\".",
+      "reserved_font_names_scope": "Read retained original header and full OFL before modifications; RFN applies only when explicitly declared.",
+      "usage_notes": "Seven-segment display vocabulary; not ordinary body typography. Supported codepoints do not guarantee familiar letterforms. Space/colon and zero-width period have special behavior. Use for deliberately digital date displays, separately supply weekday/month/body fonts and check small-size segment gaps. The retained v0.46 file lacks slash U+002F; do not use it for slash-separated full dates without an explicit other font.",
+      "version": "Version 0.46",
+      "reserved_font_names": [
+        "DSEG"
+      ],
+      "style": "Roman",
+      "per_file": [
+        {
+          "path": "assets/fonts/numeral-study/dseg7-classic/DSEG7Classic-Regular.ttf",
+          "style": "Roman",
+          "axes": [],
+          "versions": [
+            "Version 0.46"
+          ],
+          "measurements_400": {
+            "axis_values": {},
+            "static_us_weight_class": 400,
+            "sample": "01 08 11 28 31",
+            "missing_glyphs": [],
+            "units_per_em": 1000,
+            "default_numeral_advance_units": {
+              "0": 816,
+              "1": 816,
+              "2": 816,
+              "3": 816,
+              "4": 816,
+              "5": 816,
+              "6": 816,
+              "7": 816,
+              "8": 816,
+              "9": 816
+            },
+            "default_numerals_tabular": true,
+            "glyph_ink_bounds_units": {
+              "0": [
+                99,
+                0,
+                717,
+                1000
+              ],
+              "1": [
+                624,
+                45,
+                717,
+                955
+              ],
+              "2": [
+                99,
+                0,
+                717,
+                1000
+              ],
+              "3": [
+                144,
+                0,
+                717,
+                1000
+              ],
+              "4": [
+                99,
+                45,
+                717,
+                955
+              ],
+              "5": [
+                99,
+                0,
+                717,
+                1000
+              ],
+              "6": [
+                99,
+                0,
+                717,
+                1000
+              ],
+              "7": [
+                99,
+                45,
+                717,
+                1000
+              ],
+              "8": [
+                99,
+                0,
+                717,
+                1000
+              ],
+              "9": [
+                99,
+                0,
+                717,
+                1000
+              ]
+            },
+            "probe_coverage": {
+              "0123456789": [],
+              "January Monday": [],
+              "Il1 O0": [],
+              "瓦尔登湖": [
+                "瓦",
+                "尔",
+                "登",
+                "湖"
+              ],
+              "/:.-": [
+                "/"
+              ]
+            },
+            "cmap_codepoint_count": 69,
+            "gsub_feature_tags": [],
+            "gpos_feature_tags": [],
+            "measurement_method": "FontTools in-memory instance at wght=400 and all other axes at original defaults; static Regular unchanged. Default cmap/hmtx and glyph bounds measured. Feature tags listed but GSUB/GPOS not executed.",
+            "interpretation_limits": "Equal advances establish only default widths for this pinned file/instance. They do not establish numeral height style, small-size readability or user aesthetic preference."
+          }
+        }
+      ],
+      "original_license_filename": "DSEG-LICENSE.txt",
+      "source_archive_license_unchanged": true,
+      "numeral_profile": {
+        "id": "profile-num-dseg",
+        "font_id": "font-dseg7-classic-regular",
+        "alias": "num-dseg",
+        "family": "DSEG7 Classic",
+        "visual_dimension": "Segment display",
+        "candidate_uses": [
+          "large-day",
+          "digital-display"
+        ],
+        "suggested_scales": [
+          "day"
+        ],
+        "condition": "Candidate for a deliberate segmented display; no ordinary body-text or date-separator coverage is assumed.",
+        "source_file": "assets/fonts/numeral-study/dseg7-classic/DSEG7Classic-Regular.ttf",
+        "source_sha256": "e3270928ced68082f32d3b62877a6741426116335ac0832919326341a8b5cfaf",
+        "license_file": "assets/fonts/numeral-study/dseg7-classic/OFL.txt",
+        "license_sha256": "c6ee0567859cb7cc8d992149bbd96ad359ef65fb7355f7feae0547555ffacd23",
+        "coordinates": {},
+        "coordinate_label": "Regular / static",
+        "shaping_context": {
+          "script": "Latn",
+          "language": "en",
+          "direction": "ltr"
+        },
+        "proof": "studies/numeral-atlas/numeral-families.svg",
+        "evidence_status": "candidate with measured glyphs; not user-approved or readability-tested"
+      }
     },
     {
       "id": "paper-light-j4",
@@ -10326,6 +12566,304 @@
       "local_asset": null
     },
     {
+      "id": "num-cldr-day-padding",
+      "title": "Unicode CLDR 49 / Date Field Symbol Table: d and dd",
+      "url": "https://www.unicode.org/reports/tr35/tr35-79/tr35-dates.html#Date_Field_Symbol_Table",
+      "source_type": "unicode-technical-standard",
+      "reading_locator": "UTS #35 Part 4, version 49 (2026-10-21), Date Field Symbol Table: day d/dd; adjacent month M/MM and week w/ww entries for context.",
+      "actual_reading": "Read the version/status header and the selected date-field rows. The day-of-month d entry uses minimum digits; dd specifies two digits with zero padding. Not a full reading of the entire CLDR document.",
+      "findings": [
+        "日号显示1或01是日期格式字段与补零的选择，不是等宽或比例数字的效果。",
+        "月份、日号和周号各有自己的字段语义；不能因为字面都是数字便互换。"
+      ],
+      "transfer_conditions": [
+        "配方分别保存原始日期、日号格式d/dd、字体实例和数字特性。",
+        "比较1 7 11与01 07 11时，标明改变的是输出内容格式；它不替代比例/等宽的字形对照。"
+      ],
+      "limitations": [
+        "字段定义不规定哪种日历更美，也不强制展示型周历补零。",
+        "这里只研究格式语义，不声称项目已实现CLDR各语言和全部日历系统。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "format",
+        "leading-zero"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/numeral-design-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "num-ot-zero",
+      "title": "OpenType registered feature zero / Slashed Zero",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/features_uz#tag-zero",
+      "source_type": "official-font-technology-specification",
+      "reading_locator": "Registered features u–z, Tag zero: Function, recommended implementation, application interface, UI suggestion and feature interaction.",
+      "actual_reading": "Read the complete zero section. It describes optional substitution of the lining zero, its use when 0 and O might mix, and its interaction with oldstyle figure features. Adjacent vertical features were not used as numeral-selection evidence.",
+      "findings": [
+        "斜线零是可选字形替代，回应0与大写O在混合标签中的辨识；不是必须用于所有日期的符号。",
+        "zero特性适用于等高数字，与旧式数字特性存在互斥；不能随意叠加所有功能。"
+      ],
+      "transfer_conditions": [
+        "在含字母的日期编码、索引或编号中，实际比较0/O；纯日号与完整日期另看，不把编程字体的全部偏好迁移过来。",
+        "记录默认零与可选zero的实际字形、字宽和塑形设置；未应用功能时只标默认形。"
+      ],
+      "limitations": [
+        "规范定义替代行为，不保证某个文件支持zero或其默认零一定无斜线。",
+        "特性标签存在、请求已发送与输出已发生替换需要分别验证。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "zero",
+        "disambiguation",
+        "OpenType"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/numeral-design-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "num-fraunces-design",
+      "title": "Undercase Type / Fraunces: SOFT, WONK and optical size",
+      "url": "https://fraunces.undercase.xyz/",
+      "source_type": "original-type-designer-explanation",
+      "reading_locator": "Meet Fraunces; Your friend, Fraunces; A Softie at Heart; Ask Me About My Optical Size Axis; Extra Wonk Included.",
+      "actual_reading": "Read the designer narrative and all four axis explanations in page text. Did not operate live controls or evaluate downloaded third-party specimen images.",
+      "findings": [
+        "设计者把Fraunces定位为有表现力的展示家族；SOFT改变墨感/对比，opsz还影响字距、x-height与对比。",
+        "WONK包含特定字母替换，不能仅因轴名或家族的‘Old Style’定位，就断言日号全部启用了旧式数字。"
+      ],
+      "transfer_conditions": [
+        "把它作为大日号与有表现力周历的一种候选，固定内容/字重比较实际轴坐标，再回目标尺寸。",
+        "分别核验数字形态、轴对实际数字的影响和可用数字特性；不要从字母样本推断日号变化。"
+      ],
+      "limitations": [
+        "作者关于友好、个性和历史风格的叙述是设计意图，不是本项目用户的审美偏好。",
+        "官网对小尺寸的说明不认证本次日历的打印/远读性能。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "expressive-serif",
+        "optical-size",
+        "axes"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/numeral-design-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "num-barlow-design",
+      "title": "Jeremy Tribby / Barlow official README",
+      "url": "https://github.com/jpt/barlow/blob/main/README.md",
+      "source_type": "original-type-designer-repository",
+      "reading_locator": "README opening family description and family width/weight paragraph; official project page was also checked for its redirect to Google Fonts/GitHub.",
+      "actual_reading": "Read the README opening paragraphs through the family-size/width discussion. The current author website is a short version-1.5 holding page; it was not treated as a full specimen or as proof of the retained file version.",
+      "findings": [
+        "Barlow的作者说明低对比、略圆和三种宽度，参考加州公共环境中的车牌、标识与交通视觉。",
+        "家族有多宽度，不意味着保存的单个Condensed文件具有可调wdth轴；作者整体用途也不等于每个日历场景已验证。"
+      ],
+      "transfer_conditions": [
+        "当全年/月度网格或较长日期标签空间有限时，把真实窄体作为一条候选，与常宽字体对照。",
+        "记录宽度分支与实际文件，观察1/7、0/8、31和小尺寸间隙，避免在网页中机械压扁常宽字形。"
+      ],
+      "limitations": [
+        "交通参考不能自动证明适合远看日历，也不为项目设定‘标识字体更清楚’的通用结论。",
+        "README宣传的整个家族范围不能替代当前保留文件的轴/覆盖/字宽测量。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "condensed",
+        "low-contrast",
+        "width"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/numeral-design-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "num-azeret-mono-design",
+      "title": "Displaay / Azeret open monospaced sub-family README",
+      "url": "https://github.com/displaay/Azeret/blob/main/README.md",
+      "source_type": "original-type-designer-repository",
+      "reading_locator": "Azeret family description, open monospaced sub-family sentence, designers/license and FONTLOG language-range scope.",
+      "actual_reading": "Read the official open-repository text and cross-checked Google Fonts' Azeret Mono description. The present paid Azeret Collection page was inspected only to distinguish its larger family/axes/features from the retained open Mono asset; no commercial font imported.",
+      "findings": [
+        "开放Mono子家族来自对OCR、操作系统和界面的探索，具有低笔画对比及作者描述的特定连接细节。",
+        "同一品牌名下有开放Mono与更广的家族集合，不能把付费集合页面的轴和功能数量写到某个开放文件上。"
+      ],
+      "transfer_conditions": [
+        "用于编目、索引或有明确机械节奏的日号候选时，与Plex Mono等比较真实0/1/7和两位数字的宽度。",
+        "等宽家族不自动获得更好的书籍气质或阅读性能；以实际字形、单元宽度与主题关系选择。"
+      ],
+      "limitations": [
+        "OCR起源是设计参考，不表示通过OCR识别率或人类阅读实验。",
+        "语言覆盖与特性以具体保留文件为准；README的整个家族说明不等于逐文件认证。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "monospaced",
+        "index",
+        "file-scope"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/numeral-design-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "num-dseg-semantics",
+      "title": "Keshikan / DSEG usage and character specifications",
+      "url": "https://www.keshikan.net/fonts-e.html",
+      "source_type": "original-type-designer-specification",
+      "reading_locator": "Overview; 3.2 colon; 3.3 period; 3.4 all-off/all-on; 3.5 character codes (DSEG7/14 versus DSEGWeather); license/version notes.",
+      "actual_reading": "Read the specified body text and character-code tables. No clock demo was operated and no DSEG source image was copied. The font license itself is retained and checked separately by the asset workflow.",
+      "findings": [
+        "DSEG模拟7/14段显示器；DSEGWeather把数字码位0–9映射为天气图标，字符覆盖不能证明语义正确。",
+        "作者规定冒号与空格等宽，句点advance为零，并赋予部分ASCII符号全开/全关的显示意义。",
+        "数码显示的字形与标点行为是专门设计，不能当作完整正文或任意日期标点字体。"
+      ],
+      "transfer_conditions": [
+        "把DSEG7用于明确的数码日号、倒计时或器物主题时，单独设置数字角色，星期与书名另配文字字体。",
+        "使用指定DSEG7 Classic文件，验证0–9和冒号/句点/连字符的实际语义与边界；完整日期可能需要拆分字体角色。"
+      ],
+      "limitations": [
+        "数码风格是一条条件候选，不用于推断所有日历都需要像时钟；纯文字查读与小尺寸效果另验。",
+        "不能仅因DSEGWeather的cmap含数字就作为日号，也不按DSEG整个家族名推定某文件拥有全部符号。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "segmented",
+        "semantic-coverage",
+        "punctuation"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/numeral-design-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "num-css-numeric",
+      "title": "CSS Fonts 4: numerical formatting",
+      "url": "https://www.w3.org/TR/2026/WD-css-fonts-4-20261022/#font-variant-numeric-prop",
+      "source_type": "W3C Working Draft",
+      "reading_locator": "Status of this document; section6.7 numeric grammar, values and examples; CSS-to-OpenType feature mapping.",
+      "actual_reading": "Read the draft status, numerical-formatting body, allowed figure/spacing combinations and mapping to lnum/onum/pnum/tnum/zero; not the full specification or browser implementation tests.",
+      "findings": [
+        "数字高度形式与宽度形式可组合，CSS为具体元素请求相应字体特性。",
+        "选择日号角色可以沿用家族并设置数字样式，不必为此增加一个字体家族。"
+      ],
+      "transfer_conditions": [
+        "使用font-variant-numeric描述预期，另查实际文件与最终输出；日期角色可以与星期分别设置。"
+      ],
+      "limitations": [
+        "2026-10-22版本为Working Draft，不称已获W3C背书的定稿。",
+        "规范说明不证明字体包含功能、浏览器已启用或输出已经符合；本轮HarfBuzz SVG不是浏览器测试。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "font-features"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/numeral-design-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
       "id": "type-role-first",
       "title": "字体按角色选择",
       "title_zh": "字体按角色选择",
@@ -11063,6 +13601,165 @@
       "distribution_status": "not-specified",
       "ready": true,
       "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "num-role-and-family",
+      "role": "numeral-selection",
+      "condition": "需要明确日号的展示/查读任务，但可能把单独角色误写成必须另用家族。",
+      "choices": [
+        "同一家族中单独选择数字样式、字重和轴值。",
+        "有明确的形态或覆盖理由时为日号另配家族，再校准星期/月名。"
+      ],
+      "tradeoff": "同族可能过于同调；另配可能引入竞争或不协调。",
+      "counterexample": "机械规定日号必须无衬线，或每个文字角色都必须有不同字体。",
+      "reference_ids": [
+        "num-css-numeric",
+        "font-pairing",
+        "font-butterick-mixing"
+      ],
+      "status": "source-informed-conditional-method",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "numeral-selection"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified",
+      "rights_status": "project-original-analysis-and-study",
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-source-sans-3-vf",
+        "font-dseg7-classic-regular"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/numeral-atlas/numeral-features.svg",
+          "scope": "Actual feature and content studies; not a selected template."
+        },
+        {
+          "path": "studies/numeral-atlas/numeral-contexts.svg",
+          "scope": "Four contextual typography proposals, not a controlled causal experiment."
+        }
+      ],
+      "evidence_status": "source-informed transfer hypothesis; user preference not established",
+      "title": "数字角色与配字",
+      "title_zh": "数字角色与配字"
+    },
+    {
+      "id": "num-format-and-zero",
+      "role": "numeral-format",
+      "condition": "1/01、0/O或编码标签混合引起视觉或语义问题。",
+      "choices": [
+        "先固定d/dd输出内容，再对比实际数字字形。",
+        "在确有辨识需求且字体支持时检查zero替代；纯日号可以保留普通零。"
+      ],
+      "tradeoff": "补零改变视觉密度与词形，斜线零也会改变风格和数字对比。",
+      "counterexample": "用tnum‘实现’前导零，或为了专业感无条件打开zero。",
+      "reference_ids": [
+        "num-cldr-day-padding",
+        "num-ot-zero",
+        "latin-ot-figure-widths"
+      ],
+      "status": "source-informed-conditional-method",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "numeral-format"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified",
+      "rights_status": "project-original-analysis-and-study",
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-source-sans-3-vf",
+        "font-dseg7-classic-regular"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/numeral-atlas/numeral-features.svg",
+          "scope": "Actual feature and content studies; not a selected template."
+        },
+        {
+          "path": "studies/numeral-atlas/numeral-contexts.svg",
+          "scope": "Four contextual typography proposals, not a controlled causal experiment."
+        }
+      ],
+      "evidence_status": "source-informed transfer hypothesis; user preference not established",
+      "title": "日号格式与零的字形",
+      "title_zh": "日号格式与零的字形"
+    },
+    {
+      "id": "num-symbol-semantics",
+      "role": "numeral-coverage",
+      "condition": "专用显示字体可能把常见码位赋予不同意义，或缺少日期所需标点。",
+      "choices": [
+        "验证0–9和分隔符实际图形/advance，不只做cmap存在检查。",
+        "专用数字与完整日期/星期分配独立但协调的字体角色。"
+      ],
+      "tradeoff": "分配多个字体增加角色控制，也增加基线、字重与间距协调的工作。",
+      "counterexample": "将DSEGWeather的数字码位当作日号，或用零宽句点参与普通字符串布局却不验结果。",
+      "reference_ids": [
+        "num-dseg-semantics",
+        "num-ot-zero",
+        "num-cldr-day-padding"
+      ],
+      "status": "source-informed-conditional-method",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numeral",
+        "date-type",
+        "numeral-coverage"
+      ],
+      "ready": true,
+      "distribution_status": "not-specified",
+      "rights_status": "project-original-analysis-and-study",
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-source-sans-3-vf",
+        "font-dseg7-classic-regular"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/numeral-atlas/numeral-features.svg",
+          "scope": "Actual feature and content studies; not a selected template."
+        },
+        {
+          "path": "studies/numeral-atlas/numeral-contexts.svg",
+          "scope": "Four contextual typography proposals, not a controlled causal experiment."
+        }
+      ],
+      "evidence_status": "source-informed transfer hypothesis; user preference not established",
+      "title": "数字与标点的语义覆盖",
+      "title_zh": "数字与标点的语义覆盖"
     }
   ],
   "semantics": {
@@ -11082,11 +13779,17 @@
     "assets/library/type-layout-elements.json",
     "assets/fonts/latin-study/manifest.json",
     "assets/library/latin-type-elements.json",
+    "assets/fonts/numeral-study/manifest.json",
+    "assets/fonts/numeral-study/profiles.json",
+    "assets/library/numeral-design-elements.json",
+    "docs/research/numeral-feature-audit.json",
+    "studies/numeral-atlas/manifest.json",
     "docs/research/cjk-typography.json",
     "docs/research/font-selection.json",
     "docs/research/layout-aesthetics.json",
     "docs/research/type-rendering-boundaries.json",
     "docs/research/latin-type-research.json",
-    "docs/research/latin-calendar-reading.json"
+    "docs/research/latin-calendar-reading.json",
+    "docs/research/numeral-design-research.json"
   ]
 }
