@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "purpose": "Reusable decisions with conditions, competing choices and limits; not an aesthetic scoring system.",
+  "assets": [
+    {
+      "id": "type-role-first",
+      "title": "字体按角色选择",
+      "title_zh": "字体按角色选择",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "font-selection",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "font-selection",
+        "typography",
+        "字体按角色选择"
+      ],
+      "condition": "标题、日期与正文的任务不同，或语言与输出尺寸会改变读法。",
+      "choices": [
+        "先用同一真实内容检查家族覆盖、字形结构、字重与尺寸；再分配展示、查读、注释角色。",
+        "同一家族可承担多角色，第二家族应有明确任务。"
+      ],
+      "tradeoff": "表达性与持续阅读的舒适度可能冲突；短标题的表现不能外推到正文。",
+      "counterexample": "仅凭宋体/黑体分类、主题词或已安装字体来自动决定风格。",
+      "reference_ids": [
+        "font-checklist",
+        "font-matrix",
+        "font-butterick-context"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf",
+        "font-instrumentserif"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-role-pairing",
+      "title": "字体搭配的角色与反差",
+      "title_zh": "字体搭配的角色与反差",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "font-pairing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "font-pairing",
+        "typography",
+        "字体搭配的角色与反差"
+      ],
+      "condition": "一份作品需要不同声音或中西文角色，但当前组合缺少关系。",
+      "choices": [
+        "分别试单一家族、相近骨架搭配与主动反差，比较实际片段。",
+        "比较骨架、笔画对比、细节、视觉大小和任务，而不只按衬线与否配对。"
+      ],
+      "tradeoff": "同调可能缺少区分，强对比可能破坏连续性；二者都不是固定优劣。",
+      "counterexample": "强制宋黑配对、规定所有日历的字体数量，或把不同字体堆叠当作设计丰富度。",
+      "reference_ids": [
+        "font-pairing",
+        "font-matrix",
+        "font-butterick-mixing",
+        "cjk-google-font-matrix"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf",
+        "font-ibmplexsanscondensed"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-size-context",
+      "title": "字号、视觉大小与光学设计",
+      "title_zh": "字号、视觉大小与光学设计",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "optical-sizing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "optical-sizing",
+        "typography",
+        "字号、视觉大小与光学设计"
+      ],
+      "condition": "同字号的中西字看起来不一样大，或同一字体需跨小字和大标题。",
+      "choices": [
+        "同时保留相同em比较与按墨迹高度调整的比较，并标出补偿。",
+        "若字体实际有光学尺寸轴或独立版本，在目标尺寸比较；手动缩放另行记录。"
+      ],
+      "tradeoff": "墨迹框相同仍可能因内部空间与笔画分布显得不同，数值不能代替观看。",
+      "counterexample": "把某品牌的缩放比例当跨语言通则，或把缩字号称为启用了opsz。",
+      "reference_ids": [
+        "font-optical-size",
+        "font-jaf-optical",
+        "font-ibm-scale",
+        "cjk-justfont-hanzi-2",
+        "cjk-google-vertical-metrics"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-numeral-roles",
+      "title": "数字形态与查读任务",
+      "title_zh": "数字形态与查读任务",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "numerals",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numerals",
+        "typography",
+        "数字形态与查读任务"
+      ],
+      "condition": "需要排列密集日期，或让单个日期数字成为主视觉。",
+      "choices": [
+        "实测或实际启用等宽/比例、等高/旧式数字，分别记录。",
+        "在对齐索引与单个展示数字两种任务中观察间距、轮廓及大小。"
+      ],
+      "tradeoff": "统一宽度方便列对齐，但可产生额外空隙；比例数字适合某些展示，却可能改变列节奏。",
+      "counterexample": "从衬线/无衬线/等宽家族名称推断所有数字特性，或假定已有渲染器调用了tnum。",
+      "reference_ids": [
+        "font-numerals"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf",
+        "font-ibmplexmono"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-cjk-language",
+      "title": "中文、中西混排与地区字形",
+      "title_zh": "中文、中西混排与地区字形",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "mixed-script",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "mixed-script",
+        "typography",
+        "中文、中西混排与地区字形"
+      ],
+      "condition": "中文与拉丁字母、数字、标点混排，或输出语言地区发生变化。",
+      "choices": [
+        "先明确语言地区、文字方向和实际内容，检查字面、基线与标点位置。",
+        "换行、不可拆串、禁则与空间调整须由目标排版环境执行并检验。"
+      ],
+      "tradeoff": "不同出版惯例及地区字形可影响选择；正文规则不能直接决定海报构图。",
+      "counterexample": "有该Unicode码位就算地区字形正确，或给每处汉字与西文都插同样的固定空格。",
+      "reference_ids": [
+        "cjk-clreq-2026",
+        "cjk-adobe-serif-readme",
+        "cjk-google-vertical-metrics",
+        "cjk-justfont-ming-comparison"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-shaping-support",
+      "title": "字体支持与渲染支持分开",
+      "title_zh": "字体支持与渲染支持分开",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "text-shaping",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "text-shaping",
+        "typography",
+        "字体支持与渲染支持分开"
+      ],
+      "condition": "计划使用kerning、连字、地区替换、垂直替换或数字特性。",
+      "choices": [
+        "分别记录字体表/轴的存在、特性是否启用、实际渲染结果。",
+        "需要字形替换与位置规则时采用可验证的塑形环境，并检查导出。"
+      ],
+      "tradeoff": "额外塑形能力增加实现与测试范围；原始轮廓证明只能回答有限的字形问题。",
+      "counterexample": "把cmap逐字输出当成完整OpenType塑形，或把可变字体有wght当成有opsz。",
+      "reference_ids": [
+        "type-harfbuzz-shaping",
+        "cjk-adobe-serif-readme",
+        "font-numerals",
+        "font-optical-size"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "layout-axes-grid",
+      "title": "轴线、边缘与内容网格",
+      "title_zh": "轴线、边缘与内容网格",
+      "kind": "design-element",
+      "domains": [
+        "layout"
+      ],
+      "role": "grid",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "grid",
+        "layout",
+        "轴线、边缘与内容网格"
+      ],
+      "condition": "图像、日期与标题像互不相干的块，或材料种类多而入口不明。",
+      "choices": [
+        "先从内容确定共同边缘、路径与索引，再选择对称或非对称。",
+        "检查缩略图的主关系和实际尺寸的光学边缘，保留有意偏移的理由。"
+      ],
+      "tradeoff": "网格提供关系但可能僵化；倾斜或偏移能表达方向，也可能增加检索负担。",
+      "counterexample": "把任何非对称等同自由散放，或复制某案例的角度/颜色当通用参数。",
+      "reference_ids": [
+        "layout-tschichold-1930",
+        "layout-build-memory",
+        "layout-architecture-unbound"
+      ],
+      "candidate_font_ids": [],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/layout-relations.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "layout-expressive-density",
+      "title": "表现性、密度与阅读阻力",
+      "title_zh": "表现性、密度与阅读阻力",
+      "kind": "design-element",
+      "domains": [
+        "layout"
+      ],
+      "role": "expressive-layout",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "expressive-layout",
+        "layout",
+        "表现性、密度与阅读阻力"
+      ],
+      "condition": "主题需要强烈的观看体验、复杂材料或有意的阅读节奏。",
+      "choices": [
+        "分别测试清晰路径、密集组织和表现性展示；说明阅读阻力服务什么。",
+        "让某一层表达变化，保留需要查阅的日期身份与入口。"
+      ],
+      "tradeoff": "表达张力可能降低即时查读；高信息量也可能有秩序，低密度也可能松散。",
+      "counterexample": "把极简、高密度、变形或破网格自动判作高级或错误。",
+      "reference_ids": [
+        "layout-weingart-tm",
+        "layout-typography36",
+        "layout-build-memory"
+      ],
+      "candidate_font_ids": [],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/layout-relations.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "layout-space-scale",
+      "title": "空白、尺寸与观看情境",
+      "title_zh": "空白、尺寸与观看情境",
+      "kind": "design-element",
+      "domains": [
+        "layout"
+      ],
+      "role": "spacing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "spacing",
+        "layout",
+        "空白、尺寸与观看情境"
+      ],
+      "condition": "页面将被挂墙、桌面观看或连续翻阅，屏幕小样不足以判断使用。",
+      "choices": [
+        "为空白指定分组、观看停顿、边缘张力或书写用途。",
+        "先用缩略图判断注意力，再以实际尺寸/材料样机检查；使用情境不确定时保留假设。"
+      ],
+      "tradeoff": "留白与材料可能增加空间感，也可能让关系解体；实际尺寸会改变字体与图像的力量。",
+      "counterexample": "只用空白百分比判美，或把西文正文行长、字号直接用于远观中文日期。",
+      "reference_ids": [
+        "layout-irma-volume",
+        "layout-tschichold-1930",
+        "font-butterick-context"
+      ],
+      "candidate_font_ids": [],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/layout-relations.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "layout-series-variation",
+      "title": "系列中的锚点与变化",
+      "title_zh": "系列中的锚点与变化",
+      "kind": "design-element",
+      "domains": [
+        "layout"
+      ],
+      "role": "series",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "series",
+        "layout",
+        "系列中的锚点与变化"
+      ],
+      "condition": "月历/周历/日历需要一组相关页面，同时允许内容具有区别。",
+      "choices": [
+        "保留最少且有用的身份入口，让变化对应每期内容。",
+        "在相邻页比较一致性与新鲜感，并保存实际内容顺序和变化规则。"
+      ],
+      "tradeoff": "全部固定可能单调；全部变化会增加重新查找成本。",
+      "counterexample": "每页随机变换字体/位置来制造新鲜感，或为系列整齐而压平全部内容差异。",
+      "reference_ids": [
+        "layout-public-season",
+        "layout-typography36",
+        "layout-irma-volume"
+      ],
+      "candidate_font_ids": [],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/layout-relations.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    }
+  ]
+}

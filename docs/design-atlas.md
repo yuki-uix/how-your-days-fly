@@ -4,6 +4,8 @@
 
 实际开始一轮设计时，使用[基础 skill](../.agents/skills/calendar-design-lab/SKILL.md)：[渐进澄清](../.agents/skills/calendar-design-lab/references/discovery.md) → [方向探索与定向修改](../.agents/skills/calendar-design-lab/references/design-exploration.md) → [案例与证据留档](../.agents/skills/calendar-design-lab/references/case-record.md)。这些流程引用本总览；统一查询也返回对应 workflow 路径。
 
+[字体与排版专题](type-layout-library.md)已接入同一索引，区分规范、设计立场与实现边界。查某尺度时可加 `--domain typography` 或 `--domain layout`，条件条目会连同字体和来源返回。
+
 ```mermaid
 flowchart LR
     A[用途与时间尺度] --> B[选择时间结构]
@@ -35,7 +37,7 @@ flowchart LR
 | 结构词汇 | 时间结构、信息层次、内容角色、载体／行为四个维度；八种结构家族 | [结构模式](../.agents/skills/calendar-design-lab/references/patterns.md) |
 | 设计判断 | 设计卡、条件性规则、问题定位；时间语义与排版构图的依据 | [设计语言](../.agents/skills/calendar-design-lab/references/design-language.md)、[时间语义](../.agents/skills/calendar-design-lab/references/temporal-semantics.md)、[排版与构图](../.agents/skills/calendar-design-lab/references/typographic-composition.md) |
 | 学习与案例证据 | 开放教材、论文、设计者说明，以及按尺度收集的二十个官方案例 | [学习指南](../.agents/skills/calendar-design-lab/references/learning-guide.md)、[年／月案例](research/annual-monthly-materials.md)、[周／日案例](research/weekly-daily-materials.md) |
-| 实际素材 | 八张逐件 CC0 图像、十六个原创向量部件，以及已有三个 OFL 字体家族和一张原创生成图像 | [素材使用指南](material-library.md)、[素材总索引](../assets/library/catalog.json)及各资产 provenance |
+| 实际素材 | 八张逐件 CC0 图像、十六个原创向量部件、五个 OFL 字体家族、一张原创生成图像和带取舍的字体／构图条目 | [素材使用指南](material-library.md)、[字体排版专题](type-layout-library.md)、[素材总索引](../assets/library/catalog.json)及各资产 provenance |
 | 设计证据 | A–H 八份结构／内容研究，J1–J6 六份应用研究；各自保留日期和实现记录 | [A–H manifest](../studies/pattern-atlas/manifest.json)、[J1–J6 说明](../studies/learned-language/README.md)与 [manifest](../studies/learned-language/manifest.json) |
 | 修改与保存 | 技术检查、用户反馈、重放与重新参数化的区别、最终选定资产 | [审查](../.agents/skills/calendar-design-lab/references/review.md)、[配方记录](../.agents/skills/calendar-design-lab/references/recipe.md) |
 

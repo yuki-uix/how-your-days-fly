@@ -1,6 +1,6 @@
 {
-  "schema_version": 1,
-  "updated_at": "2026-10-29",
+  "schema_version": 2,
+  "updated_at": "2026-10-30",
   "groups": {
     "year": {
       "components": [
@@ -20,14 +20,54 @@
         "ref-y-01",
         "ref-y-02",
         "ref-y-03",
-        "ref-y-04"
+        "ref-y-04",
+        "cjk-clreq-2026",
+        "cjk-adobe-serif-readme",
+        "cjk-adobe-serif-design",
+        "cjk-google-font-matrix",
+        "cjk-google-vertical-metrics",
+        "cjk-justfont-hanzi-2",
+        "cjk-justfont-ming-comparison",
+        "cjk-justfont-native-bold",
+        "font-checklist",
+        "font-pairing",
+        "font-matrix",
+        "font-optical-size",
+        "font-numerals",
+        "font-ibm-scale",
+        "font-ibm-family",
+        "font-jaf-optical",
+        "layout-tschichold-1930",
+        "layout-weingart-tm",
+        "layout-irma-volume",
+        "layout-build-memory",
+        "layout-architecture-unbound",
+        "layout-typography36",
+        "layout-public-season",
+        "font-butterick-mixing",
+        "font-butterick-context",
+        "type-harfbuzz-shaping"
       ],
       "font_families": [
         "font-instrumentserif",
         "font-ibmplexmono",
-        "font-ibmplexsanscondensed"
+        "font-ibmplexsanscondensed",
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
       ],
-      "proposals": []
+      "proposals": [],
+      "design_elements": [
+        "type-role-first",
+        "type-role-pairing",
+        "type-size-context",
+        "type-numeral-roles",
+        "type-cjk-language",
+        "type-shaping-support",
+        "layout-axes-grid",
+        "layout-expressive-density",
+        "layout-space-scale",
+        "layout-series-variation"
+      ]
     },
     "month": {
       "components": [
@@ -53,17 +93,57 @@
         "ref-m-03",
         "ref-m-04",
         "ref-m-05",
-        "ref-m-06"
+        "ref-m-06",
+        "cjk-clreq-2026",
+        "cjk-adobe-serif-readme",
+        "cjk-adobe-serif-design",
+        "cjk-google-font-matrix",
+        "cjk-google-vertical-metrics",
+        "cjk-justfont-hanzi-2",
+        "cjk-justfont-ming-comparison",
+        "cjk-justfont-native-bold",
+        "font-checklist",
+        "font-pairing",
+        "font-matrix",
+        "font-optical-size",
+        "font-numerals",
+        "font-ibm-scale",
+        "font-ibm-family",
+        "font-jaf-optical",
+        "layout-tschichold-1930",
+        "layout-weingart-tm",
+        "layout-irma-volume",
+        "layout-build-memory",
+        "layout-architecture-unbound",
+        "layout-typography36",
+        "layout-public-season",
+        "font-butterick-mixing",
+        "font-butterick-context",
+        "type-harfbuzz-shaping"
       ],
       "font_families": [
         "font-instrumentserif",
         "font-ibmplexmono",
-        "font-ibmplexsanscondensed"
+        "font-ibmplexsanscondensed",
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
       ],
       "proposals": [
         "proposal-week-habit-strip",
         "proposal-week-foldout-context",
         "proposal-day-personal-photo-sequence"
+      ],
+      "design_elements": [
+        "type-role-first",
+        "type-role-pairing",
+        "type-size-context",
+        "type-numeral-roles",
+        "type-cjk-language",
+        "type-shaping-support",
+        "layout-axes-grid",
+        "layout-expressive-density",
+        "layout-space-scale",
+        "layout-series-variation"
       ]
     },
     "week": {
@@ -86,18 +166,58 @@
         "weekly-travelers-open-memo",
         "weekly-midori-daylight",
         "weekly-markfold-flexible-grid",
-        "weekly-kokuyo-life-log"
+        "weekly-kokuyo-life-log",
+        "cjk-clreq-2026",
+        "cjk-adobe-serif-readme",
+        "cjk-adobe-serif-design",
+        "cjk-google-font-matrix",
+        "cjk-google-vertical-metrics",
+        "cjk-justfont-hanzi-2",
+        "cjk-justfont-ming-comparison",
+        "cjk-justfont-native-bold",
+        "font-checklist",
+        "font-pairing",
+        "font-matrix",
+        "font-optical-size",
+        "font-numerals",
+        "font-ibm-scale",
+        "font-ibm-family",
+        "font-jaf-optical",
+        "layout-tschichold-1930",
+        "layout-weingart-tm",
+        "layout-irma-volume",
+        "layout-build-memory",
+        "layout-architecture-unbound",
+        "layout-typography36",
+        "layout-public-season",
+        "font-butterick-mixing",
+        "font-butterick-context",
+        "type-harfbuzz-shaping"
       ],
       "font_families": [
         "font-instrumentserif",
         "font-ibmplexmono",
-        "font-ibmplexsanscondensed"
+        "font-ibmplexsanscondensed",
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
       ],
       "proposals": [
         "proposal-week-habit-strip",
         "proposal-week-foldout-context",
         "proposal-day-one-observation",
         "proposal-day-personal-photo-sequence"
+      ],
+      "design_elements": [
+        "type-role-first",
+        "type-role-pairing",
+        "type-size-context",
+        "type-numeral-roles",
+        "type-cjk-language",
+        "type-shaping-support",
+        "layout-axes-grid",
+        "layout-expressive-density",
+        "layout-space-scale",
+        "layout-series-variation"
       ]
     },
     "day": {
@@ -123,16 +243,56 @@
         "daily-chronicle-same-date-years",
         "daily-audubon-photo-gallery",
         "daily-mensa-micro-challenge",
-        "daily-danese-timor-modular"
+        "daily-danese-timor-modular",
+        "cjk-clreq-2026",
+        "cjk-adobe-serif-readme",
+        "cjk-adobe-serif-design",
+        "cjk-google-font-matrix",
+        "cjk-google-vertical-metrics",
+        "cjk-justfont-hanzi-2",
+        "cjk-justfont-ming-comparison",
+        "cjk-justfont-native-bold",
+        "font-checklist",
+        "font-pairing",
+        "font-matrix",
+        "font-optical-size",
+        "font-numerals",
+        "font-ibm-scale",
+        "font-ibm-family",
+        "font-jaf-optical",
+        "layout-tschichold-1930",
+        "layout-weingart-tm",
+        "layout-irma-volume",
+        "layout-build-memory",
+        "layout-architecture-unbound",
+        "layout-typography36",
+        "layout-public-season",
+        "font-butterick-mixing",
+        "font-butterick-context",
+        "type-harfbuzz-shaping"
       ],
       "font_families": [
         "font-instrumentserif",
         "font-ibmplexmono",
-        "font-ibmplexsanscondensed"
+        "font-ibmplexsanscondensed",
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
       ],
       "proposals": [
         "proposal-day-one-observation",
         "proposal-day-personal-photo-sequence"
+      ],
+      "design_elements": [
+        "type-role-first",
+        "type-role-pairing",
+        "type-size-context",
+        "type-numeral-roles",
+        "type-cjk-language",
+        "type-shaping-support",
+        "layout-axes-grid",
+        "layout-expressive-density",
+        "layout-space-scale",
+        "layout-series-variation"
       ]
     }
   },
@@ -2369,7 +2529,8 @@
         "month"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "y-tabs",
@@ -2414,7 +2575,8 @@
         "day"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "y-weave",
@@ -2457,7 +2619,8 @@
         "month"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "y-orbit",
@@ -2500,7 +2663,8 @@
         "day"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "m-mat",
@@ -2543,7 +2707,8 @@
         "day"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "m-specimen",
@@ -2588,7 +2753,8 @@
         "day"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "m-overprint",
@@ -2631,7 +2797,8 @@
         "day"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "m-dock",
@@ -2860,7 +3027,8 @@
         "month"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "w-hours",
@@ -2939,7 +3107,8 @@
         "day"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "w-notes",
@@ -3018,7 +3187,8 @@
         "day"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "w-habit",
@@ -3097,7 +3267,8 @@
         "month"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "w-margin",
@@ -3142,7 +3313,8 @@
         "day"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "d-number",
@@ -3191,7 +3363,8 @@
         "month"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "d-perforation",
@@ -3234,7 +3407,8 @@
         "week"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "d-detail",
@@ -3279,7 +3453,8 @@
         "month"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "d-observe",
@@ -3322,7 +3497,8 @@
         "week"
       ],
       "ready": true,
-      "distribution_status": "not-specified"
+      "distribution_status": "not-specified",
+      "domains": []
     },
     {
       "id": "met-wave",
@@ -3388,7 +3564,8 @@
       ],
       "role": "source-image",
       "ready": true,
-      "distribution_status": "CC0-1.0"
+      "distribution_status": "CC0-1.0",
+      "domains": []
     },
     {
       "id": "met-roses",
@@ -3451,7 +3628,8 @@
       ],
       "role": "source-image",
       "ready": true,
-      "distribution_status": "CC0-1.0"
+      "distribution_status": "CC0-1.0",
+      "domains": []
     },
     {
       "id": "cma-tulip",
@@ -3518,7 +3696,8 @@
       ],
       "role": "source-image",
       "ready": true,
-      "distribution_status": "CC0-1.0"
+      "distribution_status": "CC0-1.0",
+      "domains": []
     },
     {
       "id": "cma-lily",
@@ -3589,7 +3768,8 @@
       ],
       "role": "source-image",
       "ready": true,
-      "distribution_status": "CC0-1.0"
+      "distribution_status": "CC0-1.0",
+      "domains": []
     },
     {
       "id": "cma-bird",
@@ -3652,7 +3832,8 @@
       ],
       "role": "source-image",
       "ready": true,
-      "distribution_status": "CC0-1.0"
+      "distribution_status": "CC0-1.0",
+      "domains": []
     },
     {
       "id": "cma-snow",
@@ -3719,7 +3900,8 @@
       ],
       "role": "source-image",
       "ready": true,
-      "distribution_status": "CC0-1.0"
+      "distribution_status": "CC0-1.0",
+      "domains": []
     },
     {
       "id": "cma-lace",
@@ -3782,7 +3964,8 @@
       ],
       "role": "source-image",
       "ready": true,
-      "distribution_status": "CC0-1.0"
+      "distribution_status": "CC0-1.0",
+      "domains": []
     },
     {
       "id": "cma-moon",
@@ -3850,7 +4033,8 @@
       ],
       "role": "source-image",
       "ready": true,
-      "distribution_status": "CC0-1.0"
+      "distribution_status": "CC0-1.0",
+      "domains": []
     },
     {
       "id": "font-instrumentserif",
@@ -3892,7 +4076,10 @@
       "distribution_status": "OFL-1.1",
       "ready": true,
       "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
-      "source_record": "assets/fonts/provenance.json"
+      "source_record": "assets/fonts/provenance.json",
+      "domains": [
+        "typography"
+      ]
     },
     {
       "id": "font-ibmplexmono",
@@ -3934,7 +4121,10 @@
       "distribution_status": "OFL-1.1",
       "ready": true,
       "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
-      "source_record": "assets/fonts/provenance.json"
+      "source_record": "assets/fonts/provenance.json",
+      "domains": [
+        "typography"
+      ]
     },
     {
       "id": "font-ibmplexsanscondensed",
@@ -3982,7 +4172,272 @@
       "distribution_status": "OFL-1.1",
       "ready": true,
       "usage_notes": "Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.",
-      "source_record": "assets/fonts/provenance.json"
+      "source_record": "assets/fonts/provenance.json",
+      "domains": [
+        "typography"
+      ]
+    },
+    {
+      "id": "font-noto-serif-sc-vf",
+      "title": "Noto Serif SC",
+      "title_zh": "Noto Serif SC（简体中文宋体）",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "typography",
+      "tags": [
+        "cjk",
+        "zh-CN",
+        "serif",
+        "variable",
+        "weight",
+        "numeral"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "source_record": "assets/fonts/type-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+      "license": "OFL-1.1",
+      "version": "Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0",
+      "upstream_git_blob_sha": "eab063faf229160a52d3760f5555150e4eb9e5bf",
+      "local_files": [
+        {
+          "path": "assets/fonts/type-study/noto-serif-sc/NotoSerifSC-VF.ttf",
+          "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+          "bytes": 25125512,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf"
+        },
+        {
+          "path": "assets/fonts/type-study/noto-serif-sc/OFL.txt",
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+          "bytes": 4350,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "minimum": 200.0,
+          "default": 200.0,
+          "maximum": 900.0
+        }
+      ],
+      "measurements_400": {
+        "sample": "年月周日 春夏秋冬 0123456789 Aa Il1，。！？（）《》",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 557,
+          "1": 471,
+          "2": 558,
+          "3": 557,
+          "4": 555,
+          "5": 558,
+          "6": 558,
+          "7": 549,
+          "8": 558,
+          "9": 562
+        },
+        "default_numerals_tabular": false,
+        "glyph_ink_bounds_units": {
+          "年": [
+            37.0596923828125,
+            -77.41046142578125,
+            958.6204833984375,
+            854.3603515625
+          ],
+          "月": [
+            47.31982421875,
+            -78.04052734375,
+            818.1407470703125,
+            803.1908569335938
+          ],
+          "周": [
+            38.10980224609375,
+            -77.200439453125,
+            914.8901977539062,
+            808.560791015625
+          ],
+          "日": [
+            201.8592529296875,
+            -70.25054931640625,
+            845.6610107421875,
+            782.5010986328125
+          ],
+          "0": [
+            46.94989013671875,
+            -14.63006591796875,
+            509.17169189453125,
+            742.6705932617188
+          ],
+          "H": [
+            52.84967041015625,
+            0,
+            800.560791015625,
+            728.04052734375
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "ccmp",
+          "dlig",
+          "fwid",
+          "hist",
+          "hwid",
+          "liga",
+          "locl",
+          "pwid",
+          "ruby",
+          "vert",
+          "vrt2"
+        ],
+        "measurement_scope": "Default cmap glyphs in a static in-memory 400 instance. No GSUB or GPOS feature application is claimed."
+      },
+      "reserved_font_names_declared": [],
+      "usage_notes": "Original unmodified variable TrueType file retained. Choose and record wght explicitly; its default is not 400. No opsz axis exists in this file. For export, retain an actual supported instance or outline the selected glyphs and preserve editable source. A full CJK typesetting/shaping system is not established by this asset.",
+      "domains": [
+        "typography"
+      ]
+    },
+    {
+      "id": "font-noto-sans-sc-vf",
+      "title": "Noto Sans SC",
+      "title_zh": "Noto Sans SC（简体中文黑体）",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "typography",
+      "tags": [
+        "cjk",
+        "zh-CN",
+        "sans",
+        "variable",
+        "weight",
+        "numeral"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "source_record": "assets/fonts/type-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "license": "OFL-1.1",
+      "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+      "upstream_git_blob_sha": "fb0637bafbcd804fe32152370a1225990745b4bc",
+      "local_files": [
+        {
+          "path": "assets/fonts/type-study/noto-sans-sc/NotoSansSC-VF.ttf",
+          "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+          "bytes": 17772300,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf"
+        },
+        {
+          "path": "assets/fonts/type-study/noto-sans-sc/OFL.txt",
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "bytes": 4388,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "minimum": 100.0,
+          "default": 100.0,
+          "maximum": 900.0
+        }
+      ],
+      "measurements_400": {
+        "sample": "年月周日 春夏秋冬 0123456789 Aa Il1，。！？（）《》",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 555,
+          "1": 555,
+          "2": 555,
+          "3": 555,
+          "4": 555,
+          "5": 555,
+          "6": 555,
+          "7": 555,
+          "8": 555,
+          "9": 555
+        },
+        "default_numerals_tabular": true,
+        "glyph_ink_bounds_units": {
+          "年": [
+            47.5897216796875,
+            -80.3603515625,
+            953.6302490234375,
+            843.7503662109375
+          ],
+          "月": [
+            29.19970703125,
+            -80.9703369140625,
+            820.8907470703125,
+            787.2105712890625
+          ],
+          "周": [
+            32.859619140625,
+            -85.580322265625,
+            880.2308349609375,
+            791.7503662109375
+          ],
+          "日": [
+            176.379150390625,
+            -68.9703369140625,
+            831.8907470703125,
+            772.16064453125
+          ],
+          "0": [
+            49.539794921875,
+            -13.3900146484375,
+            505.781494140625,
+            746.4102783203125
+          ],
+          "H": [
+            100.6396484375,
+            0,
+            627.6114501953125,
+            733.4102783203125
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "ccmp",
+          "dlig",
+          "fwid",
+          "hist",
+          "hwid",
+          "liga",
+          "locl",
+          "pwid",
+          "ruby",
+          "vert",
+          "vrt2"
+        ],
+        "measurement_scope": "Default cmap glyphs in a static in-memory 400 instance. No GSUB or GPOS feature application is claimed."
+      },
+      "reserved_font_names_declared": [
+        "Source"
+      ],
+      "usage_notes": "Original unmodified variable TrueType file retained. Choose and record wght explicitly; its default is not 400. No opsz axis exists in this file. For export, retain an actual supported instance or outline the selected glyphs and preserve editable source. A full CJK typesetting/shaping system is not established by this asset.",
+      "domains": [
+        "typography"
+      ]
     },
     {
       "id": "paper-light-j4",
@@ -4007,7 +4462,8 @@
       "rights_status": "project-generated-provenance-recorded",
       "distribution_status": "not-specified",
       "ready": true,
-      "usage_notes": "Original selected asset already used in J4. Generation metadata is recorded; no blanket public reuse grant is asserted."
+      "usage_notes": "Original selected asset already used in J4. Generation metadata is recorded; no blanket public reuse grant is asserted.",
+      "domains": []
     },
     {
       "id": "ref-y-01",
@@ -4036,7 +4492,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-y-02",
@@ -4065,7 +4522,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-y-03",
@@ -4094,7 +4552,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-y-04",
@@ -4123,7 +4582,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-m-01",
@@ -4152,7 +4612,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-m-02",
@@ -4181,7 +4642,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-m-03",
@@ -4210,7 +4672,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-m-04",
@@ -4239,7 +4702,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-m-05",
@@ -4268,7 +4732,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "ref-m-06",
@@ -4297,7 +4762,8 @@
       "kind": "reference",
       "role": "design-evidence",
       "ready": false,
-      "distribution_status": "research-only"
+      "distribution_status": "research-only",
+      "domains": []
     },
     {
       "id": "weekly-hobonichi-24h",
@@ -4326,7 +4792,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "weekly-travelers-open-memo",
@@ -4355,7 +4822,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "weekly-midori-daylight",
@@ -4385,7 +4853,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "weekly-markfold-flexible-grid",
@@ -4414,7 +4883,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "weekly-kokuyo-life-log",
@@ -4444,7 +4914,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "daily-mack-art-sequence",
@@ -4474,7 +4945,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "daily-chronicle-same-date-years",
@@ -4504,7 +4976,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "daily-audubon-photo-gallery",
@@ -4534,7 +5007,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "daily-mensa-micro-challenge",
@@ -4563,7 +5037,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "daily-danese-timor-modular",
@@ -4592,7 +5067,8 @@
       "role": "design-evidence",
       "ready": false,
       "distribution_status": "research-only",
-      "local_asset": null
+      "local_asset": null,
+      "domains": []
     },
     {
       "id": "proposal-week-habit-strip",
@@ -4608,7 +5084,8 @@
       "role": "design-proposal",
       "ready": false,
       "rights_status": "project-proposal",
-      "distribution_status": "not-an-asset"
+      "distribution_status": "not-an-asset",
+      "domains": []
     },
     {
       "id": "proposal-week-foldout-context",
@@ -4624,7 +5101,8 @@
       "role": "design-proposal",
       "ready": false,
       "rights_status": "project-proposal",
-      "distribution_status": "not-an-asset"
+      "distribution_status": "not-an-asset",
+      "domains": []
     },
     {
       "id": "proposal-day-one-observation",
@@ -4640,7 +5118,8 @@
       "role": "design-proposal",
       "ready": false,
       "rights_status": "project-proposal",
-      "distribution_status": "not-an-asset"
+      "distribution_status": "not-an-asset",
+      "domains": []
     },
     {
       "id": "proposal-day-personal-photo-sequence",
@@ -4657,13 +5136,1595 @@
       "role": "design-proposal",
       "ready": false,
       "rights_status": "project-proposal",
-      "distribution_status": "not-an-asset"
+      "distribution_status": "not-an-asset",
+      "domains": []
+    },
+    {
+      "id": "cjk-clreq-2026",
+      "title": "Requirements for Chinese Text Layout／中文排版需求（2026-10-07）",
+      "url": "https://www.w3.org/TR/2026/DNOTE-clreq-20261007/",
+      "source_type": "first-party-layout-requirements-draft",
+      "source_status": "W3C Group Note Draft；原文声明尚未经 W3C 及其会员认可，可能更新。",
+      "reading_locator": [
+        "Status of This Document",
+        "§2.1.2–2.1.3 横直排差异、直排混排",
+        "§6.1.1–6.1.2 行首行尾与不可拆分符号",
+        "§6.2.2 行内调整",
+        "§6.3.1.3、6.3.2–6.3.3 字距、标点、横排混排",
+        "§6.4 基线、行高；§7.1.3 标题"
+      ],
+      "actual_reading": "选择性精读上述章节的中英文正文；逐项核对禁则级别、标点调整顺序、直排数字配置与 em／字面区别。未宣称通读全文。",
+      "findings": [
+        "字号对应文字外框，实际字面另受字体设计影响。",
+        "禁则、不可拆分串与标点挤压共同影响换行；宽度调整也包含地区和排版风格选择。",
+        "横排汉字与西文边界可用至多 1/4 em 间距，标点及行边界有例外；直排西文可直立、旋转或纵中横。"
+      ],
+      "limitations": [
+        "描述中文出版惯例及需求，不提供本项目的具体排版实现；不是已获认可的 W3C 标准。",
+        "书籍正文的两端对齐等习惯不能直接推成海报、日期索引或所有网页的审美要求。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "只保存链接、章节定位与原创笔记；不导入原图。文档许可与第三方字体使用权分开。",
+      "tags": [
+        "cjk",
+        "line-breaking",
+        "punctuation",
+        "mixed-script",
+        "vertical",
+        "character-frame"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/cjk-typography.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "cjk-adobe-serif-readme",
+      "title": "Source Han Serif ReadMe v2.003（2024-07-30）",
+      "url": "https://github.com/adobe-fonts/source-han-serif/blob/release/SourceHanSerifReadMe.pdf",
+      "source_type": "first-party-font-technical-documentation",
+      "reading_locator": [
+        "PDF p.1–2：概览、地区字形与七字重样例",
+        "PDF p.3–4：Configurations，语言默认值、locl 与地区子集"
+      ],
+      "actual_reading": "从 Adobe 官方 release 分支临时读取 PDF，并提取、阅读第 1–4 页文字；比较页面所列同码位地区字形说明。未通读其余技术表。",
+      "findings": [
+        "同一码位可有多个地区字形；泛 CJK 字体的非默认字形依赖正确语言标签和 locl 支持。",
+        "地区子集能绕开部分本地化字形访问要求；七个原生字重提供同族层次材料。"
+      ],
+      "limitations": [
+        "字体有相关字形不等于任意导出器会正确调用。",
+        "这是字体部署说明，不能证明某组合更美；文件名、语言标签和塑形链需要另验。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "未向资料库复制 PDF 或字体。文档说明字体及其源文件遵循 SIL OFL 1.1；不能据此把设计指南插图视为任意可复用素材。",
+      "tags": [
+        "cjk",
+        "regional-forms",
+        "opentype",
+        "language",
+        "font-weight"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/cjk-typography.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "cjk-adobe-serif-design",
+      "title": "Source Han Serif Design Guide v2.0（2021-10-25）",
+      "url": "https://github.com/adobe-fonts/source-han-serif/blob/release/SourceHanSerifDesignGuide.pdf",
+      "source_type": "first-party-typeface-design-rationale",
+      "reading_locator": [
+        "单页设计说明：中部字形设计与长文目标段落",
+        "右侧五语种、七字重样字；末段与 Source Han Sans 的关系"
+      ],
+      "actual_reading": "从 Adobe 官方 release 分支临时读取单页 PDF；完整阅读提取的说明文字，核对五语种与各字重标签。样字未作为项目艺术素材使用。",
+      "findings": [
+        "设计者把较直线的笔画、较克制的假名对比与现代感相联系，同时保留地区惯例。",
+        "设计说明把书写来源、内部空间与长文目标并置；宋黑姊妹家族是互补设计而非相同轮廓。"
+      ],
+      "limitations": [
+        "这是该字体的设计意图，不是阅读实验或所有宋体的规律。",
+        "不可由某个笔画或字腔大小单独推出适合全部屏幕与印刷尺寸。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "只保留原创概述与官方链接；不复用设计指南版式、图例或原文长段。",
+      "tags": [
+        "cjk",
+        "stroke-contrast",
+        "counterspace",
+        "superfamily",
+        "aesthetic-position"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/cjk-typography.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "cjk-google-font-matrix",
+      "title": "Pairing typefaces based on their construction using the Font Matrix",
+      "url": "https://fonts.google.com/knowledge/choosing_type/pairing_typefaces_based_on_their_construction_using_the_font_matrix",
+      "source_type": "first-party-type-education",
+      "reading_locator": [
+        "开篇：配字没有绝对规则",
+        "Three layers：skeleton／contrast and serifs／finer details",
+        "Pairing section：相近结构与有意对比两条路径"
+      ],
+      "actual_reading": "阅读 Google Fonts 官方仓库内该课的完整 Markdown 正文，包括结构分类和配对建议；未下载其插图。",
+      "reading_url": "https://raw.githubusercontent.com/google/fonts/main/cc-by-sa/knowledge/modules/choosing_type/lessons/pairing_typefaces_based_on_their_construction_using_the_font_matrix/content.md",
+      "findings": [
+        "配字可比较骨架、对比与细部；衬线／无衬线二分不够。",
+        "相近构造与主动制造差异都可能成立；原文开头明确把配字视为创作判断。"
+      ],
+      "limitations": [
+        "主要以拉丁字母结构举例，不能把 a、e、o 的模型直接当成汉字分类标准。",
+        "文中的配对建议属于教学模型，不能用于自动打分或宣布另一风格错误。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "官方源码路径位于 cc-by-sa；本记录不移植图解或原课文本，后续使用原资源须单独核对署名与相同方式共享要求。",
+      "tags": [
+        "pairing",
+        "latin",
+        "construction",
+        "contrast",
+        "aesthetic-position"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/cjk-typography.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "cjk-google-vertical-metrics",
+      "title": "Google Fonts Guide — Vertical Metrics",
+      "url": "https://googlefonts.github.io/gf-guide/metrics.html",
+      "source_type": "first-party-font-engineering-guide",
+      "reading_locator": [
+        "开篇：不同平台解释垂直度量的差异",
+        "CJK Vertical Metrics 小节：em-box、BASE、vhea／vmtx 与兼容性"
+      ],
+      "actual_reading": "精读开篇适用范围、CJK Vertical Metrics 全节；对照拉丁示例与 CJK 说明，未把前者的数字当作通用参数。",
+      "findings": [
+        "行盒和基线由字体表及排版环境共同决定；不是字形墨迹边界。",
+        "CJK 小节以 em-box 为基础讨论 Google Fonts 收录与兼容策略，旧实现仍可能依赖旧约定。"
+      ],
+      "limitations": [
+        "这是一家服务的字体工程规则，不是日历行高的美学标准。",
+        "拉丁章节的比例不可直接用作所有中文排版默认值；仍需在目标浏览器和导出格式检查。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "只保存链接与原创分析；不把源码示例或图例作为可分发设计素材。",
+      "tags": [
+        "cjk",
+        "metrics",
+        "baseline",
+        "line-height",
+        "rendering"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/cjk-typography.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "cjk-justfont-hanzi-2",
+      "title": "字型設計自己來｜中文字型設計的第二課（But，2012-12-25）",
+      "url": "https://blog.justfont.com/2012/12/hanzi-type-design-2/",
+      "source_type": "first-party-foundry-education",
+      "reading_locator": [
+        "正文：字面与中宫的区别",
+        "同字级／同字面模拟不同内部空间的比较",
+        "末段：与西文字体 x-height／字腔的类比"
+      ],
+      "actual_reading": "完整阅读正文及图注，重点核对同字面模拟实验的控制条件；原网页图例仅作阅读，不下载入库。",
+      "findings": [
+        "字面大小与内部笔画分布不是同一个量；同字号甚至同字面仍可能显得不同大。",
+        "作者把中宫与西文内部空间关系作为配字观察线索，而非只看外轮廓。"
+      ],
+      "limitations": [
+        "模拟案例与经验描述不等于普遍心理学证据。",
+        "松紧所引发的情绪会依文本、时代和读者而变，不能预置为用户偏好。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "文章页标示 CC BY-NC-ND 4.0；不导入、改绘其图例或将文章当作商业模板素材。字体许可另核。",
+      "tags": [
+        "cjk",
+        "character-face",
+        "counterspace",
+        "perceived-size",
+        "pairing"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/cjk-typography.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "cjk-justfont-ming-comparison",
+      "title": "日本的字體設計比較好看？讓我們從明體說起（Rong，2023-09-04）",
+      "url": "https://blog.justfont.com/2023/09/whyjpdesign/",
+      "source_type": "first-party-foundry-design-criticism",
+      "reading_locator": [
+        "正文：八款明体以相同内容、字级、字距、行距比较",
+        "骨架／血肉、收笔和横向展开的逐项观察",
+        "地区字形及标点识别讨论"
+      ],
+      "actual_reading": "阅读正文与比较条件、各组解释；区分作者的审美主张和比较中可复查的形式观察。",
+      "findings": [
+        "同属明体仍可从骨架、横向展开、笔画及末端看出不同节奏。",
+        "同条件字样比国家标签更有判断价值；标点和地区字形也会影响实际呈现。"
+      ],
+      "limitations": [
+        "作者的长文用字立场是设计批评，不是证明宋体永远更易读的研究。",
+        "不能把文章题目转换成日本字体普遍优于中文字体的排序。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "仅保留原创笔记和链接；原文图例与被比较商业字体未获本项目再分发许可，不导入。",
+      "tags": [
+        "cjk",
+        "ming",
+        "skeleton",
+        "terminals",
+        "comparison",
+        "aesthetic-position"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/cjk-typography.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "cjk-justfont-native-bold",
+      "title": "不是按「B」就有？中文粗體吸睛字體推薦與免費下載點一次看（陳弘量，2025-01-22）",
+      "url": "https://blog.justfont.com/2025/01/extrabold-font/",
+      "source_type": "first-party-foundry-font-usage-guide",
+      "reading_locator": [
+        "正文：软件模拟粗体与原生粗体",
+        "字重家族与层次关系",
+        "标题展示字体和长文适用情境"
+      ],
+      "actual_reading": "阅读正文关于模拟粗体、原生家族与展示场景的说明；产品推荐段只作为上下文，不作为本项目选字结论。",
+      "findings": [
+        "缺少真实粗字重时软件模拟可能损害形状；原生字重应作为独立设计检查。",
+        "展示字体可以承担个性，但短标题成立不等于适合小字长文。"
+      ],
+      "limitations": [
+        "字体厂商的使用指南含推广目的，不是覆盖所有渲染器的实测。",
+        "“吸睛”也不是每种日历的目标；不能把选字细致误解为一律用细字。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "不导入文章样张或商业字体；任何后续字库需记录独立的文件来源和授权。",
+      "tags": [
+        "cjk",
+        "font-weight",
+        "synthetic-bold",
+        "display",
+        "hierarchy"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/cjk-typography.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-checklist",
+      "title": "A checklist for choosing type",
+      "url": "https://fonts.google.com/knowledge/choosing_type/a_checklist_for_choosing_type",
+      "source_type": "official-learning-guide",
+      "reading_locator": "Whole lesson: purpose and emotion, language, discriminability, family range, optical size, files, spacing and license; official Google Fonts repository content.md.",
+      "actual_reading": "Read complete public source text and captions. No third-party images retained.",
+      "findings": [
+        "Expressive associations and practical coverage both matter; reactions vary with cultural and personal context.",
+        "Check actual files, characters, styles and spacing rather than assuming every subset includes the advertised capabilities."
+      ],
+      "transfer_conditions": [
+        "Compare real titles, author names, weekdays and date figures in their separate roles.",
+        "A single display weight can serve a short title; an editable series may need greater range."
+      ],
+      "limitations": [
+        "The checklist does not select one aesthetic for a book calendar.",
+        "A long family menu does not by itself improve a design."
+      ],
+      "rights_status": "research-only",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "type-choice",
+        "coverage",
+        "reliability",
+        "role"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/font-selection.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-pairing",
+      "title": "Pairing typefaces",
+      "url": "https://fonts.google.com/knowledge/choosing_type/pairing_typefaces",
+      "source_type": "official-learning-guide",
+      "reading_locator": "Complete lesson and captions: first-family variation, reasons for adding another face, distinction and harmony.",
+      "actual_reading": "Read complete public source text and captions in the official Google Fonts repository.",
+      "findings": [
+        "First test whether the primary family's weights, styles, widths and sizes already cover the task.",
+        "A second family can provide a different context, tone, coverage or feature; shared shape properties can connect distinct roles."
+      ],
+      "transfer_conditions": [
+        "Name the second family's task before adding it.",
+        "Compare a one-family composition with an explicitly motivated pair using the same content."
+      ],
+      "limitations": [
+        "Serif plus sans does not guarantee a successful relationship.",
+        "Matching x-height is useful in some cases, not a universal requirement."
+      ],
+      "rights_status": "research-only",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "pairing",
+        "role",
+        "contrast"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/font-selection.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-matrix",
+      "title": "Pairing typefaces based on their construction using the font matrix",
+      "url": "https://fonts.google.com/knowledge/choosing_type/pairing_typefaces_based_on_their_construction_using_the_font_matrix",
+      "source_type": "official-learning-guide",
+      "reading_locator": "Complete lesson: skeleton/flesh/skin model, three pairing paths, worked comparisons and stated limits.",
+      "actual_reading": "Read complete official source text and example captions, including exceptions and boundary cases.",
+      "findings": [
+        "Broad serif/sans classification conceals different underlying construction models.",
+        "Similar construction or deliberate strong contrast can guide pairing; a superficial resemblance can hide friction."
+      ],
+      "transfer_conditions": [
+        "Describe the shared or opposing shape property in actual specimens.",
+        "Return to a mixed sentence and the whole page after isolated comparisons."
+      ],
+      "limitations": [
+        "The matrix is a heuristic, not a binding creative rule.",
+        "Its Latin letterform analysis does not establish a universal taxonomy for Chinese, script or display faces."
+      ],
+      "rights_status": "research-only",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "pairing",
+        "form-model",
+        "contrast"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/font-selection.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-optical-size",
+      "title": "Choosing typefaces that have optical sizes",
+      "url": "https://fonts.google.com/knowledge/choosing_type/choosing_typefaces_that_have_optical_sizes",
+      "source_type": "official-learning-guide",
+      "reading_locator": "Whole lesson, including small/display treatments and viewing-distance example.",
+      "actual_reading": "Read complete official source text and captions.",
+      "findings": [
+        "Size-specific designs may change width, x-height, contrast and spacing rather than simply scaling outlines.",
+        "Viewing distance changes perceived size, so physical artwork size alone is insufficient."
+      ],
+      "transfer_conditions": [
+        "Compare supported optical styles or opsz settings at the intended size and distance.",
+        "Call manual ink-size matching visual correction when the font has no optical-size mechanism."
+      ],
+      "limitations": [
+        "Not every variable font includes opsz.",
+        "The two retained Noto files have only wght; weight adjustment is not optical sizing."
+      ],
+      "rights_status": "research-only",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "optical-size",
+        "distance",
+        "legibility"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/font-selection.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-numerals",
+      "title": "Understanding numerals",
+      "url": "https://fonts.google.com/knowledge/introducing_type/understanding_numerals",
+      "source_type": "official-learning-guide",
+      "reading_locator": "Whole lesson: four figure combinations and their contexts; checked the official numerals/figures glossary too.",
+      "actual_reading": "Read complete lesson and glossary text in the official Google Fonts repository.",
+      "findings": [
+        "Lining versus oldstyle and tabular versus proportional describe separate properties.",
+        "Aligned changing values can benefit from tabular figures; running text may use different rhythmic choices."
+      ],
+      "transfer_conditions": [
+        "Compare dense year grids, seven-day annotations and a large single date separately.",
+        "Verify both the font's feature support and the renderer's actual use of the selected feature."
+      ],
+      "limitations": [
+        "A font may not contain every combination.",
+        "A feature tag or default advance measurement does not prove a rendered export enables that feature."
+      ],
+      "rights_status": "research-only",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numerals",
+        "alignment",
+        "opentype"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/font-selection.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-ibm-scale",
+      "title": "IBM Design Language – Type scale",
+      "url": "https://www.ibm.com/design/language/typography/type-scale/",
+      "source_type": "official-brand-system",
+      "reading_locator": "Type scale equation, Adjusted scale, and introduction to Large formats.",
+      "actual_reading": "Selected sections read; not all templates or tables were downloaded or studied.",
+      "findings": [
+        "IBM coordinates font size, line height, script adjustments and large-format viewing within one brand system.",
+        "Its 95% script adjustment has an explicit system context."
+      ],
+      "transfer_conditions": [
+        "Record relationships between roles and change them with output format or viewing distance.",
+        "Check actual Chinese and Latin ink size before making script-specific corrections."
+      ],
+      "limitations": [
+        "IBM's 95% value and size sequence are brand requirements, not universal calendar ratios.",
+        "Different fonts and content need renewed evaluation."
+      ],
+      "rights_status": "research-only",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "type-scale",
+        "multilingual",
+        "distance",
+        "brand-context"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/font-selection.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-ibm-family",
+      "title": "IBM Design Language – Typeface",
+      "url": "https://www.ibm.com/design/language/typography/typeface/",
+      "source_type": "official-brand-system",
+      "reading_locator": "Subfamilies, type tester, features, mono versus sans, language support, and license sections.",
+      "actual_reading": "Selected official sections read; no claim to all downstream language packages or releases.",
+      "findings": [
+        "The system connects subfamilies to roles and supports testing actual text.",
+        "The Mono design's 600-unit width and the wider family's language support are different levels of information."
+      ],
+      "transfer_conditions": [
+        "Try related subfamilies for role contrast, then inspect the precise file's coverage and features.",
+        "Use real calendar text in the specimen rather than a family name alone."
+      ],
+      "limitations": [
+        "A multilingual family description does not mean the retained Plex Mono or Sans Condensed file contains Chinese.",
+        "A brand's code-font recommendation is not a default rule for date figures."
+      ],
+      "rights_status": "research-only",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "family",
+        "coverage",
+        "mono",
+        "brand-context"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/font-selection.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-jaf-optical",
+      "title": "Size-specific adjustments to type designs",
+      "url": "https://justanotherfoundry.com/size-specific-adjustments-to-type-designs",
+      "source_type": "original-designers-book-introduction",
+      "reading_locator": "Public purpose, optical-size definition, research motivation/method, features and contents; Tim Ahrens and Shoko Mugikura.",
+      "actual_reading": "Read public introduction and contents only; the paid book was not read in full.",
+      "findings": [
+        "The authors frame size-specific changes through historical specimens, designer interviews and comparative form study.",
+        "Shape, contrast, width, spacing and alternatives are separate areas of investigation."
+      ],
+      "transfer_conditions": [
+        "Vary one typographic property in a short specimen, identify its viewing problem, then inspect the whole page."
+      ],
+      "limitations": [
+        "A book introduction cannot substitute for its full argument or results.",
+        "The public page does not license its book pages, illustrations or commercial fonts for templates."
+      ],
+      "rights_status": "research-only",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "optical-size",
+        "research-method",
+        "distance"
+      ],
+      "kind": "reference",
+      "domains": [
+        "typography"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/font-selection.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "layout-tschichold-1930",
+      "title": "Jan Tschichold — Plakate der Avantgarde (1930)",
+      "url": "https://www.moma.org/collection/works/7292",
+      "source_type": "museum-collection-with-curatorial-analysis",
+      "reading_locator": "作品页的馆藏信息、Gallery label（New Typography）及作品图；可按作品号 502.1978 定位。",
+      "actual_reading": {
+        "text": "阅读馆方对新字体运动、非对称构图及沟通目的的说明。",
+        "visual": "实际查看作品图：红色大标题占据上部横向轴线，较小黑字形成次级信息块，右侧名单与左侧空白相互平衡，底部细线和日期收束页面。"
+      },
+      "findings": [
+        "非对称不等于失去秩序：主标题、次级信息与边界索引之间有明确关系。",
+        "留白的作用来自它与信息块的相对位置，不能只用空白面积判断。"
+      ],
+      "transferable_conditions": "主次信息可明确分级，页面有一条可辨认的阅读主轴；适合检验书名、图像与日期的优先级。",
+      "tradeoff": "强主轴会突出一个入口，也会压低其他入口；所有内容同等重要时需重新分配层级。",
+      "practical_experiment": "固定同一组原创书籍图像、文案、日期、字号和颜色，制作居中平衡与偏置平衡两页，只改信息块位置；分别检查远看入口与近看日期查找。",
+      "limitations": [
+        "历史设计立场并非日历通用规范；不能据此规定所有页面必须无衬线、红黑或非对称。",
+        "馆方概述涉及运动中的横竖文字实验；本次视觉观察仅针对这一张海报。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "MoMA 提供另行申请复制授权的说明；不将网页图像视为可商用素材，不因作品年代推定图片可自由使用。",
+      "tags": [
+        "asymmetry",
+        "axis",
+        "hierarchy",
+        "negative-space",
+        "poster"
+      ],
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "layout"
+      ],
+      "role": "layout-evidence",
+      "source_record": "docs/research/layout-aesthetics.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "layout-weingart-tm",
+      "title": "Legacies of Swiss Style, Part 2: Wolfgang Weingart",
+      "url": "https://letterformarchive.org/news/from-the-collection-legacies-of-swiss-style-part-2-wolfgang-weingart/",
+      "source_type": "archive-collection-essay",
+      "reading_locator": "Zachary Sauer，2026-04-13；Dead Letters、Wayward Spirit、Shot in the Dark、Master and Apprentice，以及 1972 年 TM 双封面图。",
+      "actual_reading": {
+        "text": "精读文章对封面、拼贴、制版过程与教学方法的分析，包括有意降低顺畅阅读的取舍。",
+        "visual": "实际审看 1972 年双封面：孤立的大数字、大小悬殊的文字块、长短不同的线条、反白文字与错落边缘；其余拼贴案例仅依据文章说明。"
+      },
+      "findings": [
+        "打破整齐、干扰阅读和制造张力可以是表达目标，前提是能说清为何需要这种阻力。",
+        "过程中的试印、叠加和反复调整参与了构图，不能把效果简化为随机错位。"
+      ],
+      "transferable_conditions": "当用户希望画面有情绪、实验感或与特定内容有关的紧张关系时，可在表现层试验；日期层仍需独立评估。",
+      "tradeoff": "视觉注意与阅读顺畅可能发生冲突；表现层有效不代表查日期也有效。",
+      "practical_experiment": "保持日期位置和字形不变，用原创素材制作常规标题层与只打破一个约束的标题层，例如一个文字块越过网格；记录破坏了什么、获得了什么。",
+      "limitations": [
+        "这是历史与馆藏分析，不能代替受众测试。",
+        "部分历史实验涉及师生密切协作，文章也指出归属问题；不把所有图像都简单归为单人创作。",
+        "不复刻具体封面、拼贴或字体处理。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "档案文章与作品图仅供研究；不镜像、裁切或作为可复用生成素材分发。",
+      "tags": [
+        "grid-breaking",
+        "tension",
+        "density",
+        "experimental-type",
+        "process"
+      ],
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "layout"
+      ],
+      "role": "layout-evidence",
+      "source_record": "docs/research/layout-aesthetics.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "layout-irma-volume",
+      "title": "Interview: Irma Boom",
+      "url": "https://archis.org/volume/interview-irma-boom/",
+      "source_type": "designer-interview-by-publisher",
+      "reading_locator": "Arjen Oosterman、Brendan Cormier 的访谈；访谈于 2012-02-24 进行，2012-03-09 发布。重点为 Volume 的开本、字体、不同内容层与书籍模型问题。",
+      "actual_reading": {
+        "text": "阅读 Boom 对开本变化、纸张利用、字体选择、内容结构及实体模型的回答，并区分其个人立场与项目要求。",
+        "visual": "未把采访配图作为视觉分析证据；以下结论来自设计者的文字回答。"
+      },
+      "findings": [
+        "开本、重量、材料和内容组织是书籍设计的一部分；字体选择可以在概念与模型之后确定。",
+        "单一字体家族与增加第二家族都需要内容理由，家族数量本身不决定品质。"
+      ],
+      "transferable_conditions": "当成果要打印、翻页、挂墙或桌面陈列时，先用实际尺度原型明确观看方式，再调整字体。",
+      "tradeoff": "高密度和充分使用纸张是她在特定编辑任务中的选择；不能将其推广为少留白的统一规则。",
+      "practical_experiment": "同一周内容制作两种实际尺寸的纸模型，模拟桌面和挂墙视距，再比较一套字体与两套字体；只有当第二套承担清楚的内容职责时才保留。",
+      "limitations": [
+        "来源是书籍与杂志实践，向日历迁移属于本项目假设。",
+        "访谈中设计者对坚持个人判断的看法不等于本项目可以忽略用户反馈。",
+        "未从采访配图推断具体版面效果。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "保留原文链接与原创摘要；不复制书页、采访照片或字体文件。",
+      "tags": [
+        "format",
+        "physical-prototype",
+        "content-structure",
+        "type-roles",
+        "density"
+      ],
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "layout"
+      ],
+      "role": "layout-evidence",
+      "source_record": "docs/research/layout-aesthetics.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "layout-build-memory",
+      "title": "Build, Memory",
+      "url": "https://www.pentagram.com/work/build-memory-1",
+      "source_type": "studio-case-study",
+      "reading_locator": "About the project 最后三段：开放网格、512 页的信息组织、不同尺度图像、编号参照与 Brown 字体。",
+      "actual_reading": {
+        "text": "精读工作室对建筑师 James Stewart Polshek 专著的叙述，尤其是多来源材料如何串联成连续叙事。",
+        "visual": "未完成作品图片像素审看；图像访问受限，所有构图描述均归于工作室正文，不作为独立视觉评价。"
+      },
+      "findings": [
+        "开放网格、图像尺度变化和编号参照共同组织大量异质材料。",
+        "工作室将高信息量与轻盈阅读并置，提示密度与压迫感不是同一指标；实际效果仍须验证。"
+      ],
+      "transferable_conditions": "需要同时容纳主画面、辅助材料、文字与日期，且信息之间存在可被标识的关系时。",
+      "tradeoff": "增加图像层次和参照编号会增加导航成本；需确认读者能理解编号指向，而非只看到装饰。",
+      "practical_experiment": "内容总量不变，比较等大模块与一主多辅的图像层级，两页均保留明确日期和内容对应关系；记录第一眼注意点和查找路径。",
+      "limitations": [
+        "友好、易读等效果是工作室自述，未作为独立测试结论。",
+        "未审看具体跨页，不推断其实际留白比例或图像裁切质量。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "项目图片、书页及 Brown 字体未取得复用许可；仅学习关系与方法。",
+      "tags": [
+        "flexible-grid",
+        "image-scale",
+        "dense-content",
+        "indexing",
+        "narrative"
+      ],
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "layout"
+      ],
+      "role": "layout-evidence",
+      "source_record": "docs/research/layout-aesthetics.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "layout-architecture-unbound",
+      "title": "Architecture Unbound",
+      "url": "https://www.pentagram.com/work/architecture-unbound",
+      "source_type": "studio-case-study",
+      "reading_locator": "About the project 的书籍形制、八栏网格、图像裁切与字体说明段落。",
+      "actual_reading": {
+        "text": "阅读 Abbott Miller 团队如何把书口倾角、八栏网格、图像与文字方向连接到建筑主题。",
+        "visual": "未完成作品图片像素审看；斜向关系与形制信息来自官方正文。"
+      },
+      "findings": [
+        "网格可以带方向性；表达性不必通过独立、随机的旋转来实现。",
+        "物理载体、图像裁切、文字与字体若响应同一主题，偏离常规也能有内部逻辑。"
+      ],
+      "transferable_conditions": "内容确实需要动态或不稳定的感受，且能以一个共同几何关系解释这种选择；适合先做小型概念实验。",
+      "tradeoff": "特殊裁切和方向会影响制作、阅读与适配；不能仅凭屏幕效果决定印刷可行性。",
+      "practical_experiment": "用自有素材比较常规框架与一个统一斜向引导；日期保持可直接读，先用纸模型检查方向、裁切及观看，再决定是否进入模板。",
+      "limitations": [
+        "案例中的 93.25 度与特定书籍有关，不是可直接移植的设计参数。",
+        "没有实际看图，不评价具体跨页是否成功。",
+        "案例使用的商业字体需要各自授权，来源不提供字体资源。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "不复制书页、精确构图或项目字体；采用方法时另用原创素材与已核验许可的字体。",
+      "tags": [
+        "directional-grid",
+        "coherence",
+        "physical-format",
+        "cropping",
+        "expressive-layout"
+      ],
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "layout"
+      ],
+      "role": "layout-evidence",
+      "source_record": "docs/research/layout-aesthetics.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "layout-typography36",
+      "title": "Typography 36",
+      "url": "https://www.pentagram.com/work/typography-36",
+      "source_type": "studio-case-study",
+      "reading_locator": "About the project：组织页与获奖作品页的关系、Fakt 的拉伸与堆叠，以及专门获得字体设计者许可的说明。",
+      "actual_reading": {
+        "text": "阅读团队如何用有意笨拙的展示性字体，为大量不同作者的作品提供统一框架。",
+        "visual": "未完成作品图片像素审看；变形、色彩及组织页安排均来自工作室文字。"
+      },
+      "findings": [
+        "系列的一致性可以由少数组织页承担，内容页不必被迫同质化。",
+        "不舒适或反常规的展示字体可服务特定主题，但需要明确功能与使用边界。"
+      ],
+      "transferable_conditions": "系列包含差异很大的书目或图像，希望保留各自气质，同时需要一个可辨认的共同入口。",
+      "tradeoff": "强表现框架可能抢走作品注意力，且显示字体效果不能替代日期的可辨认性。",
+      "practical_experiment": "用允许修改的字体或自绘字形，对同一组分组标题比较克制框架与一种有理由的变形；日期保持原样，检验识别、抢占注意和系列疲劳。",
+      "limitations": [
+        "来源是以字体为主题的设计年鉴，幽默与自指语境不同于日历。",
+        "工作室明确提到该字体变形另获设计者许可；不能推导出任意字体均可变形使用。",
+        "未审看实际组织页，暂不作为视觉品质标杆。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "案例中的专门许可不可转授；不收录 Fakt 字体或项目图像。",
+      "tags": [
+        "series-frame",
+        "expressive-type",
+        "contrast",
+        "font-permission",
+        "heterogeneous-content"
+      ],
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "layout"
+      ],
+      "role": "layout-evidence",
+      "source_record": "docs/research/layout-aesthetics.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "layout-public-season",
+      "title": "The Public Theater 2020–2021 Season",
+      "url": "https://www.pentagram.com/work/the-public-theater-2020-2021-season",
+      "source_type": "studio-case-study",
+      "reading_locator": "About the project：既有 Knockout 视觉身份、历年变化、2020–2021 季的 stencil 处理与疫情下未完成状态的关系。",
+      "actual_reading": {
+        "text": "精读工作室对固定识别与每季再解释的说明，确认当季视觉手法有具体语境。",
+        "visual": "作品图片请求受限，未进行像素审看；不据此评价个别海报的构图质量。"
+      },
+      "findings": [
+        "系列可以保持身份锚点，同时让某一表达层随主题变化。",
+        "变化方式由内容语境解释，比为避免重复而随机切换效果更有依据。"
+      ],
+      "transferable_conditions": "连续多页需要既能认出属于同一系列，又能反映每周内容差异；先确定哪些锚点必须稳定。",
+      "tradeoff": "文化宣传中的高强度表达未必适合每日长期观看；每页惊喜也可能累积为疲劳。",
+      "practical_experiment": "做三张连续周历，固定日期锚点、字体角色和页面比例；每页仅变化一个与书目内容有关的表现参数，检查系列识别、查找与连续观看。",
+      "limitations": [
+        "舞台推广与家庭日历的使用强度不同，方法需要重新测试。",
+        "固定身份不意味着复制 The Public 的字形处理或标志性组合。",
+        "尚未完成图片审看，来源只支持工作室所述策略。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "The Public 身份、项目图片与 Knockout 字体不作为模板资产；独立创作并核验字体许可。",
+      "tags": [
+        "series-variation",
+        "identity-anchor",
+        "context",
+        "display-type",
+        "viewing-fatigue"
+      ],
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "layout"
+      ],
+      "role": "layout-evidence",
+      "source_record": "docs/research/layout-aesthetics.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-butterick-mixing",
+      "title": "Mixing fonts",
+      "url": "https://practicaltypography.com/mixing-fonts.html",
+      "source_type": "designer-authored guidance",
+      "evidence_class": "designer-position",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "pairing",
+        "roles",
+        "contrast"
+      ],
+      "reading_locator": "全文六条建议，重点第1、3、4、6条",
+      "actual_reading": "全文已读；没有复制网页示例或购买字体。",
+      "findings": "作者将混用字体视为可选项，重视一致的角色；同类字体也能搭配，反差大小不能单独决定成败。",
+      "transfer": "先试单一家族的角色分工；引入第二字体时说明其任务，并比较相近与强对比的组合。",
+      "limitations": "关于家族数量和同一设计师配对的建议是作者立场，不能成为所有日历的硬上限或风格标准。",
+      "rights_status": "research-only",
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/type-rendering-boundaries.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "font-butterick-context",
+      "title": "Typography in ten minutes",
+      "url": "https://practicaltypography.com/typography-in-ten-minutes.html",
+      "source_type": "designer-authored guidance",
+      "evidence_class": "designer-position",
+      "domains": [
+        "typography",
+        "layout"
+      ],
+      "tags": [
+        "size",
+        "leading",
+        "measure",
+        "context"
+      ],
+      "reading_locator": "五项建议及相同字号不等视觉大小的说明",
+      "actual_reading": "全文已读，保留其正文排版语境。",
+      "findings": "作者将正文字体、字号、行距与行长一起判断，并指出字号相同的字体未必看起来一样大。",
+      "transfer": "在需要连续阅读的日历内容中共同研究这些变量；图像主导海报另以其实际任务建立层级。",
+      "limitations": "原文数字主要针对西文连续正文；不直接套成中文书名、远观日期或所有屏幕的固定参数。作者对付费字体与个别字体的价值判断不采为项目禁令。",
+      "rights_status": "research-only",
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/type-rendering-boundaries.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "type-harfbuzz-shaping",
+      "title": "What is HarfBuzz? / What is text shaping?",
+      "url": "https://harfbuzz.github.io/what-is-harfbuzz.html",
+      "source_type": "official implementation documentation",
+      "evidence_class": "technical-implementation",
+      "domains": [
+        "typography"
+      ],
+      "tags": [
+        "shaping",
+        "OpenType",
+        "language",
+        "capability"
+      ],
+      "reading_locator": "What is HarfBuzz 与 What is text shaping 两节",
+      "actual_reading": "原文两节已读，未将软件的能力归给本项目。",
+      "findings": "文字塑形把字符序列转为依赖字体、文字系统和语言的字形选择与位置；存在字体表不代表已经执行特性。",
+      "transfer": "素材记录同时保存字体支持和渲染器支持；需要 kerning、连字、数字替换或地区替换时，用实际塑形结果验证。",
+      "limitations": "现有 design_scene.py 逐字符取 cmap/hmtx 并加 tracking，未接入 HarfBuzz，不执行完整 GSUB/GPOS、自动断行或中文禁则。原始字形研究不能冒充这些功能的演示。",
+      "rights_status": "research-only",
+      "kind": "reference",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "type-evidence",
+      "source_record": "docs/research/type-rendering-boundaries.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "type-role-first",
+      "title": "字体按角色选择",
+      "title_zh": "字体按角色选择",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "font-selection",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "font-selection",
+        "typography",
+        "字体按角色选择"
+      ],
+      "condition": "标题、日期与正文的任务不同，或语言与输出尺寸会改变读法。",
+      "choices": [
+        "先用同一真实内容检查家族覆盖、字形结构、字重与尺寸；再分配展示、查读、注释角色。",
+        "同一家族可承担多角色，第二家族应有明确任务。"
+      ],
+      "tradeoff": "表达性与持续阅读的舒适度可能冲突；短标题的表现不能外推到正文。",
+      "counterexample": "仅凭宋体/黑体分类、主题词或已安装字体来自动决定风格。",
+      "reference_ids": [
+        "font-checklist",
+        "font-matrix",
+        "font-butterick-context"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf",
+        "font-instrumentserif"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-role-pairing",
+      "title": "字体搭配的角色与反差",
+      "title_zh": "字体搭配的角色与反差",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "font-pairing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "font-pairing",
+        "typography",
+        "字体搭配的角色与反差"
+      ],
+      "condition": "一份作品需要不同声音或中西文角色，但当前组合缺少关系。",
+      "choices": [
+        "分别试单一家族、相近骨架搭配与主动反差，比较实际片段。",
+        "比较骨架、笔画对比、细节、视觉大小和任务，而不只按衬线与否配对。"
+      ],
+      "tradeoff": "同调可能缺少区分，强对比可能破坏连续性；二者都不是固定优劣。",
+      "counterexample": "强制宋黑配对、规定所有日历的字体数量，或把不同字体堆叠当作设计丰富度。",
+      "reference_ids": [
+        "font-pairing",
+        "font-matrix",
+        "font-butterick-mixing",
+        "cjk-google-font-matrix"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf",
+        "font-ibmplexsanscondensed"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-size-context",
+      "title": "字号、视觉大小与光学设计",
+      "title_zh": "字号、视觉大小与光学设计",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "optical-sizing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "optical-sizing",
+        "typography",
+        "字号、视觉大小与光学设计"
+      ],
+      "condition": "同字号的中西字看起来不一样大，或同一字体需跨小字和大标题。",
+      "choices": [
+        "同时保留相同em比较与按墨迹高度调整的比较，并标出补偿。",
+        "若字体实际有光学尺寸轴或独立版本，在目标尺寸比较；手动缩放另行记录。"
+      ],
+      "tradeoff": "墨迹框相同仍可能因内部空间与笔画分布显得不同，数值不能代替观看。",
+      "counterexample": "把某品牌的缩放比例当跨语言通则，或把缩字号称为启用了opsz。",
+      "reference_ids": [
+        "font-optical-size",
+        "font-jaf-optical",
+        "font-ibm-scale",
+        "cjk-justfont-hanzi-2",
+        "cjk-google-vertical-metrics"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-numeral-roles",
+      "title": "数字形态与查读任务",
+      "title_zh": "数字形态与查读任务",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "numerals",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "numerals",
+        "typography",
+        "数字形态与查读任务"
+      ],
+      "condition": "需要排列密集日期，或让单个日期数字成为主视觉。",
+      "choices": [
+        "实测或实际启用等宽/比例、等高/旧式数字，分别记录。",
+        "在对齐索引与单个展示数字两种任务中观察间距、轮廓及大小。"
+      ],
+      "tradeoff": "统一宽度方便列对齐，但可产生额外空隙；比例数字适合某些展示，却可能改变列节奏。",
+      "counterexample": "从衬线/无衬线/等宽家族名称推断所有数字特性，或假定已有渲染器调用了tnum。",
+      "reference_ids": [
+        "font-numerals"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf",
+        "font-ibmplexmono"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-cjk-language",
+      "title": "中文、中西混排与地区字形",
+      "title_zh": "中文、中西混排与地区字形",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "mixed-script",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "mixed-script",
+        "typography",
+        "中文、中西混排与地区字形"
+      ],
+      "condition": "中文与拉丁字母、数字、标点混排，或输出语言地区发生变化。",
+      "choices": [
+        "先明确语言地区、文字方向和实际内容，检查字面、基线与标点位置。",
+        "换行、不可拆串、禁则与空间调整须由目标排版环境执行并检验。"
+      ],
+      "tradeoff": "不同出版惯例及地区字形可影响选择；正文规则不能直接决定海报构图。",
+      "counterexample": "有该Unicode码位就算地区字形正确，或给每处汉字与西文都插同样的固定空格。",
+      "reference_ids": [
+        "cjk-clreq-2026",
+        "cjk-adobe-serif-readme",
+        "cjk-google-vertical-metrics",
+        "cjk-justfont-ming-comparison"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-shaping-support",
+      "title": "字体支持与渲染支持分开",
+      "title_zh": "字体支持与渲染支持分开",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "text-shaping",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "text-shaping",
+        "typography",
+        "字体支持与渲染支持分开"
+      ],
+      "condition": "计划使用kerning、连字、地区替换、垂直替换或数字特性。",
+      "choices": [
+        "分别记录字体表/轴的存在、特性是否启用、实际渲染结果。",
+        "需要字形替换与位置规则时采用可验证的塑形环境，并检查导出。"
+      ],
+      "tradeoff": "额外塑形能力增加实现与测试范围；原始轮廓证明只能回答有限的字形问题。",
+      "counterexample": "把cmap逐字输出当成完整OpenType塑形，或把可变字体有wght当成有opsz。",
+      "reference_ids": [
+        "type-harfbuzz-shaping",
+        "cjk-adobe-serif-readme",
+        "font-numerals",
+        "font-optical-size"
+      ],
+      "candidate_font_ids": [
+        "font-noto-serif-sc-vf",
+        "font-noto-sans-sc-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/type-specimens.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "layout-axes-grid",
+      "title": "轴线、边缘与内容网格",
+      "title_zh": "轴线、边缘与内容网格",
+      "kind": "design-element",
+      "domains": [
+        "layout"
+      ],
+      "role": "grid",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "grid",
+        "layout",
+        "轴线、边缘与内容网格"
+      ],
+      "condition": "图像、日期与标题像互不相干的块，或材料种类多而入口不明。",
+      "choices": [
+        "先从内容确定共同边缘、路径与索引，再选择对称或非对称。",
+        "检查缩略图的主关系和实际尺寸的光学边缘，保留有意偏移的理由。"
+      ],
+      "tradeoff": "网格提供关系但可能僵化；倾斜或偏移能表达方向，也可能增加检索负担。",
+      "counterexample": "把任何非对称等同自由散放，或复制某案例的角度/颜色当通用参数。",
+      "reference_ids": [
+        "layout-tschichold-1930",
+        "layout-build-memory",
+        "layout-architecture-unbound"
+      ],
+      "candidate_font_ids": [],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/layout-relations.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "layout-expressive-density",
+      "title": "表现性、密度与阅读阻力",
+      "title_zh": "表现性、密度与阅读阻力",
+      "kind": "design-element",
+      "domains": [
+        "layout"
+      ],
+      "role": "expressive-layout",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "expressive-layout",
+        "layout",
+        "表现性、密度与阅读阻力"
+      ],
+      "condition": "主题需要强烈的观看体验、复杂材料或有意的阅读节奏。",
+      "choices": [
+        "分别测试清晰路径、密集组织和表现性展示；说明阅读阻力服务什么。",
+        "让某一层表达变化，保留需要查阅的日期身份与入口。"
+      ],
+      "tradeoff": "表达张力可能降低即时查读；高信息量也可能有秩序，低密度也可能松散。",
+      "counterexample": "把极简、高密度、变形或破网格自动判作高级或错误。",
+      "reference_ids": [
+        "layout-weingart-tm",
+        "layout-typography36",
+        "layout-build-memory"
+      ],
+      "candidate_font_ids": [],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/layout-relations.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "layout-space-scale",
+      "title": "空白、尺寸与观看情境",
+      "title_zh": "空白、尺寸与观看情境",
+      "kind": "design-element",
+      "domains": [
+        "layout"
+      ],
+      "role": "spacing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "spacing",
+        "layout",
+        "空白、尺寸与观看情境"
+      ],
+      "condition": "页面将被挂墙、桌面观看或连续翻阅，屏幕小样不足以判断使用。",
+      "choices": [
+        "为空白指定分组、观看停顿、边缘张力或书写用途。",
+        "先用缩略图判断注意力，再以实际尺寸/材料样机检查；使用情境不确定时保留假设。"
+      ],
+      "tradeoff": "留白与材料可能增加空间感，也可能让关系解体；实际尺寸会改变字体与图像的力量。",
+      "counterexample": "只用空白百分比判美，或把西文正文行长、字号直接用于远观中文日期。",
+      "reference_ids": [
+        "layout-irma-volume",
+        "layout-tschichold-1930",
+        "font-butterick-context"
+      ],
+      "candidate_font_ids": [],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/layout-relations.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "layout-series-variation",
+      "title": "系列中的锚点与变化",
+      "title_zh": "系列中的锚点与变化",
+      "kind": "design-element",
+      "domains": [
+        "layout"
+      ],
+      "role": "series",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "series",
+        "layout",
+        "系列中的锚点与变化"
+      ],
+      "condition": "月历/周历/日历需要一组相关页面，同时允许内容具有区别。",
+      "choices": [
+        "保留最少且有用的身份入口，让变化对应每期内容。",
+        "在相邻页比较一致性与新鲜感，并保存实际内容顺序和变化规则。"
+      ],
+      "tradeoff": "全部固定可能单调；全部变化会增加重新查找成本。",
+      "counterexample": "每页随机变换字体/位置来制造新鲜感，或为系列整齐而压平全部内容差异。",
+      "reference_ids": [
+        "layout-public-season",
+        "layout-typography36",
+        "layout-irma-volume"
+      ],
+      "candidate_font_ids": [],
+      "study_refs": [
+        {
+          "path": "studies/type-layout-atlas/layout-relations.svg",
+          "scope": "Original study illustrating questions and relationships, not a validated aesthetic outcome."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
     }
   ],
   "semantics": {
     "scales": "Suggested viewing/use extent, not mutually exclusive asset ownership.",
     "ready": "A retained asset exists. This does not imply a complete series, print resolution, user approval, or a public reuse license.",
-    "distribution_status": "CC0-1.0 or OFL-1.1 pass the explicit-license filter; OFL conditions still apply. Original project assets retain their separately unspecified scope."
+    "distribution_status": "CC0-1.0 or OFL-1.1 pass the explicit-license filter; OFL conditions still apply. Original project assets retain their separately unspecified scope.",
+    "design-element": "Source-informed choices with conditions, tradeoffs and proof links; not a universal aesthetic rule or user-approved recipe."
   },
   "source_files": [
     "assets/library/components/manifest.json",
@@ -4671,6 +6732,12 @@
     "assets/fonts/provenance.json",
     "assets/images/paper-light/provenance.json",
     "docs/research/annual-monthly-materials.json",
-    "docs/research/weekly-daily-materials.json"
+    "docs/research/weekly-daily-materials.json",
+    "assets/fonts/type-study/manifest.json",
+    "assets/library/type-layout-elements.json",
+    "docs/research/cjk-typography.json",
+    "docs/research/font-selection.json",
+    "docs/research/layout-aesthetics.json",
+    "docs/research/type-rendering-boundaries.json"
   ]
 }

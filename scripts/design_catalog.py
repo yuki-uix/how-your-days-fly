@@ -142,6 +142,7 @@ def build_catalog():
         'study_ids':[s['id'] for s in studies if s['scale']==scale],
         'material_ids':[a['id'] for a in material['items'] if scale in a['scales']],
         'primary_component_ids':material['groups'][scale]['components'],
+        'design_element_ids':material['groups'][scale]['design_elements'],
         'material_relation':'Candidates for a new design or adaptation, not a claim of use in retained studies.',
     } for scale in SCALES}
     workflow={
@@ -182,18 +183,22 @@ def verify_fresh(index):
             raise ValueError(f'Source changed: {path}; run scripts/design_catalog.py --build.')
 
 
-def select(index,scale=None):
+def select(index,scale=None,domain=None):
     group=index['groups'][scale] if scale else None
     def subset(key,ids):
         return [s for s in index[key] if ids is None or s['id'] in ids]
     mat=load(index['material_catalog'])
+    selected_materials=[a for a in mat['items'] if group is None or a['id'] in group['material_ids']]
+    if domain: selected_materials=[a for a in selected_materials if domain in a.get('domains',[])]
     return {
         'scale':scale or 'all',
         'reading_task':group['reading_task'] if group else 'Choose a reading task and viewing extent before selecting visual materials.',
         'structures':subset('structures',group['structure_ids'] if group else None),
         'rules':subset('rules',group['rule_ids'] if group else None),
         'studies':subset('studies',group['study_ids'] if group else None),
-        'materials':[a for a in mat['items'] if group is None or a['id'] in group['material_ids']],
+        'materials':selected_materials,
+        'design_elements':[a for a in selected_materials if a['kind']=='design-element'],
+        'domain':domain,
         'learning_sources':index['learning_sources'],
         'earlier_case_sources':index['earlier_case_sources'],
         'primary_component_ids':group['primary_component_ids'] if group else None,
@@ -207,6 +212,7 @@ def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--build',action='store_true',help='Refresh the material index and the joined design index.')
     p.add_argument('--scale',choices=SCALES)
+    p.add_argument('--domain',help='Narrow materials to typography or layout while retaining the scale context.')
     p.add_argument('--json',action='store_true')
     args=p.parse_args(argv)
     if args.build:
@@ -217,13 +223,13 @@ def main(argv=None):
     else:
         index=load('design/catalog.json')
     verify_fresh(index)
-    result=select(index,args.scale)
+    result=select(index,args.scale,args.domain)
     if args.json: print(json.dumps(result,ensure_ascii=False,indent=2))
     else:
         print(result['scale']+' / '+result['reading_task'])
         for key in ['structures','rules','studies']:
             print(key+': '+', '.join(s['id'] for s in result[key]))
-        for kind in ['component','image','font','reference','proposal']:
+        for kind in ['component','image','font','reference','proposal','design-element']:
             print(kind+': '+', '.join(a['id'] for a in result['materials'] if a['kind']==kind))
         print('Entry: docs/design-atlas.md; material candidates are separate from recorded asset use.')
     return 0

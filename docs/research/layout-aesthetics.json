@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "researched_at": "2026-10-30",
+  "scope": "排版、构图与审美取舍的一手案例研究",
+  "evidence_policy": "区分来源正文、实际看图和项目推演。案例可以支持设计假设，不能证明用户偏好或可读性效果。仅记录研究链接与原创分析，不收录来源图、书页或字体文件。",
+  "sources": [
+    {
+      "id": "layout-tschichold-1930",
+      "title": "Jan Tschichold — Plakate der Avantgarde (1930)",
+      "url": "https://www.moma.org/collection/works/7292",
+      "source_type": "museum-collection-with-curatorial-analysis",
+      "reading_locator": "作品页的馆藏信息、Gallery label（New Typography）及作品图；可按作品号 502.1978 定位。",
+      "actual_reading": {
+        "text": "阅读馆方对新字体运动、非对称构图及沟通目的的说明。",
+        "visual": "实际查看作品图：红色大标题占据上部横向轴线，较小黑字形成次级信息块，右侧名单与左侧空白相互平衡，底部细线和日期收束页面。"
+      },
+      "findings": [
+        "非对称不等于失去秩序：主标题、次级信息与边界索引之间有明确关系。",
+        "留白的作用来自它与信息块的相对位置，不能只用空白面积判断。"
+      ],
+      "transferable_conditions": "主次信息可明确分级，页面有一条可辨认的阅读主轴；适合检验书名、图像与日期的优先级。",
+      "tradeoff": "强主轴会突出一个入口，也会压低其他入口；所有内容同等重要时需重新分配层级。",
+      "practical_experiment": "固定同一组原创书籍图像、文案、日期、字号和颜色，制作居中平衡与偏置平衡两页，只改信息块位置；分别检查远看入口与近看日期查找。",
+      "limitations": [
+        "历史设计立场并非日历通用规范；不能据此规定所有页面必须无衬线、红黑或非对称。",
+        "馆方概述涉及运动中的横竖文字实验；本次视觉观察仅针对这一张海报。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "MoMA 提供另行申请复制授权的说明；不将网页图像视为可商用素材，不因作品年代推定图片可自由使用。",
+      "tags": ["asymmetry", "axis", "hierarchy", "negative-space", "poster"]
+    },
+    {
+      "id": "layout-weingart-tm",
+      "title": "Legacies of Swiss Style, Part 2: Wolfgang Weingart",
+      "url": "https://letterformarchive.org/news/from-the-collection-legacies-of-swiss-style-part-2-wolfgang-weingart/",
+      "source_type": "archive-collection-essay",
+      "reading_locator": "Zachary Sauer，2026-04-13；Dead Letters、Wayward Spirit、Shot in the Dark、Master and Apprentice，以及 1972 年 TM 双封面图。",
+      "actual_reading": {
+        "text": "精读文章对封面、拼贴、制版过程与教学方法的分析，包括有意降低顺畅阅读的取舍。",
+        "visual": "实际审看 1972 年双封面：孤立的大数字、大小悬殊的文字块、长短不同的线条、反白文字与错落边缘；其余拼贴案例仅依据文章说明。"
+      },
+      "findings": [
+        "打破整齐、干扰阅读和制造张力可以是表达目标，前提是能说清为何需要这种阻力。",
+        "过程中的试印、叠加和反复调整参与了构图，不能把效果简化为随机错位。"
+      ],
+      "transferable_conditions": "当用户希望画面有情绪、实验感或与特定内容有关的紧张关系时，可在表现层试验；日期层仍需独立评估。",
+      "tradeoff": "视觉注意与阅读顺畅可能发生冲突；表现层有效不代表查日期也有效。",
+      "practical_experiment": "保持日期位置和字形不变，用原创素材制作常规标题层与只打破一个约束的标题层，例如一个文字块越过网格；记录破坏了什么、获得了什么。",
+      "limitations": [
+        "这是历史与馆藏分析，不能代替受众测试。",
+        "部分历史实验涉及师生密切协作，文章也指出归属问题；不把所有图像都简单归为单人创作。",
+        "不复刻具体封面、拼贴或字体处理。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "档案文章与作品图仅供研究；不镜像、裁切或作为可复用生成素材分发。",
+      "tags": ["grid-breaking", "tension", "density", "experimental-type", "process"]
+    },
+    {
+      "id": "layout-irma-volume",
+      "title": "Interview: Irma Boom",
+      "url": "https://archis.org/volume/interview-irma-boom/",
+      "source_type": "designer-interview-by-publisher",
+      "reading_locator": "Arjen Oosterman、Brendan Cormier 的访谈；访谈于 2012-02-24 进行，2012-03-09 发布。重点为 Volume 的开本、字体、不同内容层与书籍模型问题。",
+      "actual_reading": {
+        "text": "阅读 Boom 对开本变化、纸张利用、字体选择、内容结构及实体模型的回答，并区分其个人立场与项目要求。",
+        "visual": "未把采访配图作为视觉分析证据；以下结论来自设计者的文字回答。"
+      },
+      "findings": [
+        "开本、重量、材料和内容组织是书籍设计的一部分；字体选择可以在概念与模型之后确定。",
+        "单一字体家族与增加第二家族都需要内容理由，家族数量本身不决定品质。"
+      ],
+      "transferable_conditions": "当成果要打印、翻页、挂墙或桌面陈列时，先用实际尺度原型明确观看方式，再调整字体。",
+      "tradeoff": "高密度和充分使用纸张是她在特定编辑任务中的选择；不能将其推广为少留白的统一规则。",
+      "practical_experiment": "同一周内容制作两种实际尺寸的纸模型，模拟桌面和挂墙视距，再比较一套字体与两套字体；只有当第二套承担清楚的内容职责时才保留。",
+      "limitations": [
+        "来源是书籍与杂志实践，向日历迁移属于本项目假设。",
+        "访谈中设计者对坚持个人判断的看法不等于本项目可以忽略用户反馈。",
+        "未从采访配图推断具体版面效果。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "保留原文链接与原创摘要；不复制书页、采访照片或字体文件。",
+      "tags": ["format", "physical-prototype", "content-structure", "type-roles", "density"]
+    },
+    {
+      "id": "layout-build-memory",
+      "title": "Build, Memory",
+      "url": "https://www.pentagram.com/work/build-memory-1",
+      "source_type": "studio-case-study",
+      "reading_locator": "About the project 最后三段：开放网格、512 页的信息组织、不同尺度图像、编号参照与 Brown 字体。",
+      "actual_reading": {
+        "text": "精读工作室对建筑师 James Stewart Polshek 专著的叙述，尤其是多来源材料如何串联成连续叙事。",
+        "visual": "未完成作品图片像素审看；图像访问受限，所有构图描述均归于工作室正文，不作为独立视觉评价。"
+      },
+      "findings": [
+        "开放网格、图像尺度变化和编号参照共同组织大量异质材料。",
+        "工作室将高信息量与轻盈阅读并置，提示密度与压迫感不是同一指标；实际效果仍须验证。"
+      ],
+      "transferable_conditions": "需要同时容纳主画面、辅助材料、文字与日期，且信息之间存在可被标识的关系时。",
+      "tradeoff": "增加图像层次和参照编号会增加导航成本；需确认读者能理解编号指向，而非只看到装饰。",
+      "practical_experiment": "内容总量不变，比较等大模块与一主多辅的图像层级，两页均保留明确日期和内容对应关系；记录第一眼注意点和查找路径。",
+      "limitations": [
+        "友好、易读等效果是工作室自述，未作为独立测试结论。",
+        "未审看具体跨页，不推断其实际留白比例或图像裁切质量。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "项目图片、书页及 Brown 字体未取得复用许可；仅学习关系与方法。",
+      "tags": ["flexible-grid", "image-scale", "dense-content", "indexing", "narrative"]
+    },
+    {
+      "id": "layout-architecture-unbound",
+      "title": "Architecture Unbound",
+      "url": "https://www.pentagram.com/work/architecture-unbound",
+      "source_type": "studio-case-study",
+      "reading_locator": "About the project 的书籍形制、八栏网格、图像裁切与字体说明段落。",
+      "actual_reading": {
+        "text": "阅读 Abbott Miller 团队如何把书口倾角、八栏网格、图像与文字方向连接到建筑主题。",
+        "visual": "未完成作品图片像素审看；斜向关系与形制信息来自官方正文。"
+      },
+      "findings": [
+        "网格可以带方向性；表达性不必通过独立、随机的旋转来实现。",
+        "物理载体、图像裁切、文字与字体若响应同一主题，偏离常规也能有内部逻辑。"
+      ],
+      "transferable_conditions": "内容确实需要动态或不稳定的感受，且能以一个共同几何关系解释这种选择；适合先做小型概念实验。",
+      "tradeoff": "特殊裁切和方向会影响制作、阅读与适配；不能仅凭屏幕效果决定印刷可行性。",
+      "practical_experiment": "用自有素材比较常规框架与一个统一斜向引导；日期保持可直接读，先用纸模型检查方向、裁切及观看，再决定是否进入模板。",
+      "limitations": [
+        "案例中的 93.25 度与特定书籍有关，不是可直接移植的设计参数。",
+        "没有实际看图，不评价具体跨页是否成功。",
+        "案例使用的商业字体需要各自授权，来源不提供字体资源。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "不复制书页、精确构图或项目字体；采用方法时另用原创素材与已核验许可的字体。",
+      "tags": ["directional-grid", "coherence", "physical-format", "cropping", "expressive-layout"]
+    },
+    {
+      "id": "layout-typography36",
+      "title": "Typography 36",
+      "url": "https://www.pentagram.com/work/typography-36",
+      "source_type": "studio-case-study",
+      "reading_locator": "About the project：组织页与获奖作品页的关系、Fakt 的拉伸与堆叠，以及专门获得字体设计者许可的说明。",
+      "actual_reading": {
+        "text": "阅读团队如何用有意笨拙的展示性字体，为大量不同作者的作品提供统一框架。",
+        "visual": "未完成作品图片像素审看；变形、色彩及组织页安排均来自工作室文字。"
+      },
+      "findings": [
+        "系列的一致性可以由少数组织页承担，内容页不必被迫同质化。",
+        "不舒适或反常规的展示字体可服务特定主题，但需要明确功能与使用边界。"
+      ],
+      "transferable_conditions": "系列包含差异很大的书目或图像，希望保留各自气质，同时需要一个可辨认的共同入口。",
+      "tradeoff": "强表现框架可能抢走作品注意力，且显示字体效果不能替代日期的可辨认性。",
+      "practical_experiment": "用允许修改的字体或自绘字形，对同一组分组标题比较克制框架与一种有理由的变形；日期保持原样，检验识别、抢占注意和系列疲劳。",
+      "limitations": [
+        "来源是以字体为主题的设计年鉴，幽默与自指语境不同于日历。",
+        "工作室明确提到该字体变形另获设计者许可；不能推导出任意字体均可变形使用。",
+        "未审看实际组织页，暂不作为视觉品质标杆。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "案例中的专门许可不可转授；不收录 Fakt 字体或项目图像。",
+      "tags": ["series-frame", "expressive-type", "contrast", "font-permission", "heterogeneous-content"]
+    },
+    {
+      "id": "layout-public-season",
+      "title": "The Public Theater 2020–2021 Season",
+      "url": "https://www.pentagram.com/work/the-public-theater-2020-2021-season",
+      "source_type": "studio-case-study",
+      "reading_locator": "About the project：既有 Knockout 视觉身份、历年变化、2020–2021 季的 stencil 处理与疫情下未完成状态的关系。",
+      "actual_reading": {
+        "text": "精读工作室对固定识别与每季再解释的说明，确认当季视觉手法有具体语境。",
+        "visual": "作品图片请求受限，未进行像素审看；不据此评价个别海报的构图质量。"
+      },
+      "findings": [
+        "系列可以保持身份锚点，同时让某一表达层随主题变化。",
+        "变化方式由内容语境解释，比为避免重复而随机切换效果更有依据。"
+      ],
+      "transferable_conditions": "连续多页需要既能认出属于同一系列，又能反映每周内容差异；先确定哪些锚点必须稳定。",
+      "tradeoff": "文化宣传中的高强度表达未必适合每日长期观看；每页惊喜也可能累积为疲劳。",
+      "practical_experiment": "做三张连续周历，固定日期锚点、字体角色和页面比例；每页仅变化一个与书目内容有关的表现参数，检查系列识别、查找与连续观看。",
+      "limitations": [
+        "舞台推广与家庭日历的使用强度不同，方法需要重新测试。",
+        "固定身份不意味着复制 The Public 的字形处理或标志性组合。",
+        "尚未完成图片审看，来源只支持工作室所述策略。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "The Public 身份、项目图片与 Knockout 字体不作为模板资产；独立创作并核验字体许可。",
+      "tags": ["series-variation", "identity-anchor", "context", "display-type", "viewing-fatigue"]
+    }
+  ],
+  "synthesis": [
+    {
+      "question": "规则网格还是自由结构？",
+      "working_principle": "先确定关系和阅读路径；有规则的非对称、内容驱动的斜向关系、刻意破坏秩序都可能成立，取决于任务。",
+      "source_ids": ["layout-tschichold-1930", "layout-weingart-tm", "layout-architecture-unbound"]
+    },
+    {
+      "question": "留白多还是内容密？",
+      "working_principle": "同时观察内容量、块面关系、图像尺度与查找成本。不能把空白比例当成审美评分。",
+      "source_ids": ["layout-tschichold-1930", "layout-irma-volume", "layout-build-memory"]
+    },
+    {
+      "question": "先选字体还是先定构图？",
+      "working_principle": "先明确观看方式、载体、内容角色和主要关系；字体与构图可往返试验，不能只按主题标签自动配字。",
+      "source_ids": ["layout-irma-volume", "layout-architecture-unbound"]
+    },
+    {
+      "question": "表达与查找冲突怎么办？",
+      "working_principle": "分别检验画面表达和日期查找，允许它们承担不同任务；发生冲突时让用户决定优先级。",
+      "source_ids": ["layout-weingart-tm", "layout-typography36"]
+    },
+    {
+      "question": "系列如何避免机械重复？",
+      "working_principle": "保留明确锚点，按内容选择可变化参数；用连续页面而非单张判断一致性、差异和疲劳。",
+      "source_ids": ["layout-typography36", "layout-public-season"]
+    }
+  ]
+}

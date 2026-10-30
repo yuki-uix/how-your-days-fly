@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "researched_at": "2026-10-30",
+  "scope": "中文与中西文选字、排版约束和审美判断",
+  "method": "一手来源选择性精读；来源观点、技术约束与本项目原创待验证实验分开。未镜像来源图像、PDF 或字体。",
+  "implementation_status": "这是研究输入与提案，不声明项目渲染器已具备 locl、复杂塑形或完整中文直排能力。",
+  "sources": [
+    {
+      "id": "cjk-clreq-2026",
+      "title": "Requirements for Chinese Text Layout／中文排版需求（2026-10-07）",
+      "url": "https://www.w3.org/TR/2026/DNOTE-clreq-20261007/",
+      "source_type": "first-party-layout-requirements-draft",
+      "source_status": "W3C Group Note Draft；原文声明尚未经 W3C 及其会员认可，可能更新。",
+      "reading_locator": [
+        "Status of This Document",
+        "§2.1.2–2.1.3 横直排差异、直排混排",
+        "§6.1.1–6.1.2 行首行尾与不可拆分符号",
+        "§6.2.2 行内调整",
+        "§6.3.1.3、6.3.2–6.3.3 字距、标点、横排混排",
+        "§6.4 基线、行高；§7.1.3 标题"
+      ],
+      "actual_reading": "选择性精读上述章节的中英文正文；逐项核对禁则级别、标点调整顺序、直排数字配置与 em／字面区别。未宣称通读全文。",
+      "findings": [
+        "字号对应文字外框，实际字面另受字体设计影响。",
+        "禁则、不可拆分串与标点挤压共同影响换行；宽度调整也包含地区和排版风格选择。",
+        "横排汉字与西文边界可用至多 1/4 em 间距，标点及行边界有例外；直排西文可直立、旋转或纵中横。"
+      ],
+      "limitations": [
+        "描述中文出版惯例及需求，不提供本项目的具体排版实现；不是已获认可的 W3C 标准。",
+        "书籍正文的两端对齐等习惯不能直接推成海报、日期索引或所有网页的审美要求。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "只保存链接、章节定位与原创笔记；不导入原图。文档许可与第三方字体使用权分开。",
+      "tags": [
+        "cjk",
+        "line-breaking",
+        "punctuation",
+        "mixed-script",
+        "vertical",
+        "character-frame"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-adobe-serif-readme",
+      "title": "Source Han Serif ReadMe v2.003（2024-07-30）",
+      "url": "https://github.com/adobe-fonts/source-han-serif/blob/release/SourceHanSerifReadMe.pdf",
+      "source_type": "first-party-font-technical-documentation",
+      "reading_locator": [
+        "PDF p.1–2：概览、地区字形与七字重样例",
+        "PDF p.3–4：Configurations，语言默认值、locl 与地区子集"
+      ],
+      "actual_reading": "从 Adobe 官方 release 分支临时读取 PDF，并提取、阅读第 1–4 页文字；比较页面所列同码位地区字形说明。未通读其余技术表。",
+      "findings": [
+        "同一码位可有多个地区字形；泛 CJK 字体的非默认字形依赖正确语言标签和 locl 支持。",
+        "地区子集能绕开部分本地化字形访问要求；七个原生字重提供同族层次材料。"
+      ],
+      "limitations": [
+        "字体有相关字形不等于任意导出器会正确调用。",
+        "这是字体部署说明，不能证明某组合更美；文件名、语言标签和塑形链需要另验。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "未向资料库复制 PDF 或字体。文档说明字体及其源文件遵循 SIL OFL 1.1；不能据此把设计指南插图视为任意可复用素材。",
+      "tags": [
+        "cjk",
+        "regional-forms",
+        "opentype",
+        "language",
+        "font-weight"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-adobe-serif-design",
+      "title": "Source Han Serif Design Guide v2.0（2021-10-25）",
+      "url": "https://github.com/adobe-fonts/source-han-serif/blob/release/SourceHanSerifDesignGuide.pdf",
+      "source_type": "first-party-typeface-design-rationale",
+      "reading_locator": [
+        "单页设计说明：中部字形设计与长文目标段落",
+        "右侧五语种、七字重样字；末段与 Source Han Sans 的关系"
+      ],
+      "actual_reading": "从 Adobe 官方 release 分支临时读取单页 PDF；完整阅读提取的说明文字，核对五语种与各字重标签。样字未作为项目艺术素材使用。",
+      "findings": [
+        "设计者把较直线的笔画、较克制的假名对比与现代感相联系，同时保留地区惯例。",
+        "设计说明把书写来源、内部空间与长文目标并置；宋黑姊妹家族是互补设计而非相同轮廓。"
+      ],
+      "limitations": [
+        "这是该字体的设计意图，不是阅读实验或所有宋体的规律。",
+        "不可由某个笔画或字腔大小单独推出适合全部屏幕与印刷尺寸。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "只保留原创概述与官方链接；不复用设计指南版式、图例或原文长段。",
+      "tags": [
+        "cjk",
+        "stroke-contrast",
+        "counterspace",
+        "superfamily",
+        "aesthetic-position"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-google-font-matrix",
+      "title": "Pairing typefaces based on their construction using the Font Matrix",
+      "url": "https://fonts.google.com/knowledge/choosing_type/pairing_typefaces_based_on_their_construction_using_the_font_matrix",
+      "source_type": "first-party-type-education",
+      "reading_locator": [
+        "开篇：配字没有绝对规则",
+        "Three layers：skeleton／contrast and serifs／finer details",
+        "Pairing section：相近结构与有意对比两条路径"
+      ],
+      "actual_reading": "阅读 Google Fonts 官方仓库内该课的完整 Markdown 正文，包括结构分类和配对建议；未下载其插图。",
+      "reading_url": "https://raw.githubusercontent.com/google/fonts/main/cc-by-sa/knowledge/modules/choosing_type/lessons/pairing_typefaces_based_on_their_construction_using_the_font_matrix/content.md",
+      "findings": [
+        "配字可比较骨架、对比与细部；衬线／无衬线二分不够。",
+        "相近构造与主动制造差异都可能成立；原文开头明确把配字视为创作判断。"
+      ],
+      "limitations": [
+        "主要以拉丁字母结构举例，不能把 a、e、o 的模型直接当成汉字分类标准。",
+        "文中的配对建议属于教学模型，不能用于自动打分或宣布另一风格错误。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "官方源码路径位于 cc-by-sa；本记录不移植图解或原课文本，后续使用原资源须单独核对署名与相同方式共享要求。",
+      "tags": [
+        "pairing",
+        "latin",
+        "construction",
+        "contrast",
+        "aesthetic-position"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-google-vertical-metrics",
+      "title": "Google Fonts Guide — Vertical Metrics",
+      "url": "https://googlefonts.github.io/gf-guide/metrics.html",
+      "source_type": "first-party-font-engineering-guide",
+      "reading_locator": [
+        "开篇：不同平台解释垂直度量的差异",
+        "CJK Vertical Metrics 小节：em-box、BASE、vhea／vmtx 与兼容性"
+      ],
+      "actual_reading": "精读开篇适用范围、CJK Vertical Metrics 全节；对照拉丁示例与 CJK 说明，未把前者的数字当作通用参数。",
+      "findings": [
+        "行盒和基线由字体表及排版环境共同决定；不是字形墨迹边界。",
+        "CJK 小节以 em-box 为基础讨论 Google Fonts 收录与兼容策略，旧实现仍可能依赖旧约定。"
+      ],
+      "limitations": [
+        "这是一家服务的字体工程规则，不是日历行高的美学标准。",
+        "拉丁章节的比例不可直接用作所有中文排版默认值；仍需在目标浏览器和导出格式检查。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "只保存链接与原创分析；不把源码示例或图例作为可分发设计素材。",
+      "tags": [
+        "cjk",
+        "metrics",
+        "baseline",
+        "line-height",
+        "rendering"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-justfont-hanzi-2",
+      "title": "字型設計自己來｜中文字型設計的第二課（But，2012-12-25）",
+      "url": "https://blog.justfont.com/2012/12/hanzi-type-design-2/",
+      "source_type": "first-party-foundry-education",
+      "reading_locator": [
+        "正文：字面与中宫的区别",
+        "同字级／同字面模拟不同内部空间的比较",
+        "末段：与西文字体 x-height／字腔的类比"
+      ],
+      "actual_reading": "完整阅读正文及图注，重点核对同字面模拟实验的控制条件；原网页图例仅作阅读，不下载入库。",
+      "findings": [
+        "字面大小与内部笔画分布不是同一个量；同字号甚至同字面仍可能显得不同大。",
+        "作者把中宫与西文内部空间关系作为配字观察线索，而非只看外轮廓。"
+      ],
+      "limitations": [
+        "模拟案例与经验描述不等于普遍心理学证据。",
+        "松紧所引发的情绪会依文本、时代和读者而变，不能预置为用户偏好。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "文章页标示 CC BY-NC-ND 4.0；不导入、改绘其图例或将文章当作商业模板素材。字体许可另核。",
+      "tags": [
+        "cjk",
+        "character-face",
+        "counterspace",
+        "perceived-size",
+        "pairing"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-justfont-ming-comparison",
+      "title": "日本的字體設計比較好看？讓我們從明體說起（Rong，2023-09-04）",
+      "url": "https://blog.justfont.com/2023/09/whyjpdesign/",
+      "source_type": "first-party-foundry-design-criticism",
+      "reading_locator": [
+        "正文：八款明体以相同内容、字级、字距、行距比较",
+        "骨架／血肉、收笔和横向展开的逐项观察",
+        "地区字形及标点识别讨论"
+      ],
+      "actual_reading": "阅读正文与比较条件、各组解释；区分作者的审美主张和比较中可复查的形式观察。",
+      "findings": [
+        "同属明体仍可从骨架、横向展开、笔画及末端看出不同节奏。",
+        "同条件字样比国家标签更有判断价值；标点和地区字形也会影响实际呈现。"
+      ],
+      "limitations": [
+        "作者的长文用字立场是设计批评，不是证明宋体永远更易读的研究。",
+        "不能把文章题目转换成日本字体普遍优于中文字体的排序。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "仅保留原创笔记和链接；原文图例与被比较商业字体未获本项目再分发许可，不导入。",
+      "tags": [
+        "cjk",
+        "ming",
+        "skeleton",
+        "terminals",
+        "comparison",
+        "aesthetic-position"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-justfont-native-bold",
+      "title": "不是按「B」就有？中文粗體吸睛字體推薦與免費下載點一次看（陳弘量，2025-01-22）",
+      "url": "https://blog.justfont.com/2025/01/extrabold-font/",
+      "source_type": "first-party-foundry-font-usage-guide",
+      "reading_locator": [
+        "正文：软件模拟粗体与原生粗体",
+        "字重家族与层次关系",
+        "标题展示字体和长文适用情境"
+      ],
+      "actual_reading": "阅读正文关于模拟粗体、原生家族与展示场景的说明；产品推荐段只作为上下文，不作为本项目选字结论。",
+      "findings": [
+        "缺少真实粗字重时软件模拟可能损害形状；原生字重应作为独立设计检查。",
+        "展示字体可以承担个性，但短标题成立不等于适合小字长文。"
+      ],
+      "limitations": [
+        "字体厂商的使用指南含推广目的，不是覆盖所有渲染器的实测。",
+        "“吸睛”也不是每种日历的目标；不能把选字细致误解为一律用细字。"
+      ],
+      "rights_status": "research-only",
+      "rights_note": "不导入文章样张或商业字体；任何后续字库需记录独立的文件来源和授权。",
+      "tags": [
+        "cjk",
+        "font-weight",
+        "synthetic-bold",
+        "display",
+        "hierarchy"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    }
+  ],
+  "decision_cards": [
+    {
+      "id": "cjk-study-face-and-size",
+      "label": "字面／实际墨迹／视觉大小分开观察",
+      "status": "proposed-unvalidated",
+      "source_ids": [
+        "cjk-clreq-2026",
+        "cjk-justfont-hanzi-2",
+        "cjk-justfont-ming-comparison"
+      ],
+      "condition": "中文标题、数字与西文在相同字号下显得大小或轻重不协调。",
+      "operation": "保留同 em 样张观察字面，再做等墨迹高度的诊断副本；最终仍回到真实词句和构图，调整字号或配对。",
+      "tradeoff_or_counterexample": "等墨迹高度也不能消除内部空间、笔画密度和开口造成的视觉差异；只比较孤字会遗漏段落灰度。",
+      "visual_experiment": "固定同一短标题、日期和 3 行原创说明；分三列展示原字号、等墨迹高度、人工补偿。标注真实字号与补偿值，比较角色关系，不能仅以包围盒相同判胜。",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-study-role-and-weight",
+      "label": "真实尺寸下建立字重层次",
+      "status": "proposed-unvalidated",
+      "source_ids": [
+        "cjk-adobe-serif-readme",
+        "cjk-adobe-serif-design",
+        "cjk-justfont-native-bold"
+      ],
+      "condition": "标题、星期和注释层次模糊，或为了精致而把所有文字都变细。",
+      "operation": "为每个角色比较原生字重与实际成品尺寸；先保留日期的识别任务，再选择标题的笔画表现。",
+      "tradeoff_or_counterexample": "同一 wght 数值跨字体不可比；屏幕大图的纤细感可能在缩小或纸面输出后丢失。粗标题和细标题都是候选。",
+      "visual_experiment": "内容、构图、尺寸固定，仅比较 3 个真实字重组合；各附一个实际输出尺寸局部和观看距离检查，记录可读与喜欢两项独立结果。",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-study-punctuation",
+      "label": "先处理文本边界，再评估疏密",
+      "status": "proposed-unvalidated",
+      "source_ids": [
+        "cjk-clreq-2026"
+      ],
+      "condition": "说明文字或长标题会自动换行，特别是窄栏或手机预览。",
+      "operation": "显式选择地区及禁则策略，先考虑标点宽度，再处理换行和不可拆串；短展示标题允许人工决定行分。",
+      "tradeoff_or_counterexample": "为了禁则把一行过度拉开，会制造更严重的节奏问题；不能把所有标点强制半宽或一概悬挂。",
+      "visual_experiment": "用原创压力串“在书页之间，寻找时间。《一周一书》（2027）……”在窄、中、宽三栏比较；检查行头句号、行尾开括号、拆开的省略号与日期数字。该串只用于排版测试。",
+      "scales": [
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-study-pairing",
+      "label": "中西配字比较构造与角色",
+      "status": "proposed-unvalidated",
+      "source_ids": [
+        "cjk-google-font-matrix",
+        "cjk-justfont-hanzi-2",
+        "cjk-adobe-serif-design"
+      ],
+      "condition": "作品同时包含中文题名、英文名、年份和日期。",
+      "operation": "给出同族互补、形态相近和主动对比三种假设；逐一记录笔画对比、开口、末端、数字宽度及视觉大小。",
+      "tradeoff_or_counterexample": "“宋配衬线、黑配无衬线”不能自动保证协调；有意冲突也可能服务主题。Latin skeleton 模型不直接分类汉字。",
+      "visual_experiment": "同一内容与构图各换一组配字，先比较层次和总体节奏，再看局部标点与基线。若同时换色或换图，应标记为整套方向，不能归因给某种字体。",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-study-language-and-output",
+      "label": "地区字形与导出能力单独验收",
+      "status": "proposed-unvalidated",
+      "source_ids": [
+        "cjk-adobe-serif-readme",
+        "cjk-google-vertical-metrics"
+      ],
+      "condition": "同一模板允许简体、台湾繁体、香港繁体或跨浏览器／PDF 导出。",
+      "operation": "保存语言／地区、字体具体文件与版本、排版引擎能力；检查地区字形、基线及裁切。",
+      "tradeoff_or_counterexample": "字体家族名、字符覆盖和成功导出都不能代替本地化字形与视觉检查。",
+      "visual_experiment": "用“一 字 好 松”和实际标题分别生成目标地区版本并与字体官方样字核对；再测带上下伸部西文的混排行，比较浏览器与导出图。只宣称已实际检查的语言和格式。",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-study-vertical",
+      "label": "直排是文本配置，不是整块旋转",
+      "status": "proposed-unvalidated",
+      "source_ids": [
+        "cjk-clreq-2026",
+        "cjk-adobe-serif-readme"
+      ],
+      "condition": "采用纵向中文标题、月份或竖排摘句。",
+      "operation": "明确中文推进方向、标点位置、西文旋转与数字纵中横的分工；优先以少量真实内容验证。",
+      "tradeoff_or_counterexample": "把英文逐字竖堆可能破坏词形；四位年份硬压进一字宽会降低辨识。小片段排成直行不等于已支持完整直排段落。",
+      "visual_experiment": "同一原创标题分别制作横排、直排汉字＋单列数字、直排汉字＋纵中横日期三种局部；带一段英文词与括号压力测试，评估阅读路径及构图价值。",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "cjk-study-mixed-spacing",
+      "label": "中西边界间距与全局字距分开",
+      "status": "proposed-unvalidated",
+      "source_ids": [
+        "cjk-clreq-2026"
+      ],
+      "condition": "中文说明夹有数字、英文词或书目编号，界面间距看似均匀而文字被切碎。",
+      "operation": "把汉字—西文边界、英文词内间距、中文标点边界分开配置；不以全局 tracking 或逐字手动空格替代。",
+      "tradeoff_or_counterexample": "拉开所有字符会破坏英文词形，也可能重复中文标点自带的空白；紧排未必能通过整体加大字距解决。",
+      "visual_experiment": "以原创串“第12周，阅读 Book 02。”比较仅中西交界处的 0、0.125、0.25 em 间距，保留标点例外并另看窄栏换行。以上是对照条件，不是默认参数。",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    }
+  ]
+}

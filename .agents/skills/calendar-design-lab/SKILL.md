@@ -35,6 +35,8 @@ For a new mapping, date grouping, normalization, or cross-period change, read [r
 
 When type or layout lacks a defensible choice or receives explicit criticism, use that reference's actual-content specimen and composition-study method before another full design. Compare the relevant font roles, remove or demote unjustified auxiliary information, and inspect whole-page balance as well as actual-size glyphs. Font availability and passing technical checks are not selection rationales.
 
+For deeper selection, query the library by `--domain typography` or `--domain layout` and role; use the [type/layout topic guide](../../../docs/type-layout-library.md). Keep requirements, aesthetic positions, project hypotheses and renderer support distinct. Font axes/features do not prove the exporter applies them; sparse grids and expressive density are alternatives with conditions, not universal quality standards.
+
 Analyze references in terms of number forms, hierarchy, grouping, density, whitespace, materials, image relationships, and how time is experienced. Distinguish studying an approach from permission to redistribute the reference's concrete artwork.
 
 Propose substantially different directions where useful. Give each a spatial or temporal idea and connect visual choices to the brief. Avoid producing near-identical color variants as evidence of exploration. Do not prescribe one universal aesthetic or require all calendars to use illustration.

@@ -9,6 +9,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT/'assets/library/catalog.json'
 SCALES = ('year', 'month', 'week', 'day')
+TYPE_RESEARCH_FILES = [
+    'docs/research/cjk-typography.json','docs/research/font-selection.json',
+    'docs/research/layout-aesthetics.json','docs/research/type-rendering-boundaries.json',
+]
 
 
 def load(relative):
@@ -33,6 +37,8 @@ def build_catalog():
             'usage_notes':'Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.',
             'source_record':'assets/fonts/provenance.json',
         })
+    for a in load('assets/fonts/type-study/manifest.json')['assets']:
+        items.append({**a,'domains':['typography']})
     items.append({
         'id':'paper-light-j4','title':'Paper and light / retained generated image',
         'kind':'image','scales':['year','month','week','day'],
@@ -52,44 +58,62 @@ def build_catalog():
         items.append({**a,'title':a['element'],'kind':'proposal','role':'design-proposal',
                       'ready':False,'rights_status':'project-proposal',
                       'distribution_status':'not-an-asset'})
+    for path in TYPE_RESEARCH_FILES:
+        for a in load(path)['sources']:
+            domains=a.get('domains') or (['layout'] if 'layout-aesthetics' in path else ['typography'])
+            items.append({**a,'kind':'reference','scales':list(SCALES),'domains':domains,
+                          'role':'layout-evidence' if domains==['layout'] else 'type-evidence',
+                          'source_record':path,'ready':False,'distribution_status':'research-only','local_asset':None})
+    items.extend(load('assets/library/type-layout-elements.json')['assets'])
+    for a in items:
+        a.setdefault('domains',['typography'] if a['kind']=='font' else [])
     groups={scale:{
         'components':[a['id'] for a in items if a['kind']=='component' and a['primary_scale']==scale],
         'candidate_images':[a['id'] for a in items if a['kind']=='image' and scale in a['scales']],
         'references':[a['id'] for a in items if a['kind']=='reference' and scale in a['scales']],
         'font_families':[a['id'] for a in items if a['kind']=='font'],
         'proposals':[a['id'] for a in items if a['kind']=='proposal' and scale in a['scales']],
+        'design_elements':[a['id'] for a in items if a['kind']=='design-element' and scale in a['scales']],
     } for scale in SCALES}
     return {
-        'schema_version':1,'updated_at':'2026-10-29','groups':groups,'items':items,
+        'schema_version':2,'updated_at':'2026-10-30','groups':groups,'items':items,
         'semantics':{
             'scales':'Suggested viewing/use extent, not mutually exclusive asset ownership.',
             'ready':'A retained asset exists. This does not imply a complete series, print resolution, user approval, or a public reuse license.',
             'distribution_status':'CC0-1.0 or OFL-1.1 pass the explicit-license filter; OFL conditions still apply. Original project assets retain their separately unspecified scope.',
+            'design-element':'Source-informed choices with conditions, tradeoffs and proof links; not a universal aesthetic rule or user-approved recipe.',
         },
         'source_files':[
             'assets/library/components/manifest.json','assets/library/open-images/manifest.json',
             'assets/fonts/provenance.json','assets/images/paper-light/provenance.json',
             'docs/research/annual-monthly-materials.json','docs/research/weekly-daily-materials.json',
-        ],
+            'assets/fonts/type-study/manifest.json','assets/library/type-layout-elements.json',
+        ]+TYPE_RESEARCH_FILES,
     }
 
 
-def select(catalog, scale=None, kind=None, tag=None, ready_only=False, shareable_only=False):
+def select(catalog, scale=None, kind=None, tag=None, ready_only=False, shareable_only=False, domain=None, role=None, query=None):
     found=catalog['items']
     if scale: found=[a for a in found if scale in a['scales']]
     if kind: found=[a for a in found if a['kind']==kind]
     if tag: found=[a for a in found if tag.casefold() in [t.casefold() for t in a.get('tags',[])]]
     if ready_only: found=[a for a in found if a['ready']]
     if shareable_only: found=[a for a in found if a['distribution_status'] in ('CC0-1.0','OFL-1.1')]
+    if domain: found=[a for a in found if domain in a.get('domains',[])]
+    if role: found=[a for a in found if role==a.get('role')]
+    if query: found=[a for a in found if query.casefold() in json.dumps(a,ensure_ascii=False).casefold()]
     return found
 
 
 def main(argv=None):
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--build',action='store_true',help='Refresh retained index from its six source records.')
+    p.add_argument('--build',action='store_true',help='Refresh retained index from its source records.')
     p.add_argument('--scale',choices=SCALES)
-    p.add_argument('--kind',choices=['component','image','font','reference','proposal'])
+    p.add_argument('--kind',choices=['component','image','font','reference','proposal','design-element'])
     p.add_argument('--tag')
+    p.add_argument('--domain',help='For example typography or layout; combines with scale and rights filters.')
+    p.add_argument('--role',help='For example font-pairing, numerals, grid or spacing.')
+    p.add_argument('--query',help='Literal keyword search over retained metadata; not semantic search.')
     p.add_argument('--ready-only',action='store_true')
     p.add_argument('--shareable-only',action='store_true',help='Only assets with recorded CC0/OFL scope; retain conditions.')
     p.add_argument('--json',action='store_true')
@@ -99,7 +123,7 @@ def main(argv=None):
         CATALOG.write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n')
     else:
         catalog=json.loads(CATALOG.read_text())
-    found=select(catalog,args.scale,args.kind,args.tag,args.ready_only,args.shareable_only)
+    found=select(catalog,args.scale,args.kind,args.tag,args.ready_only,args.shareable_only,args.domain,args.role,args.query)
     if args.json:
         print(json.dumps(found,ensure_ascii=False,indent=2))
     else:

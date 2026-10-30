@@ -1,0 +1,305 @@
+{
+  "font_working_copies": {
+    "fonttools": "4.68.0",
+    "fonts": [
+      {
+        "alias": "serif400",
+        "file": "serif400.ttf",
+        "sha256": "26ded9dee6632d1d89e82e5988f3f56bfb03a857a08fa98af012f27a601c387d",
+        "weight": 400,
+        "family": "Calendar Atlas Serif SC",
+        "source_id": "font-noto-serif-sc-vf",
+        "source_sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+        "modified": true,
+        "modification": "wght instantiated; primary names changed; original license/copyright retained"
+      },
+      {
+        "alias": "serif600",
+        "file": "serif600.ttf",
+        "sha256": "2a6627e27b6bb1c5b985f016e79fb0c9104614a9f46395932001a0c48fdcfb70",
+        "weight": 600,
+        "family": "Calendar Atlas Serif SC",
+        "source_id": "font-noto-serif-sc-vf",
+        "source_sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+        "modified": true,
+        "modification": "wght instantiated; primary names changed; original license/copyright retained"
+      },
+      {
+        "alias": "sans400",
+        "file": "sans400.ttf",
+        "sha256": "41242b238044e7640d091e5cbd96435d593dc528508a1233e376282eb38e12b5",
+        "weight": 400,
+        "family": "Calendar Atlas Sans SC",
+        "source_id": "font-noto-sans-sc-vf",
+        "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+        "modified": true,
+        "modification": "wght instantiated; primary names changed; original license/copyright retained"
+      },
+      {
+        "alias": "sans500",
+        "file": "sans500.ttf",
+        "sha256": "2a927f7a2d1316e9269a874c117e9e79b2c1afe250536a46e8e4b21230a6aeae",
+        "weight": 500,
+        "family": "Calendar Atlas Sans SC",
+        "source_id": "font-noto-sans-sc-vf",
+        "source_sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+        "modified": true,
+        "modification": "wght instantiated; primary names changed; original license/copyright retained"
+      }
+    ],
+    "license": "OFL-1.1; original licenses accompany cached working copies"
+  },
+  "source_fonts": "assets/fonts/type-study/manifest.json",
+  "original_content": "Project-authored generic study text and native geometric field. No private design case or third-party artwork used.",
+  "rendering_limits": "cmap/hmtx glyph outlines with explicit tracking; no automatic shaping, kerning, OpenType substitutions, paragraph breaking or CLREQ implementation.",
+  "study_kind": "Comparative questions and compositional hypotheses; not an aesthetic ranking or user approval.",
+  "date_model": {
+    "schema_version": 1,
+    "calendar_system": "proleptic-gregorian",
+    "view": "week",
+    "anchor_date": "2028-02-28",
+    "week_start": "monday",
+    "period": {
+      "start": "2028-02-28",
+      "end": "2028-03-05"
+    },
+    "days": [
+      {
+        "date": "2028-02-28",
+        "year": 2028,
+        "month": 2,
+        "day": 28,
+        "weekday_monday0": 0,
+        "iso_week_year": 2028,
+        "iso_week": 9
+      },
+      {
+        "date": "2028-02-29",
+        "year": 2028,
+        "month": 2,
+        "day": 29,
+        "weekday_monday0": 1,
+        "iso_week_year": 2028,
+        "iso_week": 9
+      },
+      {
+        "date": "2028-03-01",
+        "year": 2028,
+        "month": 3,
+        "day": 1,
+        "weekday_monday0": 2,
+        "iso_week_year": 2028,
+        "iso_week": 9
+      },
+      {
+        "date": "2028-03-02",
+        "year": 2028,
+        "month": 3,
+        "day": 2,
+        "weekday_monday0": 3,
+        "iso_week_year": 2028,
+        "iso_week": 9
+      },
+      {
+        "date": "2028-03-03",
+        "year": 2028,
+        "month": 3,
+        "day": 3,
+        "weekday_monday0": 4,
+        "iso_week_year": 2028,
+        "iso_week": 9
+      },
+      {
+        "date": "2028-03-04",
+        "year": 2028,
+        "month": 3,
+        "day": 4,
+        "weekday_monday0": 5,
+        "iso_week_year": 2028,
+        "iso_week": 9
+      },
+      {
+        "date": "2028-03-05",
+        "year": 2028,
+        "month": 3,
+        "day": 5,
+        "weekday_monday0": 6,
+        "iso_week_year": 2028,
+        "iso_week": 9
+      }
+    ],
+    "months": []
+  },
+  "layout_cards": [
+    {
+      "id": "layout-axis",
+      "represented_dates": [
+        {
+          "date": "2028-02-28",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2028-02-29",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2028-03-01",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2028-03-02",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2028-03-03",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2028-03-04",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2028-03-05",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "id": "layout-grid",
+      "represented_dates": [
+        {
+          "date": "2028-02-28",
+          "weekday_monday0": 0,
+          "row": 0
+        },
+        {
+          "date": "2028-02-29",
+          "weekday_monday0": 1,
+          "row": 1
+        },
+        {
+          "date": "2028-03-01",
+          "weekday_monday0": 2,
+          "row": 2
+        },
+        {
+          "date": "2028-03-02",
+          "weekday_monday0": 3,
+          "row": 3
+        },
+        {
+          "date": "2028-03-03",
+          "weekday_monday0": 4,
+          "row": 4
+        },
+        {
+          "date": "2028-03-04",
+          "weekday_monday0": 5,
+          "row": 5
+        },
+        {
+          "date": "2028-03-05",
+          "weekday_monday0": 6,
+          "row": 6
+        }
+      ]
+    },
+    {
+      "id": "layout-dense",
+      "represented_dates": [
+        {
+          "date": "2028-02-28",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2028-02-29",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2028-03-01",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2028-03-02",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2028-03-03",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2028-03-04",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2028-03-05",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "id": "layout-expressive",
+      "represented_dates": [
+        {
+          "date": "2028-02-28",
+          "weekday_monday0": 0,
+          "column": 0
+        },
+        {
+          "date": "2028-02-29",
+          "weekday_monday0": 1,
+          "column": 1
+        },
+        {
+          "date": "2028-03-01",
+          "weekday_monday0": 2,
+          "column": 2
+        },
+        {
+          "date": "2028-03-02",
+          "weekday_monday0": 3,
+          "column": 3
+        },
+        {
+          "date": "2028-03-03",
+          "weekday_monday0": 4,
+          "column": 4
+        },
+        {
+          "date": "2028-03-04",
+          "weekday_monday0": 5,
+          "column": 5
+        },
+        {
+          "date": "2028-03-05",
+          "weekday_monday0": 6,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "implementation_sha256": "a08d6e140ec9e7c6f98543202d13e8233e4e63d7c39ea0f7f6b1082fc605482f",
+  "preparer_sha256": "baf6bd5f6f9ed8839bfa93f5433500da7765fe6f0619e7dc2be321771000e3cd",
+  "svg_sha256": {
+    "layout-grid.svg": "73f36c15db51ad020886ea36fc10f483b2d5270fa310fb1e1df89d8440187a21",
+    "layout-expressive.svg": "19eae2d6b7e1cdbf8cfd43d1f80cd47cdcfbc93b573f7fb3898950219257972f",
+    "type-specimens.svg": "af69e6b6421e75bf0a4d47306053b05a5ee09940fa293de81979b0ecf88358cc",
+    "layout-relations.svg": "63a2088e563e2890b9eb5729f3991674da751caedf6e2b4ef324ebb12c3e1439",
+    "layout-axis.svg": "fffbb173239f5e588083392d5ecbcae1bedd508d5286d1339414dc4fdbc2b4ce",
+    "layout-dense.svg": "c181a009634958d3b493fcb8b1206004911474541ba9b99a0bdb70cbaae08488"
+  }
+}

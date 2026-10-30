@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-30",
+  "assets": [
+    {
+      "id": "font-noto-serif-sc-vf",
+      "title": "Noto Serif SC",
+      "title_zh": "Noto Serif SC（简体中文宋体）",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "typography",
+      "tags": [
+        "cjk",
+        "zh-CN",
+        "serif",
+        "variable",
+        "weight",
+        "numeral"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "source_record": "assets/fonts/type-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+      "license": "OFL-1.1",
+      "version": "Version 2.003-H1;hotconv 1.1.1;makeotfexe 2.6.0",
+      "upstream_git_blob_sha": "eab063faf229160a52d3760f5555150e4eb9e5bf",
+      "local_files": [
+        {
+          "path": "assets/fonts/type-study/noto-serif-sc/NotoSerifSC-VF.ttf",
+          "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+          "bytes": 25125512,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf"
+        },
+        {
+          "path": "assets/fonts/type-study/noto-serif-sc/OFL.txt",
+          "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+          "bytes": 4350,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "minimum": 200.0,
+          "default": 200.0,
+          "maximum": 900.0
+        }
+      ],
+      "measurements_400": {
+        "sample": "年月周日 春夏秋冬 0123456789 Aa Il1，。！？（）《》",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 557,
+          "1": 471,
+          "2": 558,
+          "3": 557,
+          "4": 555,
+          "5": 558,
+          "6": 558,
+          "7": 549,
+          "8": 558,
+          "9": 562
+        },
+        "default_numerals_tabular": false,
+        "glyph_ink_bounds_units": {
+          "年": [
+            37.0596923828125,
+            -77.41046142578125,
+            958.6204833984375,
+            854.3603515625
+          ],
+          "月": [
+            47.31982421875,
+            -78.04052734375,
+            818.1407470703125,
+            803.1908569335938
+          ],
+          "周": [
+            38.10980224609375,
+            -77.200439453125,
+            914.8901977539062,
+            808.560791015625
+          ],
+          "日": [
+            201.8592529296875,
+            -70.25054931640625,
+            845.6610107421875,
+            782.5010986328125
+          ],
+          "0": [
+            46.94989013671875,
+            -14.63006591796875,
+            509.17169189453125,
+            742.6705932617188
+          ],
+          "H": [
+            52.84967041015625,
+            0,
+            800.560791015625,
+            728.04052734375
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "ccmp",
+          "dlig",
+          "fwid",
+          "hist",
+          "hwid",
+          "liga",
+          "locl",
+          "pwid",
+          "ruby",
+          "vert",
+          "vrt2"
+        ],
+        "measurement_scope": "Default cmap glyphs in a static in-memory 400 instance. No GSUB or GPOS feature application is claimed."
+      },
+      "reserved_font_names_declared": [],
+      "usage_notes": "Original unmodified variable TrueType file retained. Choose and record wght explicitly; its default is not 400. No opsz axis exists in this file. For export, retain an actual supported instance or outline the selected glyphs and preserve editable source. A full CJK typesetting/shaping system is not established by this asset."
+    },
+    {
+      "id": "font-noto-sans-sc-vf",
+      "title": "Noto Sans SC",
+      "title_zh": "Noto Sans SC（简体中文黑体）",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "role": "typography",
+      "tags": [
+        "cjk",
+        "zh-CN",
+        "sans",
+        "variable",
+        "weight",
+        "numeral"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "source_record": "assets/fonts/type-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "license": "OFL-1.1",
+      "version": "Version 2.004-H2;hotconv 1.0.118;makeotfexe 2.5.65603",
+      "upstream_git_blob_sha": "fb0637bafbcd804fe32152370a1225990745b4bc",
+      "local_files": [
+        {
+          "path": "assets/fonts/type-study/noto-sans-sc/NotoSansSC-VF.ttf",
+          "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+          "bytes": 17772300,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf"
+        },
+        {
+          "path": "assets/fonts/type-study/noto-sans-sc/OFL.txt",
+          "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+          "bytes": 4388,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "minimum": 100.0,
+          "default": 100.0,
+          "maximum": 900.0
+        }
+      ],
+      "measurements_400": {
+        "sample": "年月周日 春夏秋冬 0123456789 Aa Il1，。！？（）《》",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 555,
+          "1": 555,
+          "2": 555,
+          "3": 555,
+          "4": 555,
+          "5": 555,
+          "6": 555,
+          "7": 555,
+          "8": 555,
+          "9": 555
+        },
+        "default_numerals_tabular": true,
+        "glyph_ink_bounds_units": {
+          "年": [
+            47.5897216796875,
+            -80.3603515625,
+            953.6302490234375,
+            843.7503662109375
+          ],
+          "月": [
+            29.19970703125,
+            -80.9703369140625,
+            820.8907470703125,
+            787.2105712890625
+          ],
+          "周": [
+            32.859619140625,
+            -85.580322265625,
+            880.2308349609375,
+            791.7503662109375
+          ],
+          "日": [
+            176.379150390625,
+            -68.9703369140625,
+            831.8907470703125,
+            772.16064453125
+          ],
+          "0": [
+            49.539794921875,
+            -13.3900146484375,
+            505.781494140625,
+            746.4102783203125
+          ],
+          "H": [
+            100.6396484375,
+            0,
+            627.6114501953125,
+            733.4102783203125
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "ccmp",
+          "dlig",
+          "fwid",
+          "hist",
+          "hwid",
+          "liga",
+          "locl",
+          "pwid",
+          "ruby",
+          "vert",
+          "vrt2"
+        ],
+        "measurement_scope": "Default cmap glyphs in a static in-memory 400 instance. No GSUB or GPOS feature application is claimed."
+      },
+      "reserved_font_names_declared": [
+        "Source"
+      ],
+      "usage_notes": "Original unmodified variable TrueType file retained. Choose and record wght explicitly; its default is not 400. No opsz axis exists in this file. For export, retain an actual supported instance or outline the selected glyphs and preserve editable source. A full CJK typesetting/shaping system is not established by this asset."
+    }
+  ],
+  "existing_font_audit": [
+    {
+      "family": "Instrument Serif",
+      "path": "assets/fonts/instrumentserif/InstrumentSerif-Regular.ttf",
+      "sha256": "498efd461f6ddfcb7a111bf9a565709d2085d48201d501ead960d93e84ffbb88",
+      "measurements": {
+        "sample": "年月周日 春夏秋冬 0123456789 Aa Il1，。！？（）《》",
+        "missing_glyphs": [
+          "年",
+          "月",
+          "周",
+          "日",
+          "春",
+          "夏",
+          "秋",
+          "冬",
+          "，",
+          "。",
+          "！",
+          "？",
+          "（",
+          "）",
+          "《",
+          "》"
+        ],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 460,
+          "1": 249,
+          "2": 404,
+          "3": 371,
+          "4": 393,
+          "5": 382,
+          "6": 404,
+          "7": 364,
+          "8": 433,
+          "9": 402
+        },
+        "default_numerals_tabular": false,
+        "glyph_ink_bounds_units": {
+          "0": [
+            36,
+            -9,
+            424,
+            730
+          ],
+          "H": [
+            19,
+            0,
+            527,
+            720
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dlig",
+          "liga",
+          "locl",
+          "ordn",
+          "ss01"
+        ],
+        "measurement_scope": "Default cmap glyphs in a static in-memory 400 instance. No GSUB or GPOS feature application is claimed."
+      },
+      "scope": "Only this retained Regular file is measured. Family-wide language/features must not be inferred."
+    },
+    {
+      "family": "IBM Plex Mono",
+      "path": "assets/fonts/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "measurements": {
+        "sample": "年月周日 春夏秋冬 0123456789 Aa Il1，。！？（）《》",
+        "missing_glyphs": [
+          "年",
+          "月",
+          "周",
+          "日",
+          "春",
+          "夏",
+          "秋",
+          "冬",
+          "，",
+          "。",
+          "！",
+          "？",
+          "（",
+          "）",
+          "《",
+          "》"
+        ],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 600,
+          "1": 600,
+          "2": 600,
+          "3": 600,
+          "4": 600,
+          "5": 600,
+          "6": 600,
+          "7": 600,
+          "8": 600,
+          "9": 600
+        },
+        "default_numerals_tabular": true,
+        "glyph_ink_bounds_units": {
+          "0": [
+            56,
+            -12,
+            544,
+            710
+          ],
+          "H": [
+            80,
+            0,
+            520,
+            698
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "ccmp",
+          "dnom",
+          "frac",
+          "numr",
+          "ordn",
+          "salt",
+          "sinf",
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04",
+          "ss05",
+          "sups",
+          "zero"
+        ],
+        "measurement_scope": "Default cmap glyphs in a static in-memory 400 instance. No GSUB or GPOS feature application is claimed."
+      },
+      "scope": "Only this retained Regular file is measured. Family-wide language/features must not be inferred."
+    },
+    {
+      "family": "IBM Plex Sans Condensed",
+      "path": "assets/fonts/ibmplexsanscondensed/IBMPlexSansCondensed-Regular.ttf",
+      "sha256": "e7437c072eef2ef592ae6f2beb0000446287385907abb57ac1cf07bcbaa2aa33",
+      "measurements": {
+        "sample": "年月周日 春夏秋冬 0123456789 Aa Il1，。！？（）《》",
+        "missing_glyphs": [
+          "年",
+          "月",
+          "周",
+          "日",
+          "春",
+          "夏",
+          "秋",
+          "冬",
+          "，",
+          "。",
+          "！",
+          "？",
+          "（",
+          "）",
+          "《",
+          "》"
+        ],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 540,
+          "1": 540,
+          "2": 540,
+          "3": 540,
+          "4": 540,
+          "5": 540,
+          "6": 540,
+          "7": 540,
+          "8": 540,
+          "9": 540
+        },
+        "default_numerals_tabular": true,
+        "glyph_ink_bounds_units": {
+          "0": [
+            52,
+            -12,
+            488,
+            710
+          ],
+          "H": [
+            83,
+            0,
+            554,
+            698
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "ccmp",
+          "dnom",
+          "frac",
+          "liga",
+          "locl",
+          "numr",
+          "ordn",
+          "salt",
+          "sinf",
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04",
+          "ss05",
+          "subs",
+          "sups",
+          "zero"
+        ],
+        "measurement_scope": "Default cmap glyphs in a static in-memory 400 instance. No GSUB or GPOS feature application is claimed."
+      },
+      "scope": "Only this retained Regular file is measured. Family-wide language/features must not be inferred."
+    }
+  ],
+  "provenance_boundary": "Only publicly licensed original font and license bytes are reused. No user request, image, artwork, feedback, modified case font or private design source is imported.",
+  "prepared_with": "FontTools 4.68.0",
+  "redistribution_note": "Keep each original copyright and OFL with the font. These files retain OFL scope; no blanket project license is added. Do not sell the font software by itself. Modified fonts require their own naming/license review.",
+  "renderer_limits": [
+    "The current design_scene.py cmap/advance path does not itself apply GSUB/GPOS shaping or OpenType numeral switches. Features found in a font must not be claimed as implemented layout behavior.",
+    "ReportLab variable-font handling is not certified by this collection. Use a supported retained static instance or outlined source workflow and inspect the export.",
+    "Chinese sample coverage does not certify all Chinese characters, regional glyph requirements, line breaking, punctuation compression or mixed-script shaping."
+  ],
+  "measurement_method": "Use original variable TTF; instantiate wght=400 in memory; inspect cmap, hmtx, GSUB feature list and BoundsPen ink bounds. No modified font bytes are saved here.",
+  "additional_candidate_review": [
+    {
+      "id": "font-lxgw-wenkai-lite-regular-candidate",
+      "title": "LXGW WenKai Lite Regular",
+      "imported": false,
+      "source_url": "https://github.com/lxgw/LxgwWenKai-Lite",
+      "font_url": "https://raw.githubusercontent.com/lxgw/LxgwWenKai-Lite/main/fonts/TTF/LXGWWenKaiLite-Regular.ttf",
+      "license_url": "https://raw.githubusercontent.com/lxgw/LxgwWenKai-Lite/main/OFL.txt",
+      "license": "OFL-1.1",
+      "version": "Version 1.530; October 18, 2026",
+      "bytes": 13949472,
+      "sha256": "f799a538a3355877e597a0ae04050e897932c9ae7689eb9227c2953c5dd549ea",
+      "upstream_git_blob_sha": "b6a91870361ff0ddf5bb12d8327fda1948794074",
+      "license_sha256": "0333a85fe077b6849f8e417acc44e8bd879442ceb681e271acf93e2d57fd4e2e",
+      "actual_verification": "Local unmodified original font matched the fresh official GitHub contents API size and Git blob SHA; retained OFL bytes matched the fresh official OFL exactly. No design or text from a case was extracted.",
+      "redistribution_assessment": "Original files can be redistributed with complete copyright and OFL. Modified fonts require separate name and additional-permission review; do not assume Noto naming conditions apply.",
+      "reserved_font_names_declared": [
+        "霞鹜",
+        "霞鶩",
+        "落霞孤鹜",
+        "落霞孤鶩",
+        "LXGW"
+      ],
+      "measurements": {
+        "sample": "年月周日 春夏秋冬 0123456789 Aa Il1，。！？（）《》",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "default_numeral_advance_units": {
+          "0": 600,
+          "1": 600,
+          "2": 600,
+          "3": 600,
+          "4": 600,
+          "5": 600,
+          "6": 600,
+          "7": 600,
+          "8": 600,
+          "9": 600
+        },
+        "default_numerals_tabular": true,
+        "measurement_scope": "Default cmap and hmtx; no GSUB/GPOS application."
+      },
+      "selection_decision": "Eligible original font candidate; not copied into the public collection in this pass to keep two core CJK families and about 43 MB of source assets.",
+      "limitations": [
+        "Lite coverage is not full CJK coverage; real names and regional glyph needs require testing.",
+        "This review does not certify UVS selection in the current renderer."
+      ]
+    }
+  ]
+}

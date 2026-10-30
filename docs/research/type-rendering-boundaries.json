@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "researched_at": "2026-10-30",
+  "scope": "设计师立场与文字渲染边界的一手阅读；不作为普遍审美定律",
+  "sources": [
+    {
+      "id": "font-butterick-mixing",
+      "title": "Mixing fonts",
+      "url": "https://practicaltypography.com/mixing-fonts.html",
+      "source_type": "designer-authored guidance",
+      "evidence_class": "designer-position",
+      "domains": ["typography"],
+      "tags": ["pairing", "roles", "contrast"],
+      "reading_locator": "全文六条建议，重点第1、3、4、6条",
+      "actual_reading": "全文已读；没有复制网页示例或购买字体。",
+      "findings": "作者将混用字体视为可选项，重视一致的角色；同类字体也能搭配，反差大小不能单独决定成败。",
+      "transfer": "先试单一家族的角色分工；引入第二字体时说明其任务，并比较相近与强对比的组合。",
+      "limitations": "关于家族数量和同一设计师配对的建议是作者立场，不能成为所有日历的硬上限或风格标准。",
+      "rights_status": "research-only"
+    },
+    {
+      "id": "font-butterick-context",
+      "title": "Typography in ten minutes",
+      "url": "https://practicaltypography.com/typography-in-ten-minutes.html",
+      "source_type": "designer-authored guidance",
+      "evidence_class": "designer-position",
+      "domains": ["typography", "layout"],
+      "tags": ["size", "leading", "measure", "context"],
+      "reading_locator": "五项建议及相同字号不等视觉大小的说明",
+      "actual_reading": "全文已读，保留其正文排版语境。",
+      "findings": "作者将正文字体、字号、行距与行长一起判断，并指出字号相同的字体未必看起来一样大。",
+      "transfer": "在需要连续阅读的日历内容中共同研究这些变量；图像主导海报另以其实际任务建立层级。",
+      "limitations": "原文数字主要针对西文连续正文；不直接套成中文书名、远观日期或所有屏幕的固定参数。作者对付费字体与个别字体的价值判断不采为项目禁令。",
+      "rights_status": "research-only"
+    },
+    {
+      "id": "type-harfbuzz-shaping",
+      "title": "What is HarfBuzz? / What is text shaping?",
+      "url": "https://harfbuzz.github.io/what-is-harfbuzz.html",
+      "source_type": "official implementation documentation",
+      "evidence_class": "technical-implementation",
+      "domains": ["typography"],
+      "tags": ["shaping", "OpenType", "language", "capability"],
+      "reading_locator": "What is HarfBuzz 与 What is text shaping 两节",
+      "actual_reading": "原文两节已读，未将软件的能力归给本项目。",
+      "findings": "文字塑形把字符序列转为依赖字体、文字系统和语言的字形选择与位置；存在字体表不代表已经执行特性。",
+      "transfer": "素材记录同时保存字体支持和渲染器支持；需要 kerning、连字、数字替换或地区替换时，用实际塑形结果验证。",
+      "limitations": "现有 design_scene.py 逐字符取 cmap/hmtx 并加 tracking，未接入 HarfBuzz，不执行完整 GSUB/GPOS、自动断行或中文禁则。原始字形研究不能冒充这些功能的演示。",
+      "rights_status": "research-only"
+    }
+  ]
+}

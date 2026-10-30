@@ -8,6 +8,8 @@ Read the repository's [grouped guide](../../../../docs/material-library.md) and 
 python3 scripts/material_catalog.py --scale month --json
 python3 scripts/material_catalog.py --scale week --kind reference --json
 python3 scripts/material_catalog.py --scale day --shareable-only --json
+python3 scripts/material_catalog.py --domain typography --role font-pairing --json
+python3 scripts/material_catalog.py --domain layout --kind design-element --json
 ```
 
 Run from the repository root. `scales` are suggested viewing/use extents, not mutually exclusive folders or limits on an asset's meaning. A weekly photograph can be a week's main image; it does not imply seven different daily images already exist.
@@ -30,6 +32,7 @@ Choose materials across roles, not one exclusive style tag: typography, image, f
 - `font`: existing OFL families with original files and license text. Check the actual glyphs needed for the selected language and roles.
 - `component`: original retained code and SVG studies. No public project license has been selected; do not invent a public redistribution grant.
 - `proposal`: a content/module idea without a completed asset. Do not count it as downloaded or implemented.
+- `design-element`: source-informed conditions, choices, tradeoffs and proof links. Use the [type/layout topic guide](../../../../docs/type-layout-library.md); requirements, designer positions and implementation capabilities are different evidence. Original studies are not universal styles or user preferences.
 
 `ready` means a local asset exists. The explicit-license filter admits only recorded CC0/OFL items, with their relevant conditions. It is not a legal-clearance service or a check of print resolution, complete series coverage, or design acceptance.
 
