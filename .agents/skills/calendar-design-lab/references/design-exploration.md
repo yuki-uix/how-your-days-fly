@@ -39,6 +39,8 @@ Label sample dates, provisional output dimensions and placeholders. Keep dates d
 
 Inspect the actual rendered artifact before presenting it. Check the intended language and content, not only the example numerals. G/J5 are retained weekly studies, not a general book-calendar engine; current English proofs do not establish Chinese layout support. Resolve a necessary rendering gap or state the limited preview scope rather than silently changing the requested language.
 
+Present the preview explicitly in a user-facing message before asking the person to compare directions. An inspection tool's image output is not evidence that the person has seen the design. Use an inline image or an accessible preview panel/link, with clear direction labels; if delivery failed, show the artifacts before collecting design preferences.
+
 ## Convert feedback into a scoped revision
 
 Locate the referenced version in the active case, current files or attachments before asking the user to provide it again. If the parent is unavailable, ask only for the missing source or preview needed to edit accurately, while retaining the stated keep/change intent. Do not substitute G/J5 or a synthetic example for the user's unidentified design.
