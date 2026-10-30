@@ -33,6 +33,8 @@ For public learning materials or the rationale behind this vocabulary, read [ref
 
 For a new mapping, date grouping, normalization, or cross-period change, read [references/temporal-semantics.md](references/temporal-semantics.md). For hierarchy, numeral choice, whitespace, or a multi-page series, read [references/typographic-composition.md](references/typographic-composition.md). Read only what the current decision needs. Do not collapse calendar days into equal elapsed seconds or infer a numeral feature from a font's broad category.
 
+When type or layout lacks a defensible choice or receives explicit criticism, use that reference's actual-content specimen and composition-study method before another full design. Compare the relevant font roles, remove or demote unjustified auxiliary information, and inspect whole-page balance as well as actual-size glyphs. Font availability and passing technical checks are not selection rationales.
+
 Analyze references in terms of number forms, hierarchy, grouping, density, whitespace, materials, image relationships, and how time is experienced. Distinguish studying an approach from permission to redistribute the reference's concrete artwork.
 
 Propose substantially different directions where useful. Give each a spatial or temporal idea and connect visual choices to the brief. Avoid producing near-identical color variants as evidence of exploration. Do not prescribe one universal aesthetic or require all calendars to use illustration.

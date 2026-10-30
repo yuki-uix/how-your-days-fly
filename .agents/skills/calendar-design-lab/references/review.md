@@ -17,6 +17,8 @@ Use this reference for visual review and feedback. Choose criteria relevant to t
 - Is the work coherent and distinctive in the ways the user cares about?
 - What does the user want to keep, change, or explore next?
 
+For a type/layout review, use the actual specimen and composition study in [typographic-composition.md](typographic-composition.md). Examine the entire page at thumbnail size and the real text at intended size: hierarchy, image/title/date relationships, optical alignment, punctuation, and unnecessary repeated information. A license check, glyph check, aligned grid or clear bounding box establishes none of those aesthetic choices by itself.
+
 An agent may critique these questions, but only the user can confirm personal satisfaction. Record the actual response without upgrading it into broader preferences.
 
 ## Feedback record
