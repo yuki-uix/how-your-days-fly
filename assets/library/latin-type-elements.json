@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-30",
+  "purpose": "English calendar typography choices with conditions, not user-approved presets.",
+  "assets": [
+    {
+      "id": "type-latin-anatomy",
+      "title": "英文字形的骨架与用途",
+      "title_zh": "英文字形的骨架与用途",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "latin-anatomy",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "latin-anatomy",
+        "英文字形的骨架与用途"
+      ],
+      "condition": "英文候选只按 serif/sans 或风格形容词划分，无法解释实际差异。",
+      "choices": [
+        "对照真实月份、星期和标题的 x-height、字宽、对比、开口、Il1/O0 与小写结构。",
+        "历史分类、展示用途、宽度和等宽组织分开记录；先做同em比较，再决定是否需要视觉尺度校正。"
+      ],
+      "tradeoff": "同字号的视觉尺度与文字色调仍不同；匹配 x-height 或墨迹框也不保证相同感知大小。",
+      "counterexample": "把 display、mono、condensed 当成互斥历史分类，或把 Space Grotesk 当作等宽字体。",
+      "reference_ids": [
+        "latin-monotype-taxonomy",
+        "latin-space-grotesk-design",
+        "font-matrix"
+      ],
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-inter-vf",
+        "font-space-grotesk-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-italic",
+      "title": "原生正斜体的角色关系",
+      "title_zh": "原生正斜体的角色关系",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "italic",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "italic",
+        "原生正斜体的角色关系"
+      ],
+      "condition": "书名、作者或附注需要分工，但增加字体家族的理由尚不明确。",
+      "choices": [
+        "比较同族 Roman/Italic 的同一真实词句及 agf 形态，再与另加家族的方向比较。",
+        "保留原生 Italic 文件、轴值和数字实测；合成倾斜若刻意使用，需另称变形处理。"
+      ],
+      "tradeoff": "Italic 改变的不只有斜度，也可能改变宽度和数字；不能由 Roman 的指标推断。",
+      "counterexample": "没有原生 Italic 时直接倾斜字形，却写成已选用该字体的意大利体。",
+      "reference_ids": [
+        "latin-ot-italic-axis",
+        "latin-source-serif-design",
+        "latin-newsreader-design"
+      ],
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-newsreader-vf",
+        "font-instrumentserif"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-optical",
+      "title": "英文光学尺寸与观看距离",
+      "title_zh": "英文光学尺寸与观看距离",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "optical-sizing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "optical-sizing",
+        "英文光学尺寸与观看距离"
+      ],
+      "condition": "同一家族要跨远看展示与近看小字，或细节在缩小输出中消失。",
+      "choices": [
+        "核验实际 opsz 轴，固定字重、字号和内容，只改变实例坐标比较形态。",
+        "把画布物理大小、实际输出和观看距离带回选择；Inter 等 sans 也可能有光学轴。"
+      ],
+      "tradeoff": "同一 opsz 数字在不同字体中的设计不相同；大幅挂历不自动等于使用 display 极值。",
+      "counterexample": "只缩字号或改字重便宣称启用 opsz，或者仅凭轴默认值当最终处方。",
+      "reference_ids": [
+        "latin-ot-optical-axis",
+        "latin-inter-design",
+        "font-optical-size"
+      ],
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-newsreader-vf",
+        "font-bodoni-moda-vf",
+        "font-inter-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-spacing",
+      "title": "英文字距的单位与分工",
+      "title_zh": "英文字距的单位与分工",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "letterspacing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "letterspacing",
+        "英文字距的单位与分工"
+      ],
+      "condition": "全大写月份、短标题或英文混排的间距需要调整。",
+      "choices": [
+        "分别记录字体自带间隔、逐字对 kerning 和整体 tracking，写清数值与 em 单位。",
+        "固定字号和字重做整体字距对照，再在真实排版环境检查 AV/To/Wa 等字对及连字。"
+      ],
+      "tradeoff": "整体放松可能改善某个标签节奏，也可能打断词形或改变标题宽度；不能修复所有局部间隙。",
+      "counterexample": "把研究中的0.12em当所有月份的默认值，或把 InDesign Optical kerning 与 opsz 混称。",
+      "reference_ids": [
+        "latin-adobe-spacing",
+        "latin-apple-size-tracking",
+        "latin-ot-figure-forms"
+      ],
+      "candidate_font_ids": [
+        "font-inter-vf",
+        "font-space-grotesk-vf",
+        "font-source-serif-4-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-calendar-roles",
+      "title": "英文日历的展示与查读配对",
+      "title_zh": "英文日历的展示与查读配对",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "latin-calendar-roles",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "latin-calendar-roles",
+        "英文日历的展示与查读配对"
+      ],
+      "condition": "年/月/周/日需要不同的信息密度，或书籍标题和日期争夺注意。",
+      "choices": [
+        "全年网格检查小日号和行列；月历检查长月名；周历比较标题与七日标签；单日历比较大日号。",
+        "比较单一家族、Source Serif 4/Source Sans 3 等有设计依据的配对与主动反差，明确每种字体增加的角色。"
+      ],
+      "tradeoff": "展示性可增强主题，也可能降低小字查读；配套家族有依据但不自动产生更好的作品。",
+      "counterexample": "把 Instrument Serif 的展示定位用于未经验证的长文，或因日历有数字就强制整页等宽。",
+      "reference_ids": [
+        "latin-source-serif-design",
+        "latin-instrument-serif-design",
+        "latin-ot-figure-widths",
+        "latin-ot-figure-forms",
+        "font-pairing"
+      ],
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-source-sans-3-vf",
+        "font-newsreader-vf",
+        "font-instrumentserif",
+        "font-ibmplexmono"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    }
+  ]
+}

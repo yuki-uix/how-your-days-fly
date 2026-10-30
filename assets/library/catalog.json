@@ -46,14 +46,34 @@
         "layout-public-season",
         "font-butterick-mixing",
         "font-butterick-context",
-        "type-harfbuzz-shaping"
+        "type-harfbuzz-shaping",
+        "latin-source-serif-design",
+        "latin-newsreader-design",
+        "latin-bodoni-moda-specific",
+        "latin-source-sans-design",
+        "latin-inter-design",
+        "latin-space-grotesk-design",
+        "latin-instrument-serif-design",
+        "latin-monotype-taxonomy",
+        "latin-ot-figure-widths",
+        "latin-ot-figure-forms",
+        "latin-ot-italic-axis",
+        "latin-ot-optical-axis",
+        "latin-adobe-spacing",
+        "latin-apple-size-tracking"
       ],
       "font_families": [
         "font-instrumentserif",
         "font-ibmplexmono",
         "font-ibmplexsanscondensed",
         "font-noto-serif-sc-vf",
-        "font-noto-sans-sc-vf"
+        "font-noto-sans-sc-vf",
+        "font-source-serif-4-vf",
+        "font-newsreader-vf",
+        "font-bodoni-moda-vf",
+        "font-source-sans-3-vf",
+        "font-inter-vf",
+        "font-space-grotesk-vf"
       ],
       "proposals": [],
       "design_elements": [
@@ -66,7 +86,12 @@
         "layout-axes-grid",
         "layout-expressive-density",
         "layout-space-scale",
-        "layout-series-variation"
+        "layout-series-variation",
+        "type-latin-anatomy",
+        "type-latin-italic",
+        "type-latin-optical",
+        "type-latin-spacing",
+        "type-latin-calendar-roles"
       ]
     },
     "month": {
@@ -119,14 +144,34 @@
         "layout-public-season",
         "font-butterick-mixing",
         "font-butterick-context",
-        "type-harfbuzz-shaping"
+        "type-harfbuzz-shaping",
+        "latin-source-serif-design",
+        "latin-newsreader-design",
+        "latin-bodoni-moda-specific",
+        "latin-source-sans-design",
+        "latin-inter-design",
+        "latin-space-grotesk-design",
+        "latin-instrument-serif-design",
+        "latin-monotype-taxonomy",
+        "latin-ot-figure-widths",
+        "latin-ot-figure-forms",
+        "latin-ot-italic-axis",
+        "latin-ot-optical-axis",
+        "latin-adobe-spacing",
+        "latin-apple-size-tracking"
       ],
       "font_families": [
         "font-instrumentserif",
         "font-ibmplexmono",
         "font-ibmplexsanscondensed",
         "font-noto-serif-sc-vf",
-        "font-noto-sans-sc-vf"
+        "font-noto-sans-sc-vf",
+        "font-source-serif-4-vf",
+        "font-newsreader-vf",
+        "font-bodoni-moda-vf",
+        "font-source-sans-3-vf",
+        "font-inter-vf",
+        "font-space-grotesk-vf"
       ],
       "proposals": [
         "proposal-week-habit-strip",
@@ -143,7 +188,12 @@
         "layout-axes-grid",
         "layout-expressive-density",
         "layout-space-scale",
-        "layout-series-variation"
+        "layout-series-variation",
+        "type-latin-anatomy",
+        "type-latin-italic",
+        "type-latin-optical",
+        "type-latin-spacing",
+        "type-latin-calendar-roles"
       ]
     },
     "week": {
@@ -192,14 +242,34 @@
         "layout-public-season",
         "font-butterick-mixing",
         "font-butterick-context",
-        "type-harfbuzz-shaping"
+        "type-harfbuzz-shaping",
+        "latin-source-serif-design",
+        "latin-newsreader-design",
+        "latin-bodoni-moda-specific",
+        "latin-source-sans-design",
+        "latin-inter-design",
+        "latin-space-grotesk-design",
+        "latin-instrument-serif-design",
+        "latin-monotype-taxonomy",
+        "latin-ot-figure-widths",
+        "latin-ot-figure-forms",
+        "latin-ot-italic-axis",
+        "latin-ot-optical-axis",
+        "latin-adobe-spacing",
+        "latin-apple-size-tracking"
       ],
       "font_families": [
         "font-instrumentserif",
         "font-ibmplexmono",
         "font-ibmplexsanscondensed",
         "font-noto-serif-sc-vf",
-        "font-noto-sans-sc-vf"
+        "font-noto-sans-sc-vf",
+        "font-source-serif-4-vf",
+        "font-newsreader-vf",
+        "font-bodoni-moda-vf",
+        "font-source-sans-3-vf",
+        "font-inter-vf",
+        "font-space-grotesk-vf"
       ],
       "proposals": [
         "proposal-week-habit-strip",
@@ -217,7 +287,12 @@
         "layout-axes-grid",
         "layout-expressive-density",
         "layout-space-scale",
-        "layout-series-variation"
+        "layout-series-variation",
+        "type-latin-anatomy",
+        "type-latin-italic",
+        "type-latin-optical",
+        "type-latin-spacing",
+        "type-latin-calendar-roles"
       ]
     },
     "day": {
@@ -269,14 +344,34 @@
         "layout-public-season",
         "font-butterick-mixing",
         "font-butterick-context",
-        "type-harfbuzz-shaping"
+        "type-harfbuzz-shaping",
+        "latin-source-serif-design",
+        "latin-newsreader-design",
+        "latin-bodoni-moda-specific",
+        "latin-source-sans-design",
+        "latin-inter-design",
+        "latin-space-grotesk-design",
+        "latin-instrument-serif-design",
+        "latin-monotype-taxonomy",
+        "latin-ot-figure-widths",
+        "latin-ot-figure-forms",
+        "latin-ot-italic-axis",
+        "latin-ot-optical-axis",
+        "latin-adobe-spacing",
+        "latin-apple-size-tracking"
       ],
       "font_families": [
         "font-instrumentserif",
         "font-ibmplexmono",
         "font-ibmplexsanscondensed",
         "font-noto-serif-sc-vf",
-        "font-noto-sans-sc-vf"
+        "font-noto-sans-sc-vf",
+        "font-source-serif-4-vf",
+        "font-newsreader-vf",
+        "font-bodoni-moda-vf",
+        "font-source-sans-3-vf",
+        "font-inter-vf",
+        "font-space-grotesk-vf"
       ],
       "proposals": [
         "proposal-day-one-observation",
@@ -292,7 +387,12 @@
         "layout-axes-grid",
         "layout-expressive-density",
         "layout-space-scale",
-        "layout-series-variation"
+        "layout-series-variation",
+        "type-latin-anatomy",
+        "type-latin-italic",
+        "type-latin-optical",
+        "type-latin-spacing",
+        "type-latin-calendar-roles"
       ]
     }
   },
@@ -4050,6 +4150,8 @@
       "tags": [
         "type",
         "numeral",
+        "latin",
+        "english",
         "instrumentserif"
       ],
       "local_files": [
@@ -4095,6 +4197,8 @@
       "tags": [
         "type",
         "numeral",
+        "latin",
+        "english",
         "ibmplexmono"
       ],
       "local_files": [
@@ -4140,6 +4244,8 @@
       "tags": [
         "type",
         "numeral",
+        "latin",
+        "english",
         "ibmplexsanscondensed"
       ],
       "local_files": [
@@ -4438,6 +4544,3320 @@
       "domains": [
         "typography"
       ]
+    },
+    {
+      "id": "font-source-serif-4-vf",
+      "title": "Source Serif 4",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "variable",
+        "numeral",
+        "serif",
+        "optical-size",
+        "weight",
+        "italic"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/latin-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourceserif4",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourceserif4/OFL.txt",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "local_files": [
+        {
+          "path": "assets/fonts/latin-study/source-serif-4/SourceSerif4-Italic[opsz,wght].ttf",
+          "sha256": "15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42",
+          "bytes": 855432,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourceserif4/SourceSerif4-Italic%5Bopsz%2Cwght%5D.ttf",
+          "upstream_git_blob_sha": "ccb969aa6847e1169ff9c8c8bdc28daff6966861",
+          "style": "Italic"
+        },
+        {
+          "path": "assets/fonts/latin-study/source-serif-4/SourceSerif4[opsz,wght].ttf",
+          "sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+          "bytes": 1209508,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourceserif4/SourceSerif4%5Bopsz%2Cwght%5D.ttf",
+          "upstream_git_blob_sha": "40bbb58cb58e893ad0470f0bb291e096c73d3554",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/latin-study/source-serif-4/OFL.txt",
+          "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9",
+          "bytes": 4400,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourceserif4/OFL.txt",
+          "upstream_git_blob_sha": "318074ec9d43c936a56ee1dae92999f4df073ce8"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "minimum": 200.0,
+          "default": 400.0,
+          "max": 900.0,
+          "maximum": 900.0
+        },
+        {
+          "tag": "opsz",
+          "min": 8.0,
+          "minimum": 8.0,
+          "default": 20.0,
+          "max": 60.0,
+          "maximum": 60.0
+        }
+      ],
+      "versions": [
+        "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601"
+      ],
+      "measurements_400": {
+        "axis_values": {
+          "wght": 400,
+          "opsz": 20.0
+        },
+        "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "font_metrics_units": {
+          "x_height": 475,
+          "cap_height": 670,
+          "typo_ascender": 1036,
+          "typo_descender": -335,
+          "italic_angle": 0.0
+        },
+        "default_numeral_advance_units": {
+          "0": 500,
+          "1": 500,
+          "2": 500,
+          "3": 500,
+          "4": 500,
+          "5": 500,
+          "6": 500,
+          "7": 500,
+          "8": 500,
+          "9": 500
+        },
+        "default_numerals_tabular": true,
+        "confusable_advance_units": {
+          "I": 371,
+          "l": 298,
+          "1": 500,
+          "O": 707,
+          "0": 500
+        },
+        "glyph_ink_bounds_units": {
+          "H": [
+            44,
+            0,
+            744,
+            670
+          ],
+          "h": [
+            25,
+            0,
+            571,
+            740
+          ],
+          "x": [
+            10,
+            0,
+            516,
+            475
+          ],
+          "0": [
+            41,
+            -13,
+            460,
+            660
+          ],
+          "O": [
+            47,
+            -15,
+            660,
+            685
+          ],
+          "1": [
+            74,
+            0,
+            445,
+            655
+          ],
+          "I": [
+            44,
+            0,
+            327,
+            670
+          ],
+          "l": [
+            25,
+            0,
+            273,
+            740
+          ],
+          "a": [
+            45,
+            -13,
+            503,
+            488
+          ],
+          "g": [
+            36,
+            -240,
+            495,
+            488
+          ],
+          "&": [
+            27,
+            -13,
+            675,
+            685
+          ],
+          "2": [
+            44,
+            0,
+            460,
+            660
+          ],
+          "3": [
+            44,
+            -13,
+            460,
+            660
+          ],
+          "4": [
+            24,
+            -15,
+            484,
+            656
+          ],
+          "5": [
+            38,
+            -13,
+            458,
+            647
+          ],
+          "6": [
+            40,
+            -13,
+            457,
+            660
+          ],
+          "7": [
+            51,
+            0,
+            464,
+            647
+          ],
+          "8": [
+            44,
+            -13,
+            455,
+            660
+          ],
+          "9": [
+            29,
+            -15,
+            450,
+            660
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "c2sc",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "liga",
+          "lnum",
+          "locl",
+          "numr",
+          "onum",
+          "ordn",
+          "pnum",
+          "sinf",
+          "smcp",
+          "ss01",
+          "ss02",
+          "subs",
+          "sups",
+          "tnum",
+          "zero"
+        ],
+        "gpos_feature_tags": [
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+        "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+      },
+      "usage_notes": "Retain original OFL/copyright. Native italic only where explicitly retained. Explicitly instantiate axes for current outline renderer; feature tags alone do not prove application. Type style and readability remain context-dependent research hypotheses.",
+      "family": "Source Serif 4",
+      "per_file": [
+        {
+          "path": "assets/fonts/latin-study/source-serif-4/SourceSerif4-Italic[opsz,wght].ttf",
+          "style": "Italic",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "minimum": 200.0,
+              "default": 400.0,
+              "max": 900.0,
+              "maximum": 900.0
+            },
+            {
+              "tag": "opsz",
+              "min": 8.0,
+              "minimum": 8.0,
+              "default": 20.0,
+              "max": 60.0,
+              "maximum": 60.0
+            }
+          ],
+          "versions": [
+            "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601"
+          ],
+          "family_names": [
+            "Source Serif 4"
+          ],
+          "style_names": [
+            "Italic"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "wght": 400,
+              "opsz": 20.0
+            },
+            "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+            "missing_glyphs": [],
+            "units_per_em": 1000,
+            "font_metrics_units": {
+              "x_height": 475,
+              "cap_height": 670,
+              "typo_ascender": 1036,
+              "typo_descender": -335,
+              "italic_angle": -12.0
+            },
+            "default_numeral_advance_units": {
+              "0": 511,
+              "1": 511,
+              "2": 511,
+              "3": 511,
+              "4": 511,
+              "5": 511,
+              "6": 511,
+              "7": 511,
+              "8": 511,
+              "9": 511
+            },
+            "default_numerals_tabular": true,
+            "confusable_advance_units": {
+              "I": 358,
+              "l": 279,
+              "1": 511,
+              "O": 660,
+              "0": 511
+            },
+            "glyph_ink_bounds_units": {
+              "H": [
+                -2,
+                0,
+                782,
+                670
+              ],
+              "h": [
+                44,
+                -13,
+                532,
+                740
+              ],
+              "x": [
+                -23,
+                -13,
+                540,
+                488
+              ],
+              "0": [
+                35,
+                -9,
+                491,
+                656
+              ],
+              "O": [
+                48,
+                -15,
+                636,
+                685
+              ],
+              "1": [
+                35,
+                0,
+                405,
+                656
+              ],
+              "I": [
+                -3,
+                0,
+                377,
+                670
+              ],
+              "l": [
+                56,
+                -13,
+                276,
+                740
+              ],
+              "a": [
+                27,
+                -13,
+                514,
+                498
+              ],
+              "g": [
+                -43,
+                -241,
+                510,
+                499
+              ],
+              "&": [
+                48,
+                -13,
+                705,
+                685
+              ],
+              "2": [
+                23,
+                0,
+                484,
+                660
+              ],
+              "3": [
+                43,
+                -13,
+                478,
+                660
+              ],
+              "4": [
+                8,
+                -15,
+                487,
+                647
+              ],
+              "5": [
+                36,
+                -13,
+                504,
+                647
+              ],
+              "6": [
+                61,
+                -13,
+                516,
+                658
+              ],
+              "7": [
+                64,
+                0,
+                515,
+                647
+              ],
+              "8": [
+                48,
+                -11,
+                471,
+                660
+              ],
+              "9": [
+                59,
+                -14,
+                491,
+                659
+              ]
+            },
+            "gsub_feature_tags": [
+              "aalt",
+              "case",
+              "ccmp",
+              "dnom",
+              "frac",
+              "liga",
+              "lnum",
+              "locl",
+              "numr",
+              "onum",
+              "ordn",
+              "pnum",
+              "sinf",
+              "ss01",
+              "ss02",
+              "ss03",
+              "subs",
+              "sups",
+              "tnum",
+              "zero"
+            ],
+            "gpos_feature_tags": [
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+            "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+          }
+        },
+        {
+          "path": "assets/fonts/latin-study/source-serif-4/SourceSerif4[opsz,wght].ttf",
+          "style": "Roman",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "minimum": 200.0,
+              "default": 400.0,
+              "max": 900.0,
+              "maximum": 900.0
+            },
+            {
+              "tag": "opsz",
+              "min": 8.0,
+              "minimum": 8.0,
+              "default": 20.0,
+              "max": 60.0,
+              "maximum": 60.0
+            }
+          ],
+          "versions": [
+            "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601"
+          ],
+          "family_names": [
+            "Source Serif 4"
+          ],
+          "style_names": [
+            "Regular"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "wght": 400,
+              "opsz": 20.0
+            },
+            "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+            "missing_glyphs": [],
+            "units_per_em": 1000,
+            "font_metrics_units": {
+              "x_height": 475,
+              "cap_height": 670,
+              "typo_ascender": 1036,
+              "typo_descender": -335,
+              "italic_angle": 0.0
+            },
+            "default_numeral_advance_units": {
+              "0": 500,
+              "1": 500,
+              "2": 500,
+              "3": 500,
+              "4": 500,
+              "5": 500,
+              "6": 500,
+              "7": 500,
+              "8": 500,
+              "9": 500
+            },
+            "default_numerals_tabular": true,
+            "confusable_advance_units": {
+              "I": 371,
+              "l": 298,
+              "1": 500,
+              "O": 707,
+              "0": 500
+            },
+            "glyph_ink_bounds_units": {
+              "H": [
+                44,
+                0,
+                744,
+                670
+              ],
+              "h": [
+                25,
+                0,
+                571,
+                740
+              ],
+              "x": [
+                10,
+                0,
+                516,
+                475
+              ],
+              "0": [
+                41,
+                -13,
+                460,
+                660
+              ],
+              "O": [
+                47,
+                -15,
+                660,
+                685
+              ],
+              "1": [
+                74,
+                0,
+                445,
+                655
+              ],
+              "I": [
+                44,
+                0,
+                327,
+                670
+              ],
+              "l": [
+                25,
+                0,
+                273,
+                740
+              ],
+              "a": [
+                45,
+                -13,
+                503,
+                488
+              ],
+              "g": [
+                36,
+                -240,
+                495,
+                488
+              ],
+              "&": [
+                27,
+                -13,
+                675,
+                685
+              ],
+              "2": [
+                44,
+                0,
+                460,
+                660
+              ],
+              "3": [
+                44,
+                -13,
+                460,
+                660
+              ],
+              "4": [
+                24,
+                -15,
+                484,
+                656
+              ],
+              "5": [
+                38,
+                -13,
+                458,
+                647
+              ],
+              "6": [
+                40,
+                -13,
+                457,
+                660
+              ],
+              "7": [
+                51,
+                0,
+                464,
+                647
+              ],
+              "8": [
+                44,
+                -13,
+                455,
+                660
+              ],
+              "9": [
+                29,
+                -15,
+                450,
+                660
+              ]
+            },
+            "gsub_feature_tags": [
+              "aalt",
+              "c2sc",
+              "case",
+              "ccmp",
+              "dnom",
+              "frac",
+              "liga",
+              "lnum",
+              "locl",
+              "numr",
+              "onum",
+              "ordn",
+              "pnum",
+              "sinf",
+              "smcp",
+              "ss01",
+              "ss02",
+              "subs",
+              "sups",
+              "tnum",
+              "zero"
+            ],
+            "gpos_feature_tags": [
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+            "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+          }
+        }
+      ],
+      "version": "Version 4.004;hotconv 1.0.116;makeotfexe 2.5.65601",
+      "reserved_font_names": [],
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+    },
+    {
+      "id": "font-newsreader-vf",
+      "title": "Newsreader",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "variable",
+        "numeral",
+        "serif",
+        "optical-size",
+        "weight",
+        "italic"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/latin-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/newsreader",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/newsreader/OFL.txt",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "local_files": [
+        {
+          "path": "assets/fonts/latin-study/newsreader/Newsreader-Italic[opsz,wght].ttf",
+          "sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+          "bytes": 495684,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/newsreader/Newsreader-Italic%5Bopsz%2Cwght%5D.ttf",
+          "upstream_git_blob_sha": "d25879656a601d44c49836f9e773d100190c62e1",
+          "style": "Italic"
+        },
+        {
+          "path": "assets/fonts/latin-study/newsreader/Newsreader[opsz,wght].ttf",
+          "sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+          "bytes": 451664,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/newsreader/Newsreader%5Bopsz%2Cwght%5D.ttf",
+          "upstream_git_blob_sha": "ad4a9a8c44ec328c80b61c773f1ba02f6b5ed292",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/latin-study/newsreader/OFL.txt",
+          "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+          "bytes": 4394,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/newsreader/OFL.txt",
+          "upstream_git_blob_sha": "d2d4f407109e9c74b8ab502fc79b912408ab8e41"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "minimum": 200.0,
+          "default": 400.0,
+          "max": 800.0,
+          "maximum": 800.0
+        },
+        {
+          "tag": "opsz",
+          "min": 6.0,
+          "minimum": 6.0,
+          "default": 18.0,
+          "max": 72.0,
+          "maximum": 72.0
+        }
+      ],
+      "versions": [
+        "Version 1.003"
+      ],
+      "measurements_400": {
+        "axis_values": {
+          "wght": 400,
+          "opsz": 18.0
+        },
+        "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+        "missing_glyphs": [],
+        "units_per_em": 2000,
+        "font_metrics_units": {
+          "x_height": 852,
+          "cap_height": 1340,
+          "typo_ascender": 1470,
+          "typo_descender": -530,
+          "italic_angle": 0.0
+        },
+        "default_numeral_advance_units": {
+          "0": 1100,
+          "1": 1100,
+          "2": 1100,
+          "3": 1100,
+          "4": 1100,
+          "5": 1100,
+          "6": 1100,
+          "7": 1100,
+          "8": 1100,
+          "9": 1100
+        },
+        "default_numerals_tabular": true,
+        "confusable_advance_units": {
+          "I": 646,
+          "l": 513,
+          "1": 1100,
+          "O": 1525,
+          "0": 1100
+        },
+        "glyph_ink_bounds_units": {
+          "H": [
+            85,
+            0,
+            1474,
+            1340
+          ],
+          "h": [
+            26,
+            0,
+            1057,
+            1419
+          ],
+          "x": [
+            22,
+            0,
+            950,
+            852
+          ],
+          "0": [
+            69,
+            -20,
+            1031,
+            1360
+          ],
+          "O": [
+            94,
+            -20,
+            1431,
+            1360
+          ],
+          "1": [
+            170,
+            0,
+            967,
+            1360
+          ],
+          "I": [
+            85,
+            0,
+            561,
+            1340
+          ],
+          "l": [
+            29,
+            0,
+            484,
+            1419
+          ],
+          "a": [
+            83,
+            -20,
+            870,
+            863
+          ],
+          "g": [
+            20,
+            -530,
+            960,
+            872
+          ],
+          "&": [
+            119,
+            -20,
+            1367,
+            1360
+          ],
+          "2": [
+            95,
+            -19,
+            997,
+            1360
+          ],
+          "3": [
+            123,
+            -20,
+            956,
+            1360
+          ],
+          "4": [
+            13,
+            0,
+            1076,
+            1360
+          ],
+          "5": [
+            106,
+            -20,
+            987,
+            1378
+          ],
+          "6": [
+            125,
+            -20,
+            999,
+            1387
+          ],
+          "7": [
+            129,
+            0,
+            1015,
+            1359
+          ],
+          "8": [
+            107,
+            -20,
+            993,
+            1360
+          ],
+          "9": [
+            100,
+            -47,
+            973,
+            1360
+          ]
+        },
+        "gsub_feature_tags": [
+          "case",
+          "liga",
+          "locl",
+          "ordn",
+          "pnum",
+          "sups",
+          "tnum"
+        ],
+        "gpos_feature_tags": [
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+        "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+      },
+      "usage_notes": "Retain original OFL/copyright. Native italic only where explicitly retained. Explicitly instantiate axes for current outline renderer; feature tags alone do not prove application. Type style and readability remain context-dependent research hypotheses.",
+      "family": "Newsreader",
+      "per_file": [
+        {
+          "path": "assets/fonts/latin-study/newsreader/Newsreader-Italic[opsz,wght].ttf",
+          "style": "Italic",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "minimum": 200.0,
+              "default": 400.0,
+              "max": 800.0,
+              "maximum": 800.0
+            },
+            {
+              "tag": "opsz",
+              "min": 6.0,
+              "minimum": 6.0,
+              "default": 18.0,
+              "max": 72.0,
+              "maximum": 72.0
+            }
+          ],
+          "versions": [
+            "Version 1.003"
+          ],
+          "family_names": [
+            "Newsreader",
+            "Newsreader 16pt"
+          ],
+          "style_names": [
+            "Italic"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "wght": 400,
+              "opsz": 18.0
+            },
+            "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+            "missing_glyphs": [],
+            "units_per_em": 2000,
+            "font_metrics_units": {
+              "x_height": 852,
+              "cap_height": 1340,
+              "typo_ascender": 1470,
+              "typo_descender": -530,
+              "italic_angle": -17.0
+            },
+            "default_numeral_advance_units": {
+              "0": 1100,
+              "1": 1100,
+              "2": 1100,
+              "3": 1100,
+              "4": 1100,
+              "5": 1100,
+              "6": 1100,
+              "7": 1300,
+              "8": 1100,
+              "9": 1100
+            },
+            "default_numerals_tabular": false,
+            "confusable_advance_units": {
+              "I": 639,
+              "l": 490,
+              "1": 1100,
+              "O": 1479,
+              "0": 1100
+            },
+            "glyph_ink_bounds_units": {
+              "H": [
+                -34,
+                0,
+                1688,
+                1340
+              ],
+              "h": [
+                13,
+                -20,
+                883,
+                1419
+              ],
+              "x": [
+                -61,
+                -20,
+                972,
+                872
+              ],
+              "0": [
+                124,
+                -20,
+                1124,
+                1360
+              ],
+              "O": [
+                162,
+                -20,
+                1464,
+                1360
+              ],
+              "1": [
+                163,
+                0,
+                1002,
+                1360
+              ],
+              "I": [
+                -34,
+                0,
+                820,
+                1340
+              ],
+              "l": [
+                30.50769230769231,
+                -20,
+                582,
+                1419
+              ],
+              "a": [
+                24,
+                -20,
+                892,
+                855
+              ],
+              "g": [
+                -106,
+                -530,
+                906,
+                872
+              ],
+              "&": [
+                100,
+                -19,
+                1405,
+                1360
+              ],
+              "2": [
+                31,
+                -19,
+                1044,
+                1360
+              ],
+              "3": [
+                73,
+                -20,
+                1010,
+                1360
+              ],
+              "4": [
+                4,
+                0,
+                1125,
+                1360
+              ],
+              "5": [
+                43,
+                -20,
+                1228,
+                1378
+              ],
+              "6": [
+                146,
+                -20,
+                1177,
+                1387
+              ],
+              "7": [
+                326,
+                0,
+                1362,
+                1359
+              ],
+              "8": [
+                98,
+                -20,
+                1086,
+                1361
+              ],
+              "9": [
+                72,
+                -47,
+                1103,
+                1360
+              ]
+            },
+            "gsub_feature_tags": [
+              "case",
+              "liga",
+              "locl",
+              "ordn",
+              "pnum",
+              "sups",
+              "tnum"
+            ],
+            "gpos_feature_tags": [
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+            "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+          }
+        },
+        {
+          "path": "assets/fonts/latin-study/newsreader/Newsreader[opsz,wght].ttf",
+          "style": "Roman",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "minimum": 200.0,
+              "default": 400.0,
+              "max": 800.0,
+              "maximum": 800.0
+            },
+            {
+              "tag": "opsz",
+              "min": 6.0,
+              "minimum": 6.0,
+              "default": 18.0,
+              "max": 72.0,
+              "maximum": 72.0
+            }
+          ],
+          "versions": [
+            "Version 1.003"
+          ],
+          "family_names": [
+            "Newsreader",
+            "Newsreader 16pt"
+          ],
+          "style_names": [
+            "Regular"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "wght": 400,
+              "opsz": 18.0
+            },
+            "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+            "missing_glyphs": [],
+            "units_per_em": 2000,
+            "font_metrics_units": {
+              "x_height": 852,
+              "cap_height": 1340,
+              "typo_ascender": 1470,
+              "typo_descender": -530,
+              "italic_angle": 0.0
+            },
+            "default_numeral_advance_units": {
+              "0": 1100,
+              "1": 1100,
+              "2": 1100,
+              "3": 1100,
+              "4": 1100,
+              "5": 1100,
+              "6": 1100,
+              "7": 1100,
+              "8": 1100,
+              "9": 1100
+            },
+            "default_numerals_tabular": true,
+            "confusable_advance_units": {
+              "I": 646,
+              "l": 513,
+              "1": 1100,
+              "O": 1525,
+              "0": 1100
+            },
+            "glyph_ink_bounds_units": {
+              "H": [
+                85,
+                0,
+                1474,
+                1340
+              ],
+              "h": [
+                26,
+                0,
+                1057,
+                1419
+              ],
+              "x": [
+                22,
+                0,
+                950,
+                852
+              ],
+              "0": [
+                69,
+                -20,
+                1031,
+                1360
+              ],
+              "O": [
+                94,
+                -20,
+                1431,
+                1360
+              ],
+              "1": [
+                170,
+                0,
+                967,
+                1360
+              ],
+              "I": [
+                85,
+                0,
+                561,
+                1340
+              ],
+              "l": [
+                29,
+                0,
+                484,
+                1419
+              ],
+              "a": [
+                83,
+                -20,
+                870,
+                863
+              ],
+              "g": [
+                20,
+                -530,
+                960,
+                872
+              ],
+              "&": [
+                119,
+                -20,
+                1367,
+                1360
+              ],
+              "2": [
+                95,
+                -19,
+                997,
+                1360
+              ],
+              "3": [
+                123,
+                -20,
+                956,
+                1360
+              ],
+              "4": [
+                13,
+                0,
+                1076,
+                1360
+              ],
+              "5": [
+                106,
+                -20,
+                987,
+                1378
+              ],
+              "6": [
+                125,
+                -20,
+                999,
+                1387
+              ],
+              "7": [
+                129,
+                0,
+                1015,
+                1359
+              ],
+              "8": [
+                107,
+                -20,
+                993,
+                1360
+              ],
+              "9": [
+                100,
+                -47,
+                973,
+                1360
+              ]
+            },
+            "gsub_feature_tags": [
+              "case",
+              "liga",
+              "locl",
+              "ordn",
+              "pnum",
+              "sups",
+              "tnum"
+            ],
+            "gpos_feature_tags": [
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+            "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+          }
+        }
+      ],
+      "version": "Version 1.003",
+      "reserved_font_names": [],
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+    },
+    {
+      "id": "font-bodoni-moda-vf",
+      "title": "Bodoni Moda",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "variable",
+        "numeral",
+        "serif",
+        "optical-size",
+        "weight",
+        "display"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/latin-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/bodonimoda",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/bodonimoda/OFL.txt",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "local_files": [
+        {
+          "path": "assets/fonts/latin-study/bodoni-moda/BodoniModa[opsz,wght].ttf",
+          "sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+          "bytes": 162104,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/bodonimoda/BodoniModa%5Bopsz%2Cwght%5D.ttf",
+          "upstream_git_blob_sha": "c5d582f8003ae692761dd8e9ce69de23cb9fea53",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/latin-study/bodoni-moda/OFL.txt",
+          "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046",
+          "bytes": 4400,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/bodonimoda/OFL.txt",
+          "upstream_git_blob_sha": "973cec73f0874f3b7821a44ff43e4a4c88e44844"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 400.0,
+          "minimum": 400.0,
+          "default": 400.0,
+          "max": 900.0,
+          "maximum": 900.0
+        },
+        {
+          "tag": "opsz",
+          "min": 6.0,
+          "minimum": 6.0,
+          "default": 11.0,
+          "max": 96.0,
+          "maximum": 96.0
+        }
+      ],
+      "versions": [
+        "Version 2.005"
+      ],
+      "measurements_400": {
+        "axis_values": {
+          "wght": 400,
+          "opsz": 11.0
+        },
+        "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+        "missing_glyphs": [],
+        "units_per_em": 2000,
+        "font_metrics_units": {
+          "x_height": 920,
+          "cap_height": 1500,
+          "typo_ascender": 2250,
+          "typo_descender": -800,
+          "italic_angle": 0.0
+        },
+        "default_numeral_advance_units": {
+          "0": 1239,
+          "1": 869,
+          "2": 1099,
+          "3": 1041,
+          "4": 1189,
+          "5": 1000,
+          "6": 1119,
+          "7": 1009,
+          "8": 1099,
+          "9": 1119
+        },
+        "default_numerals_tabular": false,
+        "confusable_advance_units": {
+          "I": 774,
+          "l": 666,
+          "1": 869,
+          "O": 1500,
+          "0": 1239
+        },
+        "glyph_ink_bounds_units": {
+          "H": [
+            62,
+            0,
+            1462,
+            1500
+          ],
+          "h": [
+            73,
+            0,
+            1120,
+            1500
+          ],
+          "x": [
+            53,
+            0,
+            1102,
+            920
+          ],
+          "0": [
+            80,
+            -20,
+            1160,
+            1520
+          ],
+          "O": [
+            111,
+            -20,
+            1390,
+            1520
+          ],
+          "1": [
+            100,
+            0,
+            770,
+            1500
+          ],
+          "I": [
+            62,
+            0,
+            712,
+            1500
+          ],
+          "l": [
+            73,
+            0,
+            593,
+            1500
+          ],
+          "a": [
+            92,
+            -20,
+            1029,
+            936
+          ],
+          "g": [
+            72,
+            -520,
+            1130,
+            939
+          ],
+          "&": [
+            80,
+            -20,
+            1568,
+            1520
+          ],
+          "2": [
+            80,
+            0,
+            1029,
+            1520
+          ],
+          "3": [
+            50,
+            -20,
+            962,
+            1518
+          ],
+          "4": [
+            64,
+            0,
+            1170,
+            1500
+          ],
+          "5": [
+            61,
+            -20,
+            939,
+            1609
+          ],
+          "6": [
+            100,
+            -20,
+            1061,
+            1520
+          ],
+          "7": [
+            80,
+            -20,
+            990,
+            1500
+          ],
+          "8": [
+            80,
+            -20,
+            1020,
+            1520
+          ],
+          "9": [
+            59,
+            -20,
+            1020,
+            1520
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "c2sc",
+          "case",
+          "ccmp",
+          "dlig",
+          "frac",
+          "hlig",
+          "liga",
+          "lnum",
+          "locl",
+          "onum",
+          "ordn",
+          "pnum",
+          "smcp",
+          "ss01",
+          "ss02",
+          "ss03",
+          "sups",
+          "tnum"
+        ],
+        "gpos_feature_tags": [
+          "kern",
+          "mark"
+        ],
+        "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+        "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+      },
+      "usage_notes": "Retain original OFL/copyright. Native italic only where explicitly retained. Explicitly instantiate axes for current outline renderer; feature tags alone do not prove application. Type style and readability remain context-dependent research hypotheses.",
+      "family": "Bodoni Moda",
+      "per_file": [
+        {
+          "path": "assets/fonts/latin-study/bodoni-moda/BodoniModa[opsz,wght].ttf",
+          "style": "Roman",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 400.0,
+              "minimum": 400.0,
+              "default": 400.0,
+              "max": 900.0,
+              "maximum": 900.0
+            },
+            {
+              "tag": "opsz",
+              "min": 6.0,
+              "minimum": 6.0,
+              "default": 11.0,
+              "max": 96.0,
+              "maximum": 96.0
+            }
+          ],
+          "versions": [
+            "Version 2.005"
+          ],
+          "family_names": [
+            "Bodoni Moda"
+          ],
+          "style_names": [
+            "Regular"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "wght": 400,
+              "opsz": 11.0
+            },
+            "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+            "missing_glyphs": [],
+            "units_per_em": 2000,
+            "font_metrics_units": {
+              "x_height": 920,
+              "cap_height": 1500,
+              "typo_ascender": 2250,
+              "typo_descender": -800,
+              "italic_angle": 0.0
+            },
+            "default_numeral_advance_units": {
+              "0": 1239,
+              "1": 869,
+              "2": 1099,
+              "3": 1041,
+              "4": 1189,
+              "5": 1000,
+              "6": 1119,
+              "7": 1009,
+              "8": 1099,
+              "9": 1119
+            },
+            "default_numerals_tabular": false,
+            "confusable_advance_units": {
+              "I": 774,
+              "l": 666,
+              "1": 869,
+              "O": 1500,
+              "0": 1239
+            },
+            "glyph_ink_bounds_units": {
+              "H": [
+                62,
+                0,
+                1462,
+                1500
+              ],
+              "h": [
+                73,
+                0,
+                1120,
+                1500
+              ],
+              "x": [
+                53,
+                0,
+                1102,
+                920
+              ],
+              "0": [
+                80,
+                -20,
+                1160,
+                1520
+              ],
+              "O": [
+                111,
+                -20,
+                1390,
+                1520
+              ],
+              "1": [
+                100,
+                0,
+                770,
+                1500
+              ],
+              "I": [
+                62,
+                0,
+                712,
+                1500
+              ],
+              "l": [
+                73,
+                0,
+                593,
+                1500
+              ],
+              "a": [
+                92,
+                -20,
+                1029,
+                936
+              ],
+              "g": [
+                72,
+                -520,
+                1130,
+                939
+              ],
+              "&": [
+                80,
+                -20,
+                1568,
+                1520
+              ],
+              "2": [
+                80,
+                0,
+                1029,
+                1520
+              ],
+              "3": [
+                50,
+                -20,
+                962,
+                1518
+              ],
+              "4": [
+                64,
+                0,
+                1170,
+                1500
+              ],
+              "5": [
+                61,
+                -20,
+                939,
+                1609
+              ],
+              "6": [
+                100,
+                -20,
+                1061,
+                1520
+              ],
+              "7": [
+                80,
+                -20,
+                990,
+                1500
+              ],
+              "8": [
+                80,
+                -20,
+                1020,
+                1520
+              ],
+              "9": [
+                59,
+                -20,
+                1020,
+                1520
+              ]
+            },
+            "gsub_feature_tags": [
+              "aalt",
+              "c2sc",
+              "case",
+              "ccmp",
+              "dlig",
+              "frac",
+              "hlig",
+              "liga",
+              "lnum",
+              "locl",
+              "onum",
+              "ordn",
+              "pnum",
+              "smcp",
+              "ss01",
+              "ss02",
+              "ss03",
+              "sups",
+              "tnum"
+            ],
+            "gpos_feature_tags": [
+              "kern",
+              "mark"
+            ],
+            "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+            "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+          }
+        }
+      ],
+      "version": "Version 2.005",
+      "reserved_font_names": [],
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+    },
+    {
+      "id": "font-source-sans-3-vf",
+      "title": "Source Sans 3",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "variable",
+        "numeral",
+        "sans",
+        "weight"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/latin-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourcesans3",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourcesans3/OFL.txt",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "local_files": [
+        {
+          "path": "assets/fonts/latin-study/source-sans-3/SourceSans3[wght].ttf",
+          "sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+          "bytes": 646340,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourcesans3/SourceSans3%5Bwght%5D.ttf",
+          "upstream_git_blob_sha": "d259aa494fe7117141a2752a998a52c172bbd42b",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/latin-study/source-sans-3/OFL.txt",
+          "sha256": "09746787287a289323b0ec3cff4d1a4a801331b82b7207c1e186f5d26619a392",
+          "bytes": 4579,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/sourcesans3/OFL.txt",
+          "upstream_git_blob_sha": "50ee76cf00fbfe42fb7c74a9b95c9508dec5bb8f"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "minimum": 200.0,
+          "default": 200.0,
+          "max": 900.0,
+          "maximum": 900.0
+        }
+      ],
+      "versions": [
+        "Version 3.052;hotconv 1.1.0;makeotfexe 2.6.0"
+      ],
+      "measurements_400": {
+        "axis_values": {
+          "wght": 400
+        },
+        "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "font_metrics_units": {
+          "x_height": 486,
+          "cap_height": 660,
+          "typo_ascender": 1024,
+          "typo_descender": -400,
+          "italic_angle": 0.0
+        },
+        "default_numeral_advance_units": {
+          "0": 497,
+          "1": 497,
+          "2": 497,
+          "3": 497,
+          "4": 497,
+          "5": 497,
+          "6": 497,
+          "7": 497,
+          "8": 497,
+          "9": 497
+        },
+        "default_numerals_tabular": true,
+        "confusable_advance_units": {
+          "I": 263,
+          "l": 255,
+          "1": 497,
+          "O": 664,
+          "0": 497
+        },
+        "glyph_ink_bounds_units": {
+          "H": [
+            89.5734486266531,
+            0,
+            562.213021363174,
+            656.3200406917599
+          ],
+          "h": [
+            82.0167236328125,
+            0,
+            471.1182861328125,
+            712.4324951171875
+          ],
+          "x": [
+            14,
+            0,
+            432.461181640625,
+            486.0955810546875
+          ],
+          "0": [
+            44.1123046875,
+            -12,
+            452.910400390625,
+            649.7921142578125
+          ],
+          "O": [
+            51.70671414038657,
+            -12,
+            612.8531027466938,
+            668.3200406917599
+          ],
+          "1": [
+            78.640380859375,
+            0,
+            438.7025146484375,
+            637.7921142578125
+          ],
+          "I": [
+            89.5734486266531,
+            0,
+            173.09287894201424,
+            656.3200406917599
+          ],
+          "l": [
+            81.89348931841302,
+            -9.226653102746694,
+            216.61281790437437,
+            712.1867751780264
+          ],
+          "a": [
+            51.41342828077315,
+            -12,
+            432.8263479145473,
+            497.9732451678535
+          ],
+          "g": [
+            45.16845703125,
+            -223.696533203125,
+            492.078857421875,
+            498.0955810546875
+          ],
+          "&": [
+            32.1123046875,
+            -12,
+            594.15771484375,
+            668.3201904296875
+          ],
+          "2": [
+            37.05615234375,
+            0,
+            451.7586669921875,
+            649.7921142578125
+          ],
+          "3": [
+            26.3201904296875,
+            -12,
+            446.49462890625,
+            649.7921142578125
+          ],
+          "4": [
+            17.471923828125,
+            0,
+            468.7025146484375,
+            637.7921142578125
+          ],
+          "5": [
+            24.528076171875,
+            -12,
+            449.022705078125,
+            637.7921142578125
+          ],
+          "6": [
+            48.1123046875,
+            -12,
+            456.7025146484375,
+            649.7921142578125
+          ],
+          "7": [
+            44,
+            0,
+            455.022705078125,
+            637.7921142578125
+          ],
+          "8": [
+            40.7359619140625,
+            -12,
+            455.7586669921875,
+            649.7921142578125
+          ],
+          "9": [
+            39.584228515625,
+            -12,
+            448.1744384765625,
+            649.7921142578125
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "c2sc",
+          "case",
+          "ccmp",
+          "cv01",
+          "cv02",
+          "cv03",
+          "cv04",
+          "cv05",
+          "cv06",
+          "cv07",
+          "cv08",
+          "cv09",
+          "cv10",
+          "cv11",
+          "cv12",
+          "cv13",
+          "cv14",
+          "cv15",
+          "cv16",
+          "cv17",
+          "cv18",
+          "cv19",
+          "dlig",
+          "dnom",
+          "frac",
+          "hlig",
+          "liga",
+          "locl",
+          "numr",
+          "onum",
+          "ordn",
+          "pnum",
+          "salt",
+          "sinf",
+          "smcp",
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04",
+          "ss05",
+          "ss06",
+          "ss07",
+          "ss08",
+          "ss09",
+          "ss10",
+          "subs",
+          "sups",
+          "titl",
+          "zero"
+        ],
+        "gpos_feature_tags": [
+          "kern",
+          "mark",
+          "mkmk",
+          "size"
+        ],
+        "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+        "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+      },
+      "usage_notes": "Retain original OFL/copyright. Native italic only where explicitly retained. Explicitly instantiate axes for current outline renderer; feature tags alone do not prove application. Type style and readability remain context-dependent research hypotheses.",
+      "family": "Source Sans 3",
+      "per_file": [
+        {
+          "path": "assets/fonts/latin-study/source-sans-3/SourceSans3[wght].ttf",
+          "style": "Roman",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 200.0,
+              "minimum": 200.0,
+              "default": 200.0,
+              "max": 900.0,
+              "maximum": 900.0
+            }
+          ],
+          "versions": [
+            "Version 3.052;hotconv 1.1.0;makeotfexe 2.6.0"
+          ],
+          "family_names": [
+            "Source Sans 3",
+            "Source Sans 3 ExtraLight"
+          ],
+          "style_names": [
+            "ExtraLight",
+            "Regular"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "wght": 400
+            },
+            "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+            "missing_glyphs": [],
+            "units_per_em": 1000,
+            "font_metrics_units": {
+              "x_height": 486,
+              "cap_height": 660,
+              "typo_ascender": 1024,
+              "typo_descender": -400,
+              "italic_angle": 0.0
+            },
+            "default_numeral_advance_units": {
+              "0": 497,
+              "1": 497,
+              "2": 497,
+              "3": 497,
+              "4": 497,
+              "5": 497,
+              "6": 497,
+              "7": 497,
+              "8": 497,
+              "9": 497
+            },
+            "default_numerals_tabular": true,
+            "confusable_advance_units": {
+              "I": 263,
+              "l": 255,
+              "1": 497,
+              "O": 664,
+              "0": 497
+            },
+            "glyph_ink_bounds_units": {
+              "H": [
+                89.5734486266531,
+                0,
+                562.213021363174,
+                656.3200406917599
+              ],
+              "h": [
+                82.0167236328125,
+                0,
+                471.1182861328125,
+                712.4324951171875
+              ],
+              "x": [
+                14,
+                0,
+                432.461181640625,
+                486.0955810546875
+              ],
+              "0": [
+                44.1123046875,
+                -12,
+                452.910400390625,
+                649.7921142578125
+              ],
+              "O": [
+                51.70671414038657,
+                -12,
+                612.8531027466938,
+                668.3200406917599
+              ],
+              "1": [
+                78.640380859375,
+                0,
+                438.7025146484375,
+                637.7921142578125
+              ],
+              "I": [
+                89.5734486266531,
+                0,
+                173.09287894201424,
+                656.3200406917599
+              ],
+              "l": [
+                81.89348931841302,
+                -9.226653102746694,
+                216.61281790437437,
+                712.1867751780264
+              ],
+              "a": [
+                51.41342828077315,
+                -12,
+                432.8263479145473,
+                497.9732451678535
+              ],
+              "g": [
+                45.16845703125,
+                -223.696533203125,
+                492.078857421875,
+                498.0955810546875
+              ],
+              "&": [
+                32.1123046875,
+                -12,
+                594.15771484375,
+                668.3201904296875
+              ],
+              "2": [
+                37.05615234375,
+                0,
+                451.7586669921875,
+                649.7921142578125
+              ],
+              "3": [
+                26.3201904296875,
+                -12,
+                446.49462890625,
+                649.7921142578125
+              ],
+              "4": [
+                17.471923828125,
+                0,
+                468.7025146484375,
+                637.7921142578125
+              ],
+              "5": [
+                24.528076171875,
+                -12,
+                449.022705078125,
+                637.7921142578125
+              ],
+              "6": [
+                48.1123046875,
+                -12,
+                456.7025146484375,
+                649.7921142578125
+              ],
+              "7": [
+                44,
+                0,
+                455.022705078125,
+                637.7921142578125
+              ],
+              "8": [
+                40.7359619140625,
+                -12,
+                455.7586669921875,
+                649.7921142578125
+              ],
+              "9": [
+                39.584228515625,
+                -12,
+                448.1744384765625,
+                649.7921142578125
+              ]
+            },
+            "gsub_feature_tags": [
+              "aalt",
+              "c2sc",
+              "case",
+              "ccmp",
+              "cv01",
+              "cv02",
+              "cv03",
+              "cv04",
+              "cv05",
+              "cv06",
+              "cv07",
+              "cv08",
+              "cv09",
+              "cv10",
+              "cv11",
+              "cv12",
+              "cv13",
+              "cv14",
+              "cv15",
+              "cv16",
+              "cv17",
+              "cv18",
+              "cv19",
+              "dlig",
+              "dnom",
+              "frac",
+              "hlig",
+              "liga",
+              "locl",
+              "numr",
+              "onum",
+              "ordn",
+              "pnum",
+              "salt",
+              "sinf",
+              "smcp",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "ss09",
+              "ss10",
+              "subs",
+              "sups",
+              "titl",
+              "zero"
+            ],
+            "gpos_feature_tags": [
+              "kern",
+              "mark",
+              "mkmk",
+              "size"
+            ],
+            "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+            "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+          }
+        }
+      ],
+      "version": "Version 3.052;hotconv 1.1.0;makeotfexe 2.6.0",
+      "reserved_font_names": [
+        "Source"
+      ],
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+    },
+    {
+      "id": "font-inter-vf",
+      "title": "Inter",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "variable",
+        "numeral",
+        "sans",
+        "optical-size",
+        "weight"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/latin-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/inter",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/inter/OFL.txt",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "local_files": [
+        {
+          "path": "assets/fonts/latin-study/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "bytes": 876576,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf",
+          "upstream_git_blob_sha": "047c92f6e2212473dc436020afed689527076d44",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/latin-study/inter/OFL.txt",
+          "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+          "bytes": 4377,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/inter/OFL.txt",
+          "upstream_git_blob_sha": "21f6aff961064c2e429f570995e446bcdd555422"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "opsz",
+          "min": 14.0,
+          "minimum": 14.0,
+          "default": 14.0,
+          "max": 32.0,
+          "maximum": 32.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "minimum": 100.0,
+          "default": 400.0,
+          "max": 900.0,
+          "maximum": 900.0
+        }
+      ],
+      "versions": [
+        "Version 4.001;git-66647c0bb"
+      ],
+      "measurements_400": {
+        "axis_values": {
+          "opsz": 14.0,
+          "wght": 400
+        },
+        "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+        "missing_glyphs": [],
+        "units_per_em": 2048,
+        "font_metrics_units": {
+          "x_height": 1118,
+          "cap_height": 1490,
+          "typo_ascender": 1984,
+          "typo_descender": -494,
+          "italic_angle": 0.0
+        },
+        "default_numeral_advance_units": {
+          "0": 1292,
+          "1": 833,
+          "2": 1249,
+          "3": 1265,
+          "4": 1323,
+          "5": 1215,
+          "6": 1270,
+          "7": 1159,
+          "8": 1267,
+          "9": 1270
+        },
+        "default_numerals_tabular": false,
+        "confusable_advance_units": {
+          "I": 550,
+          "l": 496,
+          "1": 833,
+          "O": 1566,
+          "0": 1292
+        },
+        "glyph_ink_bounds_units": {
+          "H": [
+            180,
+            0,
+            1342,
+            1490
+          ],
+          "h": [
+            158,
+            0,
+            1053,
+            1490
+          ],
+          "x": [
+            65,
+            0,
+            1053,
+            1118
+          ],
+          "0": [
+            122,
+            -20,
+            1170,
+            1510
+          ],
+          "O": [
+            122,
+            -20,
+            1444,
+            1510
+          ],
+          "1": [
+            96,
+            0,
+            653,
+            1490
+          ],
+          "I": [
+            180,
+            0,
+            370,
+            1490
+          ],
+          "l": [
+            158,
+            0,
+            338,
+            1490
+          ],
+          "a": [
+            90,
+            -26,
+            992,
+            1132
+          ],
+          "g": [
+            104,
+            -442,
+            1098,
+            1132
+          ],
+          "&": [
+            104,
+            -20,
+            1287,
+            1504
+          ],
+          "2": [
+            154,
+            0,
+            1103,
+            1510
+          ],
+          "3": [
+            125,
+            -20,
+            1143,
+            1510
+          ],
+          "4": [
+            120,
+            0,
+            1205,
+            1490
+          ],
+          "5": [
+            128,
+            -20,
+            1093,
+            1490
+          ],
+          "6": [
+            122,
+            -20,
+            1148,
+            1510
+          ],
+          "7": [
+            98,
+            0,
+            1061,
+            1490
+          ],
+          "8": [
+            122,
+            -20,
+            1145,
+            1510
+          ],
+          "9": [
+            122,
+            -20,
+            1148,
+            1510.127659574468
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "calt",
+          "case",
+          "ccmp",
+          "cv01",
+          "cv02",
+          "cv03",
+          "cv04",
+          "cv05",
+          "cv06",
+          "cv07",
+          "cv08",
+          "cv09",
+          "cv10",
+          "cv11",
+          "cv12",
+          "cv13",
+          "cv14",
+          "dlig",
+          "dnom",
+          "frac",
+          "locl",
+          "numr",
+          "ordn",
+          "pnum",
+          "salt",
+          "sinf",
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04",
+          "ss05",
+          "ss06",
+          "ss07",
+          "ss08",
+          "subs",
+          "sups",
+          "tnum",
+          "zero"
+        ],
+        "gpos_feature_tags": [
+          "cpsp",
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+        "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+      },
+      "usage_notes": "Retain original OFL/copyright. Native italic only where explicitly retained. Explicitly instantiate axes for current outline renderer; feature tags alone do not prove application. Type style and readability remain context-dependent research hypotheses.",
+      "family": "Inter",
+      "per_file": [
+        {
+          "path": "assets/fonts/latin-study/inter/Inter[opsz,wght].ttf",
+          "style": "Roman",
+          "axes": [
+            {
+              "tag": "opsz",
+              "min": 14.0,
+              "minimum": 14.0,
+              "default": 14.0,
+              "max": 32.0,
+              "maximum": 32.0
+            },
+            {
+              "tag": "wght",
+              "min": 100.0,
+              "minimum": 100.0,
+              "default": 400.0,
+              "max": 900.0,
+              "maximum": 900.0
+            }
+          ],
+          "versions": [
+            "Version 4.001;git-66647c0bb"
+          ],
+          "family_names": [
+            "Inter"
+          ],
+          "style_names": [
+            "Regular"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "opsz": 14.0,
+              "wght": 400
+            },
+            "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+            "missing_glyphs": [],
+            "units_per_em": 2048,
+            "font_metrics_units": {
+              "x_height": 1118,
+              "cap_height": 1490,
+              "typo_ascender": 1984,
+              "typo_descender": -494,
+              "italic_angle": 0.0
+            },
+            "default_numeral_advance_units": {
+              "0": 1292,
+              "1": 833,
+              "2": 1249,
+              "3": 1265,
+              "4": 1323,
+              "5": 1215,
+              "6": 1270,
+              "7": 1159,
+              "8": 1267,
+              "9": 1270
+            },
+            "default_numerals_tabular": false,
+            "confusable_advance_units": {
+              "I": 550,
+              "l": 496,
+              "1": 833,
+              "O": 1566,
+              "0": 1292
+            },
+            "glyph_ink_bounds_units": {
+              "H": [
+                180,
+                0,
+                1342,
+                1490
+              ],
+              "h": [
+                158,
+                0,
+                1053,
+                1490
+              ],
+              "x": [
+                65,
+                0,
+                1053,
+                1118
+              ],
+              "0": [
+                122,
+                -20,
+                1170,
+                1510
+              ],
+              "O": [
+                122,
+                -20,
+                1444,
+                1510
+              ],
+              "1": [
+                96,
+                0,
+                653,
+                1490
+              ],
+              "I": [
+                180,
+                0,
+                370,
+                1490
+              ],
+              "l": [
+                158,
+                0,
+                338,
+                1490
+              ],
+              "a": [
+                90,
+                -26,
+                992,
+                1132
+              ],
+              "g": [
+                104,
+                -442,
+                1098,
+                1132
+              ],
+              "&": [
+                104,
+                -20,
+                1287,
+                1504
+              ],
+              "2": [
+                154,
+                0,
+                1103,
+                1510
+              ],
+              "3": [
+                125,
+                -20,
+                1143,
+                1510
+              ],
+              "4": [
+                120,
+                0,
+                1205,
+                1490
+              ],
+              "5": [
+                128,
+                -20,
+                1093,
+                1490
+              ],
+              "6": [
+                122,
+                -20,
+                1148,
+                1510
+              ],
+              "7": [
+                98,
+                0,
+                1061,
+                1490
+              ],
+              "8": [
+                122,
+                -20,
+                1145,
+                1510
+              ],
+              "9": [
+                122,
+                -20,
+                1148,
+                1510.127659574468
+              ]
+            },
+            "gsub_feature_tags": [
+              "aalt",
+              "calt",
+              "case",
+              "ccmp",
+              "cv01",
+              "cv02",
+              "cv03",
+              "cv04",
+              "cv05",
+              "cv06",
+              "cv07",
+              "cv08",
+              "cv09",
+              "cv10",
+              "cv11",
+              "cv12",
+              "cv13",
+              "cv14",
+              "dlig",
+              "dnom",
+              "frac",
+              "locl",
+              "numr",
+              "ordn",
+              "pnum",
+              "salt",
+              "sinf",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "ss06",
+              "ss07",
+              "ss08",
+              "subs",
+              "sups",
+              "tnum",
+              "zero"
+            ],
+            "gpos_feature_tags": [
+              "cpsp",
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+            "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+          }
+        }
+      ],
+      "version": "Version 4.001;git-66647c0bb",
+      "reserved_font_names": [],
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
+    },
+    {
+      "id": "font-space-grotesk-vf",
+      "title": "Space Grotesk",
+      "kind": "font",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "domains": [
+        "typography"
+      ],
+      "role": "typography",
+      "tags": [
+        "latin",
+        "english",
+        "variable",
+        "numeral",
+        "sans",
+        "weight"
+      ],
+      "ready": true,
+      "rights_status": "OFL-1.1",
+      "distribution_status": "OFL-1.1",
+      "license": "OFL-1.1",
+      "source_record": "assets/fonts/latin-study/manifest.json",
+      "source_url": "https://github.com/google/fonts/tree/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/spacegrotesk",
+      "license_url": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/spacegrotesk/OFL.txt",
+      "upstream_repository_commit": "6157dfaa640ca5738b4d1a7070fe389c3036d7fc",
+      "local_files": [
+        {
+          "path": "assets/fonts/latin-study/space-grotesk/SpaceGrotesk[wght].ttf",
+          "sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+          "bytes": 136676,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf",
+          "upstream_git_blob_sha": "a1b2e6c26093066510a31147e7aec9abdc8d6c5e",
+          "style": "Roman"
+        },
+        {
+          "path": "assets/fonts/latin-study/space-grotesk/OFL.txt",
+          "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72",
+          "bytes": 4495,
+          "modified": false,
+          "source": "https://raw.githubusercontent.com/google/fonts/6157dfaa640ca5738b4d1a7070fe389c3036d7fc/ofl/spacegrotesk/OFL.txt",
+          "upstream_git_blob_sha": "cb512b9af44ff61e75e1aad387b7424cdfab36a3"
+        }
+      ],
+      "axes": [
+        {
+          "tag": "wght",
+          "min": 300.0,
+          "minimum": 300.0,
+          "default": 300.0,
+          "max": 700.0,
+          "maximum": 700.0
+        }
+      ],
+      "versions": [
+        "Version 2.000"
+      ],
+      "measurements_400": {
+        "axis_values": {
+          "wght": 400
+        },
+        "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+        "missing_glyphs": [],
+        "units_per_em": 1000,
+        "font_metrics_units": {
+          "x_height": 486,
+          "cap_height": 700,
+          "typo_ascender": 984,
+          "typo_descender": -292,
+          "italic_angle": 0.0
+        },
+        "default_numeral_advance_units": {
+          "0": 641,
+          "1": 418,
+          "2": 603,
+          "3": 604,
+          "4": 625,
+          "5": 599,
+          "6": 612,
+          "7": 564,
+          "8": 623,
+          "9": 612
+        },
+        "default_numerals_tabular": false,
+        "confusable_advance_units": {
+          "I": 244,
+          "l": 245,
+          "1": 418,
+          "O": 669,
+          "0": 641
+        },
+        "glyph_ink_bounds_units": {
+          "H": [
+            80.200439453125,
+            0,
+            575.799560546875,
+            700
+          ],
+          "h": [
+            82.7803955078125,
+            0,
+            535.799560546875,
+            700
+          ],
+          "x": [
+            43.04052734375,
+            0,
+            550.3795166015625,
+            488.8997802734375
+          ],
+          "0": [
+            59.9403076171875,
+            -14,
+            580.95947265625,
+            714
+          ],
+          "O": [
+            59.9403076171875,
+            -14,
+            608.95947265625,
+            714
+          ],
+          "1": [
+            17.68017578125,
+            0,
+            337.718505859375,
+            700
+          ],
+          "I": [
+            80.200439453125,
+            0,
+            163.9189453125,
+            700
+          ],
+          "l": [
+            82.7803955078125,
+            0,
+            161.9189453125,
+            700
+          ],
+          "a": [
+            50.07037353515625,
+            -14,
+            550.31982421875,
+            502.8997802734375
+          ],
+          "g": [
+            58.7803955078125,
+            -200,
+            559.479736328125,
+            502.8997802734375
+          ],
+          "&": [
+            43.6204833984375,
+            0,
+            579.1300659179688,
+            700
+          ],
+          "2": [
+            53.3603515625,
+            0,
+            553.8699340820312,
+            714
+          ],
+          "3": [
+            45.3603515625,
+            -14,
+            553.0895385742188,
+            700
+          ],
+          "4": [
+            31.68017578125,
+            0,
+            598.3795166015625,
+            700
+          ],
+          "5": [
+            50.7803955078125,
+            -14,
+            551.0895385742188,
+            700
+          ],
+          "6": [
+            59.9403076171875,
+            -14,
+            560.95947265625,
+            714
+          ],
+          "7": [
+            32.39019775390625,
+            0,
+            532.840087890625,
+            700
+          ],
+          "8": [
+            46.4605712890625,
+            -14,
+            576.2601318359375,
+            714
+          ],
+          "9": [
+            51.3603515625,
+            -14,
+            552.3795166015625,
+            714
+          ]
+        },
+        "gsub_feature_tags": [
+          "aalt",
+          "case",
+          "ccmp",
+          "dnom",
+          "frac",
+          "liga",
+          "lnum",
+          "locl",
+          "numr",
+          "onum",
+          "ordn",
+          "pnum",
+          "salt",
+          "sinf",
+          "ss01",
+          "ss02",
+          "ss03",
+          "ss04",
+          "ss05",
+          "subs",
+          "sups",
+          "tnum",
+          "zero"
+        ],
+        "gpos_feature_tags": [
+          "kern",
+          "mark",
+          "mkmk"
+        ],
+        "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+        "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+      },
+      "usage_notes": "Retain original OFL/copyright. Native italic only where explicitly retained. Explicitly instantiate axes for current outline renderer; feature tags alone do not prove application. Type style and readability remain context-dependent research hypotheses.",
+      "family": "Space Grotesk",
+      "per_file": [
+        {
+          "path": "assets/fonts/latin-study/space-grotesk/SpaceGrotesk[wght].ttf",
+          "style": "Roman",
+          "axes": [
+            {
+              "tag": "wght",
+              "min": 300.0,
+              "minimum": 300.0,
+              "default": 300.0,
+              "max": 700.0,
+              "maximum": 700.0
+            }
+          ],
+          "versions": [
+            "Version 2.000"
+          ],
+          "family_names": [
+            "Space Grotesk",
+            "Space Grotesk Light"
+          ],
+          "style_names": [
+            "Light",
+            "Regular"
+          ],
+          "measurements_400": {
+            "axis_values": {
+              "wght": 400
+            },
+            "sample": "January September Wednesday Books & Days 2027 01 08 11 28 31 Il1 O0 ‘ ’ “ ” – — é É",
+            "missing_glyphs": [],
+            "units_per_em": 1000,
+            "font_metrics_units": {
+              "x_height": 486,
+              "cap_height": 700,
+              "typo_ascender": 984,
+              "typo_descender": -292,
+              "italic_angle": 0.0
+            },
+            "default_numeral_advance_units": {
+              "0": 641,
+              "1": 418,
+              "2": 603,
+              "3": 604,
+              "4": 625,
+              "5": 599,
+              "6": 612,
+              "7": 564,
+              "8": 623,
+              "9": 612
+            },
+            "default_numerals_tabular": false,
+            "confusable_advance_units": {
+              "I": 244,
+              "l": 245,
+              "1": 418,
+              "O": 669,
+              "0": 641
+            },
+            "glyph_ink_bounds_units": {
+              "H": [
+                80.200439453125,
+                0,
+                575.799560546875,
+                700
+              ],
+              "h": [
+                82.7803955078125,
+                0,
+                535.799560546875,
+                700
+              ],
+              "x": [
+                43.04052734375,
+                0,
+                550.3795166015625,
+                488.8997802734375
+              ],
+              "0": [
+                59.9403076171875,
+                -14,
+                580.95947265625,
+                714
+              ],
+              "O": [
+                59.9403076171875,
+                -14,
+                608.95947265625,
+                714
+              ],
+              "1": [
+                17.68017578125,
+                0,
+                337.718505859375,
+                700
+              ],
+              "I": [
+                80.200439453125,
+                0,
+                163.9189453125,
+                700
+              ],
+              "l": [
+                82.7803955078125,
+                0,
+                161.9189453125,
+                700
+              ],
+              "a": [
+                50.07037353515625,
+                -14,
+                550.31982421875,
+                502.8997802734375
+              ],
+              "g": [
+                58.7803955078125,
+                -200,
+                559.479736328125,
+                502.8997802734375
+              ],
+              "&": [
+                43.6204833984375,
+                0,
+                579.1300659179688,
+                700
+              ],
+              "2": [
+                53.3603515625,
+                0,
+                553.8699340820312,
+                714
+              ],
+              "3": [
+                45.3603515625,
+                -14,
+                553.0895385742188,
+                700
+              ],
+              "4": [
+                31.68017578125,
+                0,
+                598.3795166015625,
+                700
+              ],
+              "5": [
+                50.7803955078125,
+                -14,
+                551.0895385742188,
+                700
+              ],
+              "6": [
+                59.9403076171875,
+                -14,
+                560.95947265625,
+                714
+              ],
+              "7": [
+                32.39019775390625,
+                0,
+                532.840087890625,
+                700
+              ],
+              "8": [
+                46.4605712890625,
+                -14,
+                576.2601318359375,
+                714
+              ],
+              "9": [
+                51.3603515625,
+                -14,
+                552.3795166015625,
+                714
+              ]
+            },
+            "gsub_feature_tags": [
+              "aalt",
+              "case",
+              "ccmp",
+              "dnom",
+              "frac",
+              "liga",
+              "lnum",
+              "locl",
+              "numr",
+              "onum",
+              "ordn",
+              "pnum",
+              "salt",
+              "sinf",
+              "ss01",
+              "ss02",
+              "ss03",
+              "ss04",
+              "ss05",
+              "subs",
+              "sups",
+              "tnum",
+              "zero"
+            ],
+            "gpos_feature_tags": [
+              "kern",
+              "mark",
+              "mkmk"
+            ],
+            "measurement_method": "FontTools instance at wght=400 and other axes at original defaults; cmap/hmtx and glyph BoundsPen only. GSUB/GPOS tags listed, not executed; no automatic kerning, ligatures, numeral substitutions or language selection.",
+            "interpretation_limits": "Default equal advances do not establish lining/oldstyle form or legibility. Sample coverage does not establish full Latin-language coverage."
+          }
+        }
+      ],
+      "version": "Version 2.000",
+      "reserved_font_names": [],
+      "reserved_font_names_scope": "Names explicitly declared in the retained original OFL header; read entire license before modification."
     },
     {
       "id": "paper-light-j4",
@@ -6256,6 +9676,656 @@
       "local_asset": null
     },
     {
+      "id": "latin-source-serif-design",
+      "title": "Source Serif Readme — 配套家族、设计来源与原生样式",
+      "url": "https://github.com/adobe-fonts/source-serif/wiki/Source-Serif-Readme",
+      "source_type": "original-designer-readme",
+      "reading_locator": "History、Menu Names And Style Linking、Known Issues 全部正文。",
+      "actual_reading": "实际阅读作者 Frank Grießhammer 的公开 README 正文；未下载或宣称看过完整字体样本册。",
+      "findings": [
+        "设计者通过字母比例和整段文字的色调协调 Source Serif 与 Source Sans，但仍保留不同历史来源和作者所形成的个性。",
+        "Source Serif 以 Fournier 的设计为参考，并非原样历史复刻；部分具体笔画细节被重新处理。",
+        "作者分别说明原生字重／意大利体的样式关联与软件合成加粗／倾斜；缺少对应字体时，样式按钮可能无效或生成替代效果。",
+        "公开说明记载了后续加入光学尺寸的工作；不是所有字形都能在缺少 OpenType 支持的软件中直接取得。"
+      ],
+      "transfer_conditions": [
+        "可以把 Source Serif 4 与 Source Sans 3 作为有设计依据的配对候选，同时保留单一家族和其他配对作比较。",
+        "让同一书名、作者、月份和日期分别承担标题／附注／查读角色，观察配套家族是否需要二次视觉尺寸校正。",
+        "强调书名或作品名时优先检查实际意大利体文件；保存真实样式与轴值，不以 skew 变换冒充原生意大利体。"
+      ],
+      "limitations": [
+        "作者的配套目标不是本项目书籍周历已经取得美感的证据，也不证明其他字体组合较差。",
+        "没有在此记录中测定具体字体版本、字形指标、数字宽度或渲染结果；这些需要文件实测。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "serif",
+        "pairing",
+        "italic",
+        "optical-size",
+        "family"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-type-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-newsreader-design",
+      "title": "Newsreader Text — 连续阅读与尺寸层级",
+      "url": "https://productiontype.com/font/newsreader/newsreader-text",
+      "related_urls": [
+        "https://github.com/productiontype/Newsreader"
+      ],
+      "source_type": "original-foundry-product-information",
+      "reading_locator": "Styles 列表、Information、About this font、OpenType Features 的文字标签、Discover the Newsreader family；另读官方仓库 README。",
+      "actual_reading": "实际阅读厂商文字及样式／特性名称；没有把文字提取视为字样视觉验证，没有操作交互字样滑块或读取链接 PDF。",
+      "findings": [
+        "厂商把 Newsreader 的首要任务定义为屏幕上的较长连续阅读，同时安排 Caption、Text 与 Display 尺寸分工。",
+        "公开产品说明将字重和原生意大利体作为同一层级系统的一部分；书卷感属于其设计目标，不是所有用户必然产生的感受。",
+        "页面列出比例数字、等宽数字、标准连字等特性，证明需要把默认字形与可选功能分开。",
+        "厂商静态套装页面与官方仓库的可变字体是不同交付层级，样式数量不能直接变成已留存文件数。"
+      ],
+      "transfer_conditions": [
+        "可研究同一 Newsreader 家族如何承担书名、较长说明和小附注，再与另配 sans 的方案比较。",
+        "把近看桌面和远看挂墙分别验证；不要因为字体名含 Text 就禁止展示用途。",
+        "记录使用的具体 Roman／Italic 文件与光学尺寸，并在最终渲染环境核对数字功能。"
+      ],
+      "limitations": [
+        "没有复制页面中的使用案例、样本段落、图片或 PDF；页面介绍不授权其他厂商作品进入模板。",
+        "厂商可读性与表现力陈述是设计意图；本研究未进行用户阅读实验。",
+        "官网支持语言表不能替代实际留存文件的字符检查，更不能据此断言支持中文汉字。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "serif",
+        "reading",
+        "italic",
+        "optical-size",
+        "numerals"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-type-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-bodoni-moda-specific",
+      "title": "Bodoni Moda — 对应家族的官方说明与元数据",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/DESCRIPTION.en_us.html",
+      "related_urls": [
+        "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/METADATA.pb"
+      ],
+      "source_type": "official-font-distributor-family-record",
+      "reading_locator": "Bodoni Moda DESCRIPTION.en_us.html 全文及 METADATA.pb 的字体文件、样式、轴、默认覆盖值和 source 区块。",
+      "actual_reading": "实际阅读两份家族专属文本；也访问了上游 Bodoni* 页面用于辨识命名差异，但不把该页面的产品承诺移植到本记录。",
+      "findings": [
+        "对应目录明确使用 Bodoni Moda 家族名、Owen Earl 设计署名，以及独立的 Roman／Italic 可变字体文件名。",
+        "官方分发元数据列出 opsz 6–96 与 wght 400–900，并有 opsz 的 11 注册默认覆盖值；这是元数据，不代替二进制 fvar 实测。",
+        "来源区块把两个 BodoniModa 文件映射到 indestructible-type/Bodoni 的指定提交；同一上游仓库出现 Bodoni* 品牌并不意味着可以混用两个家族的文件名或产品说明。"
+      ],
+      "transfer_conditions": [
+        "可把具体留存的 Bodoni Moda 作为高笔画对比方向的比较候选；必须在实际标题、数字、小字及输出尺寸下查看细笔画。",
+        "对比不同光学尺寸时明确固定字重和文字内容，随后再回到整页。",
+        "保存的配方使用实测字体轴值；不能直接用分发平台的注册默认值替代文件默认值。"
+      ],
+      "limitations": [
+        "简介中的 no-compromises 等营销评价没有作为本项目质量结论。",
+        "Bodoni* 网站的定价、静态文件数、八种光学尺寸和各尺寸表现承诺不用于说明 Bodoni Moda。",
+        "高对比方向是本项目拟检验的视觉用途；尚未获得用户偏好或适用所有日历的结论。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "serif",
+        "display",
+        "contrast",
+        "optical-size",
+        "version"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-type-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-source-sans-design",
+      "title": "What’s new in Source Sans 3 — 中间字重也需要独立设计",
+      "url": "https://blog.adobe.com/en/publish/2020/11/30/whats-new-in-source-sans-3",
+      "related_urls": [
+        "https://github.com/adobe-fonts/source-sans"
+      ],
+      "source_type": "original-designer-release-essay",
+      "reading_locator": "Paul D. Hunt 2020-11-30 文章全部正文；另读官方仓库 README 的 UI 定位。",
+      "actual_reading": "实际阅读设计者的更新说明和图注；未把未打开的对照图片当成独立字形观察。",
+      "findings": [
+        "作者在第 3 版修订笔画末端，并加入 Semibold 中间主字型，以控制此前在中间字重过细的横画、横杠及斜画。",
+        "相同名义字重或从两端直接插值不能替代对实际笔画分布的观察。",
+        "语言覆盖、原生意大利体与按语言启用的替换分别处理；存在字形与正确语言塑形是不同问题。",
+        "官方 README 把家族主要定位在 UI 环境；这是一项设计来源，并非禁止其进入印刷品的规定。"
+      ],
+      "transfer_conditions": [
+        "作为日期、星期、较长说明及界面文字的候选，分别查看中间字重的笔画和字面，不根据数值 400 或 500 想象明暗。",
+        "同族/配套家族比较应保留 Source Serif 4 + Source Sans 3 路线，但不默认其为所有书籍主题答案。"
+      ],
+      "limitations": [
+        "更新说明不是用户可读性测量，也不是对其他 sans 的排名。",
+        "语言适配与 OpenType 语境替换需要最终渲染环境支持；当前逐字符取字路径不因此自动升级。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "sans",
+        "weight",
+        "interpolation",
+        "language",
+        "reading"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-type-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-inter-design",
+      "title": "Inter — sans 的光学尺寸、数字和近似字形",
+      "url": "https://rsms.me/inter/",
+      "source_type": "original-designer-typeface-site",
+      "reading_locator": "Introduction、Usage、Free & open source；Features 中 tnum、zero、ss02 与个别 character variants 的说明和功能列表。",
+      "actual_reading": "实际阅读上述正文和功能文字；没有把网站交互开关的默认截图当成启用特性的输出验证。",
+      "findings": [
+        "原设计者对 Text 与 Display 光学方向作不同说明，显示无衬线字体同样可能有尺寸专用设计；其可读性表述是设计目标。",
+        "等宽数字、斜线零与近似字形区分是不同功能，针对的是对齐和辨识等不同任务。",
+        "角色、轴值和特性应一起记录，单写 Inter 或 sans 不足以描述最终使用状态。"
+      ],
+      "transfer_conditions": [
+        "可比较日历查读、可变数值、月份标签与短标题的不同设置，避免把界面字体永久限定成附属角色。",
+        "用 01／08／11／28／31、Il1、0O，以及完整月份和星期名观察默认形态；需要时再单独验证 tnum、zero 或字形替代。",
+        "对 English 查读任务评估文本尺寸；跨语言书名另核查具体字符与组合附标。"
+      ],
+      "limitations": [
+        "广泛使用、作者的 workhorse 定位或 147 种语言宣传不构成本项目美感及完整语言覆盖证明。",
+        "网页列出 tnum、calt 等功能不表示当前 SVG/PDF 渲染器已应用它们。",
+        "不将其强行定义为某一种纯粹历史风格或中性审美的唯一方案。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "sans",
+        "optical-size",
+        "numerals",
+        "disambiguation",
+        "opentype"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-type-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-space-grotesk-design",
+      "title": "Space Grotesk — 来自等宽字体的比例宽变体",
+      "url": "https://github.com/floriankarsten/space-grotesk",
+      "source_type": "original-designer-repository",
+      "reading_locator": "README 全文：设计来源、字符范围、特性、构建与许可。",
+      "actual_reading": "实际阅读原作者仓库 README；没有把 forks 的早期 italic 计划当成当前家族功能。",
+      "findings": [
+        "作者明确它是从 Space Mono 演变出的比例宽 sans，并保留部分等宽字体细节；名称与来源不代表它本身是等宽字体。",
+        "作者的非展示尺寸可读性改进目标，与可用于表现性标题并不互斥。",
+        "README 列出旧式数字、等宽数字和替代字形等功能，仍需具体文件和渲染路径核对。"
+      ],
+      "transfer_conditions": [
+        "可把它与较少显露个别细节的 sans 比较，以判断辨识度是否服务当前主题。",
+        "在同一月份、星期和数字组中比较比例宽及功能选择，不因其 Mono 来源把全部日期当成固定宽度处理。"
+      ],
+      "limitations": [
+        "不把它等同于纯几何 sans，也不将个性直接推成更适合年轻人或科技主题的用户结论。",
+        "本来源未承诺原生意大利体，不能用倾斜变换或旧 fork 的计划来补写。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "sans",
+        "proportional",
+        "numerals",
+        "display",
+        "identity"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-type-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-instrument-serif-design",
+      "title": "Instrument Serif — 已有字体的原始展示任务",
+      "url": "https://github.com/Instrument/instrument-serif",
+      "source_type": "original-brand-font-repository",
+      "reading_locator": "README 的设计定位、尺寸用途和语言支持段落。",
+      "actual_reading": "实际阅读官方 README；没有把字体名称和独立单词字样当作完整段落排版验证。",
+      "findings": [
+        "作者明确其为品牌设计的窄体展示衬线，主要面向大尺寸，并参考部分 old style 衬线字体。",
+        "展示用途、宽度与历史参考是相互独立的描述，不应只保留 serif 这一个粗分类。",
+        "家族公开语言说明仅提供候选范围，真实名称、附标和具体文件仍需测试。"
+      ],
+      "transfer_conditions": [
+        "可保留在月名、短书名或展示数字的比较中；较长说明另与面向连续阅读的家族比较。",
+        "观察长度较长的 September、Wednesday 和书名时，在换行／字号／改选字体之间作判断，不用水平挤压代替设计选择。"
+      ],
+      "limitations": [
+        "原设计者的 old style 灵感不等于纯历史复刻，也不意味着一定产生古典、温暖或书卷感。",
+        "展示定位不是一条禁止小字号的规则；是否可用仍取决于具体尺寸、阅读距离和输出。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "serif",
+        "display",
+        "width",
+        "old-style-reference",
+        "existing-asset"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-type-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-monotype-taxonomy",
+      "title": "Monotype: A guide to type styles",
+      "url": "https://www.monotype.com/resources/guide-type-styles",
+      "source_type": "foundry-educational-guide",
+      "reading_locator": "Introduction; Serif Humanist/Garalde/Transitional/Didone/Slab and Sans Grotesque/Neo-grotesque/Geometric/Humanist sections.",
+      "actual_reading": "Read terminology, stated classification limitations and the selected section body text. No third-party sample images copied or visually evaluated.",
+      "findings": [
+        "文章自己指出历史分类有局限，很多当代设计不能完整归入一个类别。",
+        "骨架、粗细对比、衬线与字形比例可作为比较词汇；display、宽度和字宽组织需要另行描述。"
+      ],
+      "transfer_conditions": [
+        "描述具体字形差异并保留类别来源；使用多维标签寻找候选，不以单一历史分类自动选字。"
+      ],
+      "limitations": [
+        "不把该文对类别可读性的概括作为本项目通则，不复述未经另证的历史细节。",
+        "术语并非互斥、穷尽的标准，不由分类推断用户的文化联想或喜好。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "classification",
+        "anatomy"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-type-research.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-ot-figure-widths",
+      "title": "OpenType registered features p–t: pnum, tnum, smcp",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt",
+      "source_type": "official-format-specification",
+      "reading_locator": "pnum (lines 95–111), smcp (457–477), tnum (646–662); selected sections, not the complete p–t registry.",
+      "actual_reading": "Read the public function, example, implementation, UI and interaction descriptions of these three features. No registry illustration retained.",
+      "findings": [
+        "pnum 与 tnum 处理数字的比例宽／等宽替换；默认宽度并非所有字体相同。",
+        "tnum 可替换等高或旧式数字；它不决定数字高度类别，也不等于整套字体等宽。",
+        "small caps 是特定字形替换，不能只把普通大写缩小就称已实现 smcp。"
+      ],
+      "transfer_conditions": [
+        "全年列式数据和反复变化的数字可比较等宽；独立大日期或标题里的日期可比较比例宽。",
+        "记录实际字形、功能开关及塑形后的 advance，不仅保留特性标签。"
+      ],
+      "limitations": [
+        "规范定义功能和交互，不为具体日历选择数字审美。",
+        "没有执行 GSUB 时只能展示默认数字或明确保留的指定字形，不能声称启用这些功能。"
+      ],
+      "tags": [
+        "latin",
+        "numerals",
+        "opentype",
+        "tabular",
+        "proportional",
+        "small-caps"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-calendar-reading.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-ot-figure-forms",
+      "title": "OpenType registered features k–o: kern, liga, lnum, onum",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko",
+      "source_type": "official-format-specification",
+      "reading_locator": "kern (lines 33–64), liga (81–97), lnum (115–131), onum (359–375); selected registry sections.",
+      "actual_reading": "Read the four feature descriptions, including width/height independence and kern interactions. No illustrations retained.",
+      "findings": [
+        "lnum／onum 处理等高／旧式字形，与 pnum／tnum 的宽度选择独立。",
+        "kern 对特定字形组合调整位置或 advance；规范提示固定宽度功能启用时有相应交互。",
+        "liga 将字形序列替换成连字；简单逐字符转曲不等于正确完成连字与字距。"
+      ],
+      "transfer_conditions": [
+        "日期网格与含年份的大小写标题分别研究，避免把一种数字设置用于所有角色。",
+        "在真实月份、星期和书名中检查 To、Wa、ffl 等组合；先验证渲染，再评价字距。"
+      ],
+      "limitations": [
+        "不能仅由 advance 的相等性推断等高／旧式。",
+        "这些实现建议不证明本项目导出器已经执行对应查找。"
+      ],
+      "tags": [
+        "latin",
+        "numerals",
+        "kerning",
+        "ligatures",
+        "opentype",
+        "lining",
+        "oldstyle"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-calendar-reading.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-ot-italic-axis",
+      "title": "OpenType registered design-variation axis ital",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_ital",
+      "source_type": "official-format-specification",
+      "reading_locator": "Axis definition and Additional information (lines 32–48).",
+      "actual_reading": "Read both public sections; the page has no type specimen used by this study.",
+      "findings": [
+        "ital 描述正体与意大利体的设计变化，范围 0–1，常规值要求为 0。",
+        "ital 与 slnt 是不同的轴；意大利体常带倾斜，但不必通过 slnt 才成立，也不能用斜角一项代替字形研究。"
+      ],
+      "transfer_conditions": [
+        "书名、作者或注释若使用 italic，记录真实字体文件／轴设置，并比较 a、g、f 等字形。",
+        "在配对板中可比较同族 Roman／Italic 的分工，同时保留全正体方案。"
+      ],
+      "limitations": [
+        "并非每个字体都有 ital 轴；正斜体也可能分成独立文件。",
+        "本页定义设计轴，不证明某套字体的手写来源、历史分类或书籍主题适配。"
+      ],
+      "tags": [
+        "latin",
+        "italic",
+        "roman",
+        "slant",
+        "variable-font"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-calendar-reading.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-ot-optical-axis",
+      "title": "OpenType registered design-variation axis opsz",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz",
+      "source_type": "official-format-specification",
+      "reading_locator": "Axis definition, optical adaptations, distance/scaling examples and application guidance (lines 31–60).",
+      "actual_reading": "Read the complete substantive public definition and additional information.",
+      "findings": [
+        "opsz 以 point 解释数值，设计可改变比例、笔画与细节；它不是把同一轮廓放大缩小。",
+        "选择需尽可能反映读者感知到的大小，包含观看距离、设备及单位转换。",
+        "自动选择有环境条件，建议允许覆盖；轴超范围时以边界值处理，不退回默认。"
+      ],
+      "transfer_conditions": [
+        "近看桌历与远看挂历分别记录字号、物理尺寸、距离及实际轴值。",
+        "同一字体、字重、文案和画布字号下对照两个支持的 opsz 实例，再回到实际使用尺寸。"
+      ],
+      "limitations": [
+        "规范的默认建议不是所有日历的字号规则。",
+        "无 opsz 的文件不能凭手调字重或墨迹高度称获得光学尺寸；截图缩放也不是阅读距离实测。"
+      ],
+      "tags": [
+        "latin",
+        "optical-size",
+        "distance",
+        "variable-font",
+        "opsz"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-calendar-reading.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-adobe-spacing",
+      "title": "Adobe InDesign: About kerning and tracking",
+      "url": "https://helpx.adobe.com/indesign/desktop/format-and-style-text/tabs-indents-and-spacing/about-kerning-and-tracking.html",
+      "source_type": "official-application-documentation",
+      "reading_locator": "Actual article body, About kerning and tracking through How kerning and tracking are measured (lines 1412–1452); updated June 2, 2026.",
+      "actual_reading": "Read the article body including metrics, optical, manual kerning and em-relative units; navigation and promotional content excluded.",
+      "findings": [
+        "kerning 调整特定组合，tracking 调整一段文字的整体间距，两者任务不同且可叠加。",
+        "Metrics 使用字体设计者数据；InDesign 的 Optical 根据相邻形状计算，不是 opsz。",
+        "InDesign 以 1/1000 em 表达相对字号的间距值。"
+      ],
+      "transfer_conditions": [
+        "月份大写标签可试不同 tracking，再检查单个字对；避免把整体加宽当作每一对都已校正。",
+        "保存间距单位和实际效果，跨 CSS、SVG 或排版软件时明确换算。"
+      ],
+      "limitations": [
+        "InDesign 默认开启 Metrics 是应用行为，不能外推至本项目的逐码点渲染器。",
+        "本页没有给出所有大写日历都应使用的唯一字距值。"
+      ],
+      "tags": [
+        "latin",
+        "kerning",
+        "tracking",
+        "spacing",
+        "all-caps",
+        "units"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-calendar-reading.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
+      "id": "latin-apple-size-tracking",
+      "title": "Apple WWDC20: The details of UI typography",
+      "url": "https://developer.apple.com/videos/play/wwdc2020/10175/",
+      "source_type": "original-designer-official-transcript",
+      "reading_locator": "Official transcript: optical sizes/variable design (lines 164–220), tracking/side bearings/ligature interactions (222–263), leading context (265–280).",
+      "actual_reading": "Read these transcript sections only; did not claim to watch the video or visually inspect its slide comparisons.",
+      "findings": [
+        "Apple 设计者将小尺寸的字面、内部细节和间隔同输出分辨率联系起来。",
+        "字体固有 side bearings、逐对 kerning 与整体 tracking 共同影响字间节奏；tracking 也可能与连字相互作用。",
+        "SF 的光学尺寸与 tracking 关系是特定系统设计，不能直接复制到其他字体。"
+      ],
+      "transfer_conditions": [
+        "缩略预览与实际大小字样并排；同时检查 Il1、O0、月份、星期等真实短串。",
+        "把 tracking、opsz、字重和字号分开控制，记录渲染器行为后再作设计选择。"
+      ],
+      "limitations": [
+        "2020 年讲稿描述当时 Apple 平台；不作为当前跨平台 API 承诺。",
+        "未导入 SF 字体或视频中的作品图；其切换阈值和 tracking 表不成为本项目通用数值。"
+      ],
+      "tags": [
+        "latin",
+        "small-size",
+        "tracking",
+        "distance",
+        "side-bearings",
+        "optical-size"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "kind": "reference",
+      "role": "type-evidence",
+      "source_record": "docs/research/latin-calendar-reading.json",
+      "ready": false,
+      "distribution_status": "research-only",
+      "local_asset": null
+    },
+    {
       "id": "type-role-first",
       "title": "字体按角色选择",
       "title_zh": "字体按角色选择",
@@ -6718,6 +10788,281 @@
       "distribution_status": "not-specified",
       "ready": true,
       "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-anatomy",
+      "title": "英文字形的骨架与用途",
+      "title_zh": "英文字形的骨架与用途",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "latin-anatomy",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "latin-anatomy",
+        "英文字形的骨架与用途"
+      ],
+      "condition": "英文候选只按 serif/sans 或风格形容词划分，无法解释实际差异。",
+      "choices": [
+        "对照真实月份、星期和标题的 x-height、字宽、对比、开口、Il1/O0 与小写结构。",
+        "历史分类、展示用途、宽度和等宽组织分开记录；先做同em比较，再决定是否需要视觉尺度校正。"
+      ],
+      "tradeoff": "同字号的视觉尺度与文字色调仍不同；匹配 x-height 或墨迹框也不保证相同感知大小。",
+      "counterexample": "把 display、mono、condensed 当成互斥历史分类，或把 Space Grotesk 当作等宽字体。",
+      "reference_ids": [
+        "latin-monotype-taxonomy",
+        "latin-space-grotesk-design",
+        "font-matrix"
+      ],
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-inter-vf",
+        "font-space-grotesk-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-italic",
+      "title": "原生正斜体的角色关系",
+      "title_zh": "原生正斜体的角色关系",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "italic",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "italic",
+        "原生正斜体的角色关系"
+      ],
+      "condition": "书名、作者或附注需要分工，但增加字体家族的理由尚不明确。",
+      "choices": [
+        "比较同族 Roman/Italic 的同一真实词句及 agf 形态，再与另加家族的方向比较。",
+        "保留原生 Italic 文件、轴值和数字实测；合成倾斜若刻意使用，需另称变形处理。"
+      ],
+      "tradeoff": "Italic 改变的不只有斜度，也可能改变宽度和数字；不能由 Roman 的指标推断。",
+      "counterexample": "没有原生 Italic 时直接倾斜字形，却写成已选用该字体的意大利体。",
+      "reference_ids": [
+        "latin-ot-italic-axis",
+        "latin-source-serif-design",
+        "latin-newsreader-design"
+      ],
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-newsreader-vf",
+        "font-instrumentserif"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-optical",
+      "title": "英文光学尺寸与观看距离",
+      "title_zh": "英文光学尺寸与观看距离",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "optical-sizing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "optical-sizing",
+        "英文光学尺寸与观看距离"
+      ],
+      "condition": "同一家族要跨远看展示与近看小字，或细节在缩小输出中消失。",
+      "choices": [
+        "核验实际 opsz 轴，固定字重、字号和内容，只改变实例坐标比较形态。",
+        "把画布物理大小、实际输出和观看距离带回选择；Inter 等 sans 也可能有光学轴。"
+      ],
+      "tradeoff": "同一 opsz 数字在不同字体中的设计不相同；大幅挂历不自动等于使用 display 极值。",
+      "counterexample": "只缩字号或改字重便宣称启用 opsz，或者仅凭轴默认值当最终处方。",
+      "reference_ids": [
+        "latin-ot-optical-axis",
+        "latin-inter-design",
+        "font-optical-size"
+      ],
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-newsreader-vf",
+        "font-bodoni-moda-vf",
+        "font-inter-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-spacing",
+      "title": "英文字距的单位与分工",
+      "title_zh": "英文字距的单位与分工",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "letterspacing",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "letterspacing",
+        "英文字距的单位与分工"
+      ],
+      "condition": "全大写月份、短标题或英文混排的间距需要调整。",
+      "choices": [
+        "分别记录字体自带间隔、逐字对 kerning 和整体 tracking，写清数值与 em 单位。",
+        "固定字号和字重做整体字距对照，再在真实排版环境检查 AV/To/Wa 等字对及连字。"
+      ],
+      "tradeoff": "整体放松可能改善某个标签节奏，也可能打断词形或改变标题宽度；不能修复所有局部间隙。",
+      "counterexample": "把研究中的0.12em当所有月份的默认值，或把 InDesign Optical kerning 与 opsz 混称。",
+      "reference_ids": [
+        "latin-adobe-spacing",
+        "latin-apple-size-tracking",
+        "latin-ot-figure-forms"
+      ],
+      "candidate_font_ids": [
+        "font-inter-vf",
+        "font-space-grotesk-vf",
+        "font-source-serif-4-vf"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
+    },
+    {
+      "id": "type-latin-calendar-roles",
+      "title": "英文日历的展示与查读配对",
+      "title_zh": "英文日历的展示与查读配对",
+      "kind": "design-element",
+      "domains": [
+        "typography"
+      ],
+      "role": "latin-calendar-roles",
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "typography",
+        "latin-calendar-roles",
+        "英文日历的展示与查读配对"
+      ],
+      "condition": "年/月/周/日需要不同的信息密度，或书籍标题和日期争夺注意。",
+      "choices": [
+        "全年网格检查小日号和行列；月历检查长月名；周历比较标题与七日标签；单日历比较大日号。",
+        "比较单一家族、Source Serif 4/Source Sans 3 等有设计依据的配对与主动反差，明确每种字体增加的角色。"
+      ],
+      "tradeoff": "展示性可增强主题，也可能降低小字查读；配套家族有依据但不自动产生更好的作品。",
+      "counterexample": "把 Instrument Serif 的展示定位用于未经验证的长文，或因日历有数字就强制整页等宽。",
+      "reference_ids": [
+        "latin-source-serif-design",
+        "latin-instrument-serif-design",
+        "latin-ot-figure-widths",
+        "latin-ot-figure-forms",
+        "font-pairing"
+      ],
+      "candidate_font_ids": [
+        "font-source-serif-4-vf",
+        "font-source-sans-3-vf",
+        "font-newsreader-vf",
+        "font-instrumentserif",
+        "font-ibmplexmono"
+      ],
+      "study_refs": [
+        {
+          "path": "studies/latin-type-atlas/latin-families.svg",
+          "scope": "Same-em generic English candidate specimens, not a quality ranking."
+        },
+        {
+          "path": "studies/latin-type-atlas/latin-details.svg",
+          "scope": "Explicit optical-size, native-italic, tracking and default-advance questions; no feature-shaping claim."
+        }
+      ],
+      "rights_status": "project-original-analysis-and-study",
+      "distribution_status": "not-specified",
+      "ready": true,
+      "evidence_status": "source-informed-transfer-hypothesis; no user preference established"
     }
   ],
   "semantics": {
@@ -6735,9 +11080,13 @@
     "docs/research/weekly-daily-materials.json",
     "assets/fonts/type-study/manifest.json",
     "assets/library/type-layout-elements.json",
+    "assets/fonts/latin-study/manifest.json",
+    "assets/library/latin-type-elements.json",
     "docs/research/cjk-typography.json",
     "docs/research/font-selection.json",
     "docs/research/layout-aesthetics.json",
-    "docs/research/type-rendering-boundaries.json"
+    "docs/research/type-rendering-boundaries.json",
+    "docs/research/latin-type-research.json",
+    "docs/research/latin-calendar-reading.json"
   ]
 }

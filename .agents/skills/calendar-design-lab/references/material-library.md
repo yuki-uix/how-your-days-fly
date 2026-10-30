@@ -43,3 +43,5 @@ The web-sized museum files are preview material. Before print, use their recorde
 For a design, record selected catalog IDs, original file hashes, type roles, placement and crop coordinates, date mapping and series invariants. Replace placeholders with selected assets before calling a design complete. Keep decorative marks explicitly decorative; real moon phases, solar terms, holidays, daylight, climate or personal states need their own verified data or user input.
 
 Rebuild components and boards with `scripts/build_material_library.py`; run `scripts/design_catalog.py --build` after source-record edits to refresh both the material index and its design relationships. The narrower `material_catalog.py` remains available for asset/license filters. This library improves material discovery; it is not a validated universal design generator.
+
+英文字体选择见[英文专题](../../../../docs/latin-type-library.md)，从同一素材入口使用 `--domain typography --tag latin`；六个新增家族与五个英文条件条目保留原文件／来源和研究图。原生斜体、实际轴值与渲染支持分别核验。

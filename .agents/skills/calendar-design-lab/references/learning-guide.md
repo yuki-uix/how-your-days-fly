@@ -140,3 +140,5 @@ Cynthia A. Huang、Mitchell O’Hara-Wild、Rob J. Hyndman、Matthew Kay。
 经过实验和反馈后，再将有效方法写进 skill 或代码。资料链接与概念整理本身不构成已验证的设计能力。
 
 建议的首轮顺序：先浏览 TimeViz 案例与 Timelines 讲座，再选读主教材第 3、4 章；并行读 Vignelli 与数字排版文章。每读一段就回到 A–H 做一个小对照。两篇实现研究放到需要相应能力时深入。
+
+2026-10-30 英文专项补充见[英文字体专题](../../../../docs/latin-type-library.md)：14条新来源覆盖具体家族、分类词汇、数字、原生Italic、字距与光学尺寸，使用相同素材索引；未追写为早期样张已采用的材料。

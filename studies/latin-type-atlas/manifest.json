@@ -1,0 +1,377 @@
+{
+  "source_fonts": "assets/fonts/latin-study/manifest.json",
+  "working_fonts": {
+    "fonttools": "4.68.0",
+    "fonts": [
+      {
+        "alias": "ss4",
+        "family": "Source Serif 4",
+        "file": "ss4.ttf",
+        "sha256": "80e6d5dce1f4ce62177d8d184ae48b18ce9cdc4231ec9cab92bccba09031b76a",
+        "source_id": "font-source-serif-4-vf",
+        "source_file": "assets/fonts/latin-study/source-serif-4/SourceSerif4[opsz,wght].ttf",
+        "source_sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 20
+        },
+        "style": "Regular",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "ss4italic",
+        "family": "Source Serif 4",
+        "file": "ss4italic.ttf",
+        "sha256": "f9d241a129246cb9d003767e4cc6df4d7669eeffd4c9b8b9b8f5ce4d3cb7f27c",
+        "source_id": "font-source-serif-4-vf",
+        "source_file": "assets/fonts/latin-study/source-serif-4/SourceSerif4-Italic[opsz,wght].ttf",
+        "source_sha256": "15fbc7e4679489a501998c3669272637a6646388ef7e4bd77eebb5bf967a1f42",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 20
+        },
+        "style": "Italic",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "ss4small",
+        "family": "Source Serif 4",
+        "file": "ss4small.ttf",
+        "sha256": "4e51b0212983539daad8b7a04c55d2cb4888546ebde8ddef5ed93e190d429741",
+        "source_id": "font-source-serif-4-vf",
+        "source_file": "assets/fonts/latin-study/source-serif-4/SourceSerif4[opsz,wght].ttf",
+        "source_sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 8
+        },
+        "style": "Regular",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "ss4display",
+        "family": "Source Serif 4",
+        "file": "ss4display.ttf",
+        "sha256": "097546db86846873f790f215afb45ed2f483522b3116551eacb4bec3b8f65840",
+        "source_id": "font-source-serif-4-vf",
+        "source_file": "assets/fonts/latin-study/source-serif-4/SourceSerif4[opsz,wght].ttf",
+        "source_sha256": "97b2d4da6e3cb494b5a1e66ae176914d852ccabef49e0c02c0df25f3e39aca0b",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 60
+        },
+        "style": "Regular",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "news",
+        "family": "Newsreader",
+        "file": "news.ttf",
+        "sha256": "15c3c832b192b9c6f0f308d1b5311cd12d112e40293810d226c233fd3ba5ca92",
+        "source_id": "font-newsreader-vf",
+        "source_file": "assets/fonts/latin-study/newsreader/Newsreader[opsz,wght].ttf",
+        "source_sha256": "8a08d13f8a6c0d51be379a60af84f945f65369a67e509ee3c3bdcc421254d7c1",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 16
+        },
+        "style": "Regular",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "newsitalic",
+        "family": "Newsreader",
+        "file": "newsitalic.ttf",
+        "sha256": "03d9d8508a1c9a149d949f5ef626b1b5b48daa0f24af03e5faeabd44bab2f603",
+        "source_id": "font-newsreader-vf",
+        "source_file": "assets/fonts/latin-study/newsreader/Newsreader-Italic[opsz,wght].ttf",
+        "source_sha256": "796668611f80b64d5adf182fde3b6f29ed83b4e7cbec7b96937e84ac01364792",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 16
+        },
+        "style": "Italic",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "bodoni",
+        "family": "Bodoni Moda",
+        "file": "bodoni.ttf",
+        "sha256": "f49f92ded74ba225f31e67009c1dc9f9b1866a403b478c0e18ab880ad8d4dcae",
+        "source_id": "font-bodoni-moda-vf",
+        "source_file": "assets/fonts/latin-study/bodoni-moda/BodoniModa[opsz,wght].ttf",
+        "source_sha256": "550f5e34ee0a828d7941b1fe9bc58b34e5260d3f33a61532e6d0a0114e79a5cf",
+        "coordinates": {
+          "wght": 400,
+          "opsz": 24
+        },
+        "style": "Regular",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "sourcesans",
+        "family": "Source Sans 3",
+        "file": "sourcesans.ttf",
+        "sha256": "2941bab8a0161a324e241a9e2e1f329e401171ee59f08ee57e3526acc4d82f11",
+        "source_id": "font-source-sans-3-vf",
+        "source_file": "assets/fonts/latin-study/source-sans-3/SourceSans3[wght].ttf",
+        "source_sha256": "042fe2cc0b933e328410d7acbd0aa6a1873dca5aef81875f4bc214b08825c7b9",
+        "coordinates": {
+          "wght": 400
+        },
+        "style": "Regular",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "inter",
+        "family": "Inter",
+        "file": "inter.ttf",
+        "sha256": "5ca7351fa480b0c59d960194cf86ee6c893d921c6766de572e2f77dbcba6c3ae",
+        "source_id": "font-inter-vf",
+        "source_file": "assets/fonts/latin-study/inter/Inter[opsz,wght].ttf",
+        "source_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+        "coordinates": {
+          "opsz": 14,
+          "wght": 400
+        },
+        "style": "Regular",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      },
+      {
+        "alias": "space",
+        "family": "Space Grotesk",
+        "file": "space.ttf",
+        "sha256": "b6be9a80ed580e9f57bc64ed6e741ea1a03d4a6f9c9a8fbf42922fa2a59dbe09",
+        "source_id": "font-space-grotesk-vf",
+        "source_file": "assets/fonts/latin-study/space-grotesk/SpaceGrotesk[wght].ttf",
+        "source_sha256": "acad6de1fc93436f5c0f1f4137751ef04f1aea3063e7036535970ffcfbd79f72",
+        "coordinates": {
+          "wght": 400
+        },
+        "style": "Regular",
+        "modified": true,
+        "modification": "All variable axes pinned; primary names changed; original license and copyright retained."
+      }
+    ],
+    "license": "OFL-1.1; matching original license accompanies each working instance."
+  },
+  "existing_fonts": "assets/fonts/provenance.json",
+  "family_studies": [
+    {
+      "alias": "ss4",
+      "family": "Source Serif 4",
+      "coordinates": "400; opsz 20",
+      "measurements": {
+        "units_per_em": 1000,
+        "default_digit_advances": {
+          "0": 500,
+          "1": 500,
+          "2": 500,
+          "3": 500,
+          "4": 500,
+          "5": 500,
+          "6": 500,
+          "7": 500,
+          "8": 500,
+          "9": 500
+        },
+        "default_digits_tabular": true,
+        "x_ink_height_em": 0.475
+      }
+    },
+    {
+      "alias": "news",
+      "family": "Newsreader",
+      "coordinates": "400; opsz 16",
+      "measurements": {
+        "units_per_em": 2000,
+        "default_digit_advances": {
+          "0": 1133,
+          "1": 1133,
+          "2": 1133,
+          "3": 1133,
+          "4": 1133,
+          "5": 1133,
+          "6": 1133,
+          "7": 1133,
+          "8": 1133,
+          "9": 1133
+        },
+        "default_digits_tabular": true,
+        "x_ink_height_em": 0.4405
+      }
+    },
+    {
+      "alias": "bodoni",
+      "family": "Bodoni Moda",
+      "coordinates": "400; opsz 24",
+      "measurements": {
+        "units_per_em": 2000,
+        "default_digit_advances": {
+          "0": 1239,
+          "1": 869,
+          "2": 1099,
+          "3": 1041,
+          "4": 1189,
+          "5": 1000,
+          "6": 1119,
+          "7": 1009,
+          "8": 1099,
+          "9": 1119
+        },
+        "default_digits_tabular": false,
+        "x_ink_height_em": 0.46
+      }
+    },
+    {
+      "alias": "sourcesans",
+      "family": "Source Sans 3",
+      "coordinates": "400",
+      "measurements": {
+        "units_per_em": 1000,
+        "default_digit_advances": {
+          "0": 497,
+          "1": 497,
+          "2": 497,
+          "3": 497,
+          "4": 497,
+          "5": 497,
+          "6": 497,
+          "7": 497,
+          "8": 497,
+          "9": 497
+        },
+        "default_digits_tabular": true,
+        "x_ink_height_em": 0.486
+      }
+    },
+    {
+      "alias": "inter",
+      "family": "Inter",
+      "coordinates": "400; opsz 14",
+      "measurements": {
+        "units_per_em": 2048,
+        "default_digit_advances": {
+          "0": 1292,
+          "1": 833,
+          "2": 1249,
+          "3": 1265,
+          "4": 1323,
+          "5": 1215,
+          "6": 1270,
+          "7": 1159,
+          "8": 1267,
+          "9": 1270
+        },
+        "default_digits_tabular": false,
+        "x_ink_height_em": 0.5458984375
+      }
+    },
+    {
+      "alias": "space",
+      "family": "Space Grotesk",
+      "coordinates": "400",
+      "measurements": {
+        "units_per_em": 1000,
+        "default_digit_advances": {
+          "0": 641,
+          "1": 418,
+          "2": 603,
+          "3": 604,
+          "4": 625,
+          "5": 599,
+          "6": 612,
+          "7": 564,
+          "8": 623,
+          "9": 612
+        },
+        "default_digits_tabular": false,
+        "x_ink_height_em": 0.489
+      }
+    },
+    {
+      "alias": "display",
+      "family": "Instrument Serif",
+      "coordinates": "Regular; static",
+      "measurements": {
+        "units_per_em": 1000,
+        "default_digit_advances": {
+          "0": 460,
+          "1": 249,
+          "2": 404,
+          "3": 371,
+          "4": 393,
+          "5": 382,
+          "6": 404,
+          "7": 364,
+          "8": 433,
+          "9": 402
+        },
+        "default_digits_tabular": false,
+        "x_ink_height_em": 0.51
+      }
+    },
+    {
+      "alias": "sans",
+      "family": "IBM Plex Sans Condensed",
+      "coordinates": "Regular; static",
+      "measurements": {
+        "units_per_em": 1000,
+        "default_digit_advances": {
+          "0": 540,
+          "1": 540,
+          "2": 540,
+          "3": 540,
+          "4": 540,
+          "5": 540,
+          "6": 540,
+          "7": 540,
+          "8": 540,
+          "9": 540
+        },
+        "default_digits_tabular": true,
+        "x_ink_height_em": 0.516
+      }
+    },
+    {
+      "alias": "mono",
+      "family": "IBM Plex Mono",
+      "coordinates": "Regular; static",
+      "measurements": {
+        "units_per_em": 1000,
+        "default_digit_advances": {
+          "0": 600,
+          "1": 600,
+          "2": 600,
+          "3": 600,
+          "4": 600,
+          "5": 600,
+          "6": 600,
+          "7": 600,
+          "8": 600,
+          "9": 600
+        },
+        "default_digits_tabular": true,
+        "x_ink_height_em": 0.516
+      }
+    }
+  ],
+  "method": "Same em-size family board; separate one-variable optical-size and tracking comparisons; original generic English text.",
+  "limits": "cmap/hmtx outlines and explicit tracking only. No automatic GSUB/GPOS, kerning, feature substitution, paragraph breaking or user approval.",
+  "original_content": "Project-authored generic text and comparison diagrams; no private case content or third-party specimen art.",
+  "implementation_sha256": "26bbcdfb5fa4d389176793cceeef14ca17b3172a0b0e98dbcffd799a2d59499a",
+  "preparer_sha256": "ed88c53083e7f238dd71af199ec77fc59137e27e7270cc1945e74154176f3947",
+  "svg_sha256": {
+    "latin-details.svg": "156ec3ad1f332aaf140119711b7c7bb41b58da836ffe45fe834875ae7e3f7b97",
+    "latin-families.svg": "3198f21311c3b9c99e2be5f92ac3136f660edcb70efb19f583908b5278bcc3a4"
+  }
+}

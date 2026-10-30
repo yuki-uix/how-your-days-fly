@@ -1,6 +1,8 @@
 # 字体与排版：研究、取舍与可用材料
 
-2026-10-30。本页是[统一设计总览](design-atlas.md)与[素材库](material-library.md)的专题入口，已接入相同索引。新增 **26 条阅读记录，涉及 25 个去重页面**：中文／混排 8 条、选字／配字／数字／光学设计 8 条、构图审美 7 条、设计师立场／渲染边界 3 条。同一 Font Matrix 页面保留两个阅读视角，不算两个独立来源。
+2026-10-30。本页是[统一设计总览](design-atlas.md)与[素材库](material-library.md)的专题入口，已接入相同索引。基础整理有 **26 条阅读记录，涉及 25 个去重页面**：中文／混排 8 条、选字／配字／数字／光学设计 8 条、构图审美 7 条、设计师立场／渲染边界 3 条。同一 Font Matrix 页面保留两个阅读视角，不算两个独立来源。
+
+[英文专项扩展](latin-type-library.md)另增14条阅读记录、6个字体家族、5个条件条目和2张英文字样板；当前合计40条字体／排版阅读记录与15个条件条目，均接入原索引。
 
 每条保留阅读位置、实际范围、适用条件、反例及权利说明。原书、论文和网站作品图没有被镜像进素材库；本轮所有研究图均为项目原创。
 
@@ -14,7 +16,7 @@
 
 原始记录：[中文与混排](research/cjk-typography.md)、[字体选择](research/font-selection.md)、[构图审美](research/layout-aesthetics.md)、[设计立场与实现边界](research/type-rendering-boundaries.json)。规范不决定哪种作品更美，某位设计师的立场也不自动成为本项目规定。
 
-## 十个可检索的条件条目
+## 基础十个可检索的条件条目
 
 完整数据见 [type-layout-elements.json](../assets/library/type-layout-elements.json)：条件、选择、代价、反例、来源 ID、字体候选和研究图都可追溯。它们是待具体使用验证的方法，不是审美评分器。
 
@@ -35,7 +37,7 @@
 
 ## 字体资产与原创研究
 
-新增 [Noto Serif SC 与 Noto Sans SC 原字体及 OFL](../assets/fonts/type-study/README.md)，与原有 Instrument Serif、IBM Plex Mono、IBM Plex Sans Condensed 共五个保留家族，均为候选。新增的是可变 TTF；使用时明确字重和目标环境。
+新增 [Noto Serif SC 与 Noto Sans SC 原字体及 OFL](../assets/fonts/type-study/README.md)，与原有 Instrument Serif、IBM Plex Mono、IBM Plex Sans Condensed 构成基础五家族；[英文扩展](latin-type-library.md)另保留六家族，素材库合计十一家族，均为候选。新增的是可变 TTF；使用时明确字重和目标环境。
 
 两套 Noto 均只有 `wght`，没有 `opsz`，默认字重分别为 200 与 100。在明确的 400 字重下，本轮实测 Serif 默认数字 advance 不全等宽，Sans 数字等宽；不把这个结果外推为所有宋／黑体的规律。[字体 manifest](../assets/fonts/type-study/manifest.json)保留原始字节、版本、Git blob、许可、轴和指标。
 

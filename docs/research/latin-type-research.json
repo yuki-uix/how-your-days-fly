@@ -1,0 +1,348 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-30",
+  "scope": "英文字体与拉丁字形的原设计者资料精读。八条来源记录；产品说明、实际文件能力、项目迁移假设和用户审美评价分别记录。没有镜像厂商图片或商业字样。",
+  "sources": [
+    {
+      "id": "latin-source-serif-design",
+      "title": "Source Serif Readme — 配套家族、设计来源与原生样式",
+      "url": "https://github.com/adobe-fonts/source-serif/wiki/Source-Serif-Readme",
+      "source_type": "original-designer-readme",
+      "reading_locator": "History、Menu Names And Style Linking、Known Issues 全部正文。",
+      "actual_reading": "实际阅读作者 Frank Grießhammer 的公开 README 正文；未下载或宣称看过完整字体样本册。",
+      "findings": [
+        "设计者通过字母比例和整段文字的色调协调 Source Serif 与 Source Sans，但仍保留不同历史来源和作者所形成的个性。",
+        "Source Serif 以 Fournier 的设计为参考，并非原样历史复刻；部分具体笔画细节被重新处理。",
+        "作者分别说明原生字重／意大利体的样式关联与软件合成加粗／倾斜；缺少对应字体时，样式按钮可能无效或生成替代效果。",
+        "公开说明记载了后续加入光学尺寸的工作；不是所有字形都能在缺少 OpenType 支持的软件中直接取得。"
+      ],
+      "transfer_conditions": [
+        "可以把 Source Serif 4 与 Source Sans 3 作为有设计依据的配对候选，同时保留单一家族和其他配对作比较。",
+        "让同一书名、作者、月份和日期分别承担标题／附注／查读角色，观察配套家族是否需要二次视觉尺寸校正。",
+        "强调书名或作品名时优先检查实际意大利体文件；保存真实样式与轴值，不以 skew 变换冒充原生意大利体。"
+      ],
+      "limitations": [
+        "作者的配套目标不是本项目书籍周历已经取得美感的证据，也不证明其他字体组合较差。",
+        "没有在此记录中测定具体字体版本、字形指标、数字宽度或渲染结果；这些需要文件实测。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "serif",
+        "pairing",
+        "italic",
+        "optical-size",
+        "family"
+      ]
+    },
+    {
+      "id": "latin-newsreader-design",
+      "title": "Newsreader Text — 连续阅读与尺寸层级",
+      "url": "https://productiontype.com/font/newsreader/newsreader-text",
+      "related_urls": [
+        "https://github.com/productiontype/Newsreader"
+      ],
+      "source_type": "original-foundry-product-information",
+      "reading_locator": "Styles 列表、Information、About this font、OpenType Features 的文字标签、Discover the Newsreader family；另读官方仓库 README。",
+      "actual_reading": "实际阅读厂商文字及样式／特性名称；没有把文字提取视为字样视觉验证，没有操作交互字样滑块或读取链接 PDF。",
+      "findings": [
+        "厂商把 Newsreader 的首要任务定义为屏幕上的较长连续阅读，同时安排 Caption、Text 与 Display 尺寸分工。",
+        "公开产品说明将字重和原生意大利体作为同一层级系统的一部分；书卷感属于其设计目标，不是所有用户必然产生的感受。",
+        "页面列出比例数字、等宽数字、标准连字等特性，证明需要把默认字形与可选功能分开。",
+        "厂商静态套装页面与官方仓库的可变字体是不同交付层级，样式数量不能直接变成已留存文件数。"
+      ],
+      "transfer_conditions": [
+        "可研究同一 Newsreader 家族如何承担书名、较长说明和小附注，再与另配 sans 的方案比较。",
+        "把近看桌面和远看挂墙分别验证；不要因为字体名含 Text 就禁止展示用途。",
+        "记录使用的具体 Roman／Italic 文件与光学尺寸，并在最终渲染环境核对数字功能。"
+      ],
+      "limitations": [
+        "没有复制页面中的使用案例、样本段落、图片或 PDF；页面介绍不授权其他厂商作品进入模板。",
+        "厂商可读性与表现力陈述是设计意图；本研究未进行用户阅读实验。",
+        "官网支持语言表不能替代实际留存文件的字符检查，更不能据此断言支持中文汉字。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "serif",
+        "reading",
+        "italic",
+        "optical-size",
+        "numerals"
+      ]
+    },
+    {
+      "id": "latin-bodoni-moda-specific",
+      "title": "Bodoni Moda — 对应家族的官方说明与元数据",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/DESCRIPTION.en_us.html",
+      "related_urls": [
+        "https://raw.githubusercontent.com/google/fonts/main/ofl/bodonimoda/METADATA.pb"
+      ],
+      "source_type": "official-font-distributor-family-record",
+      "reading_locator": "Bodoni Moda DESCRIPTION.en_us.html 全文及 METADATA.pb 的字体文件、样式、轴、默认覆盖值和 source 区块。",
+      "actual_reading": "实际阅读两份家族专属文本；也访问了上游 Bodoni* 页面用于辨识命名差异，但不把该页面的产品承诺移植到本记录。",
+      "findings": [
+        "对应目录明确使用 Bodoni Moda 家族名、Owen Earl 设计署名，以及独立的 Roman／Italic 可变字体文件名。",
+        "官方分发元数据列出 opsz 6–96 与 wght 400–900，并有 opsz 的 11 注册默认覆盖值；这是元数据，不代替二进制 fvar 实测。",
+        "来源区块把两个 BodoniModa 文件映射到 indestructible-type/Bodoni 的指定提交；同一上游仓库出现 Bodoni* 品牌并不意味着可以混用两个家族的文件名或产品说明。"
+      ],
+      "transfer_conditions": [
+        "可把具体留存的 Bodoni Moda 作为高笔画对比方向的比较候选；必须在实际标题、数字、小字及输出尺寸下查看细笔画。",
+        "对比不同光学尺寸时明确固定字重和文字内容，随后再回到整页。",
+        "保存的配方使用实测字体轴值；不能直接用分发平台的注册默认值替代文件默认值。"
+      ],
+      "limitations": [
+        "简介中的 no-compromises 等营销评价没有作为本项目质量结论。",
+        "Bodoni* 网站的定价、静态文件数、八种光学尺寸和各尺寸表现承诺不用于说明 Bodoni Moda。",
+        "高对比方向是本项目拟检验的视觉用途；尚未获得用户偏好或适用所有日历的结论。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "serif",
+        "display",
+        "contrast",
+        "optical-size",
+        "version"
+      ]
+    },
+    {
+      "id": "latin-source-sans-design",
+      "title": "What’s new in Source Sans 3 — 中间字重也需要独立设计",
+      "url": "https://blog.adobe.com/en/publish/2020/11/30/whats-new-in-source-sans-3",
+      "related_urls": [
+        "https://github.com/adobe-fonts/source-sans"
+      ],
+      "source_type": "original-designer-release-essay",
+      "reading_locator": "Paul D. Hunt 2020-11-30 文章全部正文；另读官方仓库 README 的 UI 定位。",
+      "actual_reading": "实际阅读设计者的更新说明和图注；未把未打开的对照图片当成独立字形观察。",
+      "findings": [
+        "作者在第 3 版修订笔画末端，并加入 Semibold 中间主字型，以控制此前在中间字重过细的横画、横杠及斜画。",
+        "相同名义字重或从两端直接插值不能替代对实际笔画分布的观察。",
+        "语言覆盖、原生意大利体与按语言启用的替换分别处理；存在字形与正确语言塑形是不同问题。",
+        "官方 README 把家族主要定位在 UI 环境；这是一项设计来源，并非禁止其进入印刷品的规定。"
+      ],
+      "transfer_conditions": [
+        "作为日期、星期、较长说明及界面文字的候选，分别查看中间字重的笔画和字面，不根据数值 400 或 500 想象明暗。",
+        "同族/配套家族比较应保留 Source Serif 4 + Source Sans 3 路线，但不默认其为所有书籍主题答案。"
+      ],
+      "limitations": [
+        "更新说明不是用户可读性测量，也不是对其他 sans 的排名。",
+        "语言适配与 OpenType 语境替换需要最终渲染环境支持；当前逐字符取字路径不因此自动升级。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "sans",
+        "weight",
+        "interpolation",
+        "language",
+        "reading"
+      ]
+    },
+    {
+      "id": "latin-inter-design",
+      "title": "Inter — sans 的光学尺寸、数字和近似字形",
+      "url": "https://rsms.me/inter/",
+      "source_type": "original-designer-typeface-site",
+      "reading_locator": "Introduction、Usage、Free & open source；Features 中 tnum、zero、ss02 与个别 character variants 的说明和功能列表。",
+      "actual_reading": "实际阅读上述正文和功能文字；没有把网站交互开关的默认截图当成启用特性的输出验证。",
+      "findings": [
+        "原设计者对 Text 与 Display 光学方向作不同说明，显示无衬线字体同样可能有尺寸专用设计；其可读性表述是设计目标。",
+        "等宽数字、斜线零与近似字形区分是不同功能，针对的是对齐和辨识等不同任务。",
+        "角色、轴值和特性应一起记录，单写 Inter 或 sans 不足以描述最终使用状态。"
+      ],
+      "transfer_conditions": [
+        "可比较日历查读、可变数值、月份标签与短标题的不同设置，避免把界面字体永久限定成附属角色。",
+        "用 01／08／11／28／31、Il1、0O，以及完整月份和星期名观察默认形态；需要时再单独验证 tnum、zero 或字形替代。",
+        "对 English 查读任务评估文本尺寸；跨语言书名另核查具体字符与组合附标。"
+      ],
+      "limitations": [
+        "广泛使用、作者的 workhorse 定位或 147 种语言宣传不构成本项目美感及完整语言覆盖证明。",
+        "网页列出 tnum、calt 等功能不表示当前 SVG/PDF 渲染器已应用它们。",
+        "不将其强行定义为某一种纯粹历史风格或中性审美的唯一方案。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "sans",
+        "optical-size",
+        "numerals",
+        "disambiguation",
+        "opentype"
+      ]
+    },
+    {
+      "id": "latin-space-grotesk-design",
+      "title": "Space Grotesk — 来自等宽字体的比例宽变体",
+      "url": "https://github.com/floriankarsten/space-grotesk",
+      "source_type": "original-designer-repository",
+      "reading_locator": "README 全文：设计来源、字符范围、特性、构建与许可。",
+      "actual_reading": "实际阅读原作者仓库 README；没有把 forks 的早期 italic 计划当成当前家族功能。",
+      "findings": [
+        "作者明确它是从 Space Mono 演变出的比例宽 sans，并保留部分等宽字体细节；名称与来源不代表它本身是等宽字体。",
+        "作者的非展示尺寸可读性改进目标，与可用于表现性标题并不互斥。",
+        "README 列出旧式数字、等宽数字和替代字形等功能，仍需具体文件和渲染路径核对。"
+      ],
+      "transfer_conditions": [
+        "可把它与较少显露个别细节的 sans 比较，以判断辨识度是否服务当前主题。",
+        "在同一月份、星期和数字组中比较比例宽及功能选择，不因其 Mono 来源把全部日期当成固定宽度处理。"
+      ],
+      "limitations": [
+        "不把它等同于纯几何 sans，也不将个性直接推成更适合年轻人或科技主题的用户结论。",
+        "本来源未承诺原生意大利体，不能用倾斜变换或旧 fork 的计划来补写。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "sans",
+        "proportional",
+        "numerals",
+        "display",
+        "identity"
+      ]
+    },
+    {
+      "id": "latin-instrument-serif-design",
+      "title": "Instrument Serif — 已有字体的原始展示任务",
+      "url": "https://github.com/Instrument/instrument-serif",
+      "source_type": "original-brand-font-repository",
+      "reading_locator": "README 的设计定位、尺寸用途和语言支持段落。",
+      "actual_reading": "实际阅读官方 README；没有把字体名称和独立单词字样当作完整段落排版验证。",
+      "findings": [
+        "作者明确其为品牌设计的窄体展示衬线，主要面向大尺寸，并参考部分 old style 衬线字体。",
+        "展示用途、宽度与历史参考是相互独立的描述，不应只保留 serif 这一个粗分类。",
+        "家族公开语言说明仅提供候选范围，真实名称、附标和具体文件仍需测试。"
+      ],
+      "transfer_conditions": [
+        "可保留在月名、短书名或展示数字的比较中；较长说明另与面向连续阅读的家族比较。",
+        "观察长度较长的 September、Wednesday 和书名时，在换行／字号／改选字体之间作判断，不用水平挤压代替设计选择。"
+      ],
+      "limitations": [
+        "原设计者的 old style 灵感不等于纯历史复刻，也不意味着一定产生古典、温暖或书卷感。",
+        "展示定位不是一条禁止小字号的规则；是否可用仍取决于具体尺寸、阅读距离和输出。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "serif",
+        "display",
+        "width",
+        "old-style-reference",
+        "existing-asset"
+      ]
+    },
+    {
+      "id": "latin-monotype-taxonomy",
+      "title": "Monotype: A guide to type styles",
+      "url": "https://www.monotype.com/resources/guide-type-styles",
+      "source_type": "foundry-educational-guide",
+      "reading_locator": "Introduction; Serif Humanist/Garalde/Transitional/Didone/Slab and Sans Grotesque/Neo-grotesque/Geometric/Humanist sections.",
+      "actual_reading": "Read terminology, stated classification limitations and the selected section body text. No third-party sample images copied or visually evaluated.",
+      "findings": [
+        "文章自己指出历史分类有局限，很多当代设计不能完整归入一个类别。",
+        "骨架、粗细对比、衬线与字形比例可作为比较词汇；display、宽度和字宽组织需要另行描述。"
+      ],
+      "transfer_conditions": [
+        "描述具体字形差异并保留类别来源；使用多维标签寻找候选，不以单一历史分类自动选字。"
+      ],
+      "limitations": [
+        "不把该文对类别可读性的概括作为本项目通则，不复述未经另证的历史细节。",
+        "术语并非互斥、穷尽的标准，不由分类推断用户的文化联想或喜好。"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ],
+      "tags": [
+        "latin",
+        "english",
+        "classification",
+        "anatomy"
+      ]
+    }
+  ],
+  "non_claims": [
+    "这些资料没有建立任何用户的审美偏好或对候选字体的排名。",
+    "官方产品文字不是本项目独立阅读实验或实际视觉输出验证。",
+    "英文仅是使用场景；字形主要属于拉丁文字，不覆盖所有采用拉丁字母语言的排版需求。",
+    "字体分类、尺寸用途、宽度、笔画对比、数字形式和字符覆盖是不同维度，不能压缩成同一个互斥标签。",
+    "不在此文件中宣称字体资产已下载、许可已逐字校验或 OpenType 功能已由渲染器启用。"
+  ]
+}

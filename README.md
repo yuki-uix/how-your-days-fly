@@ -52,7 +52,8 @@ python3 scripts/material_catalog.py --scale day --shareable-only --json
 | 为什么这样排版、怎样判断和修改 | [设计语言](.agents/skills/calendar-design-lab/references/design-language.md)及关联阅读笔记 |
 | 原始文献、设计者和案例在哪里 | [学习指南](.agents/skills/calendar-design-lab/references/learning-guide.md)、[年／月案例](docs/research/annual-monthly-materials.md)、[周／日案例](docs/research/weekly-daily-materials.md) |
 | 可使用哪些图像、字体与部件 | [素材说明与四组素材板](docs/material-library.md) |
-| 字体与构图如何选择，有哪些不同审美依据 | [字体与排版专题](docs/type-layout-library.md)：26 条阅读记录、10 个条件条目、新中文字体与原创对照研究 |
+| 字体与构图如何选择，有哪些不同审美依据 | [字体与排版专题](docs/type-layout-library.md)：40 条阅读记录、15 个条件条目、中英文字体与原创对照研究 |
+| 英文字体怎样选，具体文件和字样在哪里 | [英文专题](docs/latin-type-library.md)：九家族比较、原生Italic、光学尺寸、数字与字距 |
 | 已有样本长什么样、实际用了什么 | [A–H 总览](studies/pattern-atlas/overview.svg)与[记录](studies/pattern-atlas/manifest.json)、[J1–J6 总览](studies/learned-language/overview.jpg)与[说明](studies/learned-language/README.md) |
 
 原始字体、许可证、选定图像和版本均保留在 `assets/`；具体共享范围、预览图像的打印尺寸限制见素材说明。A–H 的 SVG 字形依赖本机字体；J 系列固定字体并输出字形轮廓，可编辑文字与布局保留在源码。尚未验证多语言排版。

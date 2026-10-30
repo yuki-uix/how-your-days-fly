@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-30",
+  "scope": "English/Latin calendar reading tasks: width versus figure form, spacing, italics and optical size. Original Chinese synthesis; transfer proposals require actual-file and rendering checks.",
+  "sources": [
+    {
+      "id": "latin-ot-figure-widths",
+      "title": "OpenType registered features p–t: pnum, tnum, smcp",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/features_pt",
+      "source_type": "official-format-specification",
+      "reading_locator": "pnum (lines 95–111), smcp (457–477), tnum (646–662); selected sections, not the complete p–t registry.",
+      "actual_reading": "Read the public function, example, implementation, UI and interaction descriptions of these three features. No registry illustration retained.",
+      "findings": [
+        "pnum 与 tnum 处理数字的比例宽／等宽替换；默认宽度并非所有字体相同。",
+        "tnum 可替换等高或旧式数字；它不决定数字高度类别，也不等于整套字体等宽。",
+        "small caps 是特定字形替换，不能只把普通大写缩小就称已实现 smcp。"
+      ],
+      "transfer_conditions": [
+        "全年列式数据和反复变化的数字可比较等宽；独立大日期或标题里的日期可比较比例宽。",
+        "记录实际字形、功能开关及塑形后的 advance，不仅保留特性标签。"
+      ],
+      "limitations": [
+        "规范定义功能和交互，不为具体日历选择数字审美。",
+        "没有执行 GSUB 时只能展示默认数字或明确保留的指定字形，不能声称启用这些功能。"
+      ],
+      "tags": [
+        "latin",
+        "numerals",
+        "opentype",
+        "tabular",
+        "proportional",
+        "small-caps"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "latin-ot-figure-forms",
+      "title": "OpenType registered features k–o: kern, liga, lnum, onum",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/features_ko",
+      "source_type": "official-format-specification",
+      "reading_locator": "kern (lines 33–64), liga (81–97), lnum (115–131), onum (359–375); selected registry sections.",
+      "actual_reading": "Read the four feature descriptions, including width/height independence and kern interactions. No illustrations retained.",
+      "findings": [
+        "lnum／onum 处理等高／旧式字形，与 pnum／tnum 的宽度选择独立。",
+        "kern 对特定字形组合调整位置或 advance；规范提示固定宽度功能启用时有相应交互。",
+        "liga 将字形序列替换成连字；简单逐字符转曲不等于正确完成连字与字距。"
+      ],
+      "transfer_conditions": [
+        "日期网格与含年份的大小写标题分别研究，避免把一种数字设置用于所有角色。",
+        "在真实月份、星期和书名中检查 To、Wa、ffl 等组合；先验证渲染，再评价字距。"
+      ],
+      "limitations": [
+        "不能仅由 advance 的相等性推断等高／旧式。",
+        "这些实现建议不证明本项目导出器已经执行对应查找。"
+      ],
+      "tags": [
+        "latin",
+        "numerals",
+        "kerning",
+        "ligatures",
+        "opentype",
+        "lining",
+        "oldstyle"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "latin-ot-italic-axis",
+      "title": "OpenType registered design-variation axis ital",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_ital",
+      "source_type": "official-format-specification",
+      "reading_locator": "Axis definition and Additional information (lines 32–48).",
+      "actual_reading": "Read both public sections; the page has no type specimen used by this study.",
+      "findings": [
+        "ital 描述正体与意大利体的设计变化，范围 0–1，常规值要求为 0。",
+        "ital 与 slnt 是不同的轴；意大利体常带倾斜，但不必通过 slnt 才成立，也不能用斜角一项代替字形研究。"
+      ],
+      "transfer_conditions": [
+        "书名、作者或注释若使用 italic，记录真实字体文件／轴设置，并比较 a、g、f 等字形。",
+        "在配对板中可比较同族 Roman／Italic 的分工，同时保留全正体方案。"
+      ],
+      "limitations": [
+        "并非每个字体都有 ital 轴；正斜体也可能分成独立文件。",
+        "本页定义设计轴，不证明某套字体的手写来源、历史分类或书籍主题适配。"
+      ],
+      "tags": [
+        "latin",
+        "italic",
+        "roman",
+        "slant",
+        "variable-font"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "latin-ot-optical-axis",
+      "title": "OpenType registered design-variation axis opsz",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz",
+      "source_type": "official-format-specification",
+      "reading_locator": "Axis definition, optical adaptations, distance/scaling examples and application guidance (lines 31–60).",
+      "actual_reading": "Read the complete substantive public definition and additional information.",
+      "findings": [
+        "opsz 以 point 解释数值，设计可改变比例、笔画与细节；它不是把同一轮廓放大缩小。",
+        "选择需尽可能反映读者感知到的大小，包含观看距离、设备及单位转换。",
+        "自动选择有环境条件，建议允许覆盖；轴超范围时以边界值处理，不退回默认。"
+      ],
+      "transfer_conditions": [
+        "近看桌历与远看挂历分别记录字号、物理尺寸、距离及实际轴值。",
+        "同一字体、字重、文案和画布字号下对照两个支持的 opsz 实例，再回到实际使用尺寸。"
+      ],
+      "limitations": [
+        "规范的默认建议不是所有日历的字号规则。",
+        "无 opsz 的文件不能凭手调字重或墨迹高度称获得光学尺寸；截图缩放也不是阅读距离实测。"
+      ],
+      "tags": [
+        "latin",
+        "optical-size",
+        "distance",
+        "variable-font",
+        "opsz"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "latin-adobe-spacing",
+      "title": "Adobe InDesign: About kerning and tracking",
+      "url": "https://helpx.adobe.com/indesign/desktop/format-and-style-text/tabs-indents-and-spacing/about-kerning-and-tracking.html",
+      "source_type": "official-application-documentation",
+      "reading_locator": "Actual article body, About kerning and tracking through How kerning and tracking are measured (lines 1412–1452); updated June 2, 2026.",
+      "actual_reading": "Read the article body including metrics, optical, manual kerning and em-relative units; navigation and promotional content excluded.",
+      "findings": [
+        "kerning 调整特定组合，tracking 调整一段文字的整体间距，两者任务不同且可叠加。",
+        "Metrics 使用字体设计者数据；InDesign 的 Optical 根据相邻形状计算，不是 opsz。",
+        "InDesign 以 1/1000 em 表达相对字号的间距值。"
+      ],
+      "transfer_conditions": [
+        "月份大写标签可试不同 tracking，再检查单个字对；避免把整体加宽当作每一对都已校正。",
+        "保存间距单位和实际效果，跨 CSS、SVG 或排版软件时明确换算。"
+      ],
+      "limitations": [
+        "InDesign 默认开启 Metrics 是应用行为，不能外推至本项目的逐码点渲染器。",
+        "本页没有给出所有大写日历都应使用的唯一字距值。"
+      ],
+      "tags": [
+        "latin",
+        "kerning",
+        "tracking",
+        "spacing",
+        "all-caps",
+        "units"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    },
+    {
+      "id": "latin-apple-size-tracking",
+      "title": "Apple WWDC20: The details of UI typography",
+      "url": "https://developer.apple.com/videos/play/wwdc2020/10175/",
+      "source_type": "original-designer-official-transcript",
+      "reading_locator": "Official transcript: optical sizes/variable design (lines 164–220), tracking/side bearings/ligature interactions (222–263), leading context (265–280).",
+      "actual_reading": "Read these transcript sections only; did not claim to watch the video or visually inspect its slide comparisons.",
+      "findings": [
+        "Apple 设计者将小尺寸的字面、内部细节和间隔同输出分辨率联系起来。",
+        "字体固有 side bearings、逐对 kerning 与整体 tracking 共同影响字间节奏；tracking 也可能与连字相互作用。",
+        "SF 的光学尺寸与 tracking 关系是特定系统设计，不能直接复制到其他字体。"
+      ],
+      "transfer_conditions": [
+        "缩略预览与实际大小字样并排；同时检查 Il1、O0、月份、星期等真实短串。",
+        "把 tracking、opsz、字重和字号分开控制，记录渲染器行为后再作设计选择。"
+      ],
+      "limitations": [
+        "2020 年讲稿描述当时 Apple 平台；不作为当前跨平台 API 承诺。",
+        "未导入 SF 字体或视频中的作品图；其切换阈值和 tracking 表不成为本项目通用数值。"
+      ],
+      "tags": [
+        "latin",
+        "small-size",
+        "tracking",
+        "distance",
+        "side-bearings",
+        "optical-size"
+      ],
+      "rights_status": "research-only",
+      "domains": [
+        "typography"
+      ],
+      "scales": [
+        "year",
+        "month",
+        "week",
+        "day"
+      ]
+    }
+  ],
+  "reused_existing_source_ids": [
+    "font-numerals",
+    "font-optical-size",
+    "font-pairing",
+    "font-jaf-optical"
+  ],
+  "non_claims": [
+    "No third-party specimen images or SF fonts are retained.",
+    "Feature definitions do not establish implemented shaping or aesthetic approval.",
+    "Typography recommendations retain their application/platform/font context."
+  ],
+  "study_proposal": {
+    "id": "latin-calendar-reading-proof",
+    "status": "proposed-not-rendered",
+    "controlled_sections": [
+      {
+        "question": "Same nominal size versus matched visual size",
+        "content": [
+          "Days in view",
+          "January · Wednesday",
+          "Il1 O0 01 08 11 28 31"
+        ],
+        "controls": "Same text, fixed weight and specified opsz; report unitsPerEm, ink-height and resulting size; equal ink boxes are not equal perceived size."
+      },
+      {
+        "question": "Role pairing",
+        "content": [
+          "A week of reading",
+          "MON TUE WED THU FRI SAT SUN",
+          "28 29 01 02 03 04 05"
+        ],
+        "controls": "Keep grid, color, sizes and content fixed while compare same-family Roman/Italic, serif/sans, display/lookup roles."
+      },
+      {
+        "question": "Default figures and tracking",
+        "content": [
+          "0123456789",
+          "111111",
+          "888888",
+          "JANUARY",
+          "To Wa AV"
+        ],
+        "controls": "Measure default cmap/hmtx numerals; label proportional/tabular only for tested file/instance. Tracking comparisons can be applied explicitly; do not claim kerning or feature substitutions unless a shaper actually applies them."
+      },
+      {
+        "question": "Optical size and italic design",
+        "content": [
+          "January",
+          "Reading the days",
+          "agf"
+        ],
+        "controls": "For fonts with opsz, compare actual minimum/default/selected settings at the same rendered size. For italic, use the real supplied file/axis; no synthetic slant. Keep default-GSUB/GPOS limitations visible."
+      }
+    ],
+    "required_record": [
+      "original font hash and license",
+      "actual font instance axes",
+      "glyph coverage for test strings",
+      "renderer and features actually applied",
+      "nominal size / ink bounds / tracking units",
+      "same-content controlled comparisons distinct from whole-layout proposals"
+    ]
+  }
+}

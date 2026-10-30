@@ -12,6 +12,7 @@ SCALES = ('year', 'month', 'week', 'day')
 TYPE_RESEARCH_FILES = [
     'docs/research/cjk-typography.json','docs/research/font-selection.json',
     'docs/research/layout-aesthetics.json','docs/research/type-rendering-boundaries.json',
+    'docs/research/latin-type-research.json','docs/research/latin-calendar-reading.json',
 ]
 
 
@@ -31,14 +32,15 @@ def build_catalog():
     for family in ['instrumentserif','ibmplexmono','ibmplexsanscondensed']:
         items.append({
             'id':'font-'+family,'title':family,'kind':'font','scales':list(SCALES),
-            'role':'typography','tags':['type','numeral',family],
+            'role':'typography','tags':['type','numeral','latin','english',family],
             'local_files':[f for f in font_files if '/'+family+'/' in f['path']],
             'rights_status':'OFL-1.1','distribution_status':'OFL-1.1','ready':True,
             'usage_notes':'Retain original OFL license. Existing proofs verify English/digits only; inspect coverage before another language.',
             'source_record':'assets/fonts/provenance.json',
         })
-    for a in load('assets/fonts/type-study/manifest.json')['assets']:
-        items.append({**a,'domains':['typography']})
+    for path in ['assets/fonts/type-study/manifest.json','assets/fonts/latin-study/manifest.json']:
+        for a in load(path)['assets']:
+            items.append({**a,'domains':['typography']})
     items.append({
         'id':'paper-light-j4','title':'Paper and light / retained generated image',
         'kind':'image','scales':['year','month','week','day'],
@@ -65,6 +67,7 @@ def build_catalog():
                           'role':'layout-evidence' if domains==['layout'] else 'type-evidence',
                           'source_record':path,'ready':False,'distribution_status':'research-only','local_asset':None})
     items.extend(load('assets/library/type-layout-elements.json')['assets'])
+    items.extend(load('assets/library/latin-type-elements.json')['assets'])
     for a in items:
         a.setdefault('domains',['typography'] if a['kind']=='font' else [])
     groups={scale:{
@@ -88,6 +91,7 @@ def build_catalog():
             'assets/fonts/provenance.json','assets/images/paper-light/provenance.json',
             'docs/research/annual-monthly-materials.json','docs/research/weekly-daily-materials.json',
             'assets/fonts/type-study/manifest.json','assets/library/type-layout-elements.json',
+            'assets/fonts/latin-study/manifest.json','assets/library/latin-type-elements.json',
         ]+TYPE_RESEARCH_FILES,
     }
 

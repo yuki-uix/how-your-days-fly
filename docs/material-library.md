@@ -2,9 +2,9 @@
 
 统一使用入口已整理到[日历设计总览](design-atlas.md)：按时间尺度把结构模式、设计原则、A–H／J1–J6 与本素材库一起查。本页继续维护选材、授权、尺寸与素材重建的具体说明。
 
-2026-10-30 更新。按年／月／周／日的观看与使用尺度分组，同一资产可以进入多组。现有 20 条日历官方案例、26 条字体／排版阅读记录、10 个带条件和取舍的设计条目、8 张逐件 CC0 图像、16 个原创向量部件，关联 5 个 OFL 字体家族和 1 张原创生成图像。另有 4 项未实现提案。
+2026-10-30 更新。按年／月／周／日的观看与使用尺度分组，同一资产可以进入多组。现有 20 条日历官方案例、40 条字体／排版阅读记录、15 个带条件和取舍的设计条目、8 张逐件 CC0 图像、16 个原创向量部件，关联 11 个 OFL 字体家族和 1 张原创生成图像。另有 4 项未实现提案。
 
-[字体与排版专题](type-layout-library.md)已接入相同索引，支持按领域、角色、关键词和许可筛选，并保留字样与原创构图研究。阅读参考、可分发字体与待验证的方法分别标注。
+[字体与排版专题](type-layout-library.md)已接入相同索引，支持按领域、角色、关键词和许可筛选，并保留字样与原创构图研究。阅读参考、可分发字体与待验证的方法分别标注。[英文专项](latin-type-library.md)增加具体家族、数字、原生斜体、字距和光学尺寸的字样研究，使用同一索引。
 
 ![四个时间尺度的素材板](../studies/material-library/overview.jpg)
 
@@ -30,8 +30,8 @@
 | 设计研究 | [年／月 10 例](research/annual-monthly-materials.md)、[周／日 10 例](research/weekly-daily-materials.md) | 保留一手链接、观察证据、迁移规则；全部 `research-only`，没有导入商品图 |
 | CC0 图像 | [8 件馆藏图像](../assets/library/open-images/README.md) | 已核验单件记录及机构政策，保留作者角色、出处、原字节、尺寸和 SHA-256 |
 | 原创向量部件 | [16 件 SVG 与 manifest](../assets/library/components/manifest.json) | 同一项目中参数化组合；外部公共复用许可尚未选择，不自动标作开源素材 |
-| 开放字体 | [原有 3 家族、7 文件](../assets/fonts/provenance.json)及[新增 2 家族原始 VF](../assets/fonts/type-study/manifest.json) | 保留 OFL，写明轴值，区分字体与渲染器支持；不是固定推荐搭配 |
-| 字体／构图方法 | [10 个条件条目](../assets/library/type-layout-elements.json)与[研究专题](type-layout-library.md) | 记录取舍、反例、原始来源与原创研究图，尚非用户认可的配方 |
+| 开放字体 | [原有 3 家族、7 文件](../assets/fonts/provenance.json)、[2 家族中文 VF](../assets/fonts/type-study/manifest.json)及[6 家族英文 VF](../assets/fonts/latin-study/manifest.json) | 保留 OFL，写明轴值，区分字体与渲染器支持；不是固定推荐搭配 |
+| 字体／构图方法 | [10 个基础条目](../assets/library/type-layout-elements.json)、[5 个英文条目](../assets/library/latin-type-elements.json)与[研究专题](type-layout-library.md) | 记录取舍、反例、原始来源与原创研究图，尚非用户认可的配方 |
 | 原创生成图像 | [Paper and light](../assets/images/paper-light/provenance.json) | 已保留选定原图与生成记录；不把生成来源记录等同于公共领域声明 |
 
 [Met 的开放政策](https://www.metmuseum.org/hubs/open-access)与[Cleveland 的开放政策](https://www.clevelandart.org/open-access)允许使用其标为 CC0 的对应图像。清单同时保留单件 API 权利证据，不能据机构名称默认所有作品可用。CC0 与 OFL 只作用于相应文件，不改变仓库整体许可。
@@ -74,6 +74,7 @@ python3 scripts/material_catalog.py --scale week --kind component --json
 python3 scripts/material_catalog.py --scale day --shareable-only --json
 python3 scripts/material_catalog.py --domain typography --role font-pairing --json
 python3 scripts/material_catalog.py --domain layout --kind design-element --json
+python3 scripts/material_catalog.py --domain typography --tag latin --kind font --json
 
 # 重建向量部件及分组板：使用现有 requirements-design.txt。
 python3 scripts/build_material_library.py

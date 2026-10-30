@@ -22,7 +22,7 @@ class MaterialIndexTests(unittest.TestCase):
         index=catalog.build_catalog()
         allowed=catalog.select(index,shareable_only=True)
         self.assertEqual({a['kind'] for a in allowed},{'image','font'})
-        self.assertEqual(len(allowed),13)  # 8 item-verified CC0 images + 5 retained OFL families.
+        self.assertEqual(len(allowed),19)  # 8 item-verified CC0 images + 5 retained OFL families.
         self.assertTrue(all(a['ready'] for a in allowed))
         self.assertFalse(any(a['kind'] in ('reference','proposal','component') for a in allowed))
         self.assertEqual(index,json.loads(catalog.CATALOG.read_text()))
